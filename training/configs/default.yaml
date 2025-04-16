@@ -19,8 +19,8 @@ trl:
     - metric_utils.choice_reward
   vllm_gpu_memory_utilization: 0.9
   vllm_max_model_len: 1024
-  vllm_enable_prefix_caching: true
-  num_generations: 8
+  vllm_enable_prefix_caching: false
+  num_generations: 32
 
 chat_template: qwen_25
 datasets:
@@ -41,7 +41,7 @@ gc_steps: 1
 sequence_len: 1024
 sample_packing: false
 eval_sample_packing: false
-pad_to_sequence_len: true
+pad_to_sequence_len: false
 
 wandb_project: llm-reasoning-mt-eval
 wandb_entity:
@@ -55,12 +55,12 @@ liger_glu_activation: true
 liger_layer_norm: true
 liger_fused_linear_cross_entropy: true
 
-gradient_accumulation_steps: 8
-micro_batch_size: 8  # should match num_generations / num_gpus
+gradient_accumulation_steps: 4
+micro_batch_size: 32  # should match num_generations / num_gpus
 
 optimizer: adamw_torch_fused
 lr_scheduler: constant_with_warmup
-learning_rate: 2.0e-5
+learning_rate: 1.0e-6
 max_grad_norm: 1.0
 weight_decay: 0.1
 
@@ -75,9 +75,9 @@ flash_attn_fuse_qkv: true
 flash_attn_fuse_mlp: true
 
 logging_steps: 25
-warmup_steps: 250
-eval_steps: 500
-save_steps: 500
-max_steps: 2500
+warmup_steps: 500
+eval_steps: 1000
+save_steps: 1000
+max_steps: 5000
 seed: 42
 val_set_size: 0.0001

@@ -1,5 +1,5 @@
 import re
-
+import sys
 DEFAULT_INSTRUCTION = "Translate this text from {source_language} to {target_language}, maintaining the tone, accuracy and ensuring fluency: {source_text}"
 
 JUDGE_PROMPT = """Please act as an impartial judge and evaluate the quality of the translations provided by two AI assistants in response to the user's request below.
@@ -103,7 +103,7 @@ def count_xml(text) -> float:
 def reward_answer_correctness(completions, answer, **kwargs):
     answers = [extract_answer(completion[0]['content']) for completion in completions]
     return [
-        2.0 if answer == a else 0.0 for a in answers
+        2.0 if answers[i] == answer[i] else 0.0 for i in range(len(answers))
     ]
 
 

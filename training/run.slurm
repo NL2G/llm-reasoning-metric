@@ -13,6 +13,6 @@
 export HF_HOME="/ceph/dalarion/hf-cache"
 export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
 
-CUDA_VISIBLE_DEVICES=2 axolotl vllm-serve ./configs/default.yaml > /dev/null 2> /dev/null &
+CUDA_VISIBLE_DEVICES=0 axolotl vllm-serve ./configs/default.yaml > /dev/null 2> /dev/null &
 
-CUDA_VISIBLE_DEVICES=0,1 axolotl train --num-processes 1 ./configs/default.yaml
+CUDA_VISIBLE_DEVICES=1 axolotl train --num-processes 1 ./configs/default.yaml
