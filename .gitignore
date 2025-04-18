@@ -175,5 +175,8 @@ cython_debug/
 uv.lock
 
 training/outputs
+training/logs
 !training/outputs/.gitkeep
 training/wandb
+
+axolotl

@@ -11,21 +11,24 @@ torch_compile: false
 rl: grpo
 trl:
   beta: 0.001
-  max_completion_length: 768
+  max_completion_length: 2048
   use_vllm: true
   reward_funcs:
     - metric_utils.reward_answer_correctness
     - metric_utils.reward_format_correctness
-    - metric_utils.choice_reward
   vllm_gpu_memory_utilization: 0.9
-  vllm_max_model_len: 1024
+  vllm_max_model_len: 3072
   vllm_enable_prefix_caching: false
-  num_generations: 32
+  num_generations: 16
 
 chat_template: qwen_25
 datasets:
   - path: Rexhaif/wmt23-pairs
+    split: "train[:30%]"
     type: metric_utils.pairwise_ranking_grpo_transform
+  - path: allenai/RLVR-GSM-MATH-IF-Mixed-Constraints
+    split: "train[:30%]"
+    type: metric_utils.tulu_transform
 
 dataset_prepared_path: /workspace/data/last_run_prepared
 skip_prepare_dataset: true
@@ -38,14 +41,14 @@ dataloader_pin_memory: true
 
 gc_steps: 1
 
-sequence_len: 1024
+sequence_len: 4096
 sample_packing: false
 eval_sample_packing: false
 pad_to_sequence_len: false
 
 wandb_project: llm-reasoning-mt-eval
 wandb_entity:
-wandb_name:
+wandb_name: qw2.5-1.5b-math-0.2epoch
 
 plugins:
   - axolotl.integrations.liger.LigerPlugin
@@ -55,12 +58,13 @@ liger_glu_activation: true
 liger_layer_norm: true
 liger_fused_linear_cross_entropy: true
 
-gradient_accumulation_steps: 4
-micro_batch_size: 32  # should match num_generations / num_gpus
+gradient_accumulation_steps: 8
+micro_batch_size: 16  # should match num_generations / num_gpus
 
 optimizer: adamw_torch_fused
-lr_scheduler: constant_with_warmup
+lr_scheduler: cosine
 learning_rate: 1.0e-6
+cosine_min_lr_ratio: 0.0001
 max_grad_norm: 1.0
 weight_decay: 0.1
 
@@ -73,11 +77,23 @@ gradient_checkpointing_kwargs:
 flash_attention: true
 flash_attn_fuse_qkv: true
 flash_attn_fuse_mlp: true
+auto_resume_from_checkpoints: true
 
+n_epochs: 1
 logging_steps: 25
 warmup_steps: 500
-eval_steps: 1000
-save_steps: 1000
-max_steps: 5000
+evals_per_epoch: 10
+saves_per_epoch: 10
+save_total_limit: 3
+#max_steps: 5000
 seed: 42
-val_set_size: 0.0001
+val_set_size: 0.01
+
+#adapter: lora
+#lora_r: 8
+#lora_alpha: 16
+#lora_dropout: 0.05
+#lora_target_linear: true
+#lora_mlp_kernel: true
+#lora_qkv_kernel: true
+#lora_o_kernel: true
