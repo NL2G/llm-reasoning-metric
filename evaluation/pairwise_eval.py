@@ -1,10 +1,13 @@
 from mt_metrics_eval import meta_info
 from mt_metrics_eval import data
 from mt_metrics_eval import tasks
+import json
 import re
+import pandas as pd
 import numpy as np
 import argparse as ap
 from fastllm import RequestBatch, RequestManager, DiskCache, OpenAIProvider
+from rich import print
 
 DEFAULT_INSTRUCTION = "Translate this text from {source_language} to {target_language}, maintaining the tone, accuracy and ensuring fluency: {source_text}"
 
@@ -118,7 +121,7 @@ def make_scores(
                 request_id = request_batch.chat.completions.create(
                     model=model_name,
                     messages=messages,
-                    max_completion_tokens=1024,
+                    max_completion_tokens=None,
                 )
                 meta_data[request_id] = {
                     "source_idx": source_idx,
@@ -172,7 +175,8 @@ def evaluate(
     prompt_type: str,
     language_pairs: list[str] = ["ja-zh"],
     use_system_prompt: bool = True,
-    competition: str = "wmt24"
+    competition: str = "wmt24",
+    output: str = "metric.json"
 ):
     
     request_manager = RequestManager(
@@ -185,7 +189,7 @@ def evaluate(
             ttl=None
         ),
         concurrency=1000,
-        timeout=180,
+        timeout=500,
         show_progress=True
     )
 
@@ -193,10 +197,11 @@ def evaluate(
         (competition, lp): data.EvalSet(competition, lp, True) for lp in language_pairs
     }
 
+    metric_name = output.split(".")[0]
+
     for lp in language_pairs:
         evs = evs_dict[(competition, lp)]
         for refname, ref in evs.all_refs.items():
-            metric_name = model_name + f"_prompt_{prompt_type}_system_{use_system_prompt}"
             seg_scores = make_scores(
                 evs.src,
                 evs.sys_outputs,
@@ -209,7 +214,7 @@ def evaluate(
             )
             sys_scores = {}
             for system, scores in seg_scores.items():
-                sys_scores[system] = np.mean(scores)
+                sys_scores[system] = [np.mean(scores)]
             evs.AddMetric(metric_name, {refname}, 'sys', sys_scores, replace=True)
             evs.AddMetric(metric_name, {refname}, 'seg', seg_scores, replace=True)
 
@@ -218,12 +223,25 @@ def evaluate(
     # submissions as well).
 
     for evs in evs_dict.values():
-        evs.SetPrimaryMetrics({metric_name})
+        evs.SetPrimaryMetrics(evs.primary_metrics | {metric_name})
 
     wmt_tasks, wts = tasks.WMT24(language_pairs, k=0)
 
     # Takes about 3 minutes.
     new_results = wmt_tasks.Run(eval_set_dict=evs_dict)
+
+    metric_df = {
+        'name': metric_name,
+    }
+    for result in new_results:
+        attr_vals = result.attr_vals
+        corr_ranks = result.corr_ranks
+        metric_df[f"{attr_vals['lang']} / {attr_vals['level']} / {attr_vals['corr_fcn']}"] = corr_ranks[metric_name][0]
+
+    print(metric_df)
+    with open(output, "w", encoding="utf-8") as f:
+        json.dump(metric_df, f, indent=4, ensure_ascii=False)
+
     avg_corrs = new_results.AverageCorrs(wts)
 
     table = new_results.Table(
@@ -244,21 +262,25 @@ def main():
     parser.add_argument("--api_key", type=str, required=True)
     parser.add_argument("--model_name", type=str, required=True)
     parser.add_argument("--prompt_type", type=str, required=True, choices=["thinking", "no_thinking"])
-    parser.add_argument("--language_pairs", type=str, required=True, nargs="+")
+    parser.add_argument("--language_pairs", type=str, required=True)
     parser.add_argument("--use_system_prompt", required=True, default=False, action="store_true")
     parser.add_argument("--competition", type=str, required=True, choices=["wmt24"])
+    parser.add_argument("--output", type=str, default="metric.json")
     args = parser.parse_args()
 
     print(f"Running with args: {args}")
+
+    language_pairs = args.language_pairs.split(" ")
 
     table = evaluate(
         api_base=args.api_base,
         api_key=args.api_key,
         model_name=args.model_name,
         prompt_type=args.prompt_type,
-        language_pairs=args.language_pairs,
+        language_pairs=language_pairs,
         use_system_prompt=args.use_system_prompt,
-        competition=args.competition
+        competition=args.competition,
+        output=args.output
     )
 
     print(table)

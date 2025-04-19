@@ -1,0 +1,9 @@
+{
+    "name": "qwen25-1-5b-simple",
+    "en-de / sys / pce": 0.48230147058823525,
+    "en-de / seg / KendallWithTiesOpt": 0.4291883077666383,
+    "en-es / sys / pce": 0.42032051282051275,
+    "en-es / seg / KendallWithTiesOpt": 0.6801868543441659,
+    "ja-zh / sys / pce": 0.7782820512820513,
+    "ja-zh / seg / KendallWithTiesOpt": 0.4370421245421242
+}
