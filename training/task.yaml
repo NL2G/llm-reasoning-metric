@@ -1,0 +1,22 @@
+type: task
+# The name is optional, if not specified, generated randomly
+name: example
+
+# Using the official Axolotl's Docker image
+image: winglian/axolotl-cloud:0.8.1
+
+# Required environment variables
+env:
+  - HF_TOKEN
+  - WANDB_API_KEY
+# Commands of the task
+commands:
+  - ls -lhtsa ./
+  - ls -lhtsa ../
+  - nvidia-smi
+  - pip list
+
+spot_policy: "auto"
+
+resources:
+  gpu: "H100:8"
