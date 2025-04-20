@@ -1,0 +1,9 @@
+{
+    "name": "gpt-4o-mini-simple",
+    "en-de / sys / pce": 0.8181029411764706,
+    "en-de / seg / KendallWithTiesOpt": 0.43196642106534633,
+    "en-es / sys / pce": 0.8240769230769232,
+    "en-es / seg / KendallWithTiesOpt": 0.6801868543441663,
+    "ja-zh / sys / pce": 0.8823076923076923,
+    "ja-zh / seg / KendallWithTiesOpt": 0.49141483516483303
+}
