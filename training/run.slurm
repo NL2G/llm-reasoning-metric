@@ -15,6 +15,6 @@ export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
 export NCCL_IB_DISABLE=1
 #export NCCL_P2P_DISABLE=1
 
-CUDA_VISIBLE_DEVICES="0" axolotl vllm-serve ./configs/default.yaml > /dev/null 2> /dev/null &
+CUDA_VISIBLE_DEVICES="0" axolotl vllm-serve ${CONFIG_PATH} > /dev/null 2> /dev/null &
 
-CUDA_VISIBLE_DEVICES="1,2,3" axolotl train --num-processes 3 ./configs/default.yaml --deepspeed ./deepspeed_configs/zero1.json
+CUDA_VISIBLE_DEVICES="1,2,3" axolotl train --num-processes 3 ${CONFIG_PATH} --deepspeed ./deepspeed_configs/zero1_torch_compile.json
