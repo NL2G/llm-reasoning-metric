@@ -100,9 +100,10 @@ def make_scores(
     source_lang: str,
     target_lang: str,
     prompt_template: str,
+    prompt_type: str,
     use_system_prompt: bool = True,
-    vllm_client: LLM = None
-) -> dict[str, list[float]]:
+    vllm_client: LLM = None,
+) -> tuple[dict[str, list[float]], pd.DataFrame]:
     """
     Make scores for a given set of sources and system outputs.
     """
@@ -141,13 +142,19 @@ def make_scores(
         max_tokens=2048
     )
     results = vllm_client.chat(
-        messages=request_batch[:4000], 
+        messages=request_batch, 
         sampling_params=sampling_params,
         add_generation_prompt=True,
         use_tqdm=True
     )
+    prompts = [result.prompt for result in results]
     results = [result.outputs[0].text for result in results]
     # Process responses
+
+    traces_df = pd.DataFrame({
+        "prompt": prompts,
+        "result": results
+    })
 
     # Initialize win counts for each system for each source
     system_wins = {system: [0] * len(sources) for system in system_outputs.keys()}
@@ -184,7 +191,7 @@ def make_scores(
             for wins, comps in zip(system_wins[system], system_comparisons[system])
         ]
 
-    return scores
+    return scores, traces_df
 
 
 def evaluate(
@@ -193,13 +200,15 @@ def evaluate(
     language_pairs: list[str] = ["ja-zh"],
     use_system_prompt: bool = True,
     competition: str = "wmt24",
-    output: str = "metric.json"
+    output: str = "metric.json",
+    traces_sample_path: str = "traces.csv",
+    traces_sample_size: int = 100
 ):
     
     vllm_client = LLM(
         model=model_name,
-        enable_reasoning=True,
-        reasoning_parser="deepseek_r1",
+        #enable_reasoning=True,
+        #reasoning_parser="deepseek_r1",
         enable_chunked_prefill=True,
         gpu_memory_utilization=0.9,
         compilation_config=3,
@@ -212,23 +221,32 @@ def evaluate(
 
     metric_name = output.split(".")[0]
 
+    all_traces = []
+
     for lp in language_pairs:
         evs = evs_dict[(competition, lp)]
         for refname, ref in evs.all_refs.items():
-            seg_scores = make_scores(
+            seg_scores, traces_df = make_scores(
                 evs.src,
                 evs.sys_outputs,
                 evs.lp.split('-')[0],
                 evs.lp.split('-')[1],
+                prompt_type=prompt_type,
                 prompt_template=PROMPTS[prompt_type],
                 use_system_prompt=use_system_prompt,
                 vllm_client=vllm_client
             )
+            traces_df['lp'] = lp
+            all_traces.append(traces_df)
             sys_scores = {}
             for system, scores in seg_scores.items():
                 sys_scores[system] = [np.mean(scores)]
             evs.AddMetric(metric_name, {refname}, 'sys', sys_scores, replace=True)
             evs.AddMetric(metric_name, {refname}, 'seg', seg_scores, replace=True)
+
+    all_traces = pd.concat(all_traces)
+    all_traces = all_traces.sample(n=traces_sample_size).reset_index(drop=True)
+    all_traces.to_csv(traces_sample_path, index=False)
 
     # Add new metric to the primary lists, so it will get picked up when tasks get
     # run with primary=True (avoiding having to evaluate all contrastive
@@ -276,6 +294,8 @@ def main():
     parser.add_argument("--use_system_prompt", default=False, action="store_true")
     parser.add_argument("--competition", type=str, required=True, choices=["wmt24"])
     parser.add_argument("--output", type=str, default="metric.json")
+    parser.add_argument("--traces_sample_path", type=str, default="traces.csv")
+    parser.add_argument("--traces_sample_size", type=int, default=100)
     args = parser.parse_args()
 
     print(f"Running with args: {args}")
@@ -288,7 +308,9 @@ def main():
         language_pairs=language_pairs,
         use_system_prompt=args.use_system_prompt,
         competition=args.competition,
-        output=args.output
+        output=args.output,
+        traces_sample_path=args.traces_sample_path,
+        traces_sample_size=args.traces_sample_size
     )
 
     print(table)
