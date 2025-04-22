@@ -25,12 +25,14 @@ trl:
 
 chat_template: qwen_25
 datasets:
-  - path: Rexhaif/wmt23-pairs
-    split: "train[:50%]"
-    type: metric_utils.pairwise_ranking_grpo_transform
   - path: allenai/RLVR-GSM-MATH-IF-Mixed-Constraints
-    split: "train[:50%]"
+    split: "train[:30%]"
     type: metric_utils.tulu_transform
+  - path: Rexhaif/wmt23-pairs
+    split: "train[:30%]"
+    type: metric_utils.pairwise_ranking_grpo_transform
+
+shuffle_merged_datasets: true
 
 dataset_prepared_path: /workspace/data/last_run_prepared
 skip_prepare_dataset: true
@@ -59,12 +61,12 @@ liger_rms_norm: true
 liger_glu_activation: true
 liger_layer_norm: true
 liger_fused_linear_cross_entropy: true
-gradient_accumulation_steps: 4
-micro_batch_size: 32  # should match num_generations / num_gpus
+gradient_accumulation_steps: 8
+micro_batch_size: 8  # should match num_generations / num_gpus
 
 optimizer: adamw_torch_fused
 lr_scheduler: cosine
-learning_rate: 1.0e-5
+learning_rate: 5.0e-6
 cosine_min_lr_ratio: 1.0e-7
 max_grad_norm: 1.0
 weight_decay: 0.1

@@ -14,8 +14,11 @@ export HF_HOME="/ceph/dalarion/hf-cache"
 export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
 
 echo "<=============>"
-echo "=> Running eval for ${MODEL_NAME} with ${PROMPT_TYPE} prompt type and ${LANGUAGE_PAIR} language pair, model id ${MODEL_ID}"
+echo "=> Running eval for ${MODEL_NAME} with ${PROMPT_TYPE} prompt type and ${LANGUAGE_PAIR} language pair, model id ${MODEL_ID};"
 echo "<=============>"
+nvitop -1
+echo "<=============>"
+
 python pairwise_eval-local.py \
     --model_name=${MODEL_NAME} \
     --prompt_type=${PROMPT_TYPE} \
