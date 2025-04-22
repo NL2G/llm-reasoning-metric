@@ -111,7 +111,11 @@ def create_dataframe(results, metrics, lang_pairs):
         for lang_pair in lang_pairs:
             for metric in metrics:
                 key = f"{lang_pair} / {metric}"
-                row[key] = model_data.get(key, "--")
+                value = model_data.get(key, "--")
+                # Format float values to have 4 decimal places
+                if isinstance(value, float):
+                    value = round(value, 4)
+                row[key] = value
         data.append(row)
     
     return pd.DataFrame(data)
