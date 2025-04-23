@@ -3,7 +3,7 @@
 #SBATCH --job-name=run-eval-local
 #SBATCH --output=./logs/eval-%j.out
 #SBATCH --time=24:00:00
-#SBATCH --partition=gpu-vram-48gb,gpu-vram-32gb
+#SBATCH --partition=gpu-vram-94gb,gpu-vram-48gb
 #SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=64G
