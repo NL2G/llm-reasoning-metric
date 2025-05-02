@@ -1,6 +1,7 @@
 Model,en-de / sys / pce,en-de / seg / KendallWithTiesOpt,en-es / sys / pce,en-es / seg / KendallWithTiesOpt,ja-zh / sys / pce,ja-zh / seg / KendallWithTiesOpt
-mt-ranker-3b,--,--,0.6778,0.6802,0.8205,0.4786
+mt-ranker-3b,0.668,0.4365,0.6778,0.6802,0.8205,0.4786
+dsr1-7b,--,--,0.4814,0.6802,0.7028,0.45
 mt-ranker-1.5b,0.6436,0.4334,0.5303,0.6802,0.7515,0.4433
-dsr1-1.5b,--,--,0.4906,0.6802,0.3175,0.4352
+dsr1-1.5b,0.5501,0.4296,0.4906,0.6802,0.3175,0.4352
 qwen25-1-5b-simple,0.4823,0.4292,0.4203,0.6802,0.7783,0.437
 gpt-4o-mini-simple,0.8181,0.432,0.8241,0.6802,0.8823,0.4914
