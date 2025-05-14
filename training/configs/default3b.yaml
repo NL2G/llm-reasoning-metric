@@ -26,7 +26,7 @@ trl:
 chat_template: qwen_25
 datasets:
   - path: allenai/RLVR-GSM-MATH-IF-Mixed-Constraints
-    split: "train[:30%]"
+    split: "train"
     type: metric_utils.tulu_transform
   - path: Rexhaif/wmt23-pairs
     split: "train[:30%]"
