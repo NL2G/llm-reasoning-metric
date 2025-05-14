@@ -6,14 +6,14 @@ from ifeval_functions import IF_FUNCTIONS_MAP
 
 DEFAULT_INSTRUCTION = "Translate this text from {source_language} to {target_language}, maintaining the tone, accuracy and ensuring fluency: {source_text}"
 
-JUDGE_PROMPT = """Please act as an impartial judge and evaluate the quality of the translations provided by two AI assistants in response to the user's request below.
+JUDGE_PROMPT_THINKING = """Please act as an impartial judge and evaluate the quality of the translations provided by two AI assistants in response to the user's request below.
 Select the assistant that best adheres to the user's instructions while producing the highest-quality translation overall.
 Begin by comparing the two translations and reason before you answer.
 Avoid personal opinions or biases, and do not favor one assistant over the other.
 Your judgment should be based solely on the quality of the translations and their alignment with the user's instructions.
 Be objective and impartial. If both translations are equally good, you can choose the one that you prefer.
 
-Reply strictly in this format: 
+After providing your explanation, response strictly in this format: 
 
 <think>
 ... your reasoning process ...
@@ -35,6 +35,29 @@ Reply strictly in this format:
 [End of Assistant B's Response]
 """
 
+JUDGE_PROMPT_NO_THINKING = """Please act as an impartial judge and evaluate the quality of the translations provided by two AI assistants in response to the user's request below. Select the assistant that produces the highest-quality translation overall. Begin by comparing the two translations and provide a verdict. Avoid personal opinions or biases, and do not favor one assistant over the other. Your judgment should be based solely on the quality of the translations and their alignment with the user's instructions. Be objective and impartial. If both translations are equally good, you can choose the one that you prefer.
+
+Deliver your response strictly in this format, do not include any other text: 
+
+<[A] if Assistant A is better, [B] if Assistant B is better>
+
+[User Instruction]
+{instruction}
+[End of User Instruction]
+
+[Start of Assistant A's Response]
+{assistant_a_response}
+[End of Assistant A's Response]
+
+[Start of Assistant B's Response]
+{assistant_b_response}
+[End of Assistant B's Response]
+"""
+
+SYSTEM_NO_CHOSEN = 'You are a helpful translation evaluator. You will provide a verdict in a strict format, do not include any other text. Just letter "A" or "B".'
+SYSTEM_CHOSEN = 'You are a helpful translation evaluator. You will provide a verdict in a strict format, do not include any other text. Just words "Chosen: A" or "Chosen: B".'
+
+
 LANG_CODES = {
     'en': 'English',
     'ja': 'Japanese',
@@ -55,7 +78,7 @@ def pairwise_ranking_grpo_transform(cfg, *args, **kwargs):
             source_text=source_text
         )
 
-        input_message = JUDGE_PROMPT.format(
+        input_message = JUDGE_PROMPT_THINKING.format(
             instruction=instruction,
             assistant_a_response=example["hyp0"],
             assistant_b_response=example["hyp1"]

@@ -44,7 +44,7 @@ JUDGE_PROMPT_NO_THINKING = """Please act as an impartial judge and evaluate the 
 
 Deliver your response strictly in this format, do not include any other text: 
 
-Chosen: <[A] if Assistant A is better, [B] if Assistant B is better>
+<[A] if Assistant A is better, [B] if Assistant B is better>
 
 [User Instruction]
 {instruction}
@@ -58,6 +58,9 @@ Chosen: <[A] if Assistant A is better, [B] if Assistant B is better>
 {assistant_b_response}
 [End of Assistant B's Response]
 """
+
+SYSTEM_NO_CHOSEN = 'You are a helpful translation evaluator. You will provide a verdict in a strict format, do not include any other text. Just letter "A" or "B".'
+SYSTEM_CHOSEN = 'You are a helpful translation evaluator. You will provide a verdict in a strict format, do not include any other text. Just words "Chosen: A" or "Chosen: B".'
 
 def extract_answer_no_thinking(response: str) -> str:
     pattern = r"Chosen:\s*(.{1,15})"
