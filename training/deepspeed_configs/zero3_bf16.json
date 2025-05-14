@@ -14,6 +14,10 @@
   "bf16": {
     "enabled": true
   },
+  "compile": {
+    "disable": false,
+    "backend": "inductor"
+  },
   "gradient_accumulation_steps": "auto",
   "gradient_clipping": "auto",
   "train_batch_size": "auto",

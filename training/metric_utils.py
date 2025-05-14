@@ -79,6 +79,43 @@ def pairwise_ranking_grpo_transform(cfg, *args, **kwargs):
         ],
     }
 
+
+def pairwise_ranking_for_sft(cfg, *args, **kwargs):
+    def transform_fn(example, tokenizer=None):
+        lang1, lang2 = example['lp'].split('-')
+        source_text = example['src']
+        instruction = DEFAULT_INSTRUCTION.format(
+            source_language=LANG_CODES[lang1],
+            target_language=LANG_CODES[lang2],
+            source_text=source_text
+        )
+
+        input_message = JUDGE_PROMPT.format(
+            instruction=instruction,
+            assistant_a_response=example["hyp0"],
+            assistant_b_response=example["hyp1"]
+        )
+
+        answer = "A" if example["best_hyp"] == 0 else "B"
+        answer = f"Chosen: {answer}"
+
+        return {
+            "messages": [
+                {"role": "system", "content": "You are a helpful translation evaluator. You will provide a verdict in a strict format, do not include any other text. Just word 'Chosen: A' or 'Chosen: B'."},
+                {"role": "user", "content": input_message},
+                {"role": "assistant", "content": answer}
+            ]
+        }
+
+    return transform_fn, {
+        'remove_columns': [
+            "lp", "src", "hyp0", "hyp1", "best_hyp",
+            "ref", 'score0', 'score1', 'score_diff',
+            "score_name", "system0", "system1"
+        ],
+    }
+
+
 def tulu_transform(cfg, *args, **kwargs):
     def transform_fn(example, tokenizer=None):
         return {

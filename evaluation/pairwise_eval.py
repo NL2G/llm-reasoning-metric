@@ -141,8 +141,12 @@ def make_scores(
         system_a = meta_data[response.request_id]["system_a"]
         system_b = meta_data[response.request_id]["system_b"]
         
+        try:
         # Parse the response - look for 'A' or 'B' in the first few characters of the response
-        choice = extract_answer_no_thinking(response.response['choices'][0]['message']['content'].strip())
+            choice = extract_answer_no_thinking(response.response['choices'][0]['message']['content'].strip())
+        except Exception as e:
+            choice = None
+
         if choice is not None:
             if "A" in choice:  # Check beginning of response
                 # System A wins
@@ -154,8 +158,6 @@ def make_scores(
             # Update comparison counts
             system_comparisons[system_a][source_idx] += 1
             system_comparisons[system_b][source_idx] += 1
-        else:
-            print(f"No choice found for response: {response.response['choices'][0]['message']['content'].strip()}")
     
     # Calculate scores (normalized by number of comparisons)
     scores = {}
@@ -188,8 +190,9 @@ def evaluate(
             directory="./cache",
             ttl=None
         ),
-        concurrency=1000,
-        timeout=500,
+        concurrency=2500,
+        timeout=3600,
+        retry_attempts=10,
         show_progress=True
     )
 
