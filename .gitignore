@@ -178,5 +178,4 @@ training/outputs
 training/logs
 !training/outputs/.gitkeep
 training/wandb
-
-axolotl
+training/data

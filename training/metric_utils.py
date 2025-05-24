@@ -13,7 +13,7 @@ Avoid personal opinions or biases, and do not favor one assistant over the other
 Your judgment should be based solely on the quality of the translations and their alignment with the user's instructions.
 Be objective and impartial. If both translations are equally good, you can choose the one that you prefer.
 
-After providing your explanation, response strictly in this format: 
+To reply, use strictly the following format, do not include any other text: 
 
 <think>
 ... your reasoning process ...
@@ -54,8 +54,7 @@ Deliver your response strictly in this format, do not include any other text:
 [End of Assistant B's Response]
 """
 
-SYSTEM_NO_CHOSEN = 'You are a helpful translation evaluator. You will provide a verdict in a strict format, do not include any other text. Just letter "A" or "B".'
-SYSTEM_CHOSEN = 'You are a helpful translation evaluator. You will provide a verdict in a strict format, do not include any other text. Just words "Chosen: A" or "Chosen: B".'
+SYSTEM = 'You are a helpful translation evaluator.'
 
 
 LANG_CODES = {
@@ -88,6 +87,7 @@ def pairwise_ranking_grpo_transform(cfg, *args, **kwargs):
 
         return {
             "prompt": [
+                {"role": "system", "content": SYSTEM},
                 {"role": "user", "content": input_message},
             ],
             "answer": answer,
