@@ -1,23 +1,22 @@
 import datasets as ds
 import argparse as ap
-from rich import print
 from rich_argparse import RichHelpFormatter
 
 
 SYSTEM_PROMPT = """
 You are a deep-thinking translation evaluator.
-You are given a source text and a pair of translations, and you need to evaluate them and answer which one is better through reasoning.
+You are given a source text and a pair of translations, and you need to evaluate them and answer which one is better through reasoning, step by step.
 Use the following response format:
 <think>
 **your reasoning**
 </think>
 <answer>
-[A] if Assistant A is better, [B] if Assistant B is better
+"Chosen: A" if Assistant A is better or "Chosen: B" if Assistant B is better
 </answer>
 """.strip()
 
 USER_PROMPT_TEMPLATE = """
-The user asked the two translation assistants, Assistant A and Assistant B, to translate the following source text from {source_language} to {target_language}:
+The user asked the two translation assistants, Assistant A and Assistant B, to translate the following source text from {source_language} to {target_language}, maintaining the tone, accuracy and ensuring fluency:
 [Start of Source Text]
 {source_text}
 [End of Source Text]
@@ -38,7 +37,14 @@ LANG_CODES = {
     'cs': 'Czech',
     'uk': 'Ukrainian',
     'de': 'German',
-    'es': 'Spanish'
+    'es': 'Spanish',
+    'he': 'Hebrew',
+    'ar': 'Arabic',
+    'ru': 'Russian',
+    'fr': 'French',
+    'it': 'Italian',
+    'pt': 'Portuguese',
+    'nl': 'Dutch',
 }
 
 
@@ -46,6 +52,7 @@ def main():
     parser = ap.ArgumentParser(formatter_class=RichHelpFormatter)
     parser.add_argument("--dataset-name", type=str, required=True)
     parser.add_argument("--subset", type=str, required=True, help="subset of the dataset to use, ALL for all subsets")
+    parser.add_argument("--max-samples", type=int, default=None)
     parser.add_argument("--output-path", type=str, required=True)
     args = parser.parse_args()
 
@@ -81,7 +88,11 @@ def main():
             }
         }
     
-    verl_dataset = dataset.map(mt_ranking_to_verl_format, num_proc=1, with_indices=True, remove_columns=columns)
+    verl_dataset = dataset.map(mt_ranking_to_verl_format, num_proc=4, with_indices=True, remove_columns=columns)
+
+    if args.max_samples is not None:
+        verl_dataset = verl_dataset.select(range(args.max_samples))
+
     verl_dataset.to_parquet(args.output_path)
 
 if __name__ == "__main__":

@@ -6,7 +6,7 @@ from rich_argparse import RichHelpFormatter
 
 SYSTEM_PROMPT = """
 You are a deep-thinking math expert.
-You are given a math problem and you need to solve it through reasoning.
+You are given a math problem and you need to solve it through reasoning, step by step.
 Use the following response format:
 <think>
 **your reasoning**
@@ -19,6 +19,11 @@ Use the following response format:
 def make_map_fn(problem_column: str, answer_column: str):
     
     def verl_format(item: dict, index: int):
+        if "boxed" not in item[answer_column]:
+            answer = "\\boxed{" + item[answer_column] + "}"
+        else:
+            answer = item[answer_column]
+
         return {
             "data_source": "math",
             "prompt": [
@@ -28,7 +33,7 @@ def make_map_fn(problem_column: str, answer_column: str):
             "ability": "math",
             "reward_model": {
                 "style": "rule",
-                "ground_truth": item[answer_column]
+                "ground_truth": answer
             },
             "extra_info": {
                 "index": index

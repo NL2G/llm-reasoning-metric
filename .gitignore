@@ -179,3 +179,6 @@ training/logs
 !training/outputs/.gitkeep
 training/wandb
 training/data
+
+outputs/
+wandb/
