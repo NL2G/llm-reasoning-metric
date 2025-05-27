@@ -174,11 +174,13 @@ cython_debug/
 .pypirc
 uv.lock
 
-training/outputs
-training/logs
-!training/outputs/.gitkeep
-training/wandb
-training/data
+llm-reasoning-metric/outputs
+llm-reasoning-metric/logs
+!llm-reasoning-metric/outputs/.gitkeep
+llm-reasoning-metric/wandb
+llm-reasoning-metric/data
 
 outputs/
 wandb/
+data/*
+!data/.gitkeep
