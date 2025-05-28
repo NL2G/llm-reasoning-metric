@@ -1,0 +1,32 @@
+hydra:
+  job:
+    chdir: False
+
+competition: "wmt24"
+language_pairs: ["ja-zh", "en-de", "en-es"]
+traces_sample_size: 100
+
+to_compute: [1]
+
+experiments:
+  - model: "Rexhaif/Qwen3-4B-MT-Eval"
+    kind: "mt-ranking"
+    output: llm-reasoning-metric/evals/qwen3-4b-mt-eval@[mt-ranking]/
+    
+    sampling_params:
+      temperature: 0.6
+      max_tokens: 3072
+      top_p: 0.95
+      top_k: 20
+      presence_penalty: 0.1
+
+  - model: "Rexhaif/Qwen3-4B-MT-Eval"
+    kind: "gemba-da-like"
+    output: llm-reasoning-metric/evals/qwen3-4b-mt-eval@[gemba-da-like]/
+    
+    sampling_params:
+      temperature: 0.6
+      max_tokens: 3072
+      top_p: 0.95
+      top_k: 20
+      presence_penalty: 0.1

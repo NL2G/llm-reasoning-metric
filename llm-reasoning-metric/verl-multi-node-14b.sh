@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #SBATCH --job-name=grpo-multi-node-14b
-#SBATCH --output=./training/logs/%j-multi/training.out
+#SBATCH --output=./llm-reasoning-metric/logs/%j-multi/training.out
 #SBATCH --time=24:00:00
 #SBATCH --partition=h200
 #SBATCH --gres=gpu:h200:4
@@ -12,10 +12,11 @@
 set -e
 
 GLOBAL_BATCH_SIZE=768
-MINI_BATCH_SIZE=192
+MINI_BATCH_SIZE=384
 MICRO_BATCH_SIZE=4
-MODEL_NAME=Qwen/Qwen3-4B
-MODEL_ID=qwen3_4b
+MODEL_NAME=Qwen/Qwen3-14B
+MODEL_ID=qwen3_14b
+LR=1e-6
 
 nodes=$(scontrol show hostnames "$SLURM_JOB_NODELIST")
 nodes_array=($nodes)
@@ -63,8 +64,9 @@ echo "====> All nodes started"
 
 PYTHONUNBUFFERED=1 ray job submit --address "$ip_head" -- python -m verl.trainer.main_ppo \
     algorithm.adv_estimator=grpo \
-    data.train_files=[./data/files/mt-eval.parquet,./data/files/deepscaler.parquet] \
-    data.val_files=./data/files/mt-eval-test.parquet \
+    algorithm.norm_adv_by_std_in_grpo=False \
+    data.train_files=[./data/mt-eval.parquet,./data/deepscaler.parquet] \
+    data.val_files=./data/mt-eval-test.parquet \
     data.train_batch_size=$GLOBAL_BATCH_SIZE \
     data.max_prompt_length=1024 \
     data.max_response_length=3072 \
@@ -72,32 +74,33 @@ PYTHONUNBUFFERED=1 ray job submit --address "$ip_head" -- python -m verl.trainer
     data.filter_overlong_prompts_workers=16 \
     data.truncation='error' \
     actor_rollout_ref.model.path=$MODEL_NAME \
-    actor_rollout_ref.actor.optim.lr=1e-6 \
+    actor_rollout_ref.actor.optim.lr=$LR \
     actor_rollout_ref.actor.optim.warmup_style=cosine \
     actor_rollout_ref.actor.optim.lr_warmup_steps_ratio=0.1 \
     actor_rollout_ref.model.use_remove_padding=True \
     actor_rollout_ref.actor.ppo_mini_batch_size=$MINI_BATCH_SIZE \
     actor_rollout_ref.actor.ppo_micro_batch_size_per_gpu=$MICRO_BATCH_SIZE \
-    actor_rollout_ref.actor.use_kl_loss=True \
+    actor_rollout_ref.actor.use_kl_loss=False \
     actor_rollout_ref.actor.kl_loss_coef=0.001 \
     actor_rollout_ref.actor.kl_loss_type=low_var_kl \
     actor_rollout_ref.actor.entropy_coeff=0 \
+    actor_rollout_ref.actor.loss_agg_mode=seq-mean-token-sum-norm \
     actor_rollout_ref.model.enable_gradient_checkpointing=True \
     actor_rollout_ref.actor.fsdp_config.param_offload=False \
     actor_rollout_ref.actor.fsdp_config.optimizer_offload=False \
     actor_rollout_ref.rollout.log_prob_micro_batch_size_per_gpu=$MICRO_BATCH_SIZE \
     actor_rollout_ref.rollout.tensor_model_parallel_size=1 \
-    actor_rollout_ref.rollout.name=sglang \
-    actor_rollout_ref.rollout.gpu_memory_utilization=0.6 \
+    actor_rollout_ref.rollout.name=vllm \
+    actor_rollout_ref.rollout.gpu_memory_utilization=0.7 \
     actor_rollout_ref.rollout.n=8 \
     actor_rollout_ref.rollout.temperature=0.6 \
     actor_rollout_ref.rollout.top_p=0.95 \
     actor_rollout_ref.rollout.top_k=20 \
-    +actor_rollout_ref.rollout.presence_penalty=0.25 \
+    +actor_rollout_ref.rollout.presence_penalty=1.2 \
     actor_rollout_ref.ref.log_prob_micro_batch_size_per_gpu=$MICRO_BATCH_SIZE \
     actor_rollout_ref.ref.fsdp_config.param_offload=True \
     algorithm.use_kl_in_reward=False \
-    custom_reward_function.path=./training/verl_reward.py \
+    custom_reward_function.path=./llm-reasoning-metric/verl_reward.py \
     custom_reward_function.name=reward_router \
     trainer.critic_warmup=0 \
     trainer.logger=['console','wandb'] \
@@ -105,7 +108,7 @@ PYTHONUNBUFFERED=1 ray job submit --address "$ip_head" -- python -m verl.trainer
     trainer.experiment_name=$MODEL_ID \
     trainer.n_gpus_per_node=${SLURM_GPUS_ON_NODE} \
     trainer.nnodes=${num_nodes} \
-    trainer.save_freq=50 \
-    trainer.test_freq=50 \
-    trainer.default_local_dir="/hnvme/workspace/v106be28-outputs/verl-$MODEL_ID" \
+    trainer.save_freq=25 \
+    trainer.test_freq=25 \
+    trainer.default_local_dir="/hnvme/workspace/v106be28-outputs/verl/$MODEL_ID" \
     trainer.total_epochs=1 $@
