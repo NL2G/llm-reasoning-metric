@@ -11,8 +11,8 @@ from omegaconf import DictConfig, OmegaConf
 import hydra
 import logging
 from rich.logging import RichHandler
-from verl_reward import extract_answer, extract_letter
-from prompts import USER_PROMPTS, SYSTEM_PROMPTS, LANG_CODES, parse_and_check_numerical_answer
+from verl_reward import extract_answer, extract_letter, extract_answer_no_tag
+from prompts import USER_PROMPTS, SYSTEM_PROMPTS, LANG_CODES, parse_and_check_numerical_answer, GEMBA_FEW_SHOTS
 
 logging.basicConfig(level=logging.INFO, handlers=[RichHandler()])
 logger = logging.getLogger(__name__)
@@ -195,6 +195,110 @@ def gemba_da_eval(
     return scores, traces_df
 
 
+def gemba_esa_eval(
+    sources: list[str],
+    system_outputs: dict[str, list[str]],
+    source_lang: str,
+    target_lang: str,
+    system_prompt: str,
+    user_spans_template: str,
+    user_ranking_template: str,
+    llm: LLM = None,
+    sampling_params: dict[str, any] = None,
+) -> tuple[dict[str, list[float]], pd.DataFrame]:
+    """
+    Make scores for a given set of sources and system outputs.
+    """
+    request_batch = []
+    prompts = []
+    meta_data = []
+    source_lang_name = LANG_CODES[source_lang]
+    target_lang_name = LANG_CODES[target_lang]
+    for source_idx, source in enumerate(sources):
+        systems = list(system_outputs.keys())
+        for i in range(len(systems)):
+            messages = []
+            messages.append({
+                "role": "system", 
+                "content": system_prompt
+            })
+
+            for shot in GEMBA_FEW_SHOTS:
+                messages.append({"role": "user", "content": user_spans_template.format(
+                    source_language=source_lang_name,
+                    target_language=target_lang_name,
+                    source_text=shot["source_text"],
+                    translation=shot["translation"]
+                )})
+                messages.append({"role": "assistant", "content": shot["response"]})
+
+            messages.append({"role": "user", "content": user_spans_template.format(
+                source_language=source_lang_name,
+                target_language=target_lang_name,
+                source_text=source,
+                translation=system_outputs[systems[i]][source_idx]
+            )})
+
+            request_batch.append(messages)
+            meta_data.append({
+                "source_idx": source_idx,
+                "system": systems[i],
+                "source_text": source,
+                "translation": system_outputs[systems[i]][source_idx],
+            })
+
+    logger.info(f"=> Running error spans extraction for {len(request_batch)} prompts")
+    results = llm.chat(
+        request_batch, sampling_params=SamplingParams(**sampling_params),
+        add_generation_prompt=True, use_tqdm=True,
+    )
+    spans_results = [extract_answer_no_tag(result.outputs[0].text) for result in results]
+    ranking_batch = []
+    for span, meta in zip(spans_results, meta_data):
+        messages = []
+        messages.append({
+            "role": "system",
+            "content": system_prompt
+        })
+        messages.append({"role": "user", "content": user_ranking_template.format(
+            source_language=source_lang_name,
+            target_language=target_lang_name,
+            source_text=meta["source_text"],
+            translation=meta["translation"],
+            error_spans=span
+        )})
+        ranking_batch.append(messages)
+        prompts.append(messages[-1]["content"])
+
+    logger.info(f"=> Running ranking for {len(ranking_batch)} prompts")
+    ranking_results = llm.chat(
+        ranking_batch, sampling_params=SamplingParams(**sampling_params),
+        add_generation_prompt=True, use_tqdm=True,
+    )
+    ranking_results = [extract_answer_no_tag(result.outputs[0].text) for result in ranking_results]
+
+    traces_df = pd.DataFrame({
+        "prompt": prompts,
+        "result": [result.outputs[0].text for result in ranking_results]
+    })
+
+    scores = {k: [None]*len(sources) for k in system_outputs.keys()}
+    for result, meta in zip(ranking_results, meta_data):
+        source_idx = meta["source_idx"]
+        system = meta["system"]
+        try:
+            score_value = parse_and_check_numerical_answer(result, min=0, max=100)
+        except Exception as e:
+            score_value = None
+
+        if score_value is None:
+            score_value = 0.0
+
+        scores[system][source_idx] = score_value
+
+    return scores, traces_df
+
+
 @hydra.main(config_path="configs", config_name="evaluate")
 def main(cfg: DictConfig):
     logger.info(f"Evaluating config: {OmegaConf.to_yaml(cfg)}")
@@ -234,42 +338,55 @@ def main(cfg: DictConfig):
             evs = evs_dict[(cfg.competition, lp)]
             lp_dir = result_dir / lp
             lp_dir.mkdir(parents=True, exist_ok=True)
-            for refname, ref in evs.all_refs.items():
-                logger.info(f"Evaluating {refname} for {lp}")
-                if experiment.kind == "mt-ranking":
-                    seg_scores, traces_df = mt_ranking_eval(
-                        evs.src,
-                        evs.sys_outputs,
-                        evs.lp.split('-')[0],
-                        evs.lp.split('-')[1],
-                        system_prompt=SYSTEM_PROMPTS[experiment.kind],
-                        user_prompt_template=USER_PROMPTS[experiment.kind],
-                        llm=llm,
-                        sampling_params=experiment.sampling_params
-                    )
-                elif experiment.kind == "gemba-da-like":
-                    seg_scores, traces_df = gemba_da_eval(
-                        evs.src,
-                        evs.sys_outputs,
-                        evs.lp.split('-')[0],
-                        evs.lp.split('-')[1],
-                        system_prompt=SYSTEM_PROMPTS[experiment.kind],
-                        user_prompt_template=USER_PROMPTS[experiment.kind],
-                        llm=llm,
-                        sampling_params=experiment.sampling_params
-                    )
-                else:
-                    raise ValueError(f"Unknown model kind: {experiment.kind}")
+
+            if experiment.kind == "mt-ranking":
+                seg_scores, traces_df = mt_ranking_eval(
+                    evs.src,
+                    evs.sys_outputs,
+                    evs.lp.split('-')[0],
+                    evs.lp.split('-')[1],
+                    system_prompt=SYSTEM_PROMPTS[experiment.kind],
+                    user_prompt_template=USER_PROMPTS[experiment.kind],
+                    llm=llm,
+                    sampling_params=experiment.sampling_params
+                )
+            elif experiment.kind == "gemba-da-like":
+                seg_scores, traces_df = gemba_da_eval(
+                    evs.src,
+                    evs.sys_outputs,
+                    evs.lp.split('-')[0],
+                    evs.lp.split('-')[1],
+                    system_prompt=SYSTEM_PROMPTS[experiment.kind],
+                    user_prompt_template=USER_PROMPTS[experiment.kind],
+                    llm=llm,
+                    sampling_params=experiment.sampling_params
+                )
+            elif experiment.kind == "gemba-esa":
+                seg_scores, traces_df = gemba_esa_eval(
+                    evs.src,
+                    evs.sys_outputs,
+                    evs.lp.split('-')[0],
+                    evs.lp.split('-')[1],
+                    system_prompt=SYSTEM_PROMPTS[experiment.kind],
+                    user_spans_template=USER_PROMPTS[experiment.kind + "-error-spans"],
+                    user_ranking_template=USER_PROMPTS[experiment.kind + "-ranking"],
+                    llm=llm,
+                    sampling_params=experiment.sampling_params
+                )
+            else:
+                raise ValueError(f"Unknown model kind: {experiment.kind}")
                 
-                traces_df['lp'] = lp
-                sys_scores = {}
-                for system, scores in seg_scores.items():
-                    sys_scores[system] = [np.mean(scores)]
-                evs.AddMetric(metric_name, {refname}, 'sys', sys_scores, replace=True)
-                evs.AddMetric(metric_name, {refname}, 'seg', seg_scores, replace=True)
-                
-                traces_df = traces_df.sample(n=cfg.traces_sample_size).reset_index(drop=True)
-                traces_df.to_csv(str(lp_dir / f'traces.csv'), index=False)
+            traces_df['lp'] = lp
+            sys_scores = {}
+            for system, scores in seg_scores.items():
+                sys_scores[system] = [np.mean(scores)]
+
+            for ref in evs.all_refs.keys():    
+                evs.AddMetric(metric_name, {ref}, 'sys', sys_scores, replace=True)
+                evs.AddMetric(metric_name, {ref}, 'seg', seg_scores, replace=True)
+            
+            traces_df = traces_df.sample(n=cfg.traces_sample_size).reset_index(drop=True)
+            traces_df.to_csv(str(lp_dir / f'traces.csv'), index=False)
                 
         
             for evs in evs_dict.values():

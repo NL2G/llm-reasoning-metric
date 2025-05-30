@@ -34,6 +34,9 @@ Use the following response format:
 <answer>
 **0 or 1 or 2 or ... or 100, depending on your judgement**
 </answer>
+""".strip(),
+    "gemba-esa": """
+Your task is to identify machine translation errors and assess the quality of the translation.
 """.strip()
 }
 
@@ -66,6 +69,26 @@ where a score of zero (0) means "no meaning preserved" and score of one hundred 
 [Start of Translation]
 {translation}
 [End of Translation]
+""".strip(),
+    "gemba-esa-error-spans": """
+{source_language} source:
+```{source_text}```
+{target_language} translation:
+```{translation}```
+
+Based on the source segment and machine translation surrounded with triple backticks, identify error types in the translation and classify them. The categories of errors are: accuracy (addition, mistranslation, omission, untranslated text), fluency (character encoding, grammar, inconsistency, punctuation, register, spelling), style (awkward), terminology (inappropriate for context, inconsistent use), non-translation, other, or no-error.
+Each error is classified as one of two categories: major or minor. Major errors disrupt the flow and make the understandability of text difficult or impossible. Minor errors are errors that do not disrupt the flow significantly and what the text is trying to say is still understandable.
+""".strip(),
+    "gemba-esa-ranking": """
+Given the translation from {source_language} to {target_language} and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0="No meaning preserved", 33="Some meaning preserved", 66="Most meaning preserved and few grammar mistakes", up to 100="Perfect meaning and grammar".
+
+Score the following translation from {source_language} source:
+```{source_text}```
+{target_language} translation:
+```{translation}```
+Annotated error spans:
+```{error_spans}```
 """.strip()
 }
 
@@ -85,6 +108,49 @@ LANG_CODES = {
     'pt': 'Portuguese',
     'nl': 'Dutch',
 }
+
+GEMBA_FEW_SHOTS = [
+    {
+        "source_language": "English",
+        "target_language": "German",
+        "source_text": "I do apologise about this, we must gain permission from the account holder to discuss an order with another person, I apologise if this was done previously, however, I would not be able to discuss this with yourself without the account holders permission.",
+        "translation": "Ich entschuldige mich dafür, wir müssen die Erlaubnis einholen, um eine Bestellung mit einer anderen Person zu besprechen. Ich entschuldige mich, falls dies zuvor geschehen wäre, aber ohne die Erlaubnis des Kontoinhabers wäre ich nicht in der Lage, dies mit dir involvement.",
+        "response": """
+Major:
+accuracy/mistranslation - "involvement"
+accuracy/omission - "the account holder"
+Minor:
+fluency/grammar - "wäre"
+fluency/register - "dir"
+""".strip()
+    },
+    {
+        "source_language": "English",
+        "target_language": "Czech",
+        "source_text": "Talks have resumed in Vienna to try to revive the nuclear pact, with both sides trying to gauge the prospects of success after the latest exchanges in the stop-start negotiations.",
+        "translation": "Ve Vídni se ve Vídni obnovily rozhovory o oživení jaderného paktu, přičemž obě partaje se snaží posoudit vyhlídky na úspěch po posledních výměnách v jednáních.",
+        "response": """
+Major:
+accuracy/addition - "ve Vídni"
+accuracy/omission - "the stop-start"
+Minor:
+terminology/inappropriate for context - "partaje"
+""".strip()
+    },
+    {
+        "source_language": "Chinese",
+        "target_language": "English",
+        "source_text": "大众点评乌鲁木齐家居卖场频道为您提供高铁居然之家地址，电话，营业时间等最新商户信息，找装修公司，就上大众点评",
+        "translation": "Urumqi Home Furnishing Store Channel provides you with the latest business information such as the address, telephone number, business hours, etc., of high-speed rail, and find a decoration company, and go to the reviews.",
+        "response": """
+Major:
+accuracy/addition - "of high-speed rail"
+accuracy/mistranslation - "go to the reviews"
+Minor:
+style/awkward - "etc.,"
+""".strip()
+    }
+]
 
 def parse_numerical_answer(answer, min=None, max=None):
     # get all numbers in a string
@@ -114,3 +180,5 @@ def parse_and_check_numerical_answer(answer, min=None, max=None):
         return attempt
 
     return None
+
+

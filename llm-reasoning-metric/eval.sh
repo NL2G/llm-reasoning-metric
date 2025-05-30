@@ -3,8 +3,8 @@
 #SBATCH --job-name=grpo-eval-4b
 #SBATCH --output=./llm-reasoning-metric/logs/%j-eval/eval.out
 #SBATCH --time=24:00:00
-#SBATCH --partition=h100
-#SBATCH --gres=gpu:h100:1
+#SBATCH --partition=h200
+#SBATCH --gres=gpu:h200:1
 #SBATCH --cpus-per-task=16
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1

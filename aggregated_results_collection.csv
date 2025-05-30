@@ -1,0 +1,7 @@
+name,model_base_name,eval_kind,en-de_seg_KendallWithTiesOpt,en-de_sys_pce,en-es_seg_KendallWithTiesOpt,en-es_sys_pce,ja-zh_seg_KendallWithTiesOpt,ja-zh_sys_pce,avg_seg_KendallWithTiesOpt,avg_sys_pce
+Qwen/Qwen3-4B@[gemba-da-like],Qwen/Qwen3-4B,gemba-da-like,0.4294,0.5219,0.6802,0.4597,0.4354,0.4355,0.5150,0.4724
+Qwen/Qwen3-4B@[gemba-esa],Qwen/Qwen3-4B,gemba-esa,0.4292,0.7162,0.6802,0.5994,0.4352,0.8191,0.5149,0.7116
+Qwen/Qwen3-4B@[mt-ranking],Qwen/Qwen3-4B,mt-ranking,0.4292,0.6819,0.6802,0.6251,0.4352,0.8871,0.5149,0.7314
+Rexhaif/Qwen3-4B-MT-Eval@[gemba-da-like],Rexhaif/Qwen3-4B-MT-Eval,gemba-da-like,0.4485,0.7964,0.6808,0.7231,0.5019,0.8749,0.5438,0.7981
+Rexhaif/Qwen3-4B-MT-Eval@[gemba-esa],Rexhaif/Qwen3-4B-MT-Eval,gemba-esa,0.4292,0.7248,0.6802,0.6805,0.4352,0.8210,0.5149,0.7421
+Rexhaif/Qwen3-4B-MT-Eval@[mt-ranking],Rexhaif/Qwen3-4B-MT-Eval,mt-ranking,0.4460,0.7271,0.6806,0.5575,0.4727,0.8263,0.5331,0.7036

@@ -3,17 +3,17 @@
 #SBATCH --job-name=grpo-multi-node-14b
 #SBATCH --output=./llm-reasoning-metric/logs/%j-multi/training.out
 #SBATCH --time=24:00:00
-#SBATCH --partition=h200
-#SBATCH --gres=gpu:h200:4
+#SBATCH --partition=h100
+#SBATCH --gres=gpu:h100:4
 #SBATCH --cpus-per-task=32
-#SBATCH --nodes=12
+#SBATCH --nodes=16
 #SBATCH --ntasks-per-node=1
 
 set -e
 
-GLOBAL_BATCH_SIZE=768
-MINI_BATCH_SIZE=384
-MICRO_BATCH_SIZE=4
+GLOBAL_BATCH_SIZE=1024
+MINI_BATCH_SIZE=512
+MICRO_BATCH_SIZE=2
 MODEL_NAME=Qwen/Qwen3-14B
 MODEL_ID=qwen3_14b
 LR=1e-6
@@ -90,8 +90,8 @@ PYTHONUNBUFFERED=1 ray job submit --address "$ip_head" -- python -m verl.trainer
     actor_rollout_ref.actor.fsdp_config.optimizer_offload=False \
     actor_rollout_ref.rollout.log_prob_micro_batch_size_per_gpu=$MICRO_BATCH_SIZE \
     actor_rollout_ref.rollout.tensor_model_parallel_size=1 \
-    actor_rollout_ref.rollout.name=vllm \
-    actor_rollout_ref.rollout.gpu_memory_utilization=0.7 \
+    actor_rollout_ref.rollout.name=sglang \
+    actor_rollout_ref.rollout.gpu_memory_utilization=0.6 \
     actor_rollout_ref.rollout.n=8 \
     actor_rollout_ref.rollout.temperature=0.6 \
     actor_rollout_ref.rollout.top_p=0.95 \

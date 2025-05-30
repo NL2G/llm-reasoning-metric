@@ -9,6 +9,7 @@ traces_sample_size: 100
 to_compute: [1]
 
 experiments:
+  # 0
   - model: "Rexhaif/Qwen3-4B-MT-Eval"
     kind: "mt-ranking"
     output: llm-reasoning-metric/evals/qwen3-4b-mt-eval@[mt-ranking]/
@@ -20,9 +21,58 @@ experiments:
       top_k: 20
       presence_penalty: 0.1
 
+  # 1
   - model: "Rexhaif/Qwen3-4B-MT-Eval"
     kind: "gemba-da-like"
     output: llm-reasoning-metric/evals/qwen3-4b-mt-eval@[gemba-da-like]/
+    
+    sampling_params:
+      temperature: 0.6
+      max_tokens: 3072
+      top_p: 0.95
+      top_k: 20
+      presence_penalty: 0.1
+
+  # 2
+  - model: "Rexhaif/Qwen3-4B-MT-Eval"
+    kind: "gemba-esa"
+    output: llm-reasoning-metric/evals/qwen3-4b-mt-eval@[gemba-esa]/
+    
+    sampling_params:
+      temperature: 0.6
+      max_tokens: 3072
+      top_p: 0.95
+      top_k: 20
+      presence_penalty: 0.1
+
+  # 3
+  - model: "Qwen/Qwen3-4B"
+    kind: "gemba-da-like"
+    output: llm-reasoning-metric/evals/qwen3-4b@[gemba-da-like]/
+    
+    sampling_params:
+      temperature: 0.6
+      max_tokens: 3072
+      top_p: 0.95
+      top_k: 20
+      presence_penalty: 0.1
+
+  # 4  
+  - model: "Qwen/Qwen3-4B"
+    kind: "mt-ranking"
+    output: llm-reasoning-metric/evals/qwen3-4b@[mt-ranking]/
+    
+    sampling_params:
+      temperature: 0.6
+      max_tokens: 3072
+      top_p: 0.95
+      top_k: 20
+      presence_penalty: 0.1
+
+  # 5
+  - model: "Qwen/Qwen3-4B"
+    kind: "gemba-esa"
+    output: llm-reasoning-metric/evals/qwen3-4b@[gemba-esa]/
     
     sampling_params:
       temperature: 0.6

@@ -14,6 +14,10 @@ def extract_answer(response) -> str | None:
     return answer
 
 
+def extract_answer_no_tag(response) -> str | None:
+    return response.split("</think>")[-1].strip()
+
+
 def extract_thinking(response) -> str | None:
     thinking = re.search(r'<think>(.*?)</think>', response, re.DOTALL)
     if thinking:
