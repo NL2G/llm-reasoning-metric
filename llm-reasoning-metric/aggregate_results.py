@@ -2,10 +2,15 @@ import pandas as pd
 from pathlib import Path
 import json
 import logging
+from rich.console import Console
+from rich.table import Table
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
+
+# Setup rich console
+console = Console()
 
 def parse_model_full_name(model_full_name: str) -> tuple[str, str]:
     """Parses 'model_base_name@[eval_kind]' into (model_base_name, eval_kind)."""
@@ -16,6 +21,122 @@ def parse_model_full_name(model_full_name: str) -> tuple[str, str]:
         return model_base_name, eval_kind
     logger.warning(f"Could not parse model_full_name according to 'name@[kind]' format: {model_full_name}")
     return model_full_name, "" # Return original name as base, and empty kind
+
+def print_results_table(df: pd.DataFrame):
+    """Print a rich-formatted table with the aggregated results."""
+    if df.empty:
+        console.print("[yellow]No results to display.[/yellow]")
+        return
+    
+    # Create sorting keys for proper grouping
+    def extract_model_info(row):
+        model_base = row['model_base_name']
+        eval_kind = row['eval_kind']
+        
+        # Extract reasoning effort tag if present (e.g., #none, #low, #medium, #high)
+        reasoning_effort = ""
+        if '#' in model_base:
+            parts = model_base.split('#')
+            if len(parts) == 2:
+                reasoning_effort = parts[1]
+                model_base = parts[0]  # Remove the reasoning effort tag from model_base
+        
+        # Extract base model name without MT-Eval prefix  
+        if 'MT-Eval' in model_base:
+            # Extract the base model (e.g., "Rexhaif/Qwen3-4B-MT-Eval" -> "Qwen3-4B")
+            if 'Qwen3-14B' in model_base:
+                base_model = 'Qwen3-14B'
+            elif 'Qwen3-4B' in model_base:
+                base_model = 'Qwen3-4B'
+            else:
+                base_model = model_base
+            is_mt_eval = True
+        else:
+            # Extract base model for regular models (e.g., "Qwen/Qwen3-4B" -> "Qwen3-4B")
+            if 'Qwen3-14B' in model_base:
+                base_model = 'Qwen3-14B'
+            elif 'Qwen3-4B' in model_base:
+                base_model = 'Qwen3-4B'
+            else:
+                base_model = model_base
+            is_mt_eval = False
+            
+        return base_model, eval_kind, is_mt_eval, reasoning_effort
+    
+    # Add sorting keys
+    df_sorted = df.copy()
+    model_info = df_sorted.apply(extract_model_info, axis=1, result_type='expand')
+    df_sorted['_base_model'] = model_info[0]
+    df_sorted['_eval_kind'] = model_info[1] 
+    df_sorted['_is_mt_eval'] = model_info[2]
+    df_sorted['_reasoning_effort'] = model_info[3]
+    
+    # Define eval_kind order
+    eval_kind_order = {'gemba-da-like': 0, 'gemba-esa': 1, 'mt-ranking': 2}
+    df_sorted['_eval_kind_order'] = df_sorted['_eval_kind'].map(eval_kind_order).fillna(999)
+    
+    # Define reasoning effort order: none, low, medium, high
+    reasoning_effort_order = {'none': 0, 'low': 1, 'medium': 2, 'high': 3, '': 4}  # Empty string for models without tags comes last
+    df_sorted['_reasoning_effort_order'] = df_sorted['_reasoning_effort'].map(reasoning_effort_order).fillna(999)
+    
+    # Sort by: base_model, eval_kind_order, MT-Eval before regular (descending _is_mt_eval), then reasoning effort order
+    df_sorted = df_sorted.sort_values(['_base_model', '_eval_kind_order', '_is_mt_eval', '_reasoning_effort_order'], 
+                                      ascending=[True, True, False, True])
+    
+    # Create table
+    table = Table(title="LLM Reasoning Metric Results (Grouped by Model Family)", show_header=True, header_style="bold magenta")
+    
+    # Add columns (excluding 'name')
+    for col in df.columns:
+        if col == 'name':
+            continue  # Skip the name column
+        elif col in ['model_base_name', 'eval_kind']:
+            table.add_column(col, style="cyan", no_wrap=True)
+        elif col.startswith('avg_'):
+            table.add_column(col, style="bold green", justify="right")
+        else:
+            table.add_column(col, style="white", justify="right")
+    
+    # Add rows with group separation
+    current_model = None
+    current_eval_kind = None
+    for _, row in df_sorted.iterrows():
+        base_model = row['_base_model']
+        eval_kind = row['_eval_kind']
+        
+        # Add separator line between different model sizes
+        if current_model is not None and current_model != base_model:
+            # Add empty row for visual separation between model sizes
+            table.add_row(*["" for _ in df.columns if _ != 'name'], style="dim")
+        # Add smaller separator between eval kinds within same model
+        elif current_eval_kind is not None and current_eval_kind != eval_kind:
+            # Add subtle separation between eval kinds
+            table.add_row(*["" for _ in df.columns if _ != 'name'], style="dim blue")
+        
+        current_model = base_model
+        current_eval_kind = eval_kind
+        
+        row_data = []
+        for col in df.columns:
+            if col == 'name':
+                continue  # Skip the name column
+            value = row[col]
+            if pd.isna(value):
+                row_data.append("—")
+            elif isinstance(value, (int, float)):
+                row_data.append(f"{value:.4f}")
+            else:
+                row_data.append(str(value))
+        
+        # Style MT-Eval rows slightly differently
+        if row['_is_mt_eval']:
+            table.add_row(*row_data, style="italic")
+        else:
+            table.add_row(*row_data)
+    
+    console.print("\n")
+    console.print(table)
+    console.print("\n")
 
 def aggregate_results(output_dir_str: str = "llm-reasoning-metric/evals", output_csv_file: str = "aggregated_results_collection.csv"):
     root_path = Path(output_dir_str)
@@ -117,6 +238,9 @@ def aggregate_results(output_dir_str: str = "llm-reasoning-metric/evals", output
     final_column_order = present_core_cols + lp_metric_cols + avg_metric_cols
     df_final_wide = df_final_wide.reindex(columns=final_column_order)
 
+    # Print rich-formatted table
+    print_results_table(df_final_wide)
+    
     logger.info(f"Saving aggregated results to {output_csv_file}")
     try:
         df_final_wide.to_csv(output_csv_file, index=False, float_format='%.4f')

@@ -13,7 +13,7 @@ set -e
 
 GLOBAL_BATCH_SIZE=1024
 MINI_BATCH_SIZE=512
-MICRO_BATCH_SIZE=2
+MICRO_BATCH_SIZE=4
 MODEL_NAME=Qwen/Qwen3-14B
 MODEL_ID=qwen3_14b
 LR=1e-6
@@ -96,7 +96,7 @@ PYTHONUNBUFFERED=1 ray job submit --address "$ip_head" -- python -m verl.trainer
     actor_rollout_ref.rollout.temperature=0.6 \
     actor_rollout_ref.rollout.top_p=0.95 \
     actor_rollout_ref.rollout.top_k=20 \
-    +actor_rollout_ref.rollout.presence_penalty=1.2 \
+    +actor_rollout_ref.rollout.presence_penalty=0.5 \
     actor_rollout_ref.ref.log_prob_micro_batch_size_per_gpu=$MICRO_BATCH_SIZE \
     actor_rollout_ref.ref.fsdp_config.param_offload=True \
     algorithm.use_kl_in_reward=False \

@@ -3,21 +3,42 @@ hydra:
     chdir: False
 
 datasets:
+  - file: data/mt-da-eval.parquet
+    kind: mt-da
+    source_dataset: Rexhaif/wmt22-24
+    max_samples: 1000
+    subsets:
+      - wmt24_esa
+    add_reasoning_effort: true
+
+  - file: data/mt-da.parquet
+    kind: mt-da
+    source_dataset: Rexhaif/wmt22-24
+    max_samples: 70000
+    subsets:
+      - wmt23_da
+    add_reasoning_effort: true
+
   - file: data/mt-eval.parquet
     kind: mt-ranking
     source_dataset: Rexhaif/wmt22-23-pairs
-    max_samples: -1
+    max_samples: 200000
     subsets:
       - wmt23_da_sqm
+    add_reasoning_effort: true
+
   - file: data/deepscaler.parquet
     kind: math
     source_dataset: agentica-org/DeepScaleR-Preview-Dataset
     max_samples: -1
     problem_column: problem
     answer_column: answer
+    add_reasoning_effort: true
+
   - file: data/mt-eval-test.parquet
     kind: mt-ranking
     source_dataset: Rexhaif/wmt22-23-pairs
     max_samples: 1000
     subsets:
       - wmt23_mqm
+    add_reasoning_effort: true

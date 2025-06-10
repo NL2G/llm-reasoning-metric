@@ -1,0 +1,5 @@
+{
+    "name": "Rexhaif/Qwen3-14B-MT-Eval@[mt-ranking]",
+    "en-es / sys / pce": 0.7146538461538461,
+    "en-es / seg / KendallWithTiesOpt": 0.6810305799069897
+}

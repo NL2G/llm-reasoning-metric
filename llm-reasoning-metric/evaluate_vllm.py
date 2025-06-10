@@ -37,6 +37,7 @@ def mt_ranking_eval(
     system_prompt: str,
     user_prompt_template: str,
     llm: LLM = None,
+    reasoning_effort: str | None = None,
     sampling_params: dict[str, any] = None,
 ) -> tuple[dict[str, list[float]], pd.DataFrame]:
     """
@@ -47,6 +48,12 @@ def mt_ranking_eval(
     meta_data = []
     source_lang_name = LANG_CODES[source_lang]
     target_lang_name = LANG_CODES[target_lang]
+
+    if reasoning_effort is not None:
+        system_prompt = "<reasoning_effort>" + reasoning_effort + "</reasoning_effort>\n" + system_prompt
+    else:
+        system_prompt = system_prompt
+
     for source_idx, source in enumerate(sources):
         systems = list(system_outputs.keys())
         for i in range(len(systems)):
@@ -72,6 +79,10 @@ def mt_ranking_eval(
                     "system_a": systems[i],
                     "system_b": systems[j]
                 })
+
+    logger.info(f"=> Running MT-ranking for {len(request_batch)} prompts")
+    logger.info(f"=> Reasoning effort: {reasoning_effort}")
+    logger.info(f"=> First prompt: {request_batch[0]}")
 
     results = llm.chat(
         request_batch, sampling_params=SamplingParams(**sampling_params),
@@ -132,6 +143,7 @@ def gemba_da_eval(
     system_prompt: str,
     user_prompt_template: str,
     llm: LLM = None,
+    reasoning_effort: str | None = None,
     sampling_params: dict[str, any] = None,
 ) -> tuple[dict[str, list[float]], pd.DataFrame]:
     """
@@ -142,6 +154,12 @@ def gemba_da_eval(
     meta_data = []
     source_lang_name = LANG_CODES[source_lang]
     target_lang_name = LANG_CODES[target_lang]
+
+    if reasoning_effort is not None:
+        system_prompt = "<reasoning_effort>" + reasoning_effort + "</reasoning_effort>\n" + system_prompt
+    else:
+        system_prompt = system_prompt
+
     for source_idx, source in enumerate(sources):
         systems = list(system_outputs.keys())
         for i in range(len(systems)):
@@ -163,6 +181,10 @@ def gemba_da_eval(
                 "source_idx": source_idx,
                 "system": systems[i]
             })
+
+    logger.info(f"=> Running DA-like for {len(request_batch)} prompts")
+    logger.info(f"=> Reasoning effort: {reasoning_effort}")
+    logger.info(f"=> First prompt: {request_batch[0]}")
 
     results = llm.chat(
         request_batch, sampling_params=SamplingParams(**sampling_params),
@@ -204,6 +226,7 @@ def gemba_esa_eval(
     user_spans_template: str,
     user_ranking_template: str,
     llm: LLM = None,
+    reasoning_effort: str | None = None,
     sampling_params: dict[str, any] = None,
 ) -> tuple[dict[str, list[float]], pd.DataFrame]:
     """
@@ -214,6 +237,12 @@ def gemba_esa_eval(
     meta_data = []
     source_lang_name = LANG_CODES[source_lang]
     target_lang_name = LANG_CODES[target_lang]
+
+    if reasoning_effort is not None:
+        system_prompt = "<reasoning_effort>" + reasoning_effort + "</reasoning_effort>\n" + system_prompt
+    else:
+        system_prompt = system_prompt
+
     for source_idx, source in enumerate(sources):
         systems = list(system_outputs.keys())
         for i in range(len(systems)):
@@ -248,6 +277,8 @@ def gemba_esa_eval(
             })
 
     logger.info(f"=> Running error spans extraction for {len(request_batch)} prompts")
+    logger.info(f"=> Reasoning effort: {reasoning_effort}")
+    logger.info(f"=> First prompt: {request_batch[0]}")
     results = llm.chat(
         request_batch, sampling_params=SamplingParams(**sampling_params),
         add_generation_prompt=True, use_tqdm=True,
@@ -279,7 +310,7 @@ def gemba_esa_eval(
 
     traces_df = pd.DataFrame({
         "prompt": prompts,
-        "result": [result.outputs[0].text for result in ranking_results]
+        "result": ranking_results
     })
 
     scores = {k: [None]*len(sources) for k in system_outputs.keys()}
@@ -331,8 +362,11 @@ def main(cfg: DictConfig):
             (cfg.competition, lp): data.EvalSet(cfg.competition, lp, True) for lp in cfg.language_pairs
         }
 
-        metric_name = experiment.model + "@[" + experiment.kind + "]"
-
+        reasoning_effort = experiment.get("reasoning_effort", None)
+        if reasoning_effort is None:
+            metric_name = experiment.model + "@[" + experiment.kind + "]"
+        else:
+            metric_name = experiment.model + "#" + reasoning_effort + "@[" + experiment.kind + "]"
 
         for lp in cfg.language_pairs:
             evs = evs_dict[(cfg.competition, lp)]
@@ -348,6 +382,7 @@ def main(cfg: DictConfig):
                     system_prompt=SYSTEM_PROMPTS[experiment.kind],
                     user_prompt_template=USER_PROMPTS[experiment.kind],
                     llm=llm,
+                    reasoning_effort=reasoning_effort,
                     sampling_params=experiment.sampling_params
                 )
             elif experiment.kind == "gemba-da-like":
@@ -359,6 +394,7 @@ def main(cfg: DictConfig):
                     system_prompt=SYSTEM_PROMPTS[experiment.kind],
                     user_prompt_template=USER_PROMPTS[experiment.kind],
                     llm=llm,
+                    reasoning_effort=reasoning_effort,
                     sampling_params=experiment.sampling_params
                 )
             elif experiment.kind == "gemba-esa":
@@ -371,6 +407,7 @@ def main(cfg: DictConfig):
                     user_spans_template=USER_PROMPTS[experiment.kind + "-error-spans"],
                     user_ranking_template=USER_PROMPTS[experiment.kind + "-ranking"],
                     llm=llm,
+                    reasoning_effort=reasoning_effort,
                     sampling_params=experiment.sampling_params
                 )
             else:
@@ -401,6 +438,7 @@ def main(cfg: DictConfig):
             for result in new_results:
                 attr_vals = result.attr_vals
                 corr_ranks = result.corr_ranks
+                print(corr_ranks)
                 metric_df[f"{attr_vals['lang']} / {attr_vals['level']} / {attr_vals['corr_fcn']}"] = corr_ranks[metric_name][0]
 
             logger.info(f"Metric results: {metric_df}")

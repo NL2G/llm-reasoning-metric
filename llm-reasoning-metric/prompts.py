@@ -7,10 +7,10 @@ You are a deep-thinking math expert.
 You are given a math problem and you need to solve it through reasoning, step by step.
 Use the following response format:
 <think>
-**your reasoning**
+'your reasoning'
 </think>
 <answer>
-\\boxed{**your answer**}
+\\boxed{your answer}
 </answer>
 """.strip(),
     "mt-ranking": """
@@ -18,10 +18,10 @@ You are a deep-thinking translation evaluator.
 You are given a source text and a pair of translations, and you need to evaluate them and answer which one is better through reasoning, step by step.
 Use the following response format:
 <think>
-**your reasoning**
+'your reasoning'
 </think>
 <answer>
-"Chosen: A" if Assistant A is better or "Chosen: B" if Assistant B is better
+'your answer'
 </answer>
 """.strip(),
     "gemba-da-like": """
@@ -29,15 +29,15 @@ You are a deep-thinking translation evaluator.
 You are given a source text and a translation, and you need to evaluate the quality of the translation through reasoning, step by step.
 Use the following response format:
 <think>
-**your reasoning**
+'your reasoning'
 </think>
 <answer>
-**0 or 1 or 2 or ... or 100, depending on your judgement**
+'your answer'
 </answer>
 """.strip(),
     "gemba-esa": """
 Your task is to identify machine translation errors and assess the quality of the translation.
-""".strip()
+""".strip(),
 }
 
 USER_PROMPTS = {
@@ -57,6 +57,8 @@ The user asked the two translation assistants, Assistant A and Assistant B, to t
 [Start of Assistant B's Response]
 {assistant_b_response}
 [End of Assistant B's Response]
+
+If Assistant A's response is better than Assistant B's response, answer 'Chosen: A', otherwise answer 'Chosen: B'.
 """.strip(),
     "gemba-da-like": """
 Score the following translation from {source_language} to {target_language} on a continuous scale from 0 to 100,
@@ -69,6 +71,8 @@ where a score of zero (0) means "no meaning preserved" and score of one hundred 
 [Start of Translation]
 {translation}
 [End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.
 """.strip(),
     "gemba-esa-error-spans": """
 {source_language} source:
@@ -89,7 +93,7 @@ Score the following translation from {source_language} source:
 ```{translation}```
 Annotated error spans:
 ```{error_spans}```
-""".strip()
+""".strip(),
 }
 
 LANG_CODES = {
@@ -107,6 +111,10 @@ LANG_CODES = {
     'it': 'Italian',
     'pt': 'Portuguese',
     'nl': 'Dutch',
+    'hr': 'Croatian',
+    'liv': 'Livonian',
+    'hi': 'Hindi',
+    'is': 'Icelandic',
 }
 
 GEMBA_FEW_SHOTS = [

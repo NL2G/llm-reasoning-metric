@@ -1,0 +1,1801 @@
+prompt,result,lp
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+昨年３月には日本財団の助成を受け、児童の放課後預かり事業を行う新施設「ナオシマ セイラーズ クラブ」（木造２階、延べ約２００平方メートル）を新たに整備、オープン。子どものアート活動や調理実習、工場見学といった体験プログラムにも力を入れる。１０月には東京からプロの演出家を招き、利用する児童らによる演劇公演を開催した。
+[End of Source Text]
+
+[Start of Translation]
+去年3月，日本基金会资助，为进行儿童放学后托管事业而建造了新的设施“直岛海员俱乐部”（木造2层，面积约200平方米），并开放。将力求发展儿童的艺术活动、烹饪实践、工厂参观等体验项目。10月，邀请了来自东京的专业演出团队，举办了由利用该设施的儿童演出的剧场表演。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+75
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+佐賀―仙台 第３クオーター、ドライブからシュートを決める佐賀のチェイス・フィーラー＝宮城県のゼビオアリーナ仙台（（ｃ）Ｂ．ＬＥＡＧＵＥ）
+[End of Source Text]
+
+[Start of Translation]
+佐贺―仙台第３节，从传球开始决定射门的佐贺的追赶后卫＝宫城县的ＺＥＢＩＯ体育馆仙台（（ｃ）Ｂ．ＬＥＡＧＵＥ）
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+・もっくん教室 工作体験「動物のカチューシャ」
+[End of Source Text]
+
+[Start of Translation]
+・ Mokkun 教室 手工制作体验“动物头带”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+これがなんとモダンを使うと この準備されている必殺技ボタン一つを押すだけでこう波動が出たり 昇竜拳が出たりするっていうシステムになっております 簡単なのはもちろん格闘ゲームにおいて すごい考えなきゃいけない時間が多い中で 自分の操作を考えなくていいっていうのはもう
+[End of Source Text]
+
+[Start of Translation]
+这竟然是现代的，这个准备好的必杀技按钮，只要按下一个按钮，就可以发出这样波动，或者发出龙拳，或者发出龙拳，这个系统，当然，在格斗游戏中，有很多要考虑的时间，在自己的操作中，不需要考虑，这是另一个。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+60
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+異色の経歴を持つこの警察官は佐藤領哉巡査（２１）。昨春、糸生駐在所に赴任した。物腰柔らかで、地元では「三味線を弾く駐在さん」としてすっかり知られた存在だ。
+[End of Source Text]
+
+[Start of Translation]
+这位警察的经历与众不同，他是佐藤领哉巡査（２１），去年春天来到糸生派出所工作。他的性格温和，在当地被称为“三弦乐手派出所长”。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「伝七、功名競べだぞ」
+[End of Source Text]
+
+[Start of Translation]
+「传七，竞争功名吧」
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+80
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+服部は、自分同様全国小学生選手権で３位、昨年８月には３位入賞した全日本ジュニア14歳以下ダブルスでペアを組んだ森下結有（三重ＧＴＣ）をフルセットの末下した。「緊張する場面も笑顔で試合ができた」と決勝を振り返り「全国大会も攻めの意識でやり切りたい」と話した。
+[End of Source Text]
+
+[Start of Translation]
+服部，与自己一样在全国小学生锦标赛中获得第三名，去年8月在全日本少年14岁以下双打比赛中获得第三名的森下结有（三重GTC）在决赛中笑着面对紧张的场面，并说：“我想在全国比赛中保持进攻的意识来结束比赛。”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+75
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+スタートはきられました。赤も白もクラス全部の者が走るのです。門を出るときにはもう横の列が縦の列にかわっていました。しんがりはふたりです。次郎君と森川君です。
+[End of Source Text]
+
+[Start of Translation]
+我们有了一个良好的开端。所有班级都在运行，包括红班和白班。当我们走出大门时，横线已经变成了竖线。有两个新加里。二郎君和森川君。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+60
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+石川県は8日、能登半島地震の県内の死者が168人になったと発表した。
+[End of Source Text]
+
+[Start of Translation]
+石川县8日宣布，能登半岛地震在该县造成的遇难者人数已达168人。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+90
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+ふたりはだまっています。
+[End of Source Text]
+
+[Start of Translation]
+他们两个都在沉默着。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+80
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+バンコク隣県の違法クラブで飲酒の若者489人を補導 近隣住民から苦情
+[End of Source Text]
+
+[Start of Translation]
+曼谷邻省一家非法俱乐部指导 489 名年轻人饮酒，引发附近居民投诉
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+午後６時からは和泊中学校体育館でトークショーもあった。近本選手はあいさつで「今年も沖永良部からスタートできることを光栄に思っている。島の皆さんが自分よりも優勝を喜んでくれているのを感じた。連覇できるよう頑張っていきたい」と話した。
+[End of Source Text]
+
+[Start of Translation]
+下午6点开始，在和泊中学体育馆还举行了脱口秀。近本选手在致辞中说道：“今年能够再次从冲永良部岛出发，我感到非常荣幸。我感受到岛上的居民比我自己更高兴我获得了胜利。我会为了卫冕而努力的。”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+そこへ、監督の別府さんがすがたをあらわした。選手たちは、別府さんのまわりに集まって、めいめい、ぼうしをぬいで、あいさつをした。
+[End of Source Text]
+
+[Start of Translation]
+这时，教练别府先生出现了。选手们聚集到别府先生周围，各自摘下帽子，向他问好。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+英語以外の作品がゴールデングローブ賞のアニメ映画賞を受けるのは初めて。
+[End of Source Text]
+
+[Start of Translation]
+这是非英语电影首次获得金球奖最佳动画片奖。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+【男子優勝の義基耀（左）と女子優勝の服部天寧＝鈴鹿市御薗町のスポーツの杜鈴鹿で】
+[End of Source Text]
+
+[Start of Translation]
+【男子组冠军义基耀(左)和女子组冠军服部天宁在铃鹿市御薗町杜铃鹿参加体育比赛】
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「とく子がそうやると、気嵩な女形俳優が高ぶったときの恰好になるよ。河合武雄だね。僕は好きだね」
+[End of Source Text]
+
+[Start of Translation]
+“德子你那样，好像歌舞伎里高傲的女形演员，河合武雄，我喜欢。”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「向うは知らぬ。図書には図書の考えがある。おのおのには察しがつくまいか……この争いが拡がれば、廻座と譜代との全部に波及する。お家が二手に別れて争闘に及んだらどうなるか、この争いはどこまでもわしと長門の間で喰止めなくてはならん。疋田一族でこの理屈の分らぬ者はあるまい」
+[End of Source Text]
+
+[Start of Translation]
+“对方怎么想我不知道。但书院自有书院的道理。你们自己应该明白吧……这场争端如果扩大，会波及到所有巡回演出剧团和传统艺能世家。如果家族因此分裂成两派互相斗争，那还得了，这场争端必须由我和长门来承担。疋田一族中应该没有人不明白这个道理吧。”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+宮崎氏の最後の長編作品と銘打たれたこの作品は、アニメ映画部門で「ウィッシュ」や「マイ・エレメント」などのディズニー作品と賞を争った。
+[End of Source Text]
+
+[Start of Translation]
+这部被称为宫崎骏的最后一部长篇作品的电影，在动画电影类别中与迪士尼的《Wish》和《My Element》等作品争夺奖项。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+発生から８日で１週間となった能登半島地震は、いまだ被害の全容が見えず、インフラの機能不全で支援の手が届きにくい状況が続く。避難生活の長期化が見込まれる中、東日本大震災を経験した岩手県にできることは何か、岩手大の斎藤徳美名誉教授（地域防災学）に聞いた。
+[End of Source Text]
+
+[Start of Translation]
+能登半岛地震发生八天后，距离发生已过去一周，受损程度仍不清楚，而且由于基础设施故障，救援物资仍然难以到达该地区。由于疏散时间预计会延长，我们向岩手大学名誉教授斋藤望美（地区防灾研究）询问了经历了东日本大地震的岩手县可以做些什么。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+75
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+この日は風もほとんどない絶好のマラソン日和で、ランナーたちは思い思いのペースでゴールを目指した。福岡県の松浦崇之さんが１時間５分３４秒の大会新記録で総合優勝。佐賀県の選手では男子が小城市の溝田槙悟さん、女子は佐賀市の吉冨博子さんがトップだった。溝田さんは「沿道の応援に元気をもらい、楽しく走れた」と笑顔で話した。（青木宏文）
+[End of Source Text]
+
+[Start of Translation]
+当天几乎没有风，是极佳的马拉松比赛天气，跑步者们各自以自己的节奏向终点冲刺。福冈县的松浦崇之以1小时5分34秒的比赛新纪录获得了总冠军。佐贺县的选手中，男子冠军是小城市的沟田槙悟，女子冠军是佐贺市的吉冨博子。沟田笑着说:“沿途的欢呼声给我带来了活力，让我开心地跑完了比赛。”(青木宏文)
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+常識的にはそう考えるので、 私自身としては線量がより低いということは、常識的には普通の考え方かなと思っております。 県内と県外で区別するのは難しいんじゃないかなと思います。 というのは、チェルノベリーの後の事故でも、今回の福島の事故の後でも、
+[End of Source Text]
+
+[Start of Translation]
+在更高层次上，我们会这样认为，因此，我个人认为，线量更低意味着是常识上的正常想法。我认为区分内地和外地很困难。这是因为，在切尔诺贝利事故之后，以及在福岛事故之后，
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+タイ政府は先ごろ、観光促進を目的に酒税を大幅に引き下げることを決めたが、飲酒に起因する問題に取り組んでいる市民団体「ストップ・ドリンク・ネットワーク・タイランド」はこのほど、「政府はひとつの問題を解決するために別の問題を引き起こそうとしている」と強く批判した。
+[End of Source Text]
+
+[Start of Translation]
+泰国政府最近决定大幅降低酒税以促进旅游业，但致力于解决饮酒相关问题的民间团体“停止饮酒网络泰国”最近强烈批评说：“政府试图通过解决一个问题来引发另一个问题。”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+安全上の理由などから自宅にとどまることができない被災者に対しては、自衛隊などが食料、水、毛布などの物資を届けている。
+[End of Source Text]
+
+[Start of Translation]
+自卫队和其他人正在向那些出于安全原因无法留在家中的人运送食物，水，毯子和其他用品。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+どうか、あの薄情な蹴返し方をして行く少年の踵と、雪履との間に、小石でもはね込み、少年がぐさとそれを踏み付けて、悲鳴をあげたらさぞ腹が癒えることだろう。小石よはね込め、とそんなことを念じながらあとを追ってゆく。
+[End of Source Text]
+
+[Start of Translation]
+请尽量让那个冷漠地踢回球的少年的脚后跟和雪靴之间投入一些小石子，当少年不慎踩到它们并发出悲鸣声时，我的心会好一些。我在想着这一点，紧紧追随着他们。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+老いも若きも、みんな息を弾ませ、眼を輝かしていた。
+[End of Source Text]
+
+[Start of Translation]
+每个人,无论老少,都屏住了呼吸,眼睛里充满了光芒。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+80
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+タイ警察当局は１月７日、バンコクの北隣パトゥムタニ県のクローンルアン郡で違法営業クラブ「ヘブン・ランシット」を手入れ。未成年の若者ら489人を補導した。同店のマネジャーは若者の飲酒を認めた容疑で逮捕されたが、オーナーは現在海外旅行中とのことで、警察は帰国し次第に取り調べを行う予定だ。
+[End of Source Text]
+
+[Start of Translation]
+1月7日，泰国警方突击搜查了位于曼谷北部巴吞他尼府Khlong Luang区的非法经营俱乐部“Heaven Rangsit”。他们为 489 人提供了指导，其中包括未成年人。该店经理因涉嫌允许年轻人饮酒而被捕，但据称店主目前正在国外旅行，警方计划在他回国后立即对他进行调查。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+第１クオーター開始から佐賀が主導権を握った。角田太輝が１４得点と奮起して９点のリードを奪った。第２クオーターは両者が互いに堅く守り、３８―２５で折り返した。
+[End of Source Text]
+
+[Start of Translation]
+从第一节开始，佐贺就掌握了主导权。角田太辉振作精神，得到14分并取得了9分的领先。第二节双方都坚守阵地，以38-25的比分结束了上半场。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「はははは、うまくやってるぜ、時公」
+[End of Source Text]
+
+[Start of Translation]
+“哈哈哈,做得很好啊,时公。”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+95
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+わたしはお祖母さんに病院の玄関を送り出され、いつも待合せる場所になっている鉄道馬車通りの交番の角まで来ると、少年は柳の幹に背を靠らせて待受けていた。
+[End of Source Text]
+
+[Start of Translation]
+我被祖母送到医院门口，当我来到通常等待的地点——铁路马车街的警察局拐角时，少年正背靠在柳树干上等待着。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+初春の寄席の高坐で「牡丹燈籠」を口演する者はない。春芝居の舞台に「四谷怪談」を上演した例を知らない。そう考えると、全くこれは難題であると思ったが、一旦引受けた以上、今更逃げるわけにも行かない。私が若い時、狂歌の会に出席すると、席上で「春の化物」という題を出された。これも難題で頗る閉口したが、まあ我慢して左の二首を作った。
+[End of Source Text]
+
+[Start of Translation]
+在早春的yose的高座坐着，没有人说""牡丹托罗""。我不知道在春季戏剧的舞台上表演""四谷开丹""的例子。考虑到这一点，我认为这根本是一个挑战，但一旦我接受了它，我就不能再逃跑了。当我年轻的时候，当我参加一个kyoka派对时，我被授予了""春天怪物""的称号。""这也是一个难题，但我忍了，做了左两个头。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+60
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+確実にヒットが打てさえすれば、むりにバントをするにはおよばない。
+[End of Source Text]
+
+[Start of Translation]
+只要能肯定地打出安打，就不需要勉强去打牺牲打。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+被害が最も大きかった地域では、さらなる地震が続く中、警戒を続けるよう人々への呼びかけが行われている。
+[End of Source Text]
+
+[Start of Translation]
+在受灾最严重的地区，在余震持续的情况下，正在呼吁人们继续保持警惕。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+――打てる。
+[End of Source Text]
+
+[Start of Translation]
+联盟集群。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+20
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「オーケー。」
+[End of Source Text]
+
+[Start of Translation]
+""好的。""
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+100
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+服部は、自分同様全国小学生選手権で３位、昨年８月には３位入賞した全日本ジュニア14歳以下ダブルスでペアを組んだ森下結有（三重ＧＴＣ）をフルセットの末下した。「緊張する場面も笑顔で試合ができた」と決勝を振り返り「全国大会も攻めの意識でやり切りたい」と話した。
+[End of Source Text]
+
+[Start of Translation]
+服部在全国小学生选手赛中获得了第三名，去年8月与森下结有（三重GTC）组成了全日本14岁以下双打队，并在决赛中击败了全场队伍。回顾决赛，他说：“在紧张的场面中也能笑容满面地比赛”，并表示希望在全国大会上也能积极进取。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+キッズポートの子育て支援拠点を利用する親子＝直島町総合福祉センター
+[End of Source Text]
+
+[Start of Translation]
+利用儿童港育儿支援据点的父母和孩子＝直岛町综合福利中心
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+紅白の帽子の列が東と西に向きあってならんでいます。先生がまん中で笛をふきました。わあっとかん声があがります。紅白の波は向きあって進んできてぶつかります。それからはいりみだれて帽子のとりっくらです。勝負なかばでふたたび笛が鳴ります。すると帽子をとられた者も、まだとられない者もさあっと東西にひきあげていきます。
+[End of Source Text]
+
+[Start of Translation]
+红色和白色的头盔排成一字形，老师站在中心吹了个哨后就响起了一阵欢呼声。“咚”的一下两条大水浪撞击到一起而形成一个巨大的涟涌——所有人都被卷进去！
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+60
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+町が移住者を対象に開いた座談会を契機に、地域おこし協力隊員だった山岸紗恵さん（４２）ら母親４人が２０２０年３月に「キッズポート」を設立。子育て支援拠点として町総合福祉センターの一室を常時開放し、子どもや親子が自由に遊具などで遊べるようにした。
+[End of Source Text]
+
+[Start of Translation]
+以当地政府为移居者举办的座谈会为契机，当地社区发展合作队员山岸纱惠（42岁）等四名母亲于2020年3月成立了“Kids Port”。作为育儿支援基地，该机构将位于当地综合福利中心的一间房间长期对外开放，让孩子和家长可以自由使用玩具等玩耍。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+ステーキが人気のショップで、 ややカジュアルめなアメリカンダイニング系の、 グリルのステーキとか、 リブがおすすめの店となります。 インターナショナルマーケットプレイスのクヒオ側にありまして、 営業は通しで、 朝食が朝6時から食べれるんですよ。 ランチはコロナ禍で一旦お休みながら、 ディナーは月曜から木曜で3時から9時で、
+[End of Source Text]
+
+[Start of Translation]
+这是一家以牛排闻名的餐厅，是一家比较休闲的美式餐厅，主打烤牛排和排骨。它位于国际市场的库希奥河边，全天营业，早餐从早上6点就开始供应了。午餐因为疫情暂停了一段时间，晚餐时间是周一到周四的下午3点到晚上9点，
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+80
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+札医大開発の脊髄損傷の再生医療薬 承認から５年で約１５０人治療＜骨髄損傷＞（動画）：北海道新聞デジタル
+[End of Source Text]
+
+[Start of Translation]
+札医大开发的脊髓损伤再生医疗药物获批 5 年内治疗约 150 人 < 骨髓损伤 > (视频): 北海道新闻数码
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+80
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+一塁では、ランナーの岩田が足をそろえて、ぴょん、ぴょんと、はねている。足ならしをして、走塁の準備をしているのだ。
+[End of Source Text]
+
+[Start of Translation]
+一垒上，跑垒员岩田脚步齐整，轻快地跳跃着。正在做脚步准备，准备跑垒。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+75
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+だが、野球の試合で、監督の命令にそむくことはできない。星野は、別府さんの作戦どおり、バントで岩田を二塁へ送るつもりでバッターボックスにはいった。
+[End of Source Text]
+
+[Start of Translation]
+但是，在棒球比赛中，无法完全服从教练的指示。星野按照别府的策略，打算用打飞球将岩田打到二垒，于是进入打者方位。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+タイ政府は先ごろ、観光促進を目的に酒税を大幅に引き下げることを決めたが、飲酒に起因する問題に取り組んでいる市民団体「ストップ・ドリンク・ネットワーク・タイランド」はこのほど、「政府はひとつの問題を解決するために別の問題を引き起こそうとしている」と強く批判した。
+[End of Source Text]
+
+[Start of Translation]
+泰国政府最近决定大幅降低酒税，以促进旅游业，但一家致力于解决酒精问题的民间组织“停止饮酒网络泰国” (Stop Drink Network Thailand)最近发表声明强烈批评称，“政府正在为了解决一个问题而引发另一个问题”。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+ぐずぐずしているわけにはいかなかった。
+[End of Source Text]
+
+[Start of Translation]
+我没有办法拖拖拉拉。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「いいかい、シェパードなんかこわがることはないよ。しっかりやるんだぜ。ビスケットをうんとおごるからね。」
+[End of Source Text]
+
+[Start of Translation]
+“你听好了，绝对不要害怕牧羊犬。要坚强。我会给你买很多饼干的。”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+80
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+第二の角を次郎選手と森川選手がほとんど同時にまわりました。するとふたりはもうすっかりとりのこされてしまっていることを知りました。前をいく者はみなもう第三の角をまわってしまっていて、檜葉垣ぞいの静かな道にはとんぼがとんでいるばかりです。
+[End of Source Text]
+
+[Start of Translation]
+次郎选手和森川选手几乎同时转过第二个拐角。这时他们才意识到自己已经完全被甩在后面了。前面的选手们都已经转过第三个拐角，沿着柏树篱笆的安静道路上只有蜻蜓在飞舞。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+ところが真中にふたりの少年がお互いに相手の腕をつかんだままにらみあって立っています。足を四方にふんばっていっかな動こうとしません。そのくせふたりとも帽子はとっくにとられて頭は陽にさらされているのです。ふたりは次郎くんと森川くんです。
+[End of Source Text]
+
+[Start of Translation]
+但是真正中间，两个少年互相抓住对方的手臂，盯着对方看着站着。四周都用脚支撑着，似乎不愿意移动。然而两个人的帽子都被拿走了，他们的头顶暴露在阳光下。这两个人分别是次郎和森川。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+75
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+コンタクトレンズメーカーのメニコン（本社名古屋市）は２０１５年の上場以来、８年連続で過去最高益を更新している。会員制のコンタクトレンズ定額サービス「メルスプラン」の会員を獲得できたことが大きく寄与し、23年３月期売上高は前期比10・０％増の１１０１億９４００万円、純利益は13・８％増の73億７７００万円だった。24年３月期も売上高１１６０億円、純利益76億円で、増収増益を予想。数値目標として掲げる26年３月期の売上高１４００億円達成に向け、順調に歩を進めている。
+[End of Source Text]
+
+[Start of Translation]
+日全联接眼镜公司(总部在东京)，从2015年开始一直保持着8年的连续增长纪录。一个重要的原因是它能够获得“MelS Plan”的成员,这是一项专属于付费订阅服务客户提供的一种联系式隐形视网膜产品 (CPL)。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+40
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+とにかくすごいゲーム さあ第1位は デスティニー なんと 5億ドル 本作はヘイローシリーズで有名な バンジーが開発 アクティビションが発売を手掛ける ゲームタイトルでした まさかのデスティニーが第1位で 5億ドル 発売前から約束された神ゲーとして とにかく期待がデカすぎた今作 いざ発売となり なんと1日で開発費を回収
+[End of Source Text]
+
+[Start of Translation]
+总之是了不起的游戏，那么第一名的是命运，竟然5亿美元，这款游戏是由邦吉（Bungie）开发的，动视（Activision）发行的游戏，它著名的光环系列。命运排名第一，5亿美元，这款游戏在发售前就被视为是神作，备受期待，但发售后却因各种问题而备受批评。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+よし、ここで一点。その一点で、勝敗がきまるのだ。Ｒクラブの選手たちの顔は、急に明るくなった。郡内少年野球の選手権大会の、出場チームになることができるかもしれない。
+[End of Source Text]
+
+[Start of Translation]
+好的，这里有一分。就凭这一分，胜负就能决定。R俱乐部的选手们的脸色，突然变得明亮起来。他们可能有机会成为郡内少年野球锦标赛的参赛队伍。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+で、かなり掘り下げていきます。 ドラマーの人もいるかもしれないので、 これ、鍵盤なんですね。 で、ここの矢印がついているところのEとF、ね、ミとファの間とシとドの間、 この間のところが、ここが半音になっているんですよ。 2つ進む、2つ進んで1個進むみたいな。 これがすごいキーになっているわけですね。
+[End of Source Text]
+
+[Start of Translation]
+然后，我会深入讲解一下。 可能也有鼓手在看， 这其实是键盘。 然后，这里有箭头的E和F之间，也就是mi和fa之间，以及si和do之间， 这两个音之间是半音。 像这样，前进两格，前进两格，再前进一格。 这就是关键所在。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+３連覇が懸かった前回大会は、試合前の新型コロナウイルス検査で一部選手に陽性が疑われ、欠場に追い込まれた。その雪辱を期した今大会は国体２位の金蘭会（大阪）、前回準優勝の誠英（山口）など強豪を次々と撃破し、全６試合で１セットも失わなかった。
+[End of Source Text]
+
+[Start of Translation]
+在上届赛事中，球队的三连冠岌岌可危，一些球员在赛前新冠检测中呈阳性，迫使他们缺席退出。本场以雪耻为目的的比赛中，他们先后击败了全民体育大会亚军的金兰会（大阪）、上届亚军诚英（山口）等强队，6场比赛一局未丢。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+山の手から下町へ移って寝起きする少女のわたしにはすべてのものが珍しかった。下町の生活は屋根の生活でもあった。瓦屋根、トタンやブリキ屋根、それ等を海とも花野とも眺め渡しながら、朝夕、見交し合ういくつかの二階の窓、いくつかの物干台に隠見する人間たちは草双紙の中に出て来る人物のように一々、いわくあり気に、しかも手軽るに馴染めそうにも思えた。ましてわたしの病室の窓の、真向きに当る物干台の上にしょっちゅう現れる気さくな少年と、わたしが親しくなれたのになんの手間暇はいらなかった。空地の少い下町では物干台は運動場でもあり庭でもあった。そこの朝顔鉢に少年はよく水をやりに出た。
+[End of Source Text]
+
+[Start of Translation]
+作为一个从山区搬到闹市区的小女孩，一切对我来说都是新鲜的。市中心的生活也是屋顶上的生活。瓦片屋顶、瓦楞铁皮、铁皮屋顶，俯瞰大海和花田，每天早晚躲在二楼窗户和彼此晾衣架里的人们，都那么风度翩翩。 ，就像你会遇到的一个人，而且你似乎很容易就习惯他。更重要的是，我没费多少功夫就和那个经常出现在我病房窗户正对面的晾衣架上的友善男孩成为了朋友。在市中心空地很少的地方，晾衣架既是游乐场又是花园。男孩经常出去给那里的牵牛花盆浇水。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+高専生の松尾雄伊さん（有田町）は、１日に発生した能登半島地震を挙げた。深刻な被害や被災地支援が連日報じられる中、「平穏な日常が決して当たり前ではなく、幸せなことだと感じた」と話した。
+[End of Source Text]
+
+[Start of Translation]
+就读于高等专门学校的松尾雄伊先生（有田町）提到了1月1日发生的能登半岛地震。在连日报道灾区的严重损失和援助活动的情况下，他说：“我感到平静的日常生活并非理所当然，而是一种幸福”。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+真下には、 緑豊かなやんばるの森が広がっています。 沖縄の美しい自然と一体化したOISTキャンパスを感じながら、空中散歩ができる一番人気のスポットです。 こちらは、故シドニー・ブレナー博士の銅像です。 2002年にノーベル生理学医学賞を受賞した科学者で、OISTの創設にとても重要な役割を果たしてくれました。
+[End of Source Text]
+
+[Start of Translation]
+在正下方，綠色的森林正在蔓延。感受与冲绳美丽的自然融为一体的OIST校园，是最受欢迎的景点，同时可以在空中散步。这是悉尼布伦纳博士的铜像。2002年获得诺贝尔生理学医学奖的科学家，在OIST的创立中发挥了非常重要的作用。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+佐賀―仙台 第３クオーター、ドライブからシュートを決める佐賀のチェイス・フィーラー＝宮城県のゼビオアリーナ仙台（（ｃ）Ｂ．ＬＥＡＧＵＥ）
+[End of Source Text]
+
+[Start of Translation]
+佐贺vs仙台 第三节，佐贺队的蔡斯·菲勒带球过人并投球=宫城县仙台XEBIO体育馆（(c)B联赛）
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+60
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+ただ、被災地では悪天候が救助活動の妨げとなっている。大雨と雪による土砂崩れや建物倒壊への警戒が呼びかけられている。
+[End of Source Text]
+
+[Start of Translation]
+不过，在灾区，恶劣天气阻碍了救援活动。因大雨和雪崩而引起的泥沙崩塌和建筑倒塌的警戒。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+バレーボールの第７６回全日本高校選手権（春の高校バレー）最終日は１月８日、東京体育館で男女の決勝が行われた。男子は福井県勢の福井工大福井が、前回覇者の駿台学園（東京）に０－３で敗れたものの、福井県勢初の準優勝を果たした。
+[End of Source Text]
+
+[Start of Translation]
+第76届全日本高中排球锦标赛（春季高中排球）的最后一天，男子和女子决赛于1月8日在东京体育馆举行。 在男子比赛中，福井县福井工业大学福井分校成为福井县第一支获得亚军的球队，尽管以0-3输给了卫冕冠军Sundai Gakuen（东京）。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+80
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+西ごうたかもりはその声に応じて板塀の下をくぐり、紫苑をかきわけて姿をあらわしました。
+[End of Source Text]
+
+[Start of Translation]
+西吾高盛（西吾高盛）在听到声音后从围栏底下钻了过去，并在紫苑（紫苑）旁边露出了头。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+60
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「みんな、きのうは、よくやってくれたね。おかげで、Ｒクラブは待望の選手権大会に出場できることになった。おたがいに喜んでいいと思う。ところで、きのうのみんなの善戦にたいして、心からの祝辞をのべたいのだが、ぼくには、どうも、それができないのだ。」
+[End of Source Text]
+
+[Start of Translation]
+“大家，昨天你们表现得很好。多亏了你们，R俱乐部终于有机会参加期待已久的选手权大会。我想我们都有理由庆祝。但是，我想诚挚地祝贺大家昨天的表现，但是我似乎无法做到。”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+また面積の差がS-Tが最大になるとき S-Tのマックス sin θを求めよ ベテランちさんこれはどちらの問題とかあるんですか これは早稲田大学の問題ですね 実際出された 難易度どれぐらいですか 赤ちゃんぐらいですね じゃあちょっと時間を決めて 区切りますか
+[End of Source Text]
+
+[Start of Translation]
+还有，面积的区别是最高点发生在什么地方呢最高值是在哪里我们要找多少个衫子。比如说这个问题来自于上智大那么实际答案出来了大概难度是什么程度啊也就是一个宝贝儿小孩的样子而我们来决定一下时间然后把它划分成几段
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+40
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+・初心者児童スケート教室
+[End of Source Text]
+
+[Start of Translation]
+・初学者儿童滑冰课程
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+ロナウドの完璧な飛び出しからヘッドでのゴール 当然ロナウドは大喜びこれを見てさすがロナウドと思った方も多いはず しかしこのゴールはロナウドのものではなくパスを出したブルーノフェルナンデスのものだと表示が ロナウドはボールに触っていないという判断でした こちらがその時の写真髪の毛には当たっているように見えます ネット上でも真剣な議論がしかしこの問題に終止符が打たれました
+[End of Source Text]
+
+[Start of Translation]
+罗纳尔多的完美飞身头球进球 当然罗纳尔多非常高兴看到这个场景的人一定很多都会认为这是罗纳尔多的功劳 但是这个进球并不属于罗纳尔多，而是布鲁诺·费尔南德斯的助攻 罗纳尔多没有触球的判决 这里是当时的照片，头发似乎碰到了球 网上也引发了激烈的讨论，但这个问题终于被画上了句号。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「前からほしいほしいと思っていた犬をお父さんが買ってきてくれた。シェパードである。毛がふさふさしていてかるく走るとき、それがゆらゆらゆれてみるからに美しい。
+[End of Source Text]
+
+[Start of Translation]
+“我一直想着要一只狗，父亲给我买来了。那是一只牧羊犬。毛发蓬松，当它轻轻跑动时，毛发飘逸，显得非常美丽。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「いつでも立ち寄れ、親同士でいろいろな相談ができる場を提供することが大切」と事務局長の植松清華さん（４１）。息子（２）と利用する女性（３５）は「安心して遊べる場はとても助かる。知り合いが少ないので、他のお母さんたちと話せて息抜きにもなる」という。
+[End of Source Text]
+
+[Start of Translation]
+“重要的是提供一个可以随时停留，家长之间可以互相咨询各种问题的地方”，事务局长植松清华女士（41岁）如是说。带着2岁儿子来这里玩耍的一位女士（35岁）表示：“有一个可以安心玩耍的地方真的帮了大忙。我认识的人不多，能和其他孩子的妈妈们聊天也能让我放松一下。”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+宇女が疋田家へ嫁したのは去年、寛永十七年の二月であった……疋田は秋田藩佐竹家の老職で二千三百石だし、宇女の家は平徒士で二百石余の小身だったが、疋田の嗣子主馬が宇女をみそめ、たっての望みで縁が結ばれたのである。嘉右衛門は初めから反対だった。身分が違いすぎるのと舅になる疋田図書が権高な一徹人で、この縁組をなかなか承知しなかったという事実を知っていたからである。しかしついには主馬の懇望が通って祝言が挙げられ、宇女は疋田家へ輿入れをした……良人は愛してくれたけれども家格の相違に比例して生活の様式も違うし、そのうえ家士と小者を加えると八十人に余る家族なので、異った習慣に馴れつつこの人数の台所を預る苦心は大抵のことではなかった。
+[End of Source Text]
+
+[Start of Translation]
+宇女嫁到疋田家是在去年，宽永十七年的二月……疋田是秋田藩佐竹家的老职，拥有二千三百石的俸禄，而宇女的家是平徒士，拥有二百石余的小俸禄，但疋田的嗣子主马爱慕宇女，终于结成姻缘。嘉右卫门从一开始就反对，因为疋田图书是权高的一徹人，知道这个姻缘很难被承认。然而，主马的恳请终于被接受，举行了祝言，宇女嫁到疋田家……良人爱她，但是由于家格的差异，生活方式也不同，加上家中有八十多人，包括家士和小者，所以她需要适应不同的习惯，并承担这个大家庭的厨房的重任，这确实不是一件容易的事。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「だが、よく聞いてもらおう」
+[End of Source Text]
+
+[Start of Translation]
+“但是，请你仔细听我说。”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「吐かせ、わしが来ずに戦ができるか。お主こそ老眼で過すなよ」
+[End of Source Text]
+
+[Start of Translation]
+「你能不能把战斗留给我,不让我来吗? 你别老眼了。」
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+60
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+義基と服部が三重県代表 テニスＭＵＦＧジュニアトーナメント - 伊勢新聞
+[End of Source Text]
+
+[Start of Translation]
+义基与服部代表三重县参加网球MUFJ少年锦标赛 - 伊势新闻
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「兄上さま」
+[End of Source Text]
+
+[Start of Translation]
+兄上殿下
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+80
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+という口上で、その年の霜月に実家へ帰された。数日後には持っていった荷物も返されてきた。
+[End of Source Text]
+
+[Start of Translation]
+据口头说法，在那年的霜月，他被送回了家乡。几天后，他带走的行李也被送了回来。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+地震からどう身を守るか。台湾の語学センターで学んでいた時、その対応方法を説明した中国語のテキストを読む機会があった▼印象に残っているのは、海外の学生が「地震は怖い」と真剣な表情で話していたことだ。中国語の授業を通じて、台湾で起こりうる災害について理解できるようになっていた▼台湾では、1999年9月に大地震が起きた。2018年の地震では、花蓮市でホテルが倒壊している▼台湾も日本も地震国だ。地震の少ない国から来た人には特に、地震は不安材料になりうる▼能登半島地震では「避難所にはベトナムなどから来た外国人も100人ほど身を寄せ、言葉が通じない問題もあるという」（6日付「朝日新聞」）と報じられている。6日に放送されたＮＨＫのラジオ番組「ちきゅうラジオ」では、避難所で配られる食事が無料か有料かがわからず、戸惑う外国人もいるとの指摘があった▼インバウンド観光や外国人労働者の受け入れを通じて、多言語対応への経験は蓄積されてきた。石垣市観光危機管理計画では、インバウンド対応に関連して、コミュニケーションの難しさへの配慮を挙げている▼災害時に外国人をどうケアするかは古くて新しい課題だ。海外で被災したのが「私」だったとしたら。そう思うと、身につまされる。（松田良孝）
+[End of Source Text]
+
+[Start of Translation]
+如何在地震中保护自己。我在台湾的语言中心学习时，有机会阅读了一篇介绍如何应对这种情况的中文课文 ▼ 给我留下深刻印象的是留学生们脸上严肃的表情，他们告诉我地震很可怕。通过中文课，他们了解了台湾可能发生的灾害 ▼ 1999 年 9 月，台湾发生了大地震；2018 年的地震中，花莲市一家酒店倒塌 ▼ 台湾和日本都是地震多发国家。在能登半岛地震中，据《朝日新闻》11 月 6 日报道，""约有 100 名来自越南等国的外国人住在避难中心，语言交流存在问题""（《朝日新闻》，11 月 6 日）。6 月 6 日播放的 NHK 广播节目 ""Chikyu Radio ""指出，一些外国人不知道避难所提供的食物是免费的还是收费的，因此感到困惑。石垣市旅游危机管理计划》指出，在入境应对方面要考虑沟通困难的问题 ▼ 如何在灾害发生时照顾外国人是一个新老问题。如果在国外受灾的是 ""我 ""怎么办？想到这里，我觉得自己变得紧张起来。（以下是调查结果的摘要）。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+次郎君はかばんをお母さんの横へどしんと投げ出しておいて帽子もとらないでうら口へいき、
+[End of Source Text]
+
+[Start of Translation]
+次郎要把袋子扔到母親的旁邊、不要戴帽子、直到嘴裡
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+40
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「森川君、ゆっくりいけよ。」
+[End of Source Text]
+
+[Start of Translation]
+森川君，慢慢来。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+95
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+大学生の小田琉葵さん（武雄市）は税金問題に着目し、「社会人となって税金を払う側になった時に、どのように使われるのかとても気になる」。昨年発覚した中古車販売大手ビッグモーターによる自動車保険の保険金不正請求や、ダイハツ工業による車両の認証不正問題を巡り「不信感はとても強い」「安全面で不安になった」とする意見もあった。
+[End of Source Text]
+
+[Start of Translation]
+来自武雄市的大学生小田琉葵先生关注税务问题，「当我成为社会人，开始缴纳税款时，我非常关心税款将如何被使用」。去年曝光的中古车销售巨头Big Motorter的汽车保险金不正索赔事件，以及ダイハツ工业的车辆认证不正问题，「我对此感到非常不信任」，「我对安全方面也感到不安」，他表示。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+次郎君はかばんをお母さんの横へどしんと投げ出しておいて帽子もとらないでうら口へいき、
+[End of Source Text]
+
+[Start of Translation]
+次郎把书包扔在妈妈旁边，也没戴帽子就跑出去玩了。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+80
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+まずその図を書く前に問題文を全部読み切って 頭の中でこういう図だなっていうのを先にイメージしてから書かないと 例えばだからこれだったら円があって その外に菱形が内接してる風に書いた方が図が綺麗に書けます これ後から円をこう入れてるから変な図になっちゃって解きづらくなるんですけど ちゃんとこの問題文を頭の中で整理できてたら
+[End of Source Text]
+
+[Start of Translation]
+在画图之前，先把题目读完，在脑子里先把图想出来，然后再画。比方说，如果是这个图，应该先画一个圆，然后在外面画一个内接的菱形，这样画出来的图就会很漂亮。像这样之后再画圆，就会变成很奇怪的图，解题也会变困难。所以一定要在脑子里先把题目整理好。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+シアトル市では13日（土）に、アプリベースで飲食店の宅配サービスを行う労働者の権利を保護する新しい条例が施行された。同条例はシアトル市議会が2022年5月31日に可決。Uber EatsやDoordashなどのサービスを提供するネットワーク企業は、ドライバーに対し走行距離と労働時間に対する最低限の支払いを義務付けられ、サービスを利用する消費者が支払う手数料は上昇する。市はこの条例について、ギグワーカーがシアトルの他の労働者と同等の最低賃金を受け取れるようにするためのものだとしている。アプリベースのデリバリー・ドライバーにとって安定した最低賃金が保証されるという賛成意見がある一方、アプリの運営企業や飲食店経営者らは、デリバリー・コストの上昇で注文数が減り、配達を行う労働者やレストランなどが悪影響を受けることを懸念している。
+[End of Source Text]
+
+[Start of Translation]
+西雅图市于13日（周六）实施了一项新法规，以保护基于应用程序的餐厅配送服务工人的权利。该法规于2022年5月31日获得西雅图市议会通过。Uber Eats、Doordash等服务提供商将被要求向驾驶员支付最低限度的行驶距离和劳动时间报酬，而消费者使用服务时需要支付的手续费将上涨。市政府称，这项法规旨在使零工者获得与西雅图其他劳动者相同的最低工资。有人认为，这项法规将为基于应用程序的配送驾驶员提供稳定的最低工资保障，但应用程序运营商和餐厅老板们则担心配送成本的上涨将导致订单减少，影响配送工人和餐厅等。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+初春の寄席の高坐で「牡丹燈籠」を口演する者はない。春芝居の舞台に「四谷怪談」を上演した例を知らない。そう考えると、全くこれは難題であると思ったが、一旦引受けた以上、今更逃げるわけにも行かない。私が若い時、狂歌の会に出席すると、席上で「春の化物」という題を出された。これも難題で頗る閉口したが、まあ我慢して左の二首を作った。
+[End of Source Text]
+
+[Start of Translation]
+初春的寄席高座上没有口述“牡丹灯笼”的人。我不知道在春天的戏剧舞台上有“四谷怪谈”的演出。这么一想，这真是一个难题，但既然已经答应了，现在也不能逃避了。我年轻时，参加过一次狂歌会，在席间被要求即兴创作一首名为“春天的化物”的狂歌。这也是一道难题，我很为难，但还是忍着创作了左边的两首狂歌。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+75
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+あの、実際そういう人たちが出てきてるわけですから、 ま、そういう人たちの気持ちを思うと、 ま、ちょっとやりきれないなっていうのは思いますね。 ま、自分はね、しょうがないんですけど、 その、全く身に覚えがないことで、 あんな辛い思いをするのは、
+[End of Source Text]
+
+[Start of Translation]
+一想到那些人的感受，我就有点同情他们。 好吧，我也没办法，但因为一件我完全不记得的事而经历如此痛苦的经历.....、
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+こちらベータでは伸縮性のある合成皮革、ベータメッシュが採用されています。 なのでネオ3とベータでは、甲や中足部のフィット感やシュータンのあるなし 当たる感覚が違うのが大きいかなという風に思います。 また履き口周りはベータが甲部分の延長のニットが使われているのに対して、
+[End of Source Text]
+
+[Start of Translation]
+在Beta中采用了具有伸缩性的刚性比较的Beta网格。因此，与Neo3和Beta相比，我们可以感受到脚部或侧部侧面的贴合度和鞋舌的不同。脚是否存在，感觉到不同的地方是很大的。此外，在鞋口周围，Beta使用了后部延伸的尼龙，而Neo3使用了...
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+60
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+発生から８日で１週間となった能登半島地震は、いまだ被害の全容が見えず、インフラの機能不全で支援の手が届きにくい状況が続く。避難生活の長期化が見込まれる中、東日本大震災を経験した岩手県にできることは何か、岩手大の斎藤徳美名誉教授（地域防災学）に聞いた。
+[End of Source Text]
+
+[Start of Translation]
+能登半岛地震发生已过去一周，但灾情仍未完全明朗，基础设施瘫痪导致救援物资难以送达的情况仍在持续。预计避难生活将长期化，那么经历过东日本大地震的岩手县能做些什么呢？我们就此采访了岩手大学名誉教授斋藤德美（地域防災学）。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+なんと云っても、怪談は支那が本場である。日本に伝来の怪談は畢竟わが国産ではなく、支那大陸からの輸入品が多い、就ては、先ず支那を中心として、日本と外国の怪奇談を少しく語りたい。
+[End of Source Text]
+
+[Start of Translation]
+说到中国的鬼故事，中国无疑是其原产地；在我国所传的许多恐怖小说中有很多来自于中华大陆;而我们首先要讲的是有关华夏和世界各地诸多妖精幻术的小故事
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+いや、こないだあのー 今、里さんって言おうとしたら 里崎って始めちゃったんで 里崎ー! 里崎って言いにくいんですよ 人のせい。アナウンサーなのに 言いにくい。すいません。 あのー、ラジオやらせていただいて ザ・ベイラインで、ベイFMで 聴いてもらえましたかね? ね、どうでしょうね! でもなんか、よかったっすよ。 袴田さんの声が聞きやすかったっていう。 社内は… 好評でした。 嬉しい!
+[End of Source Text]
+
+[Start of Translation]
+不，前几天那个，本来想说里さん的，结果一开始就说成了里崎，所以还没改过来呢。 前辈：“里崎ー！” 里崎这名字真难念啊w 前辈：“怪谁啊，还不是因为你…w 都是里崎桑的错…w 太难念了w 不好意思w” 那个，承蒙您让我做广播。 前辈：“在The Bay Line，FM Bay，大家有收听吗？”  不知道怎么样呢！ 前辈：“不过，好像还不错。都说坂本桑的声音很好听。公司内部…评价很高。 太棒了！”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+エンゼルスの外野手 マイク・トラウト 近年こそは怪我との戦いが続き なかなか思うようにフルシーズン出られなくなっているかもしれませんが それでも試合に出ている時の彼はリーグでも相変わらずトップクラスの選手なわけで また2010年代の彼のパフォーマンスはMLBの中でも異次元の存在でした ただそんなトラウトですがMLBデビューを果たした2011年
+[End of Source Text]
+
+[Start of Translation]
+安吉尔队的盖伊 ·麦克 ·特劳特 （ Mike Trout ）虽然近年来受伤病困扰，不得不减少出场次数，但在他出场的比赛中，他依然是联盟中最好的球员，2010年代，他在大联盟中的表现是异乎寻常的，2011年，他在大联盟中首次亮相。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+少年はわたしの病室へ出入りをするようになってずいぶん横着でわが儘に振舞った。わたしは富家に育った権威振った考えから、なんの下町の貧乏人のむす子が少しの美貌を盾にしたところでと、蔑みもし口惜しがることもあったけれど、お祖母さんは王子に侍く老女のようにただただ少年の機嫌を損ずることを惧れた。そしてわたしを引廻す少年の圧制振りを大満足をもって眺め、それに就て争うわたしの不平さえ、快い噂のように笑みくずれて聞き惚れるのであった。「あれだけ綺麗な子なら何をしたって瑕にはなりませんとも」と。
+[End of Source Text]
+
+[Start of Translation]
+男孩开始进出我的房间，表现得相当并排和自我放纵。我是在一个富裕的家庭长大的，从摇摆不定的想法，我有时会鄙视一个什塔町区的穷孩子用一点美做挡箭牌的地方，但我的祖母担心她会伤害男孩的心情，就像一个老妇人为王子服务一样。我非常满意地看着那个领导我的男孩的压迫，甚至我对它的抱怨，带着微笑，爱上了它，就像一个愉快的谣言。""如果你是一个如此美丽的孩子，无论你做什么，你都不会是一个缺陷。""
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+60
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+老いも若きも、みんな息を弾ませ、眼を輝かしていた。
+[End of Source Text]
+
+[Start of Translation]
+无论老少，所有人都气喘吁吁，眼睛闪闪发光。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+80
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+いつもならこのあたりで次郎君が、
+[End of Source Text]
+
+[Start of Translation]
+通常是二郎君在这里、
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+警察音楽隊にも所属し、クラリネットの腕も磨く佐藤巡査。三味線と勝手は違うが「表現の仕方は個人の自由という点は同じ。経験は生きている」という。
+[End of Source Text]
+
+[Start of Translation]
+佐藤警官也隶属于警察乐队，他在那里磨练了吹奏单簧管的技巧。虽然与三味线不同，但佐藤表示，“表达方式取决于个人自由这一点是相同的。这些经验对我很有帮助。”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+80
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+【論説】能登半島地震で、県内企業の現地小売店なども大きな被害を受けた。各企業は復旧作業に着手する一方、営業を継続して飲食品や生活必需品の販売を続けている。企業の存続自体が被災者支援に直結している例で、非常事態で企業の果たす役割は大きいと改めて認識させられた。
+[End of Source Text]
+
+[Start of Translation]
+【评论】在能登半岛地震中，县内企业的当地零售店等也遭受了重大损失。各企业一方面着手进行恢复工作，另一方面继续营业，销售食品和生活必需品。这再次让我们认识到，企业的生存本身直接关系到对灾民的支持，在紧急情况下，企业发挥的作用是巨大的。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+前田さんは東日本大会に向け「数十秒で指さずに一手一手深く考え良い将棋を積み重ねたい。教えてもらったことを発揮できるよう頑張る」と意気込みを述べた。
+[End of Source Text]
+
+[Start of Translation]
+前田先生面向东日本大会时说：“我想在数十秒内不指手棋，每手棋都深思熟虑，积累良好的将棋。努力发挥所学到的东西。”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+60
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+タイ政府は先ごろ、観光促進を目的に酒税を大幅に引き下げることを決めたが、飲酒に起因する問題に取り組んでいる市民団体「ストップ・ドリンク・ネットワーク・タイランド」はこのほど、「政府はひとつの問題を解決するために別の問題を引き起こそうとしている」と強く批判した。
+[End of Source Text]
+
+[Start of Translation]
+泰国政府日前决定大幅下调酒税， 以促进旅游业发展， 但致力于解决饮酒引发问题的市民团体 “Stop Drink Network Thailand“ 日前强烈批评称， “政府为了解决一个问题， 正在挑起另一个问题“ 。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+90
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+どのように考えたとしても 変わらないと言いたいときに使います 会話では どっからどう見ても という言い方になることもありますよ
+[End of Source Text]
+
+[Start of Translation]
+我用它当我想说，无论我怎么想，它不会改变，在谈话中，可以说，无论你看到哪里，无论你看起来如何，谢谢你。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+50
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「西ごうたかもりはどこにいるかってきいてるんだよう。」
+[End of Source Text]
+
+[Start of Translation]
+“他在哪里？他在哪里？他在哪里？”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+80
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+ＪＢイレブン 外食店のプロデュース開始 食材の提供や研修実施｜中部経済新聞 愛知・岐阜・三重・静岡の経済情報
+[End of Source Text]
+
+[Start of Translation]
+JB Eleven 开始生产外食店，提供食材并实施培训｜中部经济新闻 爱知、岐阜、三重、静冈的经济信息
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+舅の図書とはそれまでほとんど接触がなかった。別棟になっている彼の居間へ朝夕の挨拶に出るだけで食事も身辺の世話も若い家士たちがしてきたのである……それが、主馬が江戸へ出立すると共に、急に宇女に命ぜられるようになった、なぜそうなったかということは間もなく分った。つまり初めから宇女を嫌っていた図書は、主馬の留守の間に彼女を疋田家からおおうとしたのである。そして宇女がそう気付くより先に、図書はそうする口実を握ってしまった。
+[End of Source Text]
+
+[Start of Translation]
+我之前几乎没有接触过舅舅的图书。我只是早晚去他单独的起居室问候，饮食和生活起居都是由年轻的家臣们照料的……然而，当主马出发前往江户之后，我突然被宇女命令去照顾舅舅，很快我就明白了为什么会这样。原来从一开始就讨厌宇女的图书，想要趁主马不在的时候将她赶出疋田家。而在宇女意识到这一点之前，图书已经掌握了这样做的借口。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+75
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+親が話す子供が話すって比率は 絶対子供が話す比率の方が多くなきゃいけない っていうのが子育ての中の根本にあるんですけど 分かっててもうまくいかなくないですか それってすごく でも改めて今日みんなの意見を聞いてて 大事にしなきゃいけないっていう 大事にしようっていうのが さらに自信がついたというか
+[End of Source Text]
+
+[Start of Translation]
+父母与孩子对话的比例一定要高于孩子与父母对话的比例，这是育儿的基础，但即使你知道这一点，也不会顺利。我对自己照顾好孩子的决定更有信心了。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+60
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「そのとき、きみたちは、喜んで、ぼくをむかえてくれるといった。そこで、ぼくは、きみたちとそうだんして、チームの規則をきめたのだ。いったん、きめたいじょうは、それを守るのが当然だと思う。また、試合のときなどに、チームの作戦としてきめたことには、ぜったいに服従してもらわなければならない、という話もした。きみたちは、これにもこころよく賛成してくれた。それで、ぼくも気持ちよくきみたちと練習を続けてきたのだ。おかげで、ぼくらのチームも、かなり力がついてきたと思っている。だが、きのう、ぼくはおもしろくない経験をしたのだ。」
+[End of Source Text]
+
+[Start of Translation]
+“那时你们对我说,你们会很高兴地欢迎我回来。于是我就和你们一起制定了球队的规矩。我认为,一旦你决定这样做,就理所当然地要遵守它。他还提到,在比赛中,你必须完全服从球队的决定。你们对此表示了完全赞同。所以,我一直很享受和你们在一起训练。我相信,这会让我们的球队变得更强大。但昨天,我经历了一件很不愉快的事。”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+75
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+将監台下にある疋田家は沸返っていた。
+[End of Source Text]
+
+[Start of Translation]
+将监台下的疋田家正在沸腾。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+85
+</answer>",ja-zh
+"Score the following translation from Japanese to Chinese on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+「甲の上」と先生は次郎くんの気持ちも知らぬげに森川くんの作文によい点をおつけになりました。
+[End of Source Text]
+
+[Start of Translation]
+「甲の上」和先生却毫不知道次郎君的心情，对森川君的作文给予了好评。
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+Okay
+</think>
+
+<answer>
+70
+</answer>",ja-zh

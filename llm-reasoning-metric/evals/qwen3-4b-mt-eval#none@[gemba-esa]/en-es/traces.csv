@@ -1,0 +1,1465 @@
+prompt,result,lp
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```More than 4.5 billion years ago, the Milky Way galaxy collided with a nearby dwarf galaxy. This encounter hastened the formation of stars. Our solar system is a part of the Milky Way Galaxy. Within the Solar System, material circulation had been progressing.```
+Spanish translation:
+```Hace más de 4.500 millones de años, la galaxia Vía Láctea colisionó con una galaxia enana cercana. Este encuentro aceleró la formación de estrellas. Nuestro sistema solar es parte de la Vía Láctea. Dentro del sistema solar, la circulación de material había ido progresando.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""galaxia enana"" (dwarf galaxy) is correct, but ""galaxia enana cercana"" is accurate.  
+
+Minor:  
+none.  
+
+**Note:** The translation is accurate and fluent. All terms are appropriately used, and the structure matches the source text without errors.```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Sorry, princey,” They said, partially ignoring him and searching for the things that their silent friend wanted. “I’m just here to get art supplies.”```
+Spanish translation:
+```- Lo siento, princesa - dijeron, ignorándolo parcialmente y buscando las cosas que su amigo silencioso quería -, estoy aquí solo para conseguir artes.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""artes"" (should be ""materiales artísticos"" or ""materiales para arte"")
+
+Minor:
+fluency/awkward - ""estoy aquí solo para conseguir artes""```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```One hour later and it's still offline.```
+Spanish translation:
+```Una hora después y todavía sigue sin conexión.```
+Annotated error spans:
+```Major: none  
+Minor: none  
+No-error: yes```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Kayel snickered, as he could imagine what Thassalin was thinking about. ""Yeah, fair. But what did you pick up, and why did you fly off so quickly?""```
+Spanish translation:
+```Kayel murmura, al imaginar lo que piensa Thassalin. - Sí, bien.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""murmura"" (snickered)
+accuracy/omission - ""what did you pick up, and why did you fly off so quickly?""
+Minor:
+fluency/punctuation - "" - Sí, bien."" (missing quotes)```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""Yeah but can Retvik drive?""```
+Spanish translation:
+```""Sí, pero ¿puede Retvik conducir?""```
+Annotated error spans:
+```No-error.```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Do you even know what the word ‘no’ means?” They spat out, pushing the crown prince away from them.```
+Spanish translation:
+```«¿Sabes siquiera lo que significa la palabra ""no""?» Espetaron, empujando al príncipe heredero.```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```For Raptor specialist Bob Anderson, the pioneer's attitude was simply arrogant and ignorant. All birds of prey were just considered vermin. I mean, they were all chicken hawks. They were all bad birds, be it a bald eagle, golden eagle, a red to a hawk. They were all shot.```
+Spanish translation:
+```Para el especialista en rapaces Bob Anderson, la actitud del pionero era sencillamente arrogante e ignorante. Todas las rapaces eran consideradas simplemente alimañas. Todas eran halcones gallináceos. Todas eran aves malas, ya fuera un águila calva, un águila real, un alimoche. A todas se les disparaba.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""ya fuera"" (should be ""ya sea"")  
+
+Minor:  
+fluency/grammar - ""ya fuera"" (minor fluency issue)  
+terminology/inappropriate for context - ""halcones gallináceos"" (slightly awkward phrasing, but accurate)```","75
+
+The translation generally preserves the meaning of the original text, with some minor grammatical and stylistic issues. The use of ""ya fuera"" instead of ""ya sea"" is a notable error that affects clarity, but the overall message is understandable. ""Halcones gallináceos"" is an acceptable, if slightly awkward, phrasing for ""chicken hawks."" The translation is mostly accurate with few significant errors, earning a score of 75.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```House Speaker Mike Johnson is pictured in the U.S. Capitol on December 12, 2023, in Washington, D.C. Johnson faces an unruly Republican conference that cannot reach an agreement on government spending levels. Photo by Kevin Dietsch/Getty Images```
+Spanish translation:
+```El presidente de la Cámara de Representantes, Mike Johnson, en la foto en el Capitolio de los EE.UU. el 12 de diciembre de 2023, en Washington, DC Johnson se enfrenta a una conferencia republicana rebelde que no puede llegar a un acuerdo sobre los niveles de gasto gubernamental. Foto de Kevin Dietsch / Getty Images```
+Annotated error spans:
+```Major:  
+accuracy/omission - ""en la foto en el Capitolio de los EE.UU."" (redundant and awkward phrasing)  
+
+Minor:  
+fluency/punctuation - ""el 12 de diciembre de 2023, en Washington, DC"" (repetition of ""en"" and slight awkwardness in structure)```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Yeah, I did some, I did some research to get ready for tonight, because like I said, I'm a real, the only thing I know about government is the reason we're here, which is that it doesn't work for us. Like that's literally all I know. That was kind of nice to get into. But I did some research of how a bill becomes a law. So I watched the Schoolhouse Rock video. Yes, we all love it.```
+Spanish translation:
+```Sí, hice algo, investigué un poco para prepararme para esta noche, porque como dije, soy una persona real, lo único que sé sobre el gobierno es la razón por la que estamos aquí, que es que no funciona para nosotros. Eso es literalmente todo lo que sé. Fue agradable entrar en eso. Pero investigué un poco sobre cómo un proyecto de ley se convierte en ley. Así que vi el video de Schoolhouse Rock. Sí, a todos nos encanta.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""hice algo"" (should be ""hice algunas investigaciones"" for ""I did some research"")  
+
+Minor:  
+style/awkward - ""entrar en eso"" (slightly awkward phrasing for ""get into"")  
+style/awkward - ""video de Schoolhouse Rock"" (omits the article ""el"" but is still understandable)```","75
+
+The translation generally preserves the meaning of the original text but contains notable errors. The major error ""hice algo"" is incorrect for ""I did some research"" and should be ""hice algunas investigaciones,"" which significantly impacts accuracy. The phrase ""entrar en eso"" is slightly awkward but still understandable. The omission of ""el"" in ""video de Schoolhouse Rock"" is a minor style issue. Overall, the translation is mostly clear but has significant inaccuracies that reduce its quality.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Congressman Thomas Massie of Kentucky, one of the Republican Party's most vocal budget hawks but not among those who protested the Wednesday vote, said a yearlong CR that triggers the 1 percent spending cut may be the most feasible way to keep the government open while ending ongoing ""brinkmanship.""```
+Spanish translation:
+```El congresista Thomas Massie de Kentucky, uno de los más vocales fiscales del Partido Republicano pero no entre los que protestaron el voto del miércoles, dijo que una resolución continua (CR) de un año que desencadene el recorte del 1 por ciento del gasto puede ser la forma más factible de mantener abierto el gobierno mientras pone fin a la ""brinkmanship"" en curso.```
+Annotated error spans:
+```Major:
+terminology/inappropriate for context - ""fiscales"" (should be ""críticos del presupuesto"" or ""vocales de presupuesto"")
+
+Minor:
+fluency/punctuation - ""mientras pone fin a la 'brinkmanship' en curso"" (minor awkwardness in phrasing)```","75
+
+The translation preserves most of the meaning and context, with only a few issues. The term ""fiscales"" is inappropriate in this context and should be replaced with ""críticos del presupuesto"" or ""vocales de presupuesto,"" which would better convey the intended meaning of being a vocal critic of the budget. This is a major error that affects the accuracy of the translation. Additionally, the phrase ""mientras pone fin a la 'brinkmanship' en curso"" is slightly awkward in phrasing, which is a minor issue affecting fluency. Overall, the translation is mostly accurate with only a few minor issues.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```They covered their ears, as tuning them out wasn’t working. They made their way to the royal painter’s room, which was on the east wing, second door on the left.```
+Spanish translation:
+```Se taparon los oídos, ya que ignorarlos no estaba funcionando. Se dirigieron a la habitación del pintor real, que estaba en el ala este, segunda puerta a la izquierda.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""ignorarlos"" (misinterpretation of ""tuning them out"")  
+
+Minor:  
+fluency/punctuation - ""ya que"" (slightly informal but acceptable in context)```",75,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```603 right now on this Wednesday morning, and we are following a tragic story this morning. A teenager is dead after police found her body in an eastside ditch. The gruesome discovery was made hours after her parents reported her missing, saying she had left on a walk last night. News For Tony Davis is live this morning with more on the circumstances that may have led to her death in the police investigation. Good morning, Tony.```
+Spanish translation:
+```Son las 6:03 de esta mañana de miércoles y estamos siguiendo una noticia trágica. Una adolescente ha fallecido después de que la policía encontrara su cuerpo en una zanja del lado este. El macabro hallazgo se produjo horas después de que sus padres reportaran su desaparición, diciendo que había salido a caminar la noche anterior. Nuestro reportero Tony Davis está en vivo esta mañana con más detalles sobre las circunstancias que podrían haber llevado a su muerte y la investigación policial. Buenos días, Tony.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""reportaran su desaparición"" (should be ""reportaron su desaparición"")  
+
+Minor:  
+fluency/register - ""Nuestro reportero Tony Davis"" (should be ""El reportero Tony Davis"" for consistency with ""Buenos días, Tony"")```","75
+
+The translation preserves most of the meaning and context of the original text. However, there are two notable errors: ""reportaran"" should be ""reportaron"" (past tense), and ""Nuestro reportero"" should be ""El reportero"" for consistency with the formal greeting ""Buenos días, Tony."" These errors are relatively minor and do not significantly impact the overall clarity or understanding of the text. Therefore, a score of 75 is appropriate, reflecting most meaning preserved with a few grammar mistakes.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The VFR Chart for the trip```
+Spanish translation:
+```La carta VFR para el viaje```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```So my dad can't give me rides to work. And for me, work is about 27 miles away. So there and back would be nearly a hundred dollars a day with Uber. I haven't looked at Lyft. I could have, I guess, that makes sense. But I didn't have rental on my auto insurance, so that's my fault. So I guess I could have tried to do that and get that set up and tried to get a rental while I was down and out of a car. But even then, a rental would cover seven days. I'm going to sneeze, hold on. That sneeze sucked.```
+Spanish translation:
+```Así que mi padre no puede darme paseos al trabajo. Y para mí, el trabajo está a unos veinte y siete kilómetros de distancia. Así que allí en la parte posterior sería casi cien dólares por día con Uber. No he mirado el ascensor. Podría tener, supongo, que tiene sentido. Pero yo no tenía alquiler en mi seguro de automóvil. Así que eso es mi culpa. Así que supongo que podría haber tratado de hacer eso y conseguir que la configuración y tratar de conseguir un alquiler mientras estaba abajo y fuera de un coche. Pero incluso entonces, un alquiler no cubriría siete días. Voy a estornudar, aguantar. Ese estornudo chupó.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""ascensor"" (Lyft)  
+accuracy/mistranslation - ""veinte y siete kilómetros"" (27 miles)  
+accuracy/mistranslation - ""alquiler en mi seguro de automóvil"" (rental on auto insurance)  
+
+Minor:  
+fluency/grammar - ""conseguir que la configuración"" (misuse of ""configuración"")  
+style/awkward - ""mientras estaba abajo y fuera de un coche"" (awkward phrasing)  
+fluency/punctuation - ""Ese estornudo chupó"" (informal slang)```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""It is not my role to estimate if the beer sector should have this or that target, as it would depend on the intrinsic characteristics of their own sector,"" Sánchez Recarte said. ""In the same way, brewers should mind their own business and focus on their own responsibilities.""```
+Spanish translation:
+```""No me corresponde estimar si el sector cervecero debe tener tal o cual objetivo, ya que dependería de las características intrínsecas de su propio sector"", dijo Sánchez Recarte. ""De la misma manera, los cerveceros deben ocuparse de sus propios asuntos y concentrarse en sus propias responsabilidades"".```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""He'll work it out..."" Nyssi tutted. ""Retvik's slow but he's not stupid.""```
+Spanish translation:
+```""Él lo resolverá..."" Nyssi resopló. ""Retvik es lento, pero no es estúpido.""```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+style/awkward - ""resopló"" (could be more contextually appropriate, e.g., ""murmuró"" or ""suspiró"")```","75
+
+The translation preserves most of the meaning and has few grammar mistakes. The only minor issue is the choice of ""resopló"" which could be more contextually appropriate, but it doesn't significantly impact the overall understanding.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Kayel tutted as he drew his rifle from his back, then opened up a pouch, revealing a bandolier. He slung the bandolier over his chest for easy access, but quickly realized that Nyssi, the Thraki and the monster were no longer visible.```
+Spanish translation:
+```Kayel chasqueó la lengua mientras sacaba su rifle de la espalda, luego abrió una bolsa, revelando una cartuchera. Se colgó la cartuchera sobre el pecho para tener fácil acceso, pero rápidamente se dio cuenta de que Nyssi, el Thraki y el monstruo ya no eran visibles.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""cartuchera"" (should be ""bandolier"" for a belt of bullets, not a clip)  
+
+Minor:  
+style/awkward - ""para tener fácil acceso"" (more natural: ""para tener acceso fácil"")```","75
+
+The translation preserves most of the meaning and has few grammar mistakes. The major error (""cartuchera"" instead of ""bandolier"") affects the accuracy but is a specific term issue. The minor style issue (""para tener fácil acceso"") is easily fixable and does not significantly impact understanding. Overall, the translation is mostly correct with only minor adjustments needed.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Just encountered a facial recognition system while boarding an intl flight from Houston's IAH. Apparently it's for some customs-related thing??```
+Spanish translation:
+```Acabo de encontrarme con un sistema de reconocimiento facial al abordar un vuelo internacional desde el aeropuerto IAH de Houston. Al parecer, es para algo relacionado con aduanas??```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""customs-related thing"" (translated as ""algo relacionado con aduanas"" is correct, but the question mark is misplaced in the original)  
+
+Minor:  
+style/awkward - ""algo relacionado con aduanas"" (slightly formal, but still understandable)```",75,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Ah, good morning, Ivory! Care to watch your future king get his portrait done?” Aquilo inquired, winking at Ivory.```
+Spanish translation:
+```«¡Ah, buenos días, Ivory! ¿Te gustaría ver a tu futuro rey mientras le pintan el retrato?» Aquilo preguntó, guiñándole un ojo a Ivory.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""mientras le pintan el retrato"" (should be ""mientras se le pinta el retrato"" for correct reflexive pronoun usage)  
+
+Minor:  
+fluency/grammar - ""mientras le pintan el retrato"" (awkward phrasing but still understandable)```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Kill or capture?” Craith asked as they watched.```
+Spanish translation:
+```“¿Matar o capturar?” Craith preguntó mientras observaban.```
+Annotated error spans:
+```No error.```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```No, clearly not. The creature just hissed and tried to fly directly into Thassalin. Thankfully, despite his size, Thassalin was nimble enough to get out of the way, but Nyssi couldn't help but scream as she very nearly lost her grip on Thassalin's overly smooth scales.```
+Spanish translation:
+```No, definitivamente no. El monstruo sólo hissó y intentó volar directamente en Thassalin. Afortunadamente, a pesar de su tamaño, Thassalin era lo suficientemente ágil como para salir del camino, pero Nyssi no pudo evitar gritar con cierto temor como casi perdió su agarre sobre las suaves escamas de Thassalin.```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+fluency/grammar - ""volar directamente en"" (more natural: ""volar directamente hacia"")  
+fluency/grammar - ""salir del camino"" (more natural: ""alejarse del camino"" or ""evitar el camino"")```","75
+
+The translation preserves most of the meaning and has only a few minor grammar/fluency issues. The suggested corrections (""volar directamente hacia"" and ""alejarse del camino"" or ""evitar el camino"") are reasonable, but the current phrasing is still understandable. Therefore, a score of 75 reflects ""Most meaning preserved with a few minor grammar/fluency issues.""",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Pushing myself into the crevasse with a giant baseball```
+Spanish translation:
+```Logré hacerme caer por el precipicio con una pelota de béisbol gigante.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""hacerme caer"" (falling) instead of ""empujar"" (pushing)  
+
+Minor:  
+fluency/register - ""Logré"" (past tense) vs. source's present tense ""Pushing""```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Flying is physical. Today I'm *sore* in my back and legs like I went to the gym.```
+Spanish translation:
+```Volver es físico. Hoy tengo *dolor* en la espalda y las piernas como si hubiera ido al gimnasio.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""volver"" (should be ""volar"" for ""flying"")  
+
+Minor:  
+terminology/inappropriate for context - ""dolor"" (more accurate would be ""dolorido"" or ""doloroso"" for ""sore"")```","75
+
+The translation generally preserves the meaning but contains two notable errors: ""volver"" is incorrectly used instead of ""volar"" for ""flying,"" and ""dolor"" is less precise than ""dolorido"" or ""doloroso"" for ""sore."" These errors affect accuracy but do not completely undermine the overall message or grammar.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Well I didn’t.” Ivory found the art supplies on their list and put it in a crate that they found. “And I’m not a girl.”```
+Spanish translation:
+```«Bueno, no». Ivory encontró los suministros artísticos en su lista y los puso en una caja que encontraron. «Y no soy una chica».```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```How did you very early on, considered or realized that, well, engineering, is just part of the challenge, especially that we're taught as engineers that we're dealing with issues, right? And we're finding solutions. That's our job. How did you came across that so early on? Well, it was a strange coincidence, so to speak. Of course, I grew up in the 1970s. I gained my political consciousness, as well as my academic understanding in the 1970s and that context matters, of course, massively.```
+Spanish translation:
+```¿Cómo consideraste o te diste cuenta muy temprano que, bueno, la ingeniería es solo parte del desafío, especialmente que nos enseñan como ingenieros que estamos tratando con problemas, ¿verdad? Y estamos encontrando soluciones. Ese es nuestro trabajo. ¿Cómo llegaste a eso tan temprano? Bueno, fue una extraña coincidencia, por así decirlo. Por supuesto, crecí en la década de 1970. Adquirí mi conciencia política, así como mi comprensión académica en la década de 1970 y ese contexto, por supuesto, es muy importante.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""por así decirlo"" (used in a context where ""por así decirlo"" is appropriate, but the phrase is correctly used here)  
+
+Minor:  
+fluency/register - ""por así decirlo"" (slightly informal but acceptable in the context)  
+style/awkward - ""ese contexto, por supuesto, es muy importante"" (slightly awkward phrasing but still understandable)```","75
+
+The translation preserves most of the meaning and has only a few minor issues with fluency and phrasing. The use of ""por así decirlo"" is appropriate and correctly used, though slightly informal. The phrase ""ese contexto, por supuesto, es muy importante"" is slightly awkward but still understandable. Overall, the translation is mostly accurate with few grammar mistakes.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```As the guards escorted her to the site, the townspeople cried out in outrage at seeing their only queen- and the nicest one- about to be killed. Some people were crying, some people were shouting and trying to attack the guards, and others were wondering why this was happening; but they all shared the same basis.```
+Spanish translation:
+```Mientras los guardias la escoltaban hasta el lugar, la gente del pueblo gritó indignada al ver a su única reina, y la más amable, a punto de ser asesinada. Algunas personas lloraban, otras gritaban y trataban de atacar a los guardias, y otras se preguntaban por qué sucedía esto; pero todos compartían la misma base.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""base"" (inappropriate for context)  
+
+Minor:  
+fluency/punctuation - ""por qué sucedía esto;"" (semicolon usage is acceptable but could be more natural)```","75
+
+The translation generally preserves the meaning of the original text but contains a significant error with the word ""base"" which is inappropriate in this context. The minor punctuation issue is less impactful. Therefore, the score is 75, reflecting most meaning preserved with a notable grammar mistake.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Here's the full story of Danny and Sam. Ready? Ready. Danny Fenton and Sam Manson are best friends, and along with Tucker, they spend pretty much all their time together. Sam's the reason Danny has ghost powers in the first place. Come on, Danny, a ghost zone. You gotta check it out. You know what? You're right.```
+Spanish translation:
+```Aquí está la historia completa de Danny y Sam. ¿Listo? Listo. Danny Fenton y Sam Manson son los mejores amigos, y junto con Tucker, pasan casi todo su tiempo juntos. Sam es la razón por la que Danny tiene poderes fantasmales en primer lugar. Vamos, Danny, una zona fantasma. Tienes que echarle un vistazo. ¿Sabes qué? Tienes razón.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""ghost zone"" (translated as ""zona fantasma"" instead of ""zona fantasma"" – correct, no error)  
+
+Minor:  
+style/awkward - ""en primer lugar"" (slightly literal but acceptable in context)  
+fluency/punctuation - ""¿Sabes qué?"" (correct)  
+terminology/inconsistent use - ""fantasmales"" (correct for ""ghost powers"")  
+
+**No major errors.** The translation is accurate, fluent, and maintains the original meaning and tone.```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Kari tapped twice on the lantern. No, as Ivory predicted. The Ice King never let Kari out, as she was seen as “a flaw” in his eyes. She was born mute and was the only girl in her family, as it was all made up of boys.```
+Spanish translation:
+```Kari golpeó dos veces la linterna. No, como predijo Ivory. El Rey de Hielo nunca dejó salir a Kari, ya que ella era vista como ""un defecto"" a sus ojos. Ella había nacido muda y era la única niña en su familia, ya que estaba compuesta solo por niños.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""a sus ojos"" (should be ""en sus ojos"" for ""in his eyes"")  
+
+Minor:  
+style/awkward - ""compuesta solo por niños"" (awkward phrasing, but still understandable)```","75
+
+The translation preserves most of the meaning and has few grammar mistakes. The major error (""a sus ojos"" instead of ""en sus ojos"") affects accuracy but is relatively minor in context. The minor style issue (""compuesta solo por niños"") is understandable but slightly awkward. Overall, the translation is mostly correct with only a few issues.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```For Raptor specialist Bob Anderson, the pioneer's attitude was simply arrogant and ignorant. All birds of prey were just considered vermin. I mean, they were all chicken hawks. They were all bad birds, be it a bald eagle, golden eagle, a red to a hawk. They were all shot.```
+Spanish translation:
+```Para el especialista en rapaces Bob Anderson, la actitud del pionero era simplemente arrogante e ignorante. Todas las aves rapaces eran consideradas alimañas. Quiero decir, todos eran halcones de pollo. Todos eran pájaros malos. Sea un águila calva, un águila dorada, un halcón de cola roja. Todos fueron disparados.```
+Annotated error spans:
+```Major:  
+fluency/grammar - ""Sea un águila calva, un águila dorada, un halcón de cola roja"" (incorrect structure and missing article)  
+
+Minor:  
+style/awkward - ""halcones de pollo"" (slang term may feel informal or awkward in a formal context)```","75
+
+The translation generally preserves the meaning of the original text but contains notable errors. The major error in ""Sea un águila calva, un águila dorada, un halcón de cola roja"" significantly impacts fluency and grammar, and the minor error with ""halcones de pollo"" adds a slight awkwardness. These issues reduce the overall quality but do not completely destroy the meaning.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```These good quality stickers are about 50p each. They'll cost the same again to post. And way more in my own time to individually package and send them.```
+Spanish translation:
+```Estas etiquetas de buena calidad cuestan unos 50p cada una, costarán lo mismo para enviar de nuevo. Y mucho más en mi tiempo para enviar```
+Annotated error spans:
+```Major:  
+accuracy/omission - ""individually package and send them""  
+
+Minor:  
+fluency/punctuation - ""para enviar"" (ambiguous)  
+accuracy/mistranslation - ""50p"" (non-standard Spanish term)```",75,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The flat tire and the nerd girl```
+Spanish translation:
+```El neumático pinchado y la chica nerd```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+style/awkward - ""nerd"" (commonly translated as ""tonto"" or ""estúpido"" in Spanish, but ""nerd"" is used as is in English contexts)```","66  
+Most meaning preserved and few grammar mistakes. The translation generally conveys the intended meaning, but ""nerd"" is used as is in Spanish, which is not commonly translated and may sound awkward to some speakers.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Going back up tomorrow and we're doing stalls and slow flight.```
+Spanish translation:
+```Vamos a volver mañana y vamos a hacer paradas y vuelos lentos.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""paradas"" (stalls in aviation context)  
+
+Minor:  
+none```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Live on, Kari.” That was the end of the reign of Queen Eirwen.```
+Spanish translation:
+```«Sigue adelante, Kari». Así terminó el reinado de la reina Eirwen.```
+Annotated error spans:
+```Major:  
+none  
+
+Minor:  
+style/awkward - ""Así terminó"" (slightly more formal than necessary, but still understandable)```","75
+
+The translation preserves most of the meaning and is grammatically correct. The only minor issue is the slightly more formal tone of ""Así terminó,"" which is understandable but could be considered slightly awkward in some contexts. This aligns with the ""Most meaning preserved and few grammar mistakes"" rating, earning a score of 75.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“brb just updating the padding on paragraphs boss”```
+Spanish translation:
+```""brb solo actualizando el relleno en los párrafos jefe""```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+terminology/inappropriate for context - ""relleno"" (should be ""margen de padding"" or ""espaciado"" in design context)```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Very niche issue but it kinda sucks these days that if you're interested in building/customising lil robot figures you HAVE to build something made for war and killing things```
+Spanish translation:
+```Es un tema muy específico, pero es un poco decepcionante que hoy en día, si estás interesado en construir/personalizar pequeñas figuras de robots, DEBAS construir algo hecho para la guerra y matar cosas.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""matar cosas"" (literal translation of ""killing things"" is not idiomatic in Spanish)
+Minor:
+style/awkward - ""DEBAS construir algo hecho para la guerra y matar cosas"" (phrase is grammatically correct but awkward in context)```","75
+
+The translation preserves most of the meaning and context of the original text. However, there are notable errors: ""matar cosas"" is not idiomatic in Spanish and should be avoided, and the phrase ""DEBAS construir algo hecho para la guerra y matar cosas"" is awkward in style despite being grammatically correct. These issues reduce the score from 100 but do not completely negate the meaning.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```A vocal anarchist who's shit about hiding his identity giving his DNA to a biotechnology company for a dubiouse printout of my ""Ancestry."" What could go wrong?```
+Spanish translation:
+```Un anarquista vocal que está loco por ocultar su identidad y entregar su ADN a una empresa de biotecnología para una impresión dudosa de mi ""Ancestry"". ¿Qué puede salir mal?```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""está loco por"" (misinterprets ""shit about"" as ""crazy about"" instead of ""upset about"")  
+
+Minor:  
+style/awkward - ""dudosa"" (correctly translates ""dubious,"" but the original misspells ""dubiouse,"" which is a minor inconsistency in the source text)```","75
+
+The translation generally preserves the meaning of the original text but contains a significant mistranslation (""está loco por"" instead of ""shit about"") and a minor style issue (""dudosa"" vs. ""dubiouse""). The overall quality is good, but not perfect.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""But... one of them is a giant monster!""```
+Spanish translation:
+```""Pero... ¡uno de ellos es un monstruo gigante!""```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```tbf, the beer is was fikn awesome```
+Spanish translation:
+```La verdad, la cerveza estaba jodidamente increíble```
+Annotated error spans:
+```No error.```","100
+
+The translation ""La verdad, la cerveza estaba jodidamente increíble"" is a perfect match for the English source ""tbf, the beer is was fikn awesome."" The Spanish translation preserves the meaning, tone, and grammar of the original text. ""Tbf"" is translated as ""La verdad"" (truthfully), ""the beer"" as ""la cerveza,"" ""is was"" as ""estaba"" (was), and ""fikn awesome"" as ""jodidamente increíble"" (completely awesome). There are no errors in the translation.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Finding an alternative shortly…```
+Spanish translation:
+```Encontraremos una alternativa en breve...```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""encontraremos"" (future tense instead of present continuous)  
+Minor:  
+none```","**Score: 66**
+
+**Reasoning:** The translation preserves most of the meaning, but there is a grammatical error in the use of ""encontraremos"" (future tense) instead of the present continuous ""encontrando."" This is a major error, but it doesn't completely disrupt the overall meaning, so the score is 66.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```the AT&T status site claims there's no outages...even though the news is reporting an outage 😠```
+Spanish translation:
+```el sitio web de AT&T dice que no hay interrupciones... a pesar de que los medios de comunicación informan de una interrupción 😠```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""outages"" (plural) → ""interrupciones"" (plural) is correct, no error.  
+
+Minor:  
+style/awkward - ""a pesar de que los medios de comunicación informan de una interrupción"" is slightly wordy but still clear.  
+
+**No major errors.** The translation is accurate and fluent, preserving the original meaning and tone.```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Chapter 1```
+Spanish translation:
+```Capítulo 1```
+Annotated error spans:
+```No error.```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Kari nodded, going back to reviewing her memories and curling up in her thick comforter.```
+Spanish translation:
+```Kari asintió, volviendo a revisar sus recuerdos y acurrucándose en su grueso edredón.```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```But the slots approach looks promising. I’ll give it a try.```
+Spanish translation:
+```Pero el enfoque de ranuras parece prometedor. Lo probaré.```
+Annotated error spans:
+```No errors.```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```About 450 million years ago, plants took a giant leap out of the oceans onto the land to become the plants that we know and love today. But how did they survive? Scientists at the John Innes Centre may have found out. Land plants survive by getting water and nutrients from the soil. They do this by forming a special friendship with soil dwelling fungi called mycorrhiza. These strands of mycorrhiza reached deep into the soil and drag the nutrients and water back to the plants. But when the first algae landed on soil, how did they survive long enough to form these beneficial friendships?```
+Spanish translation:
+```Hace unos 450 millones de años, las plantas dieron un salto gigante desde los océanos hacia la tierra para convertirse en las plantas que conocemos y amamos hoy en día. ¿Pero cómo sobrevivieron? Los científicos del Centro John Innes pueden haberlo descubierto. Las plantas terrestres sobreviven obteniendo agua y nutrientes del suelo. Lo hacen formando una amistad especial con los hongos que habitan en el suelo llamados micorrizas. Estas hebras de micorrizas penetraron profundamente en el suelo y arrastraron los nutrientes y el agua de regreso a las plantas. Pero cuando las primeras algas aterrizaron en el suelo, ¿cómo sobrevivieron el tiempo suficiente para formar estas amistades beneficiosas?```
+Annotated error spans:
+```No error.```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I also removed the last external tracker, Google Analytics, from my website yesterday and it feels good.```
+Spanish translation:
+```Ayer también eliminé el último rastreador externo, Google Analytics, de mi sitio web y se siente bien.```
+Annotated error spans:
+```Minor:
+style/awkward - ""se siente bien""```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Oh right, here is Sally Rooney latest essay```
+Spanish translation:
+```Ah, aquí está el último ensayo de Sally Rooney.```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```And even remembered to add the cute little air vent to keep the chimney from getting damp```
+Spanish translation:
+```E incluso, recordó agregar ese simpático ventiladorcito para evitar que la chimenea se humedezca.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""ventiladorcito"" (incorrect term for ""air vent"")  
+
+Minor:  
+style/awkward - ""ventiladorcito"" (colloquial term may not match formal context)```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Moscow maintains that such laws violate the rights of Russian-speaking people, who make up around half of Ukraine's population. Russian Foreign Ministry spokeswoman Maria Zakharova said in February that Kiev's ""discriminatory campaign"" against the language was growing more and more ""indignant."" In a survey conducted last September by the Kiev International Institute of Sociology, respondents cited language discrimination as the most common type of prejudice in Ukraine, with 45% saying it was a problem.```
+Spanish translation:
+```Moscú sostiene que este tipo de leyes vulneran los derechos de la población rusoparlante, que incluye a alrededor de la mitad de los habitantes de Ucrania. La Ministra de Asuntos Exteriores de Rusia, Maria Zakharova, declaró en Febrero que la ""campaña discriminatoria"" de Kiev contra el idioma ruso se estaba volviendo cada vez más ""indignante"". En una encuesta realizada por el Instituto Internacional de Sociología de Kiev, los encuestados citaron a la discriminción del idioma como el prejuicio más común en Ucrania con un 45% declarando que era un problema.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""indignante"" (should be ""indignado"" for adjective form)  
+
+Minor:  
+fluency/spelling - ""discriminción"" (missing 'a')  
+fluency/grammar - ""con un 45% declarando que era un problema"" (awkward phrasing)```","**Score: 66**
+
+**Rationale:** The translation preserves most of the meaning and context from the source text. However, there are a few grammar and accuracy issues. The major error (""indignante"" instead of ""indignado"") affects the grammatical correctness but doesn't completely alter the meaning. The minor errors, such as the spelling mistake (""discriminción"") and awkward phrasing (""con un 45% declarando que era un problema""), slightly impact fluency. Overall, the translation is mostly accurate with only a few minor issues, earning it a score of 66.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```To create the antique brass ornament, I just went in with a coat of rub and buff onto the entire ornament there. And then of course, we have to get that antique look with the alcohol ink. So I went in with ginger first, I applied a droplet onto our ornament and just blended it out like so. And I just continued that process until I had as many layers as I liked, and it looked really antique in like an actual metal ornament. After that, I did go in with a little bit more of that burnished amber spray paint as well to supply that to the surface, to kind of give it that oxidized look like we did for the bell ornaments. And that is how I finished off these antique brass bubbles. Really simple and easy, but honestly, they look like real metal and they're beautiful.```
+Spanish translation:
+```Para crear el adorno de latón antiguo, simplemente apliqué una capa de Rub 'n Buff en todo el adorno. Y luego, por supuesto, tenemos que conseguir ese aspecto antiguo con la tinta al alcohol. Así que primero usé el color jengibre, apliqué una gota en nuestro adorno y simplemente lo difuminé así. Y simplemente continué ese proceso hasta que tuve tantas capas como quise, y se veía realmente antiguo como un adorno de metal real. Después de eso, también apliqué un poco más de esa pintura en aerosol ámbar bruñido para aplicarla a la superficie, para darle ese aspecto oxidado como hicimos con los adornos de campana. Y así es como terminé estas burbujas de latón antiguo. Realmente simple y fácil, pero honestamente, parecen de metal real y son hermosas.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""tinta al alcohol"" (should be ""tinta alcohólica"")  
+accuracy/mistranslation - ""pintura en aerosol ámbar bruñido"" (should be ""pintura en aerosol de ámbar brillante"")  
+
+Minor:  
+style/awkward - ""como un adorno de metal real"" (better phrasing: ""como un adorno real de metal"")```","75
+
+The translation preserves most of the meaning and follows proper grammar, but there are two major errors (""tinta al alcohol"" and ""pintura en aerosol ámbar bruñido"") that need correction. The minor style issue is less impactful.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```As per the leaked memo dated 20 December 2023, Edu directed the Accountant-General to transfer the funds from the account of the National Social Investment Office to the private account of Bridget Oniyelu, the accountant of a Federal Government poverty intervention project called ""Grants for Vulnerable Groups,"" a project under Mrs. Edu's ministry.```
+Spanish translation:
+```De acuerdo con la nota filtrada de 20 de diciembre de 2023, Edu ordenó al Contable General que transfiriera los fondos de la cuenta de la Oficina Nacional de Inversiones Sociales a la cuenta privada de Bridget Oniyelu, el contador de un proyecto de intervención contra la pobreza del Gobierno Federal llamado ""Grants for Vulnerable Groups"", un proyecto del Ministerio de la señora Edu.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""Grants for Vulnerable Groups"" (proper noun in English)  
+
+Minor:  
+fluency/punctuation - ""del Ministerio de la señora Edu"" (missing comma after ""Grants for Vulnerable Groups"")```","75
+
+The translation generally preserves the meaning but has a major error in translating the proper noun ""Grants for Vulnerable Groups"" and a minor issue with punctuation. The rest of the translation is accurate and fluent.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Actually now that I’m double-checking several of these repos were deleted… years ago even```
+Spanish translation:
+```De hecho, ahora que estoy doble comprobando, varios de estos repositorios fueron eliminados... incluso hace años```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""doble comprobando"" (should be ""doble comprobación"")
+Minor:
+terminology/inappropriate for context - ""doble comprobando"" (should be ""doble comprobación"")```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```This isn't like hopping in the car for a Sunday drive stuff. It's closer to a sport than a cruise in my newly initiated opinion.```
+Spanish translation:
+```Esto no es como saltar al coche para dar un paseo dominical. Es más parecido a un deporte que a un crucero, en mi opinión recién iniciada.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""opinión recién iniciada"" (misinterprets ""newly initiated opinion"")  
+
+Minor:  
+fluency/awkward - ""saltar al coche"" (slightly awkward phrasing for ""hopping in the car"")```",75,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Which notebook is that?” Ivory asked, sitting down next to Kari on her bed.```
+Spanish translation:
+```“¿Qué cuaderno es ese?” Preguntó Ivory, sentándose junto a Kari en su cama.```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+style/awkward - ""Preguntó Ivory"" (subject-verb inversion is less natural in Spanish; ""Ivory preguntó"" is more common)```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```For Raptor specialist Bob Anderson, the pioneer's attitude was simply arrogant and ignorant. All birds of prey were just considered vermin. I mean, they were all chicken hawks. They were all bad birds, be it a bald eagle, golden eagle, a red to a hawk. They were all shot.```
+Spanish translation:
+```Para el especialista en rapaces Bob Anderson, la actitud del pionero fue simplemente arrogante e ignorante. Todas las aves rapaces eran consideradas alimañas. Quiero decir, todos eran halcones pollos. Todos eran pájaros malos, ya fuera un águila calva, un águila real, un halcón rojo. Les dispararon a todos.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""halcones pollos""  
+
+Minor:  
+style/awkward - ""ya fuera""```","75
+
+The translation generally preserves the meaning but contains notable errors. The phrase ""halcones pollos"" is a major mistranslation as it incorrectly translates ""chicken hawks"" and is grammatically incorrect. The use of ""ya fuera"" is slightly awkward in style but not a major issue. Overall, most of the meaning is preserved with some significant errors.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user47 noooooOOOOooOoOooooo 🤣```
+Spanish translation:
+```@user47 noooooOOOOooOoOooooo 🤣```
+Annotated error spans:
+```<think>
+Okay, the user provided an English source and a Spanish translation. The source is ""@user47 noooooOOOOooOoOooooo 🤣"" and the translation is the same. I need to check for errors in the translation.
+
+First, the text is a social media message with an emoji. The main part is the username and a series of letters and numbers, followed by an emoji. Since the Spanish translation is exactly the same as the source, there's no change. 
+
+Looking at the categories: accuracy, fluency, style, terminology, non-translation, other, or no-error. The translation didn't add or remove anything. The text is a direct copy, so maybe it's a no-error. But wait, the source is in English and the translation is in Spanish. The user might be testing if the translation is accurate. The original text is in English, but the translation is in Spanish. However, the Spanish translation is the same as the English. The user is asking for the translation to be in Spanish, but the translation is not in Spanish, but the same as the source. Wait, the source is in English, the translation is in Spanish, but the Spanish translation is the same as the English. So that's not a translation, but the same as the source. So that's a non-translation error. The user is asking for a Spanish translation, but the translation is not in Spanish. The source is in English, but the translation is not in Spanish. The text is in English, but the translation is the same as the source. The source is in English and the translation is in Spanish, but the translation is not translated, but the same as the source. So the translation is not in Spanish. The translation is not in Spanish. The Spanish is the same as the English. The original is in English, the translation is in Spanish, but the translation is not translated. The source is in English, the translation is in Spanish, but the Spanish is the same as the source. So the translation is not in Spanish. The translation is not in Spanish, but the same as the source. So that's a non-translation error. The user is asking to identify the error in the translation, and the translation is not in Spanish. The translation is the same as the source, but it's in Spanish. The original is in English, the translation is in Spanish. The translation is the same as the source. The translation is not in Spanish. So the translation is not in Spanish. The translation is not in Spanish, but it's the same as the source. The translation is in Spanish but the same as the source. So the Spanish translation is not in Spanish, but the same as the source. The original is in English, the translation is in Spanish, but the Spanish is the same as the source. The translation is not in Spanish, but in the same text as the source. The original is in English, the translation is in Spanish, but the Spanish is the same as the source. The translation is not in Spanish, but the same as the source. The Spanish is not a translation, but the same as the source. The Spanish translation is the same as the source, which is in English, but the translation is in Spanish. So that's a non-translation error. The Spanish is the same as the source, which is in English, but the Spanish is not a translation. The translation is not in Spanish, but the same as the source. So the translation is not a translation. The original is in English, the translation is in Spanish, but the Spanish is not in Spanish, but the same as the source. The Spanish is the same as the source. So the translation is not a translation, but the same as the source, which is in English. The translation is in Spanish, but the same as the source, which is in English, so the translation is not in Spanish. The translation is the same as the source, but not in Spanish. The original is in English, the Spanish translation is not in Spanish. The Spanish is not a translation. So the translation is not in Spanish, but the same as the source. The translation is not a translation, but the same as the source. The Spanish is the same as the source, but in the source, the text is in English, the translation is in Spanish, but the Spanish is the same as the source. The Spanish is the same as the source. The translation is in Spanish, but the same as the source. The source is in English, the Spanish translation is the same as the source. The source is in English, the Spanish translation is the same as the source. So the translation is not in Spanish, but in the same as the source. The source is in English, the Spanish translation is not a translation. The source is in English, the Spanish translation is not in Spanish, but the same as the source, but the source is in English, but the translation is in Spanish, but the same as the source. So the Spanish translation is the same as the source, which is in English, but the Spanish is not a translation, but in the same as the source. The source is in English, the Spanish translation is not a translation, but in Spanish, but the same as the source. The Spanish translation is the same as the source, which is in English, so the translation is not in Spanish, but in the same as the source. The Spanish is not in Spanish, but in the same as the source, but the source is in English. The translation is not in Spanish, but the same as the source. The original is in English, the translation is in Spanish, but the translation is not a translation, but the same as the source. So the translation is not a translation, but the same as the source. So the translation is not a translation, but in the same as the source. So that's a non-translation error. The source is in English, the translation is in Spanish, but the Spanish is the same as the source. The Spanish is not a translation, but the same as the source, but the source is in English, the Spanish is not a translation, but the same as the source. The original is in English, the translation is in Spanish, but the translation is not a translation, but the same as the source. The translation is in Spanish, but the same as the source. The source is in English, the translation is in Spanish, the Spanish is the same as the source, which is in English, but the Spanish is not a translation, but the same as the source. The translation is not a translation, but the same as the source. The Spanish is the same as the source. The Spanish is the same as the source, but the source is in English, the Spanish is not a translation, but the same as the source. So the translation is not in Spanish, but the same as the source. The Spanish is not in Spanish, but in the same as the source. The Spanish is not in Spanish, but in the same as the source, but the source is in English. The translation is in Spanish, but the same as the source, which is in English. The Spanish is not a translation, but the same as the source, but the source is in English, but the Spanish is the same as the source, so the translation is not in Spanish. So the translation is not a translation, but the same as the source. The source is in English, the translation is in Spanish, but the same as the source, which is in English. So the Spanish is the same as the source. The translation is the same as the source, so the translation is not a translation, but the same as the source. The translation is not in Spanish, but the same as the source. The source is in English, the translation is in Spanish, but not in Spanish. The source is in English, the translation is in Spanish, but the same as the source, but the source is in English, and the translation is not in Spanish. So the translation is not a translation, but in the same as the source, which is in English. The Spanish is not a translation, but the same as the source. The source is in English, the Spanish translation is in Spanish, but the same as the source, which is in English. The Spanish is not a translation, but the same as the source, but the translation is in Spanish, but the source is in English. The source is in English, the translation is in Spanish, but the same as the source, which is in English. The Spanish is not a translation, but the same as the source, which is in English. The Spanish is not a translation, but the same as the source, but the source is in English. The source is in English, the Spanish is in Spanish, but not a translation, but the same as the source. The Spanish is the same as the source. The translation is in Spanish, but the same as the source, which is in English. So the translation is not in Spanish, but the same as the source, which is in English. The translation is the same as the source, but in Spanish. The Spanish is the same as the source, but the source is in English, and the translation is in Spanish. The Spanish is not a translation, but the same as the source. The translation is in Spanish, but the same as the source. The source is in English, the Spanish translation is in Spanish, but the same as the source, which is in English, so the translation is not in Spanish. The Spanish is the same as the source. The source is in English, the Spanish is in Spanish, and the Spanish is the same as the source. The Spanish is not in Spanish. The translation is in Spanish, but not a translation, but the same as the source, so the translation is not in Spanish. The Spanish is not a translation, but the same as the source, which is in English. The Spanish is the same as the source, but the source is in English, so that's a non-translation. The translation is in Spanish, but the same as the source, which is in English, but the source is in English, the translation is in Spanish. So the Spanish is not a translation, but the same as the source, which is in English. The translation is not in Spanish, but the same as the source. The source is in English, the Spanish translation is not a translation, but in the same as the source, but the translation is in Spanish, which is not a translation, but the same as the source. The translation is not a translation, but the same as the source, which is in English. So the translation is not a translation, but the same as the source, which is in English, but the translation is in Spanish, which is not a translation. The Spanish is not in Spanish, but the same as the source. The translation is not in Spanish, but the same as the source, which is in English, but the Spanish is not in Spanish, but the same as the source, which is in English, so the translation is not in Spanish, but the same as the source. The translation is not a translation, but the same as the source. The Spanish is the same as the source, which is in English. The translation is in Spanish, but not a translation, but the same as the source. So the translation is not a translation, but the same as the source. So the Spanish is not in Spanish, but the same as the source, which is in English. The translation is in Spanish, but the same as the source. The source is in English, the translation is in Spanish, but the Spanish is not a translation, but the same as the source, which is in English, but the translation is in Spanish. The translation is not in Spanish, but in the same as the source, but the source is in English. The Spanish is not in Spanish, but the same as the source, which is in English. The translation is not a translation, but in the same as the source, but the source is in English, and the translation is in Spanish, which is not a translation, but the same as the source, so that's a non-translation error. The Spanish is the same as the source, which is in English, so the translation is not a translation, but the same as the source, so it's a non-translation error. So the answer is that the translation is a non-translation error, but the source is in English, the translation is in Spanish, but the same as the source, which is in English, so the translation is not a translation, but the same as the source. The translation is in Spanish, but the source is in English, and the Spanish is the same as the source, which is in English. So the translation is not in Spanish, but the same as the source, which is in English, but in the same as the source, which is in English, so the translation is not a translation, but the same as the source, which is in English. The Spanish is not a translation. The translation is not a translation, but the same as the source. The Spanish is in Spanish, but not a translation, but the same as the source, which is in English. The translation is in Spanish, but the same as the source, which is in English. So the translation is not a translation, but the same as the source, but the source is in English, the translation is in Spanish, but the same as the source, which is in English, so the translation is not a translation, but in Spanish, but the source is in English, which is not a translation. The translation is not a translation, but the same as the source, which is in English. So the Spanish is not a translation, but the same as the source. So the translation is not a translation. The Spanish is the same as the source, which is in English. So the translation is not a translation, but in the same as the source, but the source is in English, the Spanish is not in Spanish, but the same as the source, which is in English. The translation is not in Spanish, but the same as the source. The Spanish is the same as the source, which is in English. The Spanish is not a translation, but the same as the source. The translation```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""Hey, Tenuk, do you mind shapeshifting into something that can fly?"" Kayel asked.```
+Spanish translation:
+```""Oye, Tenuk, ¿te importaría transformarte en algo que pueda volar?"" Kayel preguntó.```
+Annotated error spans:
+```Major: none  
+Minor: none  
+No-error: yes```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I like to wear gloves just because stainless edges are usually pretty sharp, like a razor, so you don't want to cut yourself up while you're trying to straighten it. I like to use the table as a dolly a lot of the time. They do also offer specialty trim or jeweler's hammers is what they're sometimes called. Also trim angles. But in this case, since it's a large flat piece, I'm just going to go ahead and use my standalone auto body hammer.```
+Spanish translation:
+```Me gusta usar guantes porque las aristas de acero inoxidable suelen ser muy afiladas, como una cuchilla de afeitar, por lo que no quieres lastimarte mientras intentas enderezarla. Muchas veces me gusta usar la mesa como un apoyo. También existen martillos especiales para recortar o martillos de joyero, como se les llama a veces. También existe el ángulo de recortado. Pero en este caso, dado que es una pieza grande y plana, simplemente voy a usar mi martillo independiente para carrocería.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""martillos de joyero"" (should be ""martillos de joyería"")  
+
+Minor:  
+terminology/inappropriate for context - ""ángulo de recortado"" (should be ""ángulo de lijado"" or ""ángulo de corte"" for ""trim angles"")```","75
+
+The translation preserves most of the meaning and context, with only a few minor errors. The major error ""martillos de joyero"" should be ""martillos de joyería,"" which is a simple spelling correction. The minor error ""ángulo de recortado"" is less appropriate for the context and could be improved to ""ángulo de lijado"" or ""ángulo de corte."" These errors are relatively minor and do not significantly impact the overall understanding of the text.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user40 https://fedi.simonwillison.net/@user41/112130028394563476```
+Spanish translation:
+```@usuario40 https://fedi.simonwillison.net/@user41/112130028394563476```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Nothing ever is easy.```
+Spanish translation:
+```Nunca nada es fácil.```
+Annotated error spans:
+```No-error```","90
+
+The Spanish translation ""Nunca nada es fácil"" is a high-quality translation of ""Nothing ever is easy."" It preserves the meaning accurately and uses correct grammar. The only potential issue is the word order, which is slightly different from the English sentence structure, but this does not affect the overall meaning or clarity. Therefore, a score of 90 is appropriate.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```While disheartening, it's just yet another problem to solve, and it *does* so far seem solvable. Just at great expense of time and $$.```
+Spanish translation:
+```Aunque es desalentador, es solo otro problema más por resolver, y *parece* que hasta ahora tiene solución. Solo que a un gran costo de tiempo y dinero.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""tiene solución""  
+
+Minor:  
+fluency/awkward - ""costo de tiempo""```",75,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Welcome to General Aviation 😜```
+Spanish translation:
+```Bienvenido a la Aviación General 😜```
+Annotated error spans:
+```Major: none  
+Minor: none  
+No-error: yes```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Tenuk didn't respond, he was too busy concentrating on flying towards Nyssi and Thassalin, even though the other creature was chasing them. Kayel awkwardly turned himself around, so he could face the monster. The fact that it was giving chase was good news in Kayel's eyes, as it made it easier for him to aim and fire. Two shots passed through the creature's top wings, and it roared in pain, disappearing back below the trees. Whether it was still following them, Kayel wasn't sure, but it certainly wouldn't have been able to keep up.```
+Spanish translation:
+```Tenuk no respondió, estaba demasiado ocupado concentrando su atención en volar hacia Nyssi y Thassalin, a pesar de que la otra criatura los estaba persiguiendo. Kayel se dio vuelta torpe mente, para poder enfrentar al monstruo. El hecho de que lo estuviera persiguiendo era una buena noticia para Kayel, ya que lo hacía más fácil para él apuntar y disparar. Dos disparos pasaron a través de las alas superiores de la criatura, y rugió de dolor, desapareciendo de nuevo debajo de los árboles. Si todavía los estaba persiguiendo, Kayel no estaba seguro, pero ciertamente no habría podido mantenerse al día.```
+Annotated error spans:
+```Major:  
+style/awkward - ""mantenerse al día""  
+
+Minor:  
+style/awkward - ""torpe mente""  
+style/awkward - ""lo hacía más fácil para él apuntar y disparar""```","75
+
+The translation preserves most of the meaning and context of the original text. However, there are a few noticeable style issues that affect clarity and naturalness. The phrases ""mantenerse al día"" and ""lo hacía más fácil para él apuntar y disparar"" are not idiomatic in Spanish and feel awkward or unnatural. These errors reduce the quality but do not completely undermine the overall message or grammar. The translation is mostly accurate with only minor stylistic flaws.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```A click. It had been reruns of this same stream, the day the world was ruined. Dad always found himself turning the channel off when I was unable to tear my eyes away. The somber face he gave me ensured a gut-wrenching feeling transpiring from deep within – I always feel bad when it plays, but it opens the floodgates to so many memories; granted they weren't very good ones. Letting out a sigh, I slowly rose to my feet, gotta get my mind off things. His saddened mood remained, and regularly I’d try to help ease his mood and at least give him a little bit of joy, but today; I’m tired.```
+Spanish translation:
+```Un clic. Había sido retransmisión de este mismo canal, el día en que el mundo se destruyó. Papá siempre se aseguraba de apagar el canal cuando no podía quitarme los ojos de encima. La cara triste que me dio me garantizó una emoción desgarradora que brotaba desde el fondo de mi corazón; siempre me sentía mal cuando lo escuchaba, pero abría las compuertas a tantos recuerdos; aunque no fueran muy buenos. Haciendo un suspiro, me levantaba lentamente, tenía que alejarme de las cosas. Su estado de ánimo triste permanecía, y con frecuencia intentaba ayudarle a levantar el ánimo y, al menos, darle un poco de alegría, pero hoy... ¡estoy cansado!```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""retransmisión de este mismo canal"" (misinterprets ""reruns of this same stream"" as ""retransmission of this same channel"")  
+
+Minor:  
+style/awkward - ""quitarme los ojos de encima"" (awkward phrasing for ""tear my eyes away"")  
+style/awkward - ""compuertas"" (literal translation of ""floodgates"" is less idiomatic)  
+style/awkward - ""alejarme de las cosas"" (slightly awkward phrasing for ""get my mind off things"")  
+punctuation - ""but today; I’m tired"" (semicolon instead of comma for clarity)```","75
+
+The translation preserves most of the meaning but has notable errors. The major mistranslation of ""reruns of this same stream"" as ""retransmisión de este mismo canal"" significantly alters the meaning. There are also several style issues and awkward phrasings, and a punctuation error. Overall, it's better than 33 but not perfect.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```European brewers have warned that exempting wine and not beer from deposit return schemes and reuse targets is unfair and potentially illegal, as lawmakers enter final talks over a new law designed to turn a surging tide of packaging waste across the EU.```
+Spanish translation:
+```Los cerveceros europeos han advertido que eximir al vino y no a la cerveza de los sistemas de devolución de depósitos y los objetivos de reutilización es injusto y potencialmente ilegal, ya que los legisladores entran en las negociaciones finales sobre una nueva ley diseñada para frenar la creciente marea de residuos de envases en la UE.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""eximir al vino y no a la cerveza"" (misinterprets ""exempting wine and not beer"" as ""exempting wine and not beer"" when the source is about not exempting beer, not wine)  
+
+Minor:  
+fluency/register - ""entran en las negociaciones finales"" (slightly awkward phrasing, but still understandable)```","75
+
+The translation mostly preserves the meaning of the source text but contains a major accuracy error in the phrase ""eximir al vino y no a la cerveza,"" which misinterprets the original sentence. The minor fluency issue is relatively insignificant. Therefore, the score is 75, reflecting most meaning preserved with a notable accuracy error.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""Scotland has big ambitions for transitioning to a circular economy, and the government plans to bring in a new devolved aggregates tax that should accelerate the shift away from the use of virgin products.""```
+Spanish translation:
+```""Escocia tiene grandes ambiciones para la transición a una economía circular, y el gobierno planea introducir un nuevo impuesto sobre agregados descentralizado que debería acelerar el cambio hacia el uso de productos no vírgenes.""```
+Annotated error spans:
+```Major:  
+accuracy/omission - ""the use of virgin products"" (translated as ""productos no vírgenes"" which is correct, but ""virgin"" is a specific term; ""no vírgenes"" is accurate)  
+
+Minor:  
+style/awkward - ""cambio hacia el uso de productos no vírgenes"" (slightly awkward phrasing, but still understandable)```","88  
+Most meaning preserved and few grammar mistakes. The translation accurately conveys the original message, with only minor style issues in the phrasing ""cambio hacia el uso de productos no vírgenes."" The term ""virgin products"" is correctly translated as ""productos no vírgenes,"" though it is slightly awkward in style. Overall, the translation is clear and maintains the intended meaning.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```i do not like this```
+Spanish translation:
+```No me gusta esto.```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“I heard that she eats children in that room.”```
+Spanish translation:
+``````
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""ella come niños"" (should be ""ella come niños"" is correct, but the original sentence is a direct quote, and the translation is accurate)  
+
+Minor:  
+none```",95,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Morning,” Craith said.```
+Spanish translation:
+```“Buenos días”, dijo Craith.```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Moving the surveillance onto my mobile device, I watched each one intently. Nothing. It was like they were never there. That makes no sense. Cameras had tight security, even with remote access. How..? ARGH. I stood angrily, ready to remove some thoughts from my head – I made my way over, sliding on shoes and taking my keys. “I’ll be back soon, Dad.”Silence. Whatever, he didn’t usually respond, he was probably busy doing something more important than me anyway.```
+Spanish translation:
+```Tras trasladar la vigilancia a mi dispositivo móvil, observé atentamente cada una de las cámaras. No había nada. Era como si nunca hubieran estado allí. No tiene sentido. Las cámaras tenían una seguridad estricta, incluso con acceso remoto. ¿Cómo...? GRRR. Me levanté enfurecido, dispuesto a apartar esos pensamientos de mi cabeza. Me calcé los zapatos, agarré las llaves y me dirigí a la puerta. ""Volveré pronto, papá"". Silencio. Bueno, no importa, él no suele responder. Probablemente estaba ocupado haciendo algo más importante que yo de todos modos.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""calcé los zapatos"" (slipping on shoes)  
+
+Minor:  
+style/awkward - ""de todos modos"" (more natural: ""de cualquier manera"")```","**Score: 66**
+
+**Reasoning:** The translation mostly preserves the meaning of the original text, with only a few minor issues. The major error ""calcé los zapatos"" incorrectly translates ""slipping on shoes,"" which is a significant mistranslation. However, the rest of the translation is accurate and grammatically correct. The minor style issue (""de todos modos"") is relatively minor and does not significantly impact the overall meaning. Therefore, the translation scores 66, as it preserves most of the meaning with few grammar mistakes.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```it’s why so many of us are still obsessively watching shows like The Office, or movies like Anchorman that provided endless one-line references in a meme-like fashion.```
+Spanish translation:
+```Franque is de isperar with ger start recode gaco de nopetros ancalía disérvense poestras de duvega como The Office, pe prère como Abileneman with hindan infinitan inscreens de rea tanla rez pre re tiempo de la cuadra.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""Abileneman"" (incorrect translation of ""Anchorman"")  
+accuracy/mistranslation - ""inscreens de rea tanla rez pre re tiempo de la cuadra"" (incorrect translation of ""endless one-line references in a meme-like fashion"")  
+
+Minor:  
+fluency/spelling - ""Franque is de isperar with ger start recode gaco de nopetros ancalía disérvense poestras de duvega"" (incorrect grammar, spelling, and structure)  
+terminology/inappropriate for context - ""tanla rez pre re tiempo de la cuadra"" (incorrect terminology for ""meme-like fashion"")```",40,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```https://twitter.com/Ahoyoo_Twitch/status/1771286936944099483```
+Spanish translation:
+```https://twitter.com/Ahoyoo_Twitch/status/1771286936944099483```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Hello. How about that Albany calls? Busy? We'll call the chief operator, tell her to keep the line open. Official business. It's a matter of life and death. I hope you are telling me the truth, Mrs. Kennedy. It won't go well with you if you're not. I tell you what I told you the truth. Dirk and Grab, told my drift. He struggled.```
+Spanish translation:
+```Hola. ¿Qué tal esas llamadas de Albany? ¿Ocupado? Llamaremos a la operadora jefe, dígale que mantenga la línea abierta. Asuntos oficiales. Es una cuestión de vida o muerte. Espero que me esté diciendo la verdad, Sra. Kennedy. No te irá bien si no lo estás. Te digo lo que te dije la verdad. Dirk y Grab, contaron mi deriva. Él luchó.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""Albany calls""  
+accuracy/mistranslation - ""told my drift""  
+
+Minor:  
+style/awkward - ""No te irá bien si no lo estás""  
+terminology/inappropriate for context - ""deriva"" (for ""drift"")```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```While you can make some comparisons of aircraft models based on the available data, the FAA advises against trying to compare airlines based on their accident records. According to a report cited by the administration, ""there currently is no evidence in accident data that would support the ranking of individual airlines based on their safety records.""```
+Spanish translation:
+```Aunque se pueden hacer algunas comparaciones de modelos de aeronaves basándose en los datos disponibles, la FAA desaconseja intentar comparar aerolíneas basándose en sus registros de accidentes. Según un informe citado por la administración, ""actualmente no hay evidencia en los datos de accidentes que respalde la clasificación de aerolíneas individuales basándose en sus registros de seguridad"".```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""la administración"" (inappropriate for context)  
+
+Minor:  
+style/awkward - ""basándose en sus registros de seguridad"" (redundant use of ""basándose"")```","75
+
+The translation is mostly accurate and preserves the meaning of the original text. However, there are two notable issues: ""la administración"" is inappropriate in this context (should be ""el Departamento de Transporte"" or ""la Administración Federal de Aviación""), and ""basándose en sus registros de seguridad"" is redundant since ""registros de seguridad"" already implies the basis for comparison. These issues reduce the quality but do not completely undermine the meaning or grammar.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“We got contacts” Shaw shouted through the radio as orange tracers fired from the ridge. Bullets pinged off the tanks side as Shock Troopers leaped off the tanks, taking cover behind them. An anti missile rocked, streaked by and slammed into the ground behind the formation, exploding and throwing debris onto one of the tanks. Another slammed into the side of a Stryker, a APS-Cerberus, and exploded. Its crew scrambled out and dove for cover as the ammo cooked off.```
+Spanish translation:
+```&quot;Tenemos contactos&quot;, gritó Shaw a través de la radio mientras los trazadores naranjas disparaban desde la cresta. Las balas resonaron en los costados de los tanques cuando los Shock Troopers saltaron de los tanques y se cubrieron detrás de ellos. Un antimisil se balanceó, pasó veloz y se estrelló contra el suelo detrás de la formación, explotando y arrojando escombros sobre uno de los tanques. Otro se estrelló contra el costado de un Stryker, un APS-Cerberus, y explotó. Su tripulación salió y se lanzó para cubrirse mientras la munición se agotaba.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""la munición se agotaba"" (should be ""la munición explotó"" or ""la munición se incendió"")  
+
+Minor:  
+style/awkward - ""se lanzó para cubrirse"" (slightly awkward phrasing for ""dove for cover"")```","75
+
+The translation preserves most of the meaning and context of the original text. However, there are notable errors: ""la munición se agotaba"" is incorrect as it implies the ammunition was running out, whereas the original text indicates the ammunition ""cooked off"" (exploded). This is a major error affecting accuracy. Additionally, ""se lanzó para cubrirse"" is slightly awkward and not the most natural way to express ""dove for cover,"" which is a minor style issue. Overall, the translation is mostly accurate with a few significant errors.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```While the Louisiana Republican can avoid confronting the issue for now, on January 19 the country will face its deadline to pass four of 12 annual spending bills. Johnson has publicly stated that he would not support a ""continuing resolution"" (CR) to extend the deadline on these four bills to the February 2 due date for the remaining eight.```
+Spanish translation:
+```Aunque el republicano de Luisiana puede evitar enfrentarse al problema por ahora, el 19 de enero el país enfrentará la fecha límite para aprobar cuatro de los 12 proyectos de ley de gastos anuales. Johnson ha declarado públicamente que no apoyaría una ""resolución continua"" (CR) para extender el plazo de estos cuatro proyectos al 2 de febrero, fecha límite de los ocho restantes.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""resolución continua"" (correct term is ""resolución continua"" for ""continuing resolution"")
+
+Minor:
+none```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""Yeah, I'm fine. I killed something, I'll be good in a minute."" Kayel examined his handiwork, as Tenuk made his way down and landed next to him, shapeshifting back into his normal Spast form.```
+Spanish translation:
+```""Sí, estoy bien. Maté algo, estaré bien en un minuto"". Kayel examinó su obra mientras Tenuk bajaba y aterrizaba a su lado, volviendo a su forma normal de Spast.```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+style/awkward - ""bajaba y aterrizaba"" (past tense used for present-tense action in the narrative)```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Irregularly, Anton’s was pretty busy; it was bustling with activity and new faces that I’ve never seen before – Anton was regularly the only worker, so knowing that he must be pretty stressed. “Hey Barkeep, get me a coffee.” I purposely spoke in a lower tone to throw him off a bit, a small chuckle escaping me seeing his sigh of relief after turning quickly. “God, Lilith, don’t do that to me…” he softly let out, obviously tired. “You seem pretty busy…you need some help? Look’s like there's more than plenty of folks here.” I huffed out, I do not want to help with these drunks, but I feel bad making this guy work alone out here. “Could you? I’ll pay you after…” he uttered with the eyes of a puppy, aimed straight at me. Advanced War Tactics…```
+Spanish translation:
+```Irregularmente, Anton estaba bastante ocupado; estaba ocupado con la actividad y nuevos rostros que nunca he visto antes – Anton era regularmente el único trabajador, por lo que sabía que debía estar bastante estresado. “Hey Barkeep, me haga un café.” Hablé a propósito en un tono inferior para lanzarlo un poco, un pequeño mandril que me escapaba viendo su peso de alivio después de girar rápidamente. “Dios Dios, Lilith, no hagan eso para mí…” dejó afuera, obviamente cansado. “¿Parece que está bastante ocupado y necesita algún tipo de ayuda? Me gusta que haya más que mucha gente aquí.” No quiero ayudar con estos borrachos, pero me siento malo haciendo que este tipo trabaje solo aquí. “¿Podría usted? Le voy a pagar después de…” luchó con los ojos de un cachorro, apuntando directamente a mí. Tácticas de Guerra Avanzada…```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""mandril""
+accuracy/mistranslation - ""luchó""
+fluency/punctuation - ""Dios Dios""
+
+Minor:
+fluency/register - ""me siento malo""
+fluency/grammar - ""lanzarlo un poco""```","75
+
+The translation preserves most of the meaning and context of the original text. However, there are several notable errors that affect fluency and accuracy. ""Mandril"" is a mistranslation of ""chuckle,"" and ""luchó"" is incorrectly used instead of ""dijo"" or ""exclamó."" The repetition ""Dios Dios"" is awkward and unnecessary. ""Me siento malo"" is a minor grammatical error, and ""lanzarlo un poco"" is not an idiomatic expression in Spanish. These issues reduce the overall quality but do not completely undermine the meaning.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I'm going to California. You're going to California. And why should you go to California? The United States saying, good enough for you? A, I find citizen you are, yes? You don't even know that California is in the United States. What are you about? I got a laugh, because you are so dumb. You didn't even know that I was making a joke with you.```
+Spanish translation:
+```Voy a California. Tú vas a California. ¿Y por qué deberías ir a California? ¿Estados Unidos dice que es suficiente para ti? A, encuentro que eres un ciudadano, ¿verdad? Ni siquiera sabes que California está en Estados Unidos. ¿De qué estás hablando? Me reí, porque eres tan tonto. Ni siquiera sabías que estaba bromeando contigo.```
+Annotated error spans:
+```<think>
+Okay, I need to check the Spanish translation of the given English text. Let me start by reading through both the source and the translation carefully.
+
+First, the source is a conversation where someone is talking about going to California and mocking the other person's lack of knowledge. The translation seems to be a direct machine translation, so I should look for errors in accuracy, fluency, style, terminology, etc.
+
+Looking at the first sentence: ""I'm going to California. You're going to California."" The Spanish translation is ""Voy a California. Tú vas a California."" That seems correct, but ""tú vas"" is the second person singular future tense, which is correct. However, in Spanish, ""tú vas"" is more formal, but in the context of a conversation, it's okay. Maybe that's a minor issue, but not a major one.
+
+Next sentence: ""And why should you go to California?"" The Spanish is ""¿Y por qué deberías ir a California?"" That's correct. ""Deberías"" is the correct form for ""should.""
+
+Then: ""The United States saying, good enough for you?"" The translation is ""¿Estados Unidos dice que es suficiente para ti?"" The original is a bit more sarcastic, but the translation captures the meaning. However, ""dice que es suficiente"" is correct, but the structure might be a bit off. The original has ""The United States saying, good enough for you?"" which is a bit of a rhetorical question. The translation is accurate here, so maybe that's not an error.
+
+""A, I find citizen you are, yes?"" The translation is ""A, encuentro que eres un ciudadano, ¿verdad?"" ""A"" is a filler word, which is correct. ""Encuentro que eres un ciudadano"" is ""I find that you are a citizen."" The original is ""I find citizen you are, yes?"" which is a bit awkward. The Spanish translation is more natural, so maybe that's a minor issue.
+
+""Ni siquiera sabes que California está en Estados Unidos."" The original is ""You don't even know that California is in the United States."" The translation is correct here.
+
+""¿De qué estás hablando?"" translates to ""What are you about?"" The original is ""What are you about?"" which is a bit informal. The translation is correct.
+
+""Me reí, porque eres tan tonto."" ""I got a laugh, because you are so dumb."" The translation is correct. ""Me reí"" is ""I laughed,"" which is correct.
+
+""Ni siquiera sabías que estaba bromeando contigo."" ""You didn't even know that I was making a joke with you."" The original is ""You didn't even know that I was making a joke with you."" The translation is correct.
+
+Now, checking for errors. The main issues I see are:
+
+1. ""tú vas"" in the second sentence. In Spanish, ""tú vas"" is the second person singular future tense, but in the context of a conversation, ""vas"" (present tense) is more common. However, the original uses ""you're going to California"" which is the present tense. So ""tú vas"" is a minor error in register, but the translation is still understandable.
+
+2. ""A, encuentro que eres un ciudadano, ¿verdad?"" The original is ""A, I find citizen you are, yes?"" The translation is correct, but ""ciudadano"" is the correct term, so that's not an error. The original is a bit awkward, but the translation is accurate.
+
+3. ""me reí"" is correct, but the original is ""I got a laugh,"" which is more like ""I laughed."" So ""me reí"" is correct, so that's not an error.
+
+4. The original has ""you're so dumb"" which is translated as ""eres tan tonto,"" which is correct.
+
+So the main error is the use of ""tú vas"" which is a minor error in register. The rest seems to be correct. The term ""ciudadano"" is appropriate, so no terminology error.
+
+Another possible error is ""ni siquiera sabes que California está en Estados Unidos."" The original says ""you don't even know that California is in the United States."" The translation is correct, but in the original, ""you don't even know that California is in the United States"" is a bit more direct, but the translation is correct.
+
+I think the main error is the use of ""tú vas"" in the second sentence, which is a minor error in register. Also, the original has ""A, I find citizen you are, yes?"" which is a bit awkward, but the translation is correct.
+
+So the classification would be:
+
+Major: None
+
+Minor: fluency/register - ""tú vas"" in the second sentence, but maybe that's a minor error.
+
+Wait, the original is ""You're going to California."" The translation is ""Tú vas a California."" ""Vas"" is the present tense, but the original is ""you are going to California,"" which is the present continuous. But in Spanish, ""vas a California"" is the correct form. ""Tú vas a California"" is correct. However, ""tú vas"" is the second person singular future, which is not the correct form. Wait, ""tú vas"" is the present tense. So ""tú vas a California"" is the correct form. The original is ""you're going to California,"" which is ""tú vas a California."" So that is correct, so ""tú vas"" is the correct form. Wait, the original is ""You're going to California."" ""You're"" is the present tense, so ""tú vas a California"" is correct. So that is correct.
+
+Wait, in the original, ""You're going to California"" is ""tú vas a California"" in Spanish, which is correct. So that's correct. So that's not an error.
+
+So the only error is ""A, encuentro que eres un ciudadano, ¿verdad?"" The original is ""A, I find citizen you are, yes?"" The Spanish translation is ""A, encuentro que eres un ciudadano, ¿verdad?"" The original is a bit awkward, but the translation is correct. So the translation is correct.
+
+So the translation is accurate and fluent, but the original is a bit awkward. But the translation is correct. So maybe there are no errors. But the original has ""A, I find citizen you are, yes?"" which is a bit awkward, but the translation is correct.
+
+But in the translation, the original is ""I find citizen you are, yes?"" which is a bit awkward, but the translation is correct.
+
+So in the translation, ""A, encuentro que eres un ciudadano, ¿verdad?"" is correct, but the original is a bit awkward, but the translation is correct.
+
+So maybe the only error is in the original, but the translation is correct.
+
+So the Spanish translation is correct, but the original is a bit awkward, but the translation is correct. So in the translation, the Spanish is correct. So the error is in the original, but the translation is correct. So the Spanish is correct.
+
+But the original is a bit awkward, but the translation is correct. So the translation is correct.
+
+Wait, in the Spanish translation, ""me reí"" is correct, but the original is ""I got a laugh,"" which is a bit more direct, but ""me reí"" is correct.
+
+So the translation is correct.
+
+But in the original, ""A, I find citizen you are, yes?"" is a bit awkward, but the translation is correct.
+
+So the Spanish translation is correct, but the original is a bit awkward. The translation is correct, so the translation is correct.
+
+So the answer is that there are no major errors, and the minor error is ""A, encuentro que eres un ciudadano, ¿verdad?"" which is a minor error in style, but the translation is correct. So maybe the Spanish is correct.
+
+So in the Spanish, ""A, encuentro que eres un ciudadano, ¿verdad?"" is a minor error in style. But that's a minor error.
+
+So the original is ""A, I find citizen you are, yes?"" which is a bit awkward, but the translation is correct.
+
+So in the translation, the Spanish is correct.
+
+So the translation is correct. So the only error is ""A, encuentro que eres un ciudadano, ¿verdad?"" is a minor error in style, but the translation is correct.
+
+But in the Spanish, ""A"" is a filler word, but that is a minor error in style. But the translation is correct.
+
+So in the translation, the main error is ""tú vas a California."" The original is ""You're going to California."" The translation is correct. ""Tú vas a California"" is correct, but ""tú vas"" is the present tense. The original is ""you're going to California,"" which is the present continuous. But in Spanish, ""vas a California"" is the correct form. So that is correct.
+
+So the Spanish translation is correct, but the original is a bit awkward. So the translation is correct. But the translation is correct, so maybe the only error is in the original, but the translation is correct.
+
+So the translation is correct, and the Spanish translation is correct. So the answer is that the Spanish translation is correct.
+
+So the answer is that the Spanish is correct, but the original is a bit awkward, but the translation is correct. So the answer is that the translation is correct, and there are no major errors, and the minor errors are in the Spanish, but the translation is correct. So the minor error is ""A, encuentro que eres un ciudadano, ¿verdad?"" is a minor error in style, but the translation is correct.
+
+So in the Spanish, ""A"" is a filler word, but the translation is correct. The original is a bit awkward, but the translation is correct. So the Spanish is correct.
+
+So the answer is that the Spanish is correct, and the translation is correct, but the original is a bit awkward. So the translation is correct, so the answer is that there are no major errors and the only minor error is in the style, but the translation is correct.
+
+So the Spanish is correct, and the only minor error is in the style, but the translation is correct.
+
+So the answer is that there are no major errors, and the minor error is in style, but the translation is correct.
+
+So the answer is: the Spanish translation is correct, and the only error is in the translation of ""A, I find citizen you are, yes?"" which is a minor error in style, but the translation is correct.
+
+But the original is a bit awkward, but the translation is correct.
+
+But in the translation, ""A"" is a filler word, which is correct in the original, but the Spanish is correct.
+
+So the answer is that the translation is correct, but the original is a bit awkward, but the Spanish is correct. So the translation is correct, and the only minor error is in the Spanish, but the translation is correct.
+
+But the original is a bit awkward, but the translation is correct.
+
+So the answer is: the Spanish is correct, and the only error is in the Spanish, but the translation is correct. So the answer is that the Spanish translation is correct, and the only error is in the style, but the translation is correct.
+
+So the answer is:
+
+Minor:
+style/awkward - ""A, encuentro que eres un ciudadano, ¿verdad?""
+
+But the original is a bit awkward, but the translation is correct.
+
+So the answer is that the translation is correct, but the original is a bit awkward, but the translation is correct.
+
+So the answer is that the translation is correct, and the Spanish is correct, but the original is a bit awkward, but the translation is correct.
+
+So the only minor error is in the Spanish, but the translation is correct.
+
+So the answer is that the Spanish is correct, and the only minor error is in the style, but the translation is correct.
+
+So the answer is: the Spanish is correct, and the only minor error is in the style, but the translation is correct.
+
+So the Spanish translation is correct, and the only error is in the translation of ""A, I find citizen you are, yes?"" which is a minor error in style, but the translation is correct.
+
+So the answer is:
+
+Minor:
+style/awkward - ""A, encuentro que eres un ciudadano, ¿verdad?""
+
+But the original is a bit awkward, but the translation is correct.
+
+So the translation is correct, and the answer is that the Spanish is correct, and the only error is in the style.
+
+So the answer is:
+
+Minor: style/awkward - ""A, encuentro que eres un ciudadano, ¿verdad?""
+
+But in the Spanish, the original is a bit awkward, but the translation is correct.
+
+So the Spanish is correct, and the only minor error is the style.
+
+But the original is a bit awkward, but the translation is correct, and the Spanish is correct.
+
+So the answer is: the Spanish translation is correct, and the only minor error is in the style, but the translation is correct.
+
+But the answer is the Spanish translation is correct, and the original is a bit awkward, but the translation is correct.
+
+So the only error is in the Spanish, which is a minor error in style.
+
+So```","The Spanish translation is mostly accurate and fluent, with a few minor issues in style or register. The translation captures the meaning of the original text and uses appropriate vocabulary. The only notable issue is the use of ""tú vas"" in the second sentence, which is grammatically correct but slightly more formal than the conversational tone of the original. Additionally, the phrase ""A, encuentro que eres un ciudadano, ¿verdad?"" is a minor stylistic choice that reflects the original's awkward phrasing but is still understandable.
+
+Score: 83",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```After that a couple of site visits on Saturdays with a client in Swansea.```
+Spanish translation:
+```Después de eso, un par de visitas al sitio los sábados con un cliente en Swansea.```
+Annotated error spans:
+```Major: None  
+Minor: None  
+No-error: The translation is accurate and fluent, with no significant errors.```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Now I need to quickly mention the reactor's name, as it was considered a zero power installation. You see, a zero power nuclear reactor is capable of sustaining a stable fission chain reaction, with no significant increase or decline in the reaction rate. This type of installation is essential to gain practical experience of reactor operation, but can still be deadly if the delicate balance isn't maintained.```
+Spanish translation:
+```Ahora debo mencionar rápidamente el nombre del reactor, ya que se consideraba una instalación de potencia cero. Verá, un reactor nuclear de potencia cero es capaz de mantener una reacción de fisión en cadena estable, sin un aumento o disminución significativo en la tasa de reacción. Este tipo de instalación es esencial para obtener experiencia práctica en el funcionamiento de un reactor, pero aún puede ser mortal si no se mantiene el delicado equilibrio.```
+Annotated error spans:
+```Major:  
+accuracy/omission - ""the reactor's name"" (translated as ""el nombre del reactor"" but the source refers to ""the reactor's name"" as a noun phrase, not a direct translation of ""nombre del reactor"")  
+
+Minor:  
+style/awkward - ""sin un aumento o disminución significativo en la tasa de reacción"" (repetition of ""significativo"" and slightly awkward phrasing)```","75
+
+The translation preserves most of the meaning and conveys the key ideas from the source text. However, there are notable errors: ""the reactor's name"" is translated as ""el nombre del reactor,"" which is a direct translation but not the intended noun phrase. Additionally, the phrase ""sin un aumento o disminución significativo en la tasa de reacción"" has repetition and awkward phrasing. These issues reduce the score but do not completely negate the overall meaning or grammar.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Both the old and the new Listing titles call it a 12V 10W panel.```
+Spanish translation:
+```Tanto el título antiguo como el nuevo de Listing lo llaman un panel de 12V 10W.```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+style/awkward - ""panel de 12V 10W"" (should be ""panel 12V 10W"" for consistency with technical terminology)```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user23 Yes, that’s the idea. The section 7 would be streamed first for the sole reason that the user can view it as soon as possible. If that can be made possible without affecting the DOM order, that would be good, so the browser would make sure that the resulting DOM order matches the visual order.```
+Spanish translation:
+```@user23 Sí, esa es la idea. La sección 7 sería transmitida primero por la sola razón de que Si eso puede ser posible sin afectar el orden DOM, eso sería bueno, así el navegador se asegura de que el orden```
+Annotated error spans:
+```Major:
+accuracy/omission - ""el orden DOM order matches the visual order""
+
+Minor:
+fluency/register - ""Si"" (capitalized incorrectly)
+style/awkward - ""por la sola razón de que""```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Cheers, y'all. Now check it out. I really didn't even eat enough to be wiping my mouth, but I can tell you this, my mouth is salivating. You know what I mean? So look, this is what I'm trying to do. You guys let me know down in the comment section below, what would you do? What type of veggie would you serve this with? And don't forget, this is a budget friendly meal, alright. So let me just go ahead and pour myself a glass of this great coupgate. Yes, sir.```
+Spanish translation:
+```¡Saludos, todos! Ahora echadle un vistazo. Realmente no comí lo suficiente como para limpiarme la boca, pero puedo decirles esto, mi boca está salivando. ¿Sabes qué quiero decir? Así que miren, esto es lo que estoy tratando de hacer. Ustedes déjenme saber en la sección de comentarios a continuación, ¿qué harían? ¿Qué tipo de verdura servirían con esto? Y no olviden, esta es una comida amigable con el presupuesto, ¿de acuerdo? Así que déjeme simplemente servirme un vaso de este gran coupgate. ¡Sí, señor!```
+Annotated error spans:
+```Major:  
+accuracy/omission - ""budget friendly"" (translated as ""amigable con el presupuesto"", which is awkward and not the best term)  
+
+Minor:  
+style/awkward - ""Ustedes"" (formal vs. informal ""you guys"")  
+style/awkward - ""echadle un vistazo"" (slightly formal vs. casual ""check it out"")  
+style/awkward - ""gran coupgate"" (uses ""gran"" for ""great,"" which is acceptable but slightly awkward in context)```",75,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```They were also forced to work as the princess’ servant. They didn’t mind it much thought, as they got a friend too.```
+Spanish translation:
+```También las obligaron a trabajar como sirvientas de la princesa; pero no les importó, porque también consiguieron una amiga.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""much thought"" (original: ""didn’t mind it much thought"")  
+
+Minor:  
+fluency/register - ""no les importó"" (awkward phrasing in Spanish)```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The results are in and, drum roll, please, it's completely consistent with my family history. 89.9% British and Irish with most of that concentrated in the scottish borders, western Ireland, Wales, and cornwall. It doesn't show much breton tho so either they're so close to cornish they don't show as different in me or my breton family wasn't originally from there.```
+Spanish translation:
+```Ya tengo los resultados y, redoble de tambores, por favor, es totalmente coherente con mi historia familiar. 89,9% británico e irlandés, concentrado principalmente en las fronteras escocesas, el oeste de Irlanda, Gales y Cornualles. Sin embargo, no muestra mucho bretón, por lo que o son tan similares a los cornualles que no se distinguen en mí o mi familia bretona no era originaria de allí.```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+style/awkward - ""tan similares a los cornualles que no se distinguen en mí"" (slightly awkward phrasing but still understandable)```","75
+
+The translation preserves most of the meaning and is mostly grammatically correct. The only minor issue is the slightly awkward phrasing ""tan similares a los cornualles que no se distinguen en mí,"" which is understandable but could be more natural. Overall, it scores well within the ""Most meaning preserved and few grammar mistakes"" range.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```In case you're interested in the challenge ahead I face.```
+Spanish translation:
+```En caso de que estés interesado en el reto que tengo por delante.```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```To create the antique brass ornament, I just went in with a coat of rub and buff onto the entire ornament there. And then of course, we have to get that antique look with the alcohol ink. So I went in with ginger first, I applied a droplet onto our ornament and just blended it out like so. And I just continued that process until I had as many layers as I liked, and it looked really antique in like an actual metal ornament. After that, I did go in with a little bit more of that burnished amber spray paint as well to supply that to the surface, to kind of give it that oxidized look like we did for the bell ornaments. And that is how I finished off these antique brass bubbles. Really simple and easy, but honestly, they look like real metal and they're beautiful.```
+Spanish translation:
+```Para crear el adorno de latón antiguo, simplemente entré con una capa de frotar y pulir todo el adorno allí. Y luego, por supuesto, tenemos que conseguir ese aspecto antiguo con la tinta del alcohol. Así que primero entré con jengibre, apliqué una gota en nuestro adorno y lo mezclé así. Y continué ese proceso hasta que tuve tantas capas como quise, y se veía realmente antiguo como un adorno de metal real. Después de eso, también usé un poco más de esa pintura en aerosol de ámbar bruñido para suministrarla a la superficie, para darle ese aspecto oxidado como lo hicimos con los adornos de las campanas. Y así es como terminé estas burbujas de latón antiguas. Realmente simple y fácil, pero honestamente, parecen metal real y son hermosos.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""entré"" (incorrect use of ""entré"" instead of ""aplicar"" or ""usar"")  
+
+Minor:  
+fluency/grammar - ""mezclé así"" (awkward phrasing)  
+fluency/register - ""como un adorno de metal real"" (slightly awkward phrasing)  
+fluency/punctuation - ""como lo hicimos con los adornos de las campanas"" (minor inconsistency in structure)```","75
+
+The translation preserves most of the meaning and follows general grammar rules, but there are notable errors in accuracy and fluency. The use of ""entré"" instead of ""aplicar"" or ""usar"" is a major error that affects the accuracy of the translation. Additionally, ""mezclé así"" and the phrasing ""como un adorno de metal real"" are minor issues that affect fluency. Overall, the translation is mostly correct but has some significant errors that reduce its quality.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```While there are often significant differences between airlines"" safety records at any given point in time, this is largely due to the ""infrequent but catastrophic nature of an air accident,"" according to the FAA, and these apparent differences between airlines even out over time. The FAA declined a request for comment.```
+Spanish translation:
+```Aunque a menudo hay diferencias significativas entre los registros de seguridad de las aerolíneas en cualquier momento dado, esto se debe en gran medida a la ""naturaleza poco frecuente pero catastrófica de un accidente aéreo"", según la FAA, y estas diferencias aparentes entre las aerolíneas se equilibran con el tiempo. La FAA rechazó una solicitud de comentarios.```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+style/awkward - ""se equilibran con el tiempo"" (slightly awkward phrasing for ""even out over time"")```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“ She looks like a man, isn’t that wrong?”```
+Spanish translation:
+```""Ella se ve como un hombre, ¿no es eso incorrecto?""```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```All right, well, whoa, whoa, whoa, hold it down to a small riot, would you? Danny, when are we going to be able to afford a larger car? When you're about 10 years older and can marry a millionaire. I had more room than my baby bug. Yeah, I haven't finished paying for that either. In fact, I still owe two more payments to the hospital before I own you.```
+Spanish translation:
+```Bueno, ya sabes que todo es un poco ruidoso aquí mismo ¿Verdad?, déjame llevarlo hasta una pequeña revuelta, por favor; si te casas con alguien millonario y tuvieran hijos juntos no tendríamos problema en comprar más grande de coche para ti o quizás nos lo podemos permitir pronto```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""hold it down to a small riot""  
+accuracy/mistranslation - ""owe two more payments to the hospital before I own you""  
+
+Minor:  
+fluency/grammar - ""tuvieran"" (conditional tense used in present context)```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The Washington jail system is experiencing a fatality crisis. This is one of the uncomfortable but unavoidable truths we confronted as co-chairs of a legislative task force charged with studying our state's jail system and recommending changes to help make jails safer. Although we come from a variety of backgrounds, including jail administration, civil rights advocacy, and experience being incarcerated in jail, we all agree that there must be independent oversight of Washington's jails.```
+Spanish translation:
+```El sistema carcelario de Washington está experimentando una crisis de fatalidades. Esta es una de las verdades incómodas pero inevitables que enfrentamos como copresidentes de un grupo de trabajo legislativo encargado de estudiar el sistema penitenciario de nuestro estado y recomendar cambios para ayudar a que las cárceles sean más seguras. Aunque venimos de diversos orígenes, incluida la administración penitenciaria, la defensa de los derechos civiles y la experiencia de estar encarcelado, todos estamos de acuerdo en que debe haber una supervisión independiente de las cárceles de Washington.```
+Annotated error spans:
+```Major:  
+accuracy/omission - ""our state's jail system"" (translated as ""nuestro estado"" instead of ""nuestro estado's jail system"")  
+
+Minor:  
+terminology/inappropriate for context - ""orígenes"" (should be ""contextos"" or ""fundamentos"" for ""backgrounds"")```","75
+
+The translation generally preserves the meaning of the original text, with most of the content accurately conveyed. However, there are notable errors: ""our state's jail system"" is incorrectly translated as ""nuestro estado"" rather than ""nuestro estado's jail system,"" which omits a key part of the original phrase. Additionally, ""orígenes"" is used instead of a more appropriate term for ""backgrounds"" such as ""contextos"" or ""fundamentos."" These errors slightly reduce the accuracy and fluency of the translation, but the overall meaning is mostly preserved with few grammar mistakes.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The Biden Administration Is Letting Corporate Criminals Off the Hook```
+Spanish translation:
+```La Administración Biden deja libres de culpa a las empresas criminales```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""deja libres de culpa"" (idiomatically awkward, ""letting off the hook"" is better as ""exculpar"" or ""perdonar"")  
+
+Minor:  
+style/awkward - ""deja libres de culpa"" (slightly awkward phrasing for the idiom ""letting off the hook"")```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Also, I found a pink logbook.```
+Spanish translation:
+```También encontré una bitácora rosa.```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Looks like it's reboot-looping and triggering Tasmotas reset feature.```
+Spanish translation:
+```Me parece que está rebooteando y disparando la característica de reinicio de Tasmotas.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""rebooteando"" (incorrectly translates ""reboot-looping"" as ""rebooting"" instead of the specific term)
+
+Minor:
+style/awkward - ""disparando la característica de reinicio de Tasmotas"" (slightly awkward phrasing for ""triggering the Tasmotas reset feature"")```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Just discovered the upgrade where you can see where you've been.```
+Spanish translation:
+```Acaban de descubrir la actualización donde se puede ver dónde ha estado.```
+Annotated error spans:
+```Major:  
+fluency/grammar - ""Acaban de descubrir"" (third person plural, should be second person ""Ustedes han descubierto"" or ""Usted ha descubierto"")  
+
+Minor:  
+style/awkward - ""dónde ha estado"" (slightly awkward phrasing, but still understandable)```",66,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""I've been very clear that CRs are not the way to fund our government that the Budget Act of 1974 calls for us to pass the 12 appropriation bills,"" Congressman Matt Rosendale of Montana told Newsweek. ""We've had ample time to do that, and if the leadership does not direct the committees to get the work done and the members to be able to vote upon it, that therein lies the breakdown.""```
+Spanish translation:
+```«He sido muy claro en que los fondos de los CR no son la forma de financiar nuestro gobierno tal como lo establece la Ley de Presupuesto de 1974», dijo el congresista Matt Rosendale de Montana a Newsweek. «Hemos tenido suficiente tiempo para hacerlo, y si el liderazgo no dirige a los comités para que hagan el trabajo y a los miembros para que puedan votar sobre ello, eso es lo que lleva a la ruptura».```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""CRs"" (not translated)
+accuracy/omission - ""the 12 appropriation bills"" (translated as ""proyectos de presupuesto"")
+
+Minor:
+style/awkward - ""lleva a la ruptura""```","**Score: 66**
+
+**Reasoning:** The translation preserves most of the meaning and has few grammar mistakes. However, there are some errors: ""CRs"" is not translated, which could cause confusion for readers unfamiliar with the acronym. Also, ""the 12 appropriation bills"" is mistranslated as ""proyectos de presupuesto,"" which is not entirely accurate. Additionally, ""lleva a la ruptura"" is slightly awkward in style. These issues result in a score of 66, as most meaning is preserved with only a few grammar and style issues.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Before Tenuk and Kayel could ask what the fuck they were looking at, something screeched and leaped out from a nearby bush. However, it never made contact, as a familiar vehicle crashed into the side of it, causing the monster to skid to a halt by Nyssi's feet. Not taking any chances, Nyssi grabbed her shotgun and immediately fired into its skull, killing the creature instantly.```
+Spanish translation:
+```Landes de Prauk and Kayel gaprillon proglon terraén la gritaga tánto, sago moreorha and carrissia vías desde re curios celcano. Men filipino, nunca na onzo contactoo, como vehículo monitor nacuestbio preferente lado de él, causayo with the Elto triunmise a re supra por los pistas de Gássi. No amando ninguna des probbility```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Landes de Prauk"", ""gaprillon"", ""proglon"", ""terraén"", ""gritaga"", ""tánto"", ""sago"", ""moreorha"", ""carrissia"", ""vías"", ""re"", ""celcano"", ""Men"", ""filipino"", ""nacuestbio"", ""preferente"", ""Elto"", ""triunmise"", ""re"", ""supra"", ""pistas"", ""Gássi""
+accuracy/mistranslation - ""No amando ninguna des probbility""```","**Score: 0**
+
+The translation contains numerous major accuracy/mistranslation errors and is largely nonsensical. The names ""Landes de Prauk"" and ""Kayel"" are not recognizable or meaningful in Spanish. Many words are completely made up or incorrectly translated, such as ""gaprillon,"" ""proglon,"" ""terraén,"" ""gritaga,"" ""tánto,"" ""sago,"" ""moreorha,"" ""carrissia,"" ""vías,"" ""re,"" ""celcano,"" ""Men,"" ""filipino,"" ""nacuestbio,"" ""preferente,"" ""Elto,"" ""triunmise,"" ""re,"" ""supra,"" ""pistas,"" and ""Gássi."" The final phrase ""No amando ninguna des probbility"" is also nonsensical and does not convey any meaningful idea. Therefore, the translation preserves no meaning.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```While you can make some comparisons of aircraft models based on the available data, the FAA advises against trying to compare airlines based on their accident records. According to a report cited by the administration, ""there currently is no evidence in accident data that would support the ranking of individual airlines based on their safety records.""```
+Spanish translation:
+```Aunque se pueden hacer algunas comparaciones de modelos de avión basándose en los datos disponibles, la FAA desaconseja intentar comparar aerolíneas según sus registros de accidentes. Según un informe citado por la administración, ""actualmente no hay evidencia en los datos de accidentes que respalde la clasificación de aerolíneas individuales basada en sus registros de seguridad"".```
+Annotated error spans:
+```No-error```",100,en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Affordable furniture DIYs are always a hit here on Lone Fox, so I wanted to share with you guys how I created this nightstand from a simple crate from IKEA. So this is the Nagle crate, which you can pick up for about $10 at IKEA. And I went ahead and I started off by just constructing it based off the instructions. You have to just screw all of the elements together. And once they are all screwed up, you have a basic wooden crate. Now on the bottom of the wooden crate, I wanted to add a leg, so I elevated it off the floor with these little wooden trinket dishes or like little wooden trays that I found at the craft store as well. They are just a simple wood, very similar to the one from IKEA, and I just e 6,000 these down. You could also use a nail gun if you'd like to. And once you are done, you have a very simple, minimal nightstand.```
+Spanish translation:
+```Los muebles diy asequibles siempre son un éxito aquí en Lone Fox, así que quería compartir con ustedes cómo creé esta mesita de noche a partir de una simple caja de IKEA. Así que esta es la caja Nagle, que puedes comprar por alrededor de0 10 en IKEA. Y seguí adelante y comencé simplemente construyéndolo en base a las instrucciones. Solo tienes que atornillar todos los elementos. Y una vez que estén todos jodidos, tienes una caja básica de madera. Ahora, en el fondo de la caja de madera, quería agregar una pata, así que la levanté del piso con estos pequeños platos de baratijas de madera o como pequeñas bandejas de madera que también encontré en la tienda de manualidades. Son solo una madera simple, muy similar a la de IKEA, y solo tengo 6.000 de estos hacia abajo. También puedes usar una pistola de clavos si quieres. Y una vez que hayas terminado, tienes una mesita de noche muy simple y minimalista.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""jodidos"" (incorrect term for ""screwed up"")  
+accuracy/terminology - ""tengo 6.000 de estos hacia abajo"" (incorrect translation of ""e 6,000 these down"")  
+
+Minor:  
+style/awkward - ""DIY"" (transliteration not commonly used in Spanish)  
+fluency/spelling - ""0 10"" (typo in price)  
+style/awkward - ""una madera simple"" (awkward phrasing)```","75
+
+The translation preserves most of the meaning but has several errors. The term ""jodidos"" is incorrect for ""screwed up,"" and ""tengo 6.000 de estos hacia abajo"" is incorrectly translated. There are also minor issues with style and spelling, such as ""0 10"" and ""una madera simple."" Overall, the translation is mostly clear but has notable inaccuracies.",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```So either there's something wrong with this panel or my multimeter, or they changed the listing.```
+Spanish translation:
+```Así que o hay algo mal con este panel o con mi multímetro, o cambiaron la lista.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""listing"" (translated as ""lista"" instead of ""registro"" or ""anuncio"")  
+
+Minor:  
+fluency/punctuation - missing comma after ""multímetro"" (should be ""multímetro, o cambiaron la lista"")```",66,en-es

@@ -10,4 +10,4 @@
 #SBATCH --ntasks-per-node=1
 
 echo "=> Starting evaluation"
-python llm-reasoning-metric/evaluate_vllm.py language_pairs=[${LANGUAGE_PAIR}] to_compute=[${TO_COMPUTE}]
+PYTHONUNBUFFERED=1 python llm-reasoning-metric/evaluate_vllm.py language_pairs=[${LANGUAGE_PAIR}] to_compute=[${TO_COMPUTE}]
