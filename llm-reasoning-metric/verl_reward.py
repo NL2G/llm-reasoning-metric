@@ -3,6 +3,12 @@ import math_verify as mv
 import os
 import logging
 import transformers as tr
+import sys
+sys.path.append("/home/hpc/v106be/v106be28/llm-reasoning-metric/llm-reasoning-metric")
+from sacrebleu import BLEU
+from prompts import SYSTEM_PROMPTS, USER_PROMPTS, parse_and_check_numerical_answer
+from openai import OpenAI
+from rich import print
 
 logger = logging.getLogger(__name__)
 
@@ -10,15 +16,59 @@ MT_DA_TOLERANCE_RANGE: int = 20
 TOKENIZER = tr.AutoTokenizer.from_pretrained(os.environ.get("MODEL_NAME", "Qwen/Qwen3-0.6B"))
 
 EFFORT_TO_TOKEN_COUNT = {
-    "low": (128, 512),
-    "medium": (512, 2048),
-    "high": (2048, 4096),
+    "low": (128, 1024),
+    "medium": (1024, 4096),
+    "high": (4096, 8192),
 }
+
+def make_mt_eval_request(
+    source_text: str,
+    translation: str,
+    source_lang: str,
+    target_lang: str,
+) -> dict:
+    client = OpenAI(
+        api_key=os.environ.get("OPENAI_API_KEY"),
+        base_url=os.environ.get("OPENAI_BASE_URL"),
+    )
+
+    prompt = [
+        {
+            "role": "system",
+            "content": SYSTEM_PROMPTS["gemba-esa"]
+        },
+        {
+            "role": "user",
+            "content": USER_PROMPTS["gemba-da-like"].format(
+                source_text=source_text,
+                translation=translation,
+                source_language=source_lang,
+                target_language=target_lang,
+            )
+        }
+    ]
+
+    try:
+        response = client.chat.completions.create(
+            model=os.environ.get("OPENAI_MODEL_NAME"),
+            messages=prompt,
+            temperature=0.0,
+            max_tokens=10
+        )
+        answer = parse_and_check_numerical_answer(response.choices[0].message.content, min=0, max=100)
+        if answer is None:
+            return 0
+        else:
+            return answer
+    except Exception as e:
+        logger.error(f"Error making MT eval request: {e}")
+        return 0
+
 
 def extract_answer(response) -> str | None:
     answer = re.search(r'<answer>(.*?)</answer>', response, re.DOTALL)
     if answer:
-        answer = answer.group(1).strip()
+        answer = answer.group(1).strip().replace("`", "")
     else:
         answer = None
     return answer
@@ -79,7 +129,10 @@ def count_xml(text: str) -> tuple[int, int]:
 
 
 def math_reward(solution_str, ground_truth, extra_info=None) -> float:
-    answer = extract_answer(solution_str)
+    """
+    Max Reward: 1.0
+    """
+    answer = solution_str.split("</think>")[-1].strip()
     if not answer:
         return 0.0
     
@@ -100,6 +153,9 @@ def math_reward(solution_str, ground_truth, extra_info=None) -> float:
     
 
 def mt_da_reward(solution_str, ground_truth, extra_info=None) -> float:
+    """
+    Max Reward: 1.0
+    """
     parsed_answer = extract_answer(solution_str)
     if not parsed_answer:
         return 0.0
@@ -129,6 +185,9 @@ def extract_letter(text) -> str | None:
     
 
 def mt_ranking_reward(solution_str, ground_truth, extra_info=None) -> float:
+    """
+    Max Reward: 1.0
+    """
     parsed_answer = extract_answer(solution_str)
     if not parsed_answer:
         return 0.0
@@ -145,9 +204,29 @@ def mt_ranking_reward(solution_str, ground_truth, extra_info=None) -> float:
             return 0.125 # format correctness reward
     else:
         return 0.0
+    
+
+def translation_reward_da(solution_str, ground_truth, extra_info=None) -> float:
+    """
+    Max Reward: 1.0
+    """
+    answer = extract_answer(solution_str)
+    if not answer:
+        return 0.0
+    bleu = BLEU(effective_order=True)
+
+    score = bleu.sentence_score(answer, [ground_truth]).score
+    
+    if score == 0:
+        return 0.0
+    else:
+        return score / 100.0
 
     
 def cumulative_format_reward(solution_str, ground_truth, extra_info=None) -> float:
+    """
+    Max Reward: 0.500
+    """
     reward = 0.0
     count, extra_tokens = count_xml(solution_str)
     if extra_tokens > 0:
@@ -157,6 +236,9 @@ def cumulative_format_reward(solution_str, ground_truth, extra_info=None) -> flo
     return reward
 
 def exact_format_reward(solution_str, ground_truth, extra_info=None) -> float:
+    """
+    Max Reward: 0.250
+    """
     pattern = r'<think>\n(.*?)</think>\n*<answer>\n(.*?)\n</answer>'
     match = re.match(pattern, solution_str, re.DOTALL)
     if not match:
@@ -166,6 +248,9 @@ def exact_format_reward(solution_str, ground_truth, extra_info=None) -> float:
     
 
 def unique_lines_reward(solution_str, ground_truth, extra_info=None) -> float:
+    """
+    Max Reward: 0.250
+    """
     thinking = extract_thinking(solution_str)
     if thinking is None:
         return 0.0
@@ -199,17 +284,23 @@ def token_stats(solution_str) -> tuple[int, int]:
     
 
 def reasoning_effort_reward(solution_str, ground_truth, extra_info=None) -> float:
-    effort = extra_info.get("reasoning_effort", "none")
+    """
+    Max Reward: 0.500
+    """
+    effort = extra_info.get("reasoning_effort", "unbounded")
     
     token_count, unique_token_count = token_stats(solution_str)
     if token_count is None:
         return 0.0
 
-    if effort == "none":
-        if token_count < 2:
+    if effort == "disabled":
+        if token_count < 10:
             return 0.5
         else:
-            return max(0.5 - (token_count - 2) * 0.0025, -0.5)
+            return max(0.5 - (token_count - 10) * 0.0025, -0.5)
+    
+    if effort == "unbounded":
+        return 0.5
     
     t1, t2 = EFFORT_TO_TOKEN_COUNT[effort]
 
@@ -229,13 +320,14 @@ TASK_REWARDS = {
     "math": math_reward,
     "mt-ranking": mt_ranking_reward,
     "mt-da": mt_da_reward,
-}
+    "translation": translation_reward_da,
+} # max reward: 1.0
 
 UNIVERSAL_REWARDS = {
-    "format": cumulative_format_reward,
-    "exact_format": exact_format_reward,
-    "unique_lines": unique_lines_reward,
-}
+    "format": cumulative_format_reward, # 0.500
+    "exact_format": exact_format_reward, # 0.250
+    "unique_lines": unique_lines_reward, # 0.250
+} # max reward: 1.0
 
 
 def reward_router(data_source, solution_str, ground_truth, extra_info=None) -> float:
@@ -247,7 +339,7 @@ def reward_router(data_source, solution_str, ground_truth, extra_info=None) -> f
     if data_source in TASK_REWARDS:
         reward += TASK_REWARDS[data_source](solution_str.strip(), ground_truth, extra_info)
 
-    reward += reasoning_effort_reward(solution_str.strip(), ground_truth, extra_info)
+    #reward += reasoning_effort_reward(solution_str.strip(), ground_truth, extra_info)
         
     return reward
     

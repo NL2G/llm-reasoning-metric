@@ -1,0 +1,1801 @@
+prompt,result,lp
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+An 83-hour wait in a hospital A&E; four-in-ten patients waiting longer than four hours; 30 ambulances queuing outside a hospital, unable to respond to other emergency calls; staff ""leaving shifts in tears"" over the standard of care and ""a near collapse of performance,"" according to an expert at the Royal College of Emergency Medicine.
+[End of Source Text]
+
+[Start of Translation]
+Una espera de 83 horas en la sala de urgencias de un hospital; cuatro de cada diez pacientes esperando más de cuatro horas; 30 ambulancias haciendo fila afuera de un hospital, incapaces de responder a otras llamadas de emergencia; personal ""saliendo de los turnos llorando"" por el nivel de atención y ""un colapso casi total del desempeño"", según un experto del Real Colegio de Medicina de Emergencias.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+84
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+I’m using tailwind for a project, very begrudgingly
+[End of Source Text]
+
+[Start of Translation]
+Estoy usando Tailwind para un proyecto, muy a regañadientes.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+76
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Got the messy stage out of the way.
+[End of Source Text]
+
+[Start of Translation]
+Ya dejamos atrás esa complicada etapa.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+91
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Edit: is now down to 1. Just ""Trimming The Herbs"" left and omg I genuinely don't know if anyone will ever beat it legitimately. It is a ridiculous level.
+[End of Source Text]
+
+[Start of Translation]
+Edito: ahora está en 1. Solo queda “Recortar las hierbas” y Dios mío, no sé si alguien alguna vez lo superará de manera legítima. Es un nivel absurdo.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+85
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+like back in the 00s you had bionicles, which were essentially adventurers/heroes with elemental powers and actual distinct personalities and hobbies and stuff, but like before and since then its just been stuff like Warhammer, Gundam, Battletech, where everythings geared to being a weapon, showcased to gratuitous effect in accompanying media
+[End of Source Text]
+
+[Start of Translation]
+Como en los años 2000, tenías a Bionicle, que eran esencialmente aventureros o héroes con poderes elementales y personalidades, aficiones y cosas así distintivas, pero como antes y desde entonces, solo ha habido cosas como Warhammer, Gundam, Battletech, donde todo está diseñado para ser un arma, exhibido con un efecto gratuitos en los medios que los acompañan.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+79
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+It would be streamed out of order, but the browser would assemble the HTML document as if it were streamed in order.
+[End of Source Text]
+
+[Start of Translation]
+Se transmitiría de manera desordenada, pero el navegador ensamblaría el documento HTML como si se hubiera transmitido en orden.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+97
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+According to the office of the commissioner for the protection of the state language, 3,692 language law violations were reported in 2023. Kiev, Kharkov, and Odessa remain ""leaders in terms of the number of complaints of violations. Therefore, strict controls over the observance of the language rights of citizens in all spheres of public life should be among the priorities of community leaders this year,"" Taras Kremen, the country's Language Ombudsman said.
+[End of Source Text]
+
+[Start of Translation]
+De acuerdo con la oficina del comisionado para la protección de la lengua estatal, se informaron 3.692 violaciones de la ley lingüística en 2023. Kiev, Járkov y Odesa siguen siendo ""líderes en términos del número de quejas por violaciones. Por lo tanto, el estricto control sobre el cumplimiento de los derechos lingüísticos de los ciudadanos en todas las esferas de la vida pública deberían ser una prioridad para los líderes de la comunidad este año"", dijo Taras Kremen, el Defensor del Lenguaje del país.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+98
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Imagine a very long web page with lots of sections (e.g., single-page HTML spec). If the user requests a specific section (e.g. page.html#section7), what if the web server streamed that section first and the other sections after that?
+[End of Source Text]
+
+[Start of Translation]
+Imaginen una página web muy larga con muchas secciones (por ejemplo, especificación de una sola página de HTML). Si el usuario solicita una sección específica (por ejemplo, página.html#sección7), ¿qué pasaría si el servidor web transmitiera esa sección primero y las otras secciones después?
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+94
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Power on Stall recovery, power off stall recovery, slow flight, simulated engine failure(!), pattern work, 3 landings with a little help, and 1 go around.
+[End of Source Text]
+
+[Start of Translation]
+Recuperación en pérdida con motor, recuperación en pérdida sin motor, vuelo lento, simulación de fallo de motor, trabajo de patrones, 3 aterrizajes con un poco de ayuda y 1 vuelta.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+84
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+On the ground things get very fast very quickly. There's a certain Mount of instability on the ground hence motorcycle/atv.
+[End of Source Text]
+
+[Start of Translation]
+En el suelo, las cosas se vuelven muy rápidas muy rápidamente. Hay cierta cantidad de inestabilidad en el terreno, de ahí la motocicleta/cuatrimoto.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+93
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+I've definitely been going about this the wrong way.
+[End of Source Text]
+
+[Start of Translation]
+Definitivamente he estado por el camino equivoca
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+72
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Sometimes recharging is not about adding more habits—enjoying a good movie or a fiction book is just as beneficial as creating and physical training. The key is feeling ourselves that it is ok to relax and not do anything. There’s no room for guilt here!
+[End of Source Text]
+
+[Start of Translation]
+A veces, recargar energías no se trata de sumar más hábitos: disfrutar de una buena película o un libro de ficción es tan beneficioso como crear y entrenar el cuerpo. La clave es sentir que está bien relajarse y no hacer nada. ¡Aquí no hay lugar para la culpa!
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+98
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+@user14 yeah, even solitary means are generally for a shared ends.
+[End of Source Text]
+
+[Start of Translation]
+@user14 Sí, incluso los medios solitarios son generalmente para un fin compartido.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+84
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+etc.
+[End of Source Text]
+
+[Start of Translation]
+etc.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+0
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+#PilotTraining #Flying #TeaganAir #PA28 #Pilot #FlightSchool #CrossCountryFlight
+[End of Source Text]
+
+[Start of Translation]
+#Entrenamiento de pilotos #Volar # TeaganAir # PA28 #Piloto #Escuela de vuelo # Vuelo cruzado
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+86
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Cheers, y'all. Now check it out. I really didn't even eat enough to be wiping my mouth, but I can tell you this, my mouth is salivating. You know what I mean? So look, this is what I'm trying to do. You guys let me know down in the comment section below, what would you do? What type of veggie would you serve this with? And don't forget, this is a budget friendly meal, alright. So let me just go ahead and pour myself a glass of this great coupgate. Yes, sir.
+[End of Source Text]
+
+[Start of Translation]
+Mós, y'all. Ahora tra descubrií. No realmente pember include comer retraen on with na na viento mo Zeca, pero plume grabaraye isto, mo Zeca lá fally. Nosotros softbe tra with terraero? Take mora, isto is tra with quay a me quay a sargento. Nosotros boos dejan desamediacidas preferentes de Mateo a ambición, qué destilados destil
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+36
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+The reason for the weird shape of that plastic box is the swiveling side panel of the nesting box. I bought it like that and couldn't modify it so I had to design around it.
+[End of Source Text]
+
+[Start of Translation]
+La gorón del cumarrón nadiga de esa jaja de vama is the rastro de lado akawa de la jaja de isparcidina. Me comabio eu como mensaje and gayrós cuadradalo comoí with veinteizo with poseño saradoedro de ella.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+1
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+As they drew closer, the little heat signatures turned from blobs to more distinct shapes. As they drew closer, one of them ran for something and grabbed it before rusing back to the small ridge they were on. The figures dropped down into firing positions.
+[End of Source Text]
+
+[Start of Translation]
+A medida que se acercaban, las pequeñas señales de calor pasaron de ser manchas a formas más distintas. Al acercarse más, uno de ellos corrió hacia algo y lo agarró antes de regresar rápidamente a la pequeña cresta en la que estaban. Las figuras se agacharon en posiciones de disparo.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+94
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Ethan Frenchman is a Disability Rights Washington staff attorney who advocates for people with disabilities in jails and prisons.
+[End of Source Text]
+
+[Start of Translation]
+Ethan Frenchman es un abogado del personal de Disability Rights Washington que aboga por las personas con discapacidades en cárceles y prisiones.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+77
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Oh my god, you guys, listen, I'm so excited because this comedy special is about 23 years in the making, okay? Yeah, I'll tell you what, what I mean by that. 23 years ago is when I first came to the comedy store and became a regular and became a comedian and disappointed my Iranian immigrant parents.
+[End of Source Text]
+
+[Start of Translation]
+¡Dios mío, chicos, escuchen! Estoy tan emocionada porque este especial de comedia ha estado 23 años en proceso, ¿de acuerdo? Sí, les diré a qué me refiero con eso. Hace 23 años fue cuando vine por primera vez al Comedy Store y me convertí en una artista habitual, me convertí en comediante y decepcioné a mis padres inmigrantes iraníes.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+97
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Unfortunately, this consultation paper seems like a further attempt to impose controls on the sector. A far simpler solution would be to let the market return to normal, not impose external controls on rent levels, and the result will be lower rent increases than we have seen in the last 18 months. To stabilise rental prices in the long term then the government must encourage greater investment and growth in the private rented sector (PRS) while simultaneously funding a substantial growth in the supply of social housing. The greater the investment in the PRS the more stability will be created in the housing market. Increasing volumes in both the PRS and social housing markets will stabilise rents over time as demand meets supply and equilibrium is achieved. Only by adopting these measures will we start to address the current housing crisis. Anything else is simply not going to work.
+[End of Source Text]
+
+[Start of Translation]
+Bono, látigo de texto de citan salta como re intento de entronizar montaciones preferente del sector. Misa tan dilution ao corría despesay the bander de agro un tra normal, no intronizar externaize moviiva press tivales de safacer, and the resultanteted corè hombresor del safacer aumentan with na hiller tasto pre les ntimons 14 tis. Fa forbello san procios de saface
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+10
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+So, my life kind of sucks right now.
+[End of Source Text]
+
+[Start of Translation]
+Así que, mi vida apesta un poco ahora mismo.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+71
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Hey everybody, this is TS Madison, and if you are trying to grow your business, brand, or a product, why not advertise with me? Email me at Bosmadison@ gmail . com so that you can get in on our comprehensive advertisement packages, unique visits, unique subscribers, honey, a broad demographic. Advertised with me today.
+[End of Source Text]
+
+[Start of Translation]
+Hola a todos, esto es TS Madison, y si está tratando de hacer crecer su negocio, marca o producto, ¿por qué no se anuncia conmigo? Envíame un correo electrónico a Bosmadison@ gmail . com para que pueda participar en nuestros paquetes integrales de publicidad, visitas únicas, suscriptores únicos, miel, un amplio grupo demográfico. Anunciado conmigo hoy.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+90
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+The rumors, of course, also applied to them as they were the only person allowed to enter the room.
+[End of Source Text]
+
+[Start of Translation]
+Los rumores, por supuesto, también se aplicaban a ellos, ya que eran la única persona a la que se le permitía entrar en la habitación.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+73
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+6 different sizes of paint brushes
+[End of Source Text]
+
+[Start of Translation]
+6 diferentes tamaños de brochas de pintura
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+99
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+In an effort to defuse the tension with the farmers, the government agreed to a gradual removal of the diesel subsidy over three years and to keeping the exemption from the car tax. The farmers pooh-poohed the concessions as insufficient. On January 4th an aggressive group of them prevented Robert Habeck, the economy minister, from disembarking from a ferry on his return from a family holiday. If the train drivers are similarly unimpressed, that could prove expensive for German business, reckons IW Köln, a think-tank. The rail strike could cost businesses €100m ($110m) a day if it forced them to interrupt production. The car, chemical and steel industries, Germany's biggest, are especially reliant on rail transport.
+[End of Source Text]
+
+[Start of Translation]
+En un esfuerzo por reducir la tensión con los agricultores, el gobierno acordó una eliminación gradual de la subvención del gasóleo durante tres años y mantener la exención del impuesto sobre los automóviles. Los agricultores abundan en las concesiones por ser insuficientes. El 4 de enero, un grupo agresivo de ellos impidió que Robert Habeck, el ministro de economía, desembarcara de un ferry a su regreso de una fiesta familiar. Si los conductores de trenes no están igualmente impresionados, eso podría resultar caro para los negocios alemanes, considera que IW Köln, un grupo de reflexión. La huelga ferroviaria podría costar a las empresas 100 millones de euros (110 millones de dólares) al día si las obliga a interrumpir la producción. Las industrias automovilística, química y siderúrgica, las más importantes de Alemania, dependen especialmente del transporte ferroviario.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+93
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Let's give it another hour or two to see what it does(n't).
+[End of Source Text]
+
+[Start of Translation]
+Dale otra hora
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+50
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+@user44
+[End of Source Text]
+
+[Start of Translation]
+Usuario 44
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+51
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+However, Tenuk and Kayel quickly realized they weren't alone. A second dark creature shot out from beneath them, and Tenuk only just managed to avoid a collision.
+[End of Source Text]
+
+[Start of Translation]
+Sin embargo, Tenuk y Kayel no tardaron en darse cuenta de que no estaban solos. Una segunda criatura oscura salió disparada de debajo de ellos, y Tenuk apenas consiguió evitar la colisión.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+95
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+I really want to go back to bed, but I can't until he's gone.
+[End of Source Text]
+
+[Start of Translation]
+Tengo muchas ganas de volver a la cama, pero no puedo hasta que él se haya ido.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+99
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+""One of Greggs' key strengths is offering a lower-value treat and keeping that proposition intact is key, especially when consumer incomes are stretched. The most important thing is to see volumes trend higher, and that remains the case. The job's not done. Expect to see more progress over 2024 as investment continues into the digital offering, delivery partnerships and expanding the store estate.""
+[End of Source Text]
+
+[Start of Translation]
+""Una de las fortalezas principales de Greggs es ofrecer caprichos de bajo coste y mantener esa propuesta es clave, especialmente cuando los ingresos de los consumidores son limitados. Lo más importante es mantener la tendencia de volúmenes alta y eso sigue siendo igual. El tarbajo no ha acabado. Se espera aumentar el progreso durante 2024 al tiempo que se invierte en  la oferta digital, acuerdos de reparto y expandiendo la red de tiendas"".
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+82
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Remove horrible electric fire and hearth. Box in chimney, replace blown plaster and skim. Build custom wardrobe.
+[End of Source Text]
+
+[Start of Translation]
+Retire el horroroso electrodoméstico de fuego y hogar. Cubra el hueco de la chimenea, sustituya el mortero y la escarcha. Construya un armario a medida.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+87
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+“Another day, another task for Hell’s Frontrunners” Nemic started with a dry laugh. “Where are they sending us?”
+[End of Source Text]
+
+[Start of Translation]
+""Otro día, otra tarea para los Frontrunner del Infierno"", comenzó Nemic con una risa seca. ""¿A dónde nos están enviando?""
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+86
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+well now they’re god damn huge lol
+[End of Source Text]
+
+[Start of Translation]
+bueno ahora son puta mente enormes jajaja
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+87
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+“What did you plan on using this time?”
+[End of Source Text]
+
+[Start of Translation]
+“¿Qué planeabas usar esta vez?”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+95
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+""That was... one of the weirder shadowjumps I've ever done... Thanto kat'olon..."" Kayel gasped for air. His eyes somehow were glowing black, and a dark energy drifted across his body. However, as he spoke, the colour returned to Kayel's organic plating and his eyes turned back to their normal yellow.
+[End of Source Text]
+
+[Start of Translation]
+""Fue... uno de los saltos entre sombras más extraños que jamás he realizado... Thanto kat'olon..."" Kayel jadeó en busca de aire. De alguna manera, sus ojos brillaban con un color negro y una energía oscura fluía a través de su cuerpo. Sin embargo, mientras hablaba, el color regresó a la armadura orgánica de Kayel y sus ojos volvieron a su tono amarillo normal.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+83
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+@user4 @user5 @user6
+[End of Source Text]
+
+[Start of Translation]
+@usuario4 @usuario5 @usuario6
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+96
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Apparently there are only two levels that haven't been cleared in the original Super Mario Maker lol
+[End of Source Text]
+
+[Start of Translation]
+Aparentemente, solo hay dos niveles que no han sido superados en el Super Mario Maker original jaja
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+89
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+""Uh... thanks... I guess..."" Kayel shrugged. ""So, uh, are we done here?""
+[End of Source Text]
+
+[Start of Translation]
+""Uh... gracias... mío imaginao"".[1] Kayel ftalífero. ""Sisi, nena, y na sajo aquí?”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+48
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+""Based on these circumstances and those discussed more fully in the approval order, I feel the most sustainable path forward is to approve the listing and trading of these spot bitcoin ETP shares,"" Gensler explained.
+[End of Source Text]
+
+[Start of Translation]
+""Basándome en estas circunstancias y en las que se discuten más a fondo en la orden de aprobación, creo que el camino más sostenible es aprobar la cotización y negociación de estas acciones de ETPs de bitcoin al contado"", explicó Gensler.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+90
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+As the guards escorted her to the site, the townspeople cried out in outrage at seeing their only queen- and the nicest one- about to be killed. Some people were crying, some people were shouting and trying to attack the guards, and others were wondering why this was happening; but they all shared the same basis.
+[End of Source Text]
+
+[Start of Translation]
+Mientras los guardias la escoltaban hasta el lugar, la gente del pueblo gritó indignada al ver a su única reina, y la más amable, a punto de ser asesinada. Algunas personas lloraban, otras gritaban y trataban de atacar a los guardias, y otras se preguntaban por qué sucedía esto; pero todos compartían la misma base.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+95
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+And I'd like to start by turning to Dr. Vishal Sikka, the CEO of Emphasis. Vishal, you're the son of a railways engineer. You saw technology at that phase, and you're also a surfer, so you know all about dodging the waves. What's the disruption that we most need to pay attention to, that's coming from the new technologies and why? Why should we pay so much attention to the disruption?
+[End of Source Text]
+
+[Start of Translation]
+Y quiero empezar por dirigirme al Dr. Vishal Sikka, el CEO de Emphasis. Vishal, eres el hijo de un ingeniero de ferrocarriles. Viste la tecnología en esa fase, y también eres un surfista, así que sabes todo sobre cómo esquivar las olas. ¿Cuál es la interrupción que más necesitamos atender, que viene de las nuevas tecnologías y por qué? ¿Por qué debemos prestar tanta atención a la interrupción?
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+94
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+etc.
+[End of Source Text]
+
+[Start of Translation]
+etc.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+100
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+The flat tire and the nerd girl
+[End of Source Text]
+
+[Start of Translation]
+La rueda pinchada y la chica friki
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+97
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+And I have a lot of experience. I've worked internationally. I've worked this continent. I've worked at different states, different market segments. And what I found is people are really intrigued by that. They want to know kind of what the behind the scenes is. So some of these videos are going to be tips from somebody that actually works in this industry and I think that's what separates me a little bit from possibly other travel bloggers that you might follow. You know, I may not have worked for, say, even in the cruise industry, but I had to take courses in it for my hospitality degree. So even if I haven't worked in it, I've been educated on it.
+[End of Source Text]
+
+[Start of Translation]
+Y tengo mucha experiencia. He trabajado internacionalmente. He trabajado en este continente. He trabajado en diferentes estados, diferentes segmentos de mercado. Y lo que encontré es que la gente está realmente intrigada por eso. Quieren saber qué es lo que está detrás de escena. Así que algunos de estos videos van a ser consejos de alguien que realmente trabaja en esta industria. Y creo que eso es lo que me separa un poco de posiblemente otros bloggers de viajes que podrías seguir. Ya sabes, es posible que no haya trabajado per se incluso en la industria de los cruceros, pero tuve que tomar cursos en ella para mi grado de hospitalidad. Así que incluso si no he trabajado en ella, he sido educado en ella.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+87
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Finally the battery is out. Managed to wiggle it out w/o removing the last screw needed, but that screw will need dealing with. Tomorrow morning's task.
+[End of Source Text]
+
+[Start of Translation]
+Por fin saqué la batería. Logré sacarla sin quitar el último tornillo necesario, pero tendré que ocuparme de ese tornillo. Tarea para mañana por la mañana.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+91
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+While the Louisiana Republican can avoid confronting the issue for now, on January 19 the country will face its deadline to pass four of 12 annual spending bills. Johnson has publicly stated that he would not support a ""continuing resolution"" (CR) to extend the deadline on these four bills to the February 2 due date for the remaining eight.
+[End of Source Text]
+
+[Start of Translation]
+Aunque el republicano de Louisiana puede eludir la confrontación por ahora, a partir del 19 de enero el país enfrentará su fecha límite para aprobar cuatro de los 12 proyectos de ley anuales del presupuesto. Johnson ha declarado públicamente que no apoyaría una ""resolución de continuidad"" (CR) para extender el plazo para estas cuatro facturas al 2 de febrero, la fecha límite para los ocho restantes.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+89
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Brewster Brothers"" wash plants transform 100 per cent of the excavated soils and rubble they process from the construction industry into high-value aggregates for reuse. Over the past six years, the firm's site near Livingston, West Lothian has prevented almost 1.35 million tonnes of construction, demolition and excavation waste going to landfill. It has created more than one million tonnes of recycled aggregates to sell into the industry.
+[End of Source Text]
+
+[Start of Translation]
+Las plantas de lavado de ""Brewster Brothers"" transforman el 100% de los suelos excavados y los escombros que procesan de la industria de la construcción en agregados de alto valor para su reutilización. En los últimos seis años, las instalaciones de la empresa cerca de Livingston, West Lothian, han evitado que casi 1,35 millones de toneladas de residuos de construcción, demolición y excavación acaben en el vertedero. Ha creado más de un millón de toneladas de agregados reciclados para vender a la industria.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+98
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+But the slots approach looks promising. I’ll give it a try.
+[End of Source Text]
+
+[Start of Translation]
+Pero el enfoque de las tragamonedas parece prometedor. Lo intentaré.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+79
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Below, Nyssi scrambled to her feet. She was pretty sure she had broken something, but her weird, unnatural healing powers had already kicked in. The same couldn't have been said for Thassalin, who was lying in a lump, resting against the one tree that hadn't collapsed under his weight. Nyssi did her best to try and reach Thassalin but she could barely see more than a couple of meters in front of her. Everything was pitch black and engulfed in unholy shadows. And in said shadows, something was screaming and screeching.
+[End of Source Text]
+
+[Start of Translation]
+A continuación, Nyssi se levantó. Estaba bastante segura de que había roto algo, pero sus poderes curativos extraños y naturales ya habían empezado a actuar. Lo mismo no podría decirse de Thassalin, que estaba tumbado en un bulto, apoyado contra el único árbol que no se había derrumbado bajo su peso. Nyssi hizo lo que pudo para intentar llegar a Thassalin, pero apenas podía ver más de dos metros por delante de ella. Todo estaba completamente oscuro y envuelto en sombras siniestras. Y en esas sombras, alguien gritaba y chillaba.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+95
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+No. Kari tapped out. Ivory knew that it was a hard subject for her. It was the day that she was confined to her room and her mother was banished. Ivory was only a baby when it happened, but they remembered the outrage the servants and townspeople were in. They heard Queen Eirwen was a nice queen, but also weirdly predicted things that would happen.
+[End of Source Text]
+
+[Start of Translation]
+No. Kari se retiró. Ivory sabía que era un tema duro para ella. Fue el día en que fue confinada a su habitación y su madre fue despedida. Ivory era sólo un bebé cuando ocurrió, pero recuerdan la indignación de los sirvientes y los habitantes de la ciudad. Oyeron que la reina Eirwen era una buena reina, pero también apenas predijeron cosas que ocurrirían.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+86
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Going to try and get out there again this coming Saturday. Weather doesn't look good right now but it's only Monday.
+[End of Source Text]
+
+[Start of Translation]
+Intentaré salir de nuevo el próximo sábado. El tiempo no pinta bien ahora pero apenas es lunes.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+89
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+2. Use template with slots
+[End of Source Text]
+
+[Start of Translation]
+2. Utilizar plantilla con ranuras
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+76
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Oh right, here is Sally Rooney latest essay
+[End of Source Text]
+
+[Start of Translation]
+Ah, claro, aquí está el último ensayo de Sally Rooney
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+95
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+@user7 who give a crap, go Badgers Women’s hockey! Hahaha
+[End of Source Text]
+
+[Start of Translation]
+@user7 ¡a quienes les importa una mierda, vayan al hockey femenino Badgers! Jajaja
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+87
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+For a man, I feel more sorry for him than her, somehow. There's nothing can be done about it. The Dors had another sinking spell. The hospital doesn't think she'll last the day. It must be unbearable. I've never lost anyone. You get over it. Oh, I'm sorry, Mrs. Leslie. Oh, that's all right, Ms. Roe. You get over it. Eventually.
+[End of Source Text]
+
+[Start of Translation]
+Para un hombre, siento más lástima por él que por ella, de alguna manera. No hay nada que se pueda hacer al respecto. Los Dors tuvieron otro episodio de declive. El hospital no cree que ella sobreviva el día. Debe ser insoportable. Nunca he perdido a nadie. Te recuperas. Oh, lo siento, señora Leslie. Oh, está bien, señorita Roe. Te recuperas. Eventualmente.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+98
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Based on these expert arguments, it can be inferred that there exists a discord in financial laws between the federal government and other government parastatals. The situation escalated when the leaked document became public, with Betta Edu emerging as a scapegoat for a dysfunctional political system.
+[End of Source Text]
+
+[Start of Translation]
+Con base en estos argumentos de expertos, se puede inferir que existe una discordia en las leyes financieras entre el gobierno federal y otras entidades gubernamentales paraestatales. La situación se agravó cuando el documento filtrado se hizo público, y Betta Edu emergió como chivo expiatorio de un sistema político disfuncional.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+80
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+The World Bank cites other examples. From 1970 to 2022, Bangladesh quadrupled female literacy rates and doubled female participation in the labor force. Its gross domestic product more than tripled. The change gathered its own momentum. Recruiting salaried women as teachers and health workers from within their own communities boosted trust ""and made women's mobility and work more socially acceptable.""
+[End of Source Text]
+
+[Start of Translation]
+El Banco Mundial menciona otros ejemplos. Desde 1970 hasta 2022, Bangladesh cuadruplicó las tasas de alfabetización femenina y duplicó la participación femenina en la fuerza laboral. Su producto interno bruto se más que triplicó. El cambio adquirió su propio impulso. El reclutamiento de mujeres salariadas como maestras y trabajadoras de la salud dentro de sus propias comunidades aumentó la confianza ""y hizo que la movilidad y el trabajo de las mujeres fueran más socialmente aceptables"".
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+85
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+@user36 that second pair is really nice! I love buying glasses...I never throw them out but somehow I can't find any of the others?! Mine are rainbow coloured at the moment, I need some sunglasses too... but if you need prescription they're so ugly 😂
+[End of Source Text]
+
+[Start of Translation]
+@user36 ¡ese segundo par es realmente bonito! Me encanta comprar vasos... ¡¿Nunca los tiro pero de alguna manera no puedo encontrar ninguno de los otros?! Las mías son de color arcoíris en este momento, necesito unas gafas de sol también... pero si necesitas graduación son feas 😂
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+70
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+I quit FB, removed all Meta and Pinterest tracker from my website and killed my private WhatsApp account.
+[End of Source Text]
+
+[Start of Translation]
+No ainiciar FB, theharero alme the pista de Fuego and Pinterest de mo checkio web and suianos mo muente publida de WhatsApp.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+1
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+“I heard that she eats children in that room.”
+[End of Source Text]
+
+[Start of Translation]
+«He oído decir que se come a los niños en esa habitación».
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+83
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+@user14 @user13 the eliminating craft bit is incredibly gross, but I can't get over the ‘entertainment just for me' fetish.
+[End of Source Text]
+
+[Start of Translation]
+@user14 @user13 la parte de eliminar la artesanía es increíblemente asquerosa, pero no puedo superar el fetiche de ""entretenimiento solo para mí"".
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+64
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+So I guess I'll have to wait till tomorrow to figure out if it actually is enough for this setup or If I need the better panel I ordered.
+[End of Source Text]
+
+[Start of Translation]
+Así que supongo que tendré que esperar hasta mañana para averiguar si realmente es suficiente para esta configuración o si necesito el mejor panel que ordené.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+97
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+3. HTML for section 1, 2, 3, etc.
+[End of Source Text]
+
+[Start of Translation]
+3. HTML para las secciones 1, 2, 3, etc.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+98
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+I probably should've known better since I already built one with a ""normal"" lens.
+[End of Source Text]
+
+[Start of Translation]
+Probablemente debería haberlo sabido mejor porque ya construí uno con una lente &quot;normal&quot;.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+90
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+The best part of Hugging Face’s “The Stack” is that ~the majority of~ many of the repos it lists for me are — and always have been — private repos.
+[End of Source Text]
+
+[Start of Translation]
+La mejor parte de ""The Stack"" de Hugging Face es que ~la mayoría de~ muchos de los repositorios que me muestra son, y siempre han sido, repositorios privados.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+82
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Complaints of Russian language use in Ukraine rise 30% - RT Russia & Former Soviet Union
+[End of Source Text]
+
+[Start of Translation]
+Las denuncias de uso de la lengua rusa en Ucrania aumentan en un 30 % - RT Rusia y ex Unión Soviética
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+96
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Training muscles, not just the mind. 💪
+[End of Source Text]
+
+[Start of Translation]
+Ordenador de mscritas, no tan dilación de la macebra.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+2
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Girl… get one.
+[End of Source Text]
+
+[Start of Translation]
+Chica! ¡Consigue uno!
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+94
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+@user25 ooo thats a shout, defo one once I've got some skills in
+[End of Source Text]
+
+[Start of Translation]
+@user25 ooo eso es un grito, haz otro una
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+51
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+come on nok, $3.74 let’s go.
+[End of Source Text]
+
+[Start of Translation]
+Vamos, Nok, $3.74, ¡vamos!
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+75
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+""I AM SORRY, BUT I PICTURED YOUR LARGE, ARMOURED FRIEND ON A TINY LITTLE BIKE MEANT FOR TEMTHAN CHILDREN. IT WAS HILARIOUS! I WISH I HAD SOME FORM OF TELEPATHY. IT IS A CHERISHED THOUGHT! ONE I CANNOT SHARE!""
+[End of Source Text]
+
+[Start of Translation]
+""Lo siento, pero me imaginé a su gran amigo armado en una pequeña bicicleta pequeña destinada a los niños de los temthan. ¡Fue hilariante! Deseo que tuviera alguna forma de telepatía. ¡Es un pensamiento preciado! ¡Uno que no puedo compartir!""
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+90
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+come on nok, $3.74 let’s go.
+[End of Source Text]
+
+[Start of Translation]
+nok, $3,74 let's go.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+87
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+0430 Itania time. Cohren hated waking up this early. Mainly because it was his responsibility to wake everyone else up in his company. Silently stepping out of his bunk, he put on his combat fatigues, throwing on his assault vest, and packed up his belongings from his locker, being careful with a particular small box. He shoulded his rifle and put his helmet on a small hook connected to his belt. It had all its fixing, respirator, goggles, everything needed. After checking his ammo pouches, he quietly walked out of the barracks, mud and ice squelching under his boots.
+[End of Source Text]
+
+[Start of Translation]
+0430 hora de Italia. Cohren odiaba despertarse tan temprano. Principalmente porque era su responsabilidad despertar a todos los demás en su compañía. Silenciosamente saliendo de su litera, se puso su uniforme de combate, se puso su chaleco de asalto y empacó sus pertenencias de su casillero, teniendo cuidado con una pequeña caja en particular. Debía poner su rifle y poner su casco en un pequeño gancho conectado a su cinturón. Tenía toda su fijación, respirador, gafas, todo lo necesario. Después de revisar sus bolsas de munición, salió tranquilamente de los cuarteles, barro
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+86
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+And I know demand is relatively low, I had a barely-used merch site for several years :D
+[End of Source Text]
+
+[Start of Translation]
+Y sé que la demanda es relativamente baja; tuve un sitio de material que apenas se usaba por varios años :D
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+87
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+It was a nice clear day, a little hazy at altitude, but nice none the less.
+[End of Source Text]
+
+[Start of Translation]
+Era un buen día claro, un poco turbio a la altitud, pero bueno sin embargo.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+80
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+""New year, same idiotic behavior by some,"" New York Republican Representative Mike Lawler told Newsweek. ""We're not doing an omnibus, so each bill is going to have to be dealt with at conference and negotiated. Obviously, the reality is we're probably gonna need more time to do that. And I don't support a government shutdown, so I have no problem with doing a short-term CR that allows for this process to be completed.""
+[End of Source Text]
+
+[Start of Translation]
+""Año nuevo, mismo comportamiento idiota por parte de algunos"", declaró a Newsweek el representante republicano por Nueva York Mike Lawler. ""No vamos a hacer un ómnibus, así que cada proyecto de ley va a tener que ser tratado en conferencia y negociado. Obviamente, la realidad es que probablemente vamos a necesitar más tiempo para hacerlo. Y yo no apoyo un cierre del gobierno, así que no tengo ningún problema en hacer un CR a corto plazo que permita completar este proceso.""
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+93
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+""You want to chase after them?""
+[End of Source Text]
+
+[Start of Translation]
+""No terraeren terraebra desvíédite de ellos?”
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+29
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Kid Durango of Arizona, the Dust Devils. The layer of dew that covered the prairie, disappeared quickly as the sun rose over the foothills. The moon hung around for a while, and then sunk far below the ranges. The day began like a thousand other Arizona days. That was until the cloud came.
+[End of Source Text]
+
+[Start of Translation]
+Kid Durango de Arizona, los Dust Devils. La capa de rocío que cubría la pradera desapareció rápidamente cuando el sol se elevó sobre las estribaciones. La luna se quedó un rato y luego se hundió muy por debajo de las cordilleras. El día comenzó como otros mil días de Arizona. Eso fue hasta que llegó la nube.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+85
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Check. Check. Rock the scissors, scissor defeats paper, and paper defeat Rock. You win. The loser will lose one star. At the end of each game, the referee will put the cards back into the recycling box. Of course, if both players choose the same guard, the game is tied, and no one will lose a star.
+[End of Source Text]
+
+[Start of Translation]
+Compruebe. Compruebe. Rock las tijeras, las tijeras derrotan al papel, y el papel derrota a Rock. Usted gana. El perdedor perderá una estrella. Al final de cada juego, el árbitro volverá a colocar las cartas en la caja de reciclaje. Por supuesto, si ambos jugadores eligen la misma guardia, el juego está empatado, y nadie perderá una estrella.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+96
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+“Morning everyone” Cohren said in a cheery voice.
+[End of Source Text]
+
+[Start of Translation]
+""Buenos días a todos"", dijo Cohren con voz alegre.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+92
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+For Raptor specialist Bob Anderson, the pioneer's attitude was simply arrogant and ignorant. All birds of prey were just considered vermin. I mean, they were all chicken hawks. They were all bad birds, be it a bald eagle, golden eagle, a red to a hawk. They were all shot.
+[End of Source Text]
+
+[Start of Translation]
+Para el especialista en rapaces Bob Anderson, la actitud de los pioneros era simplemente arrogante e ignorante. Todas las aves rapaces eran consideradas simplemente como plagas. Es decir, todas eran halcones come-gallinas. Todas eran aves malas, ya fuera un águila calva, un águila real, un halcón cola roja o cualquier halcón. A todas les disparaban.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+80
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+It's important to keep in mind that, even though these rates are per million departures, some of the plane models in this report - for example, the Boeing 727 introduced in 1964 - have been around for decades and consequently had much longer to accumulate an accident record than others.
+[End of Source Text]
+
+[Start of Translation]
+Es importante tener en cuenta que, a pesar de que estas tasas son por cada millón de salidas, algunos de los modelos de aviones en este informe -por ejemplo, el Boeing 727 introducido en 1964- han existido durante décadas y, por lo tanto, han tenido mucho más tiempo para acumular un historial de accidentes que otros.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+96
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Sweep has done the capping and cowling. Should be a bit safer for the rooks that like to nest up there 🪺
+[End of Source Text]
+
+[Start of Translation]
+Sweep ha hecho el taponado y la tapa. Debería ser un poco más seguro para las urracas que prefieren anidar allí arriba 🪺.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+86
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+The reason for the weird shape of that plastic box is the swiveling side panel of the nesting box. I bought it like that and couldn't modify it so I had to design around it.
+[End of Source Text]
+
+[Start of Translation]
+La razón de la extraña forma de esa caja de plástico es el panel lateral giratorio del nido. La compré así y no pude modificarla, así que tuve que diseñar en torno a ella.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+87
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+""It's not that bad, right, Kayel?""
+[End of Source Text]
+
+[Start of Translation]
+""No es tan malo, ¿verdad, Kayel?""
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+98
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+It is December 1997, and the Imperial Sugar Company is acquiring a new production site at Port Wentworth, from Savannah Foods and Industries Incorporated. There is nothing really of note here, it was doing what businesses do, and that is acquiring to expand. The site has been home to food production and processing since the early 1900s. Savannah Industries Incorporated, began construction of granulated sugar production facilities at Port Wentworth during the 1910s, completing it in 1917.
+[End of Source Text]
+
+[Start of Translation]
+Epic comezo de 1992, and the Guardiola Española SILA na adquirierà re nuevo checkio de producció de Puerto Sihargli, de Ciertas Comidan and Technology Inmarcible. No sar tly realments of útubo aquí, poa saciendo tra tra tra san clubs st, and with na plude adquir on ampliar. Di checkio sa lá jas dis to proding de aliments and processing clubs
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+24
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+But the slots approach looks promising. I’ll give it a try.
+[End of Source Text]
+
+[Start of Translation]
+Arrojado san angillos prefoces lúlan salidaos. Apidimon dúplex re méte.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+0
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+""AIM FOR THEIR HEADS!""
+[End of Source Text]
+
+[Start of Translation]
+""¡APUNTEN A SUS CABEZAS!""
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+94
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+High-street bakery chain Greggs has said that in the year ahead it does not plan to hike prices, and is aiming to open 160 branches as it targets locations outside city centres.
+[End of Source Text]
+
+[Start of Translation]
+La cadena de panaderías de la calle principal Greggs ha dicho que en el próximo año no planea aumentar los precios y que tiene como objetivo abrir 160 sucursales, ya que se centra en ubicaciones fuera de los centros urbanos.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+80
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Cheers, y'all. Now check it out. I really didn't even eat enough to be wiping my mouth, but I can tell you this, my mouth is salivating. You know what I mean? So look, this is what I'm trying to do. You guys let me know down in the comment section below, what would you do? What type of veggie would you serve this with? And don't forget, this is a budget friendly meal, alright. So let me just go ahead and pour myself a glass of this great coupgate. Yes, sir.
+[End of Source Text]
+
+[Start of Translation]
+Saludos, chicos. Ahora mira esto. Realmente no comí lo suficiente como para limpiarme la boca, pero puedo decirte esto, mi boca está salivando. ¿Lo entiendes? Así que, esto es lo que estoy tratando de hacer. Dejenme saber en los comentarios a continuación, ¿qué harías? ¿Qué tipo de verdura servirías con esto? Y no olviden, esto es una comida económica, ¿de acuerdo? Así que déjame simplemente servirme un vaso de este gran golpe. Sí, señor.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+63
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Let's wait and see.
+[End of Source Text]
+
+[Start of Translation]
+Vamos a esperar y ver.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+98
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+But the new ones cover that area just fine.
+[End of Source Text]
+
+[Start of Translation]
+Pero las nuevas cubren ese área de maravilla!
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+84
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Hi Rob. Hi Marion, how are you? I am very well. Why are you dressed as a security guard rob? Management have asked me to create a new healthcare security news section and buyer's guide and I thought a costume may help me get into character. Oh, I see. Yes, well maybe it will rub. We have a news section now that looks at the issues and opportunities surrounding data security and network security and healthcare.
+[End of Source Text]
+
+[Start of Translation]
+Hola, Rob. Hola, Marion, ¿cómo estás? Estoy muy bien. ¿Por qué te vistes como un vigilante rob? La gerencia me pidió que creara una nueva sección de noticias sobre seguridad médica y una guía para los compradores, y pensé que un disfraz podría ayudarme a meterme en el papel. Oh, veo. Sí, bueno, tal vez lo toque. Tenemos ahora una sección de noticias que se enfoca en los problemas y oportunidades que rodean la seguridad de los datos y la seguridad de las redes, y la seguridad médica.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+98
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+trying my hand at miniatures
+[End of Source Text]
+
+[Start of Translation]
+intentando hacer miniaturas
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+98
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Training muscles, not just the mind. 💪
+[End of Source Text]
+
+[Start of Translation]
+Entrenar los músculos, no solo la mente. 💪
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+96
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Bring back oversight for WA's jails. Lives depend on it
+[End of Source Text]
+
+[Start of Translation]
+Traer de vuelta la supervisión de las cárceles de WA. Vidas dependen de ello
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+91
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+I am about to be in a similar situation. I will need a new website and am making a list of the accessibility and privacy requirements I want (so no Google Analytics, etc.) & investigating how to make using Signal standard for video call; it will mean a lot of client education! - but worth it, I think.
+[End of Source Text]
+
+[Start of Translation]
+Estoy a punto de estar en una situación similar. Necesitaré un nuevo sitio web y estoy haciendo una lista de los requisitos de accesibilidad y privacidad que quiero (por lo tanto, nada de Google Analytics, etc.) e investigando cómo hacer que el uso de Signal sea estándar para videollamadas; ¡Significará mucha educación para el cliente! - Pero creo que vale la pena.
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+76
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+""We're on the surface and transmitting""
+[End of Source Text]
+
+[Start of Translation]
+""Estamos en la superficie y transmitiendo""
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+99
+</answer>",en-es
+"Score the following translation from English to Spanish on a continuous scale from 0 to 100,
+where a score of zero (0) means ""no meaning preserved"" and score of one hundred (100) means ""perfect meaning and grammar"".
+
+[Start of Source Text]
+Adapt the old, accommodate the new to solve issue
+[End of Source Text]
+
+[Start of Translation]
+Adapte lo viejo y acepte lo nuevo para resolver el problema
+[End of Translation]
+
+Your answer should be a number like 0 or 1 or 2 or ... or 100, depending on your judgement.","<think>
+
+</think>
+
+<answer>
+92
+</answer>",en-es

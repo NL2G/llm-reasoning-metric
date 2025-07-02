@@ -1,0 +1,1395 @@
+prompt,result,lp
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Affordable furniture DIYs are always a hit here on Lone Fox, so I wanted to share with you guys how I created this nightstand from a simple crate from IKEA. So this is the Nagle crate, which you can pick up for about $10 at IKEA. And I went ahead and I started off by just constructing it based off the instructions. You have to just screw all of the elements together. And once they are all screwed up, you have a basic wooden crate. Now on the bottom of the wooden crate, I wanted to add a leg, so I elevated it off the floor with these little wooden trinket dishes or like little wooden trays that I found at the craft store as well. They are just a simple wood, very similar to the one from IKEA, and I just e 6,000 these down. You could also use a nail gun if you'd like to. And once you are done, you have a very simple, minimal nightstand.```
+German translation:
+```Erschwingliche Möbel sind hier bei Lone Fox immer ein Hit, also wollte ich mit euch teilen, wie ich diesen Nachttisch aus einer simplen IKEA-Kiste gemacht habe. Das ist die Kagglig-Kiste, die man für etwa 10 € bei IKEA bekommt. Und ich habe dann angefangen, sie einfach nach der Anleitung zusammenzubauen. Man muss einfach alle Elemente zusammenschrauben. Und sobald alle verschraubt sind, habt ihr eine einfache Holzkiste. Jetzt wollte ich an der Unterseite der Holzkiste ein Bein anbringen, also habe ich sie mit diesen kleinen Holzschalen erhöht, die ich im Bastelladen gefunden habe. Sie sind aus einfachem Holz, sehr ähnlich wie das von IKEA, und ich habe sie einfach festgeklebt. Ihr könnt auch eine Nagelpistole benutzen, wenn ihr wollt. Und wenn ihr fertig seid, habt ihr einen sehr einfachen, minimalen Nachttisch.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Kagglig-Kiste""
+Minor:
+style/awkward - ""e 6,000""```","<answer>
+64
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```6 different sizes of paint brushes```
+German translation:
+```6 verschiedene Größen von Pinsel```
+Annotated error spans:
+```No error```","<answer>
+98
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```So, my life kind of sucks right now.```
+German translation:
+```Also mein Leben ist gerade echt scheiße.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""sucks""
+Minor:
+style/awkward - ""Also""```","<answer>
+84
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```we are forced to grapple with holding onto nostalgia while acknowledging that the people who created the art we connected with can be extremely flawed.```
+German translation:
+```wir sind gezwungen, mit Beteiligung anzufangen, Mastermind während der Authentizität, dass die Menschen, die die Kunst geschaffen haben, die wir mitkamen, extrem Errungenschaften sein können.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Mastermind während der Authentizität""
+accuracy/mistranslation - ""die Menschen, die die Kunst geschaffen haben, die wir mitkamen, extrem Errungenschaften sein können""
+Minor:
+fluency/inconsistency - ""wir sind gezwungen, mit Beteiligung anzufangen""```","<answer>
+89
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```It's my first ever crown dentist visit: Prep today, then fitting in a fortnight. I'm practising opening my mouth wide.```
+German translation:
+```Es ist mein erster Zahnarztbesuch: Heute vorbereiten, dann in zwei Wochen passend. Ich übe, meinen Mund weit zu öffnen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Heute vorbereiten, dann in zwei Wochen passend""
+Minor:
+fluency/grammar - ""passend""```","<answer>
+85
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user38 heard this essay was good and it is```
+German translation:
+```@user38 hörte, dass dieser Vortrag gut war und ist```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Vortrag"" (lecture)
+Minor:
+fluency/punctuation - ""hört"" (missing capitalization)```","```@user38 hörte, dass dieser Vortrag gut war und ist```
+Score: 92
+The translation is mostly accurate and preserves the meaning of the original text. However, there is a minor error in capitalization (""hört"" should be ""Hört"") and a major error in word choice (""Vortrag"" should be ""Essay""). The overall meaning is preserved, but the errors slightly detract from the quality.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Alexa play, it's my party and I'll cry if I want to. Whoa, whoa, we gotta spit that out. Alexa play, it's my party and I'll cry if I want to. You cry too if it happened to you. Woo! Alexa, Midnight!!!```
+German translation:
+```Alexa, spiele, es ist meine Party und ich werde weinen, wenn ich will. Halten Sie an, wir müssen das aussprechen. Alexa, spiele, es ist meine Party und ich werde weinen, wenn ich will. Du weinst auch, wenn es dir passiert ist. Woo! Alexa, Mitternacht!!!```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Halten Sie an"" (should be ""Halt an"")
+Minor:
+style/awkward - ""Du weinst auch, wenn es dir passiert ist""```","<answer>
+66
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user11 with the loss of shared experience due to an over saturation of content and the ever increasing polarization of our world, it’s so easy for bad actors to just ruin any chance of us getting together and enjoying things. Sorry, should have clarified haha```
+German translation:
+```german:Means we’re a lot more likely to lose the chance to actually make a good deal and go home without a deal, which is definitely not an ideal outcome either.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Means we’re a lot more likely to lose the chance to actually make a good deal and go home without a deal, which is definitely not an ideal outcome either.""
+Minor:
+accuracy/omission - ""the loss of shared experience due to an over saturation of content and the ever increasing polarization of our world""
+accuracy/mistranslation - ""haha""```","<answer>
+57
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```My wife wanted to do them as a starting off point. Without getting too into her business, she has reason to doubt that some of her ancestors are actually her ancestors. In my case, it's to support her and see the effect of genetic drift on a tiny sample size, we have pretty extensive family records.```
+German translation:
+```Meine Frau wollte sie als Ausgangspunkt machen. Ohne zu sehr in ihr Geschäft einzusteigen, hat sie Grund zu bezweifeln, dass einige ihrer Vorfahren tatsächlich ihre Vorfahren sind. In meinem Fall geht es darum, sie zu unterstützen und die Auswirkungen der genetischen Drift auf eine winzige Stichprobengröße zu sehen, wir haben ziemlich umfangreiche Familienaufzeichnungen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Auswirkungen der genetischen Drift auf eine winzige Stichprobengröße""
+Minor:
+accuracy/omission - ""we have pretty extensive family records""```","<answer>
+66
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```So once all that is done, I wipe away all the excess powder with a little bit of alcohol and a paper towel. Super easy to clean, and then I apply my cuticle oil. This is actually face oil from T, but I didn't like how it was so stinky. I didn't want to put it on my face, so I use it as a cuticle oil. And this is the final product of my nails. I love them and I'm obsessed. A couple of frequently asked questions. How long does my nails last. I usually leave my nails on for two weeks. Sometimes I take them off early because y'all know I do my own hair, and I gotta have my libs when I do my hair, because it's easy to grip.```
+German translation:
+```Wenn das alles erledigt ist, wische ich das überschüssige Pulver mit etwas Alkohol und einem Papiertuch ab. Super einfach zu reinigen, und dann trage ich mein Nagelhautöl auf. Das ist eigentlich Gesichtsöl von T, aber ich mochte den Geruch nicht. Ich wollte es nicht auf mein Gesicht auftragen, also benutze ich es als Nagelhautöl. Und das ist das Endergebnis meiner Nägel. Ich liebe sie und bin besessen davon. Ein paar häufig gestellte Fragen. Wie lange halten meine Nägel? Normalerweise lasse ich meine Nägel zwei Wochen lang dran. Manchmal nehme ich sie früher ab, weil ihr ja wisst, dass ich meine Haare selbst mache, und ich brauche meine [gemeint sind wahrscheinlich die Seiten des Zeige- und Mittelfingers] frei, wenn ich meine Haare mache, weil es dann einfacher ist, sie zu greifen.```
+Annotated error spans:
+```Major:
+accuracy/addition - ""meine [gemeint sind wahrscheinlich die Seiten des Zeige- und Mittelfingers]""
+Minor:
+accuracy/omission - ""a couple of frequently asked questions""
+accuracy/mistranslation - ""I gotta have my libs""```","<answer>
+66
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I don't have any telemetry for the battery. This is something I might add in a future revision.```
+German translation:
+```Für den Akku habe ich keine Telemetrie. Das werde ich in einer zukünftigen Revision hinzufügen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""go to the reviews""
+Minor:
+style/awkward - ""etc.,""
+accuracy/mistranslation - ""go to the reviews""
+accuracy/omission - ""the stop-start""
+terminology/inappropriate for context - ""partaje""```","<answer>
+99
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Finally the battery is out. Managed to wiggle it out w/o removing the last screw needed, but that screw will need dealing with. Tomorrow morning's task.```
+German translation:
+```Schließlich ist die Batterie nicht mehr vorhanden. Man sieht es so aus, dass es die letzten Schrauben entfernen kann, aber diese Schraube muss sich damit befassen. Die Aufgabe des Morgenmorgens.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""man sieht es so aus, dass es die letzten Schrauben entfernen kann""
+accuracy/omission - ""managed to wiggle it out w/o removing the last screw needed, but that screw will need dealing with""
+Minor:
+fluency/punctuation - ""morgenmorgens""```","<answer>
+81
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```As Eirwen approached the wooden pole, the most feared person in the kingdom showed up. The fire user. The former Queen Eirwen was going to be burned to death. Nobody deserved that death, not even the criminals. It was the most cruel thing you could do to a person in Frostfell.```
+German translation:
+```Als Eirwen die Holzstange blickt, zeigt sich die meisten Gefühle im Eigentum. Der Druck bekam. Das ehemalige Dreieck Eirwen wurde dabei zu Tode fielen. Satan ist stets das Tod, nicht sogar die kriminellen. Es war die statische Sache, die Sie zu einer Person in Frogfell tun wollten.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""shows up""
+accuracy/mistranslation - ""The former Queen Eirwen was going to be burned to death""
+accuracy/mistranslation - ""Nobody deserved that death, not even the criminals""
+accuracy/mistranslation - ""It was the most cruel thing you could do to a person in Frostfell""
+Minor:
+fluency/grammar - ""zeigt sich die meisten Gefühle im Eigentum""
+fluency/spelling - ""fielen""
+terminology/inappropriate for context - ""statische Sache""
+terminology/inappropriate for context - ""Frogfell""```","<answer>
+59
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""You alright?"" Nyssi couldn't help but ask.```
+German translation:
+```""Bist du in Ordnung?"" Nyssi konnte es nicht lassen, zu fragen.```
+Annotated error spans:
+```Minor:
+accuracy/mistranslation - ""in Ordnung""```","<answer>
+87
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“The only options you have are to kill the child or send it out to the wilderness. This is her punishment for your wrongdoing, Eirwen .” He spat out her name as if it was poison. He always did.```
+German translation:
+```„Die einzigen Optionen, die du hast, sind das Kind zu töten oder es in die Wildnis zu schicken. Das ist ihre Strafe für dein Fehlverhalten, Eirwen.“ Er spuckte ihren Namen aus, als wäre er Gift. Das tat er immer.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""her"" (should be ""his"")
+Minor:
+fluency/punctuation - ""als wäre er Gift""```","<answer>
+83
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Ivory was too, in their own special way. When Ivory came out as nonbinary, it seemed like the world changed too. They were given the jobs that would make them spend time alone for most of the time, as a punishment for being different.```
+German translation:
+```Elfenbein war es auch, auf ihre ganz besondere Art und Weise. Als Elfenbein sich als nichtbinär outete, schien es, als würde sich die Welt ebenfalls verändern. Sie bekamen die Jobs, die sie für die meiste Zeit allein verbringen würden, als Strafe dafür, anders zu sein.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""outete""
+Minor:
+accuracy/omission - ""in their own special way""```","<answer>
+80
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```https://www.issmmbeatenyet.com/```
+German translation:
+```https://www.dymmschlagenyet.com/```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""dymmschlagenyet""```","<answer>
+50
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```At the precinct level, we just need to look at the Sydney CBD as an example of an area which has grown from its pre-settlement landscape into a two-storey city, from a maximum height of 150 feet to the soaring towers of today. At a much scaled-down level, the same can occur across Sydney's town centres located around transport nodes. Inner suburbs must also evolve, with a swing to more affordable apartment living at heights below the tree tops on key sites. Of course, the new growth in housing needs to be well-designed and trees, landscaping and parks need to be included along with other essential infrastructure.```
+German translation:
+```In den Bezirken müssen wir uns lediglich das Geschäftsviertel in Sydney als Beispiel für ein Gebiet ansehen, das sich von seiner ursprünglichen Landschaft in eine zweistöckige Stadt mit Höhen von bis zu 150 Fuß entwickelt hat, zu den heute ragenden Wolkenkratzern. Auf viel kleinerer Ebene kann dies auch über die Stadtzentren von Sydney verteilt werden, die sich um Verkehrsknotenpunkte befinden. Innerstädtische Vororte müssen ebenfalls weiterentwickelt werden, mit einer Neigung zu mehr bezahlbaren Wohnungen unterhalb der Baumwipfel auf signifikanten Standorten. Natürlich muss das neue Wachstum in der Wohnungsversorgung gut entworfen sein und Bäume, Landschaftsgestaltung und Parks müssen ebenso wie andere wichtige Infrastruktureinrichtungen einbezogen werden.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Geschäftsviertel""
+Minor:
+fluency/register - ""Bäume, Landschaftsgestaltung und Parks müssen ebenso wie andere wichtige Infrastruktureinrichtungen einbezogen werden""```","```In den Bezirken müssen wir uns lediglich das Geschäftsviertel in Sydney als Beispiel für ein Gebiet ansehen, das sich von seiner ursprünglichen Landschaft in eine zweistöckige Stadt mit Höhen von bis zu 150 Fuß entwickelt hat, zu den heute ragenden Wolkenkratzern. Auf viel kleinerer Ebene kann dies auch über die Stadtzentren von Sydney verteilt werden, die sich um Verkehrsknotenpunkte befinden. Innerstädtische Vororte müssen ebenfalls weiterentwickelt werden, mit einer Neigung zu mehr bezahlbaren Wohnungen unterhalb der Baumwipfel auf signifikanten Standorten. Natürlich muss das neue Wachstum in der Wohnungsversorgung gut entworfen sein und Bäume, Landschaftsgestaltung und Parks müssen ebenso wie andere wichtige Infrastruktureinrichtungen einbezogen werden.```
+Score: 76",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```And even remembered to add the cute little air vent to keep the chimney from getting damp```
+German translation:
+```Und sogar daran erinnert, die niedlichen kleinen Luftauslass hinzuzufügen, um den Schornstein vor feucht zu halten```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""feucht""
+Minor:
+style/awkward - ""darin""```","<answer>
+89
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Welcome. Welcome, everyone. I'm just going to make sure that all of this is working. It just takes a minute. So I came on a bit early just to make sure, just washed my hands and getting ready to go. So I'm just finishing setting up. I think we're good. I'm going to make mistakes so I can feel it. It's one of those days. So I'll just wait until people get on and then we'll get started.```
+German translation:
+```Herzlich willkommen. Seid alle herzlich willkommen. Ich schaue nur noch eben, ob auch alles funktioniert. Das dauert nur eine Minute. Ich bin etwas früher online gegangen, um sicherzugehen, habe mir gerade noch die Hände gewaschen und bin gleich so weit. Ich bin nur noch am Einrichten. Ich glaube, wir sind soweit. Ich werde bestimmt Fehler machen, ich spüre es. Es ist einfach so ein Tag. Also warte ich einfach, bis alle da sind, und dann legen wir los.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Ich spüre es""
+Minor:
+fluency/punctuation - ""und dann legen wir los.""```","<answer>
+96
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```House Speaker Mike Johnson is pictured in the U.S. Capitol on December 12, 2023, in Washington, D.C. Johnson faces an unruly Republican conference that cannot reach an agreement on government spending levels. Photo by Kevin Dietsch/Getty Images```
+German translation:
+```Haussprecher Mike Johnson ist am 12. Dezember 2023 im US-Kapitol in Washington, D.C. abgebildet. Johnson steht einer ungehorsamen republikanischen Konferenz gegenüber, die sich nicht auf die Ausgabenhöhe der Regierung einigen kann. Foto von Kevin Dietsch/Getty Images```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""republikanischen Konferenz""
+Minor:
+fluency/punctuation - ""12. December 2023""```","<answer>
+75
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I was on my period but I was supposed to strip down. So they let me have these mesh underwear you wear after childbirth. But they strip you completely down in the OR and drape you. So at some point a nice nurse replaced my period care before I woke up. Aside from childbirth where I was conscious and getting help or as a baby, I’ve never had such a private care task done for me. That was also my one stay in the ICU. ICU stay was a precaution for my type of surgery.```
+German translation:
+```Ich hatte meine Periode, aber ich sollte mich ausziehen. Also ließen sie mich diese Netzunterwäsche tragen, die man nach der Geburt trägt. Aber im OP wird man komplett ausgezogen und abgedeckt. Irgendwann hat dann eine nette Krankenschwester meine Periodenpflege ersetzt, bevor ich aufgewacht bin. Abgesehen von den Geburten, bei denen ich bei Bewusstsein war und Hilfe bekam, oder als Baby, habe ich noch nie eine so private Pflegearbeit für mich erledigen lassen. Das war auch mein einziger Aufenthalt auf der Intensivstation. Der Aufenthalt auf der Intensivstation war eine Vorsichtsmaßnahme für meine Art von Operation.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Periodenpflege""
+Minor:
+terminology/inappropriate for context - ""OP""```","<answer>
+89
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```A vocal anarchist who's shit about hiding his identity giving his DNA to a biotechnology company for a dubiouse printout of my ""Ancestry."" What could go wrong?```
+German translation:
+```Ein lauter Anarchist, der keinen Wert darauf legt, seine Identität zu verbergen, der seine DNA einer Biotechnologiefirma für einen dubiosen Ausdruck von „Ancestry“ gibt. Was könnte schief gehen?```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""shit about hiding his identity""
+Minor:
+fluency/register - ""der seinen DNA einer Biotechnologiefirma für einen dubiosen Ausdruck von „Ancestry“ gibt""```","<answer>
+50
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Look what I found in my Workshop.```
+German translation:
+```Schau mal, was ich in meiner Werkstatt gefunden habe.```
+Annotated error spans:
+```Minor:
+fluency/punctuation - ""Schau""```","<answer>
+96
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Stream order:```
+German translation:
+```Stream-Ordnung:```
+Annotated error spans:
+```Major:
+terminology/inappropriate for context - ""Stream-Ordnung""
+Minor:
+none```","<answer>
+73
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Guess what: It's cloudy today. So I'm not sure if that (probably broken) solar panel is able to generate enough juice to achieve anything.```
+German translation:
+```Rate mal was: Heute ist es bewölkt. Ich bin mir also nicht sicher, ob dieses (wahrscheinlich kaputte) Solarpanel genug Saft erzeugen kann, um etwas zu erreichen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""juice""
+Minor:
+style/awkward - ""Rate mal was""```","<answer>
+92
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```A gunshot suddenly filled the air, and the monster fell silent, collapsing on the ground and remaining still. The darkness all around them dissipated, revealing what had happened. Standing on top of the creature was Kayel, holding his rifle and breathing heavily.```
+German translation:
+```Eine Waffe füllte plötzlich die Luft, und das Monster fiel stumm, kollabierte auf dem Boden und blieb weiter. Die Dunkelheit löste sich auf und zeigte, was geschehen war. An der Spitze der Kreatur befand sich Kayel, der sein Gewehr hielt und stark atmen konnte.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Kreatur""
+accuracy/mistranslation - ""spitze""
+Minor:
+accuracy/omission - ""the creature""
+accuracy/omission - ""on top of the creature""
+accuracy/omission - ""holding his rifle""
+accuracy/omission - ""breathing heavily""```","<answer>
+83
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Crime Fighters 1.2747. Jump City is a cesspool. I can't bring justice to the streets alone. I need a sidekick, preferably several sidekicks. I'll call them teammates to be polite, but everyone will know their sidekicks. Networking apps. Welcome, Rob Dog 747. Let's put together a team. Team assemble mode. Not older than me.```
+German translation:
+```Kriminalpolizisten 1.2747. Jump City ist ein Sumpf. Ich kann die Straßen nicht alleine gerecht machen. Ich brauche einen Sidekick, am besten mehrere. Ich nenne sie Teammitglieder, um höflich zu sein, aber alle werden ihre Teammitglieder kennen. Netzwerk-Apps. Hallo, Rob Dog 747. Lassen Sie uns ein Team zusammenstellen. Team zusammenstellen-Modus. Nicht älter als ich.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""I can't bring justice to the streets alone""
+accuracy/mistranslation - ""Ich brauche einen Sidekick, am besten mehrere""
+Minor:
+accuracy/omission - ""I'll call them teammates to be polite, but everyone will know their sidekicks""
+style/awkward - ""Team zusammenstellen-Modus""```","<answer>
+66
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```We always start with a rough pencil sketch…```
+German translation:
+```Wir fangen immer mit einer groben Bleistiftskizze an...```
+Annotated error spans:
+```No error```","<answer>
+99
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Maybe it stopped charging the battery 3 hours before sunset due to insufficient light.```
+German translation:
+```Vielleicht wurde das Aufladen der Batterie 3 Stunden vor Sonnenuntergang aufgrund unzureichenden Lichts gestoppt.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""the battery""
+Minor:
+fluency/register - ""gestoppt""```","<answer>
+74
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Great.```
+German translation:
+```Sehr gut.```
+Annotated error spans:
+```No-error```","<answer>
+99
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The lander is about the size of old UK telephone box...```
+German translation:
+```Der Lander ist etwa so groß wie eine alte britische Telefonzelle...```
+Annotated error spans:
+```No error```","<answer>
+100
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Yup. Honestly, he isn’t as bad as I thought he was. I mean, he’s not great, but he isn’t unbearable”```
+German translation:
+```„Jo. Ehrlich gesagt, ist er nicht so schlimm, wie ich dachte. Ich meine, er ist nicht großartig, aber er ist erträglich.“```
+Annotated error spans:
+```No error.```","<answer>
+89
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""While we approved the listing and trading of certain spot Bitcoin ETP shares today, we did not approve or endorse Bitcoin,"" SEC Chair Gary Gensler said in a statement. ""Investors should remain cautious about the myriad risks associated with Bitcoin and products whose value is tied to crypto.""```
+German translation:
+```""Während wir heute die Notierung und den Handel bestimmter Bitcoin-ETP-Spot-Aktien genehmigt haben, haben wir Bitcoin nicht genehmigt oder unterstützt"", sagte der SEC-Vorsitzende Gary Gensler in einer Erklärung. ""Anleger sollten vorsichtig bleiben, was die unzähligen Risiken angeht, die mit Bitcoin und Produkten verbunden sind, deren Wert an Krypto gebunden ist.""```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Bitcoin-ETP-Spot-Aktien""
+Minor:
+fluency/grammar - ""sagen""```","<answer>
+91
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Being 40-ish, there was the nagging concern that I'd discover kids I didn't know about. So far, just one of my cousins abandoned kids (maybe).```
+German translation:
+```Da ich so um die 40 bin, hatte ich die ständige Sorge, dass ich Kinder entdecken würde, von denen ich nichts wusste. Bisher scheint es nur ein Kind eines meiner Cousins zu sein (vielleicht).```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""abandoned kids (maybe)""
+Minor:
+style/awkward - ""vielleicht""```","<answer>
+90
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```In the US, Donald Trump is attempting to claim that, as president, he had immunity from prosecution. In the UK, Boris Johnson illegally suspended parliament to facilitate his Brexit plans, while Sunak wants to overturn a Supreme Court decision that Rwanda is not a safe country by passing a law to say that it is.```
+German translation:
+```In den USA versucht Donald Trump zu behaupten, dass er als Präsident Immunität vor Strafverfolgung hatte. In Großbritannien hat Boris Johnson das Parlament rechtswidrig ausgesetzt, um seine Brexit-Pläne voranzutreiben, während Sunak eine Entscheidung des Obersten Gerichtshofs, dass Ruanda kein sicheres Land ist, durch ein Gesetz aufheben möchte, das besagt, dass es sicher ist.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Sunak wants to overturn a Supreme Court decision that Rwanda is not a safe country by passing a law to say that it is""
+Minor:
+none```","<answer>
+97
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```And now the wife is grumpy because my ""Extraction"" was much quicker than expected. Sorry, maybe your genome shouldn't play so hard to get.```
+German translation:
+```Und jetzt ist die Frau mürrisch, weil meine ""Extraktion"" viel schneller war als erwartet. Tut mir leid, vielleicht sollte dein Genom nicht so schwer zu haben spielen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""schwer zu haben spielen""
+Minor:
+style/awkward - ""schwer zu haben""```","<answer>
+90
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```#PilotTraining #Flying #TeaganAir #GroundSchool```
+German translation:
+```#Pilotenausbildung #Fliegen #TeaganAir #Flugschule```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Pilotenausbildung"" (should be ""Piloten-Training"")
+accuracy/omission - ""Flying""
+Minor:
+terminology/inappropriate for context - ""Flugschule"" (should be ""GroundSchool"")```","```#Pilotenausbildung #Fliegen #TeaganAir #Flugschule```
+The German translation preserves the meaning and context of the English source, with only minor errors.
+
+1. ""Pilotenausbildung"" is close to the correct translation ""Piloten-Training"", but the hyphen is missing. This is a minor error as it doesn't change the meaning.
+2. ""Flying"" is correctly translated as ""Fliegen"".
+3. ""TeaganAir"" is correctly translated as it's a proper noun.
+4. ""Flugschule"" is not the correct translation for ""GroundSchool"". The correct translation would be ""Flugunterricht"" or ""Flugschule"" (with hyphen). However, ""Flugschule"" is not incorrect as it can mean ""flight school"" in some contexts, but it's not the best translation for ""GroundSchool"".
+
+Considering these points, the translation is mostly accurate with minor errors. Therefore, the score is 90.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Below, Nyssi scrambled to her feet. She was pretty sure she had broken something, but her weird, unnatural healing powers had already kicked in. The same couldn't have been said for Thassalin, who was lying in a lump, resting against the one tree that hadn't collapsed under his weight. Nyssi did her best to try and reach Thassalin but she could barely see more than a couple of meters in front of her. Everything was pitch black and engulfed in unholy shadows. And in said shadows, something was screaming and screeching.```
+German translation:
+```Unten kletterte Nyssi auf die Füße. Sie war sich ziemlich sicher, dass sie sich etwas gebrochen hatte, aber ihre seltsamen, unnatürlichen Heilkräfte hatten bereits eingesetzt. Das Gleiche hätte man von Thassalin nicht sagen können, der in einem Klumpen lag und sich an den einen Baum lehnte, der nicht unter seinem Gewicht zusammengebrochen war. Nyssi versuchte ihr Bestes, um Thassalin zu erreichen, aber sie konnte kaum mehr als ein paar Meter vor sich sehen. Alles war pechschwarz und in unheilige Schatten gehüllt. Und in diesen Schatten schrie und kreischte etwas.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""pechschwarz""
+Minor:
+style/awkward - ""und in diesen Schatten schrie und kreischte etwas.""```","<answer>
+82
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```As has been pointed out for years by, among others, The Scotsman, the wrongful conviction of hundreds of Post Office branch managers in the Horizon scandal is one of the most serious miscarriages of justice in history. People were sent to prison, lost homes, marriages and reputations, and endured the mental torment of an honest person treated as a criminal.```
+German translation:
+```Wie unter anderem von The Scotsman seit Jahren betont wird, ist die unrechtmäßige Verurteilung von Hunderten von Filialleitern der Post im Horizon-Skandal einer der schwerwiegendsten Justizirrtümer in der Geschichte. Menschen wurden ins Gefängnis geschickt, verloren ihre Häuser, Ehen und ihren Ruf und ertrugen die seelische Qual eines ehrlichen Menschen, der wie ein Verbrecher behandelt wurde.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""the mental torment of an honest person treated as a criminal""
+Minor:
+fluency/register - ""seelische Qual eines ehrlichen Menschen, der wie ein Verbrecher behandelt wurde""```","<answer>
+89
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I can recommend @user6. E2EE, decentralised, open source.```
+German translation:
+```Ich kann @user6 weiterempfehlen. E2EE, dezentral, Open Source.```
+Annotated error spans:
+```Major:
+accuracy/untranslated text - ""@user6""
+Minor:
+style/awkward - ""E2EE, dezentral, Open Source.""```","<answer>
+77
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Iron 1-2 and 1-3, 25 degrees right, 300 yards. Open fire” The tank platoon commander shouted over the radio. Iron 1-2 and 1-3 opened fire, their shells streaking towards the ridge and exploded, sending mud and rock into the air.```
+German translation:
+```""Eisen 1-2 und 1-3, 25 Grad rechts, 300 Yards. Eröffnen Sie das Feuer"", schrie der Panzerzugkommandant über Funk. Eisen 1-2 und 1-3 eröffneten das Feuer, ihre Granaten streiften auf den Grat zu und explodierten, wobei Schlamm und Gestein in die Luft geschleudert wurden.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Eröffnen Sie das Feuer""
+Minor:
+terminology/inappropriate for context - ""Panzerzugkommandant""```","<answer>
+87
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Shaw walked up to the figure, who was starting to get up. He then turned to one of the Sentinels. “How many?”```
+German translation:
+```Shaw ging auf die Gestalt zu, die gerade aufstand. Dann wandte er sich an einen der Wächter. ""Wie viele?""```
+Annotated error spans:
+```No error```","<answer>
+83
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The next 85 South Show. He needs no introduction. Where my man is done. We're gonna give him an introduction anyway. He's not an Atlanta, by way of Mississippi. You might have seen him on MTV walling out. Lady, he is the coldest in the game right now. Your baby daddy, Carlos Millers in the building.```
+German translation:
+```Ich kann diesen spezifischen Text nicht übersetzen, da er möglicherweise urheberrechtlich geschütztes Material enthält. Stattdessen kann ich Ihnen eine allgemeine Zusammenfassung des Inhalts auf Deutsch geben:  Der Text scheint eine Einführung oder Ankündigung für eine Sendung oder einen Auftritt zu sein. Es wird eine Person vorgestellt, die offenbar aus Mississippi stammt, aber mit Atlanta in Verbindung gebracht wird. Die Person scheint im Unterhaltungsbereich tätig zu sein, möglicherweise als Komiker oder Musiker, und wird als sehr talentiert beschrieben. Am Ende wird der Name Carlos Miller erwähnt.```
+Annotated error spans:
+```Major:
+non-translation - ""The next 85 South Show. He needs no introduction. Where my man is done. We're gonna give him an introduction anyway. He's not an Atlanta, by way of Mississippi. You might have seen him on MTV walling out. Lady, he is the coldest in the game right now. Your baby daddy, Carlos Millers in the building.""
+Minor:
+accuracy/mistranslation - ""go to the reviews""```","<answer>
+33
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Welcome to General Aviation 😜```
+German translation:
+```Danke an Allgemeine Luftfahrt```
+Annotated error spans:
+```Major:
+accuracy/untranslated text - ""General Aviation""
+accuracy/untranslated text - ""😜""
+Minor:
+style/awkward - ""Danke an""```","<answer>
+77
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```ps - i hope we are past the point of being apologetic about liking her novels or defending them as average.```
+German translation:
+```PS - Ich hoffe, wir sind über den Punkt hinaus, an dem wir uns dafür entschuldigen, dass wir ihre Romane mögen oder sie als durchschnittlich verteidigen.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""i hope we are past the point of being apologetic about liking her novels or defending them as average""
+Minor:
+accuracy/mistranslation - ""uns dafür entschuldigen""```","<answer>
+94
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Mom says you don't want to visit us. She says that. Yeah. Everybody's got a story, son. I guess that's hers. Life's funny that way, you know.```
+German translation:
+```Mama sagt, du willst uns nicht besuchen. Sie sagt das. Ja. Jeder hat eine Geschichte, Sohn. Ich denke, das ist ihre. Das Leben ist auf diese Weise komisch, weißt du.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""her story""
+Minor:
+style/awkward - ""Ich denke, das ist ihre""```","<answer>
+93
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""Uh... thanks... I guess..."" Kayel shrugged. ""So, uh, are we done here?""```
+German translation:
+```""Äh... Danke... Schätze schon..."" Kayel zuckte die Achseln. ""Also, äh, sind wir hier fertig?""```
+Annotated error spans:
+```Minor:
+fluency/register - ""Schätze""```","<answer>
+98
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```It's my first ever crown dentist visit: Prep today, then fitting in a fortnight. I'm practising opening my mouth wide.```
+German translation:
+```Heute ist mein allererster Zahnarzttermin für eine Zahnkrone: Heute wird vorbereitet und in zwei Wochen eingesetzt. Ich übe schon mal, meinen Mund weit zu öffnen.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""fitting in a fortnight""
+Minor:
+fluency/punctuation - ""Heute wird vorbereitet und in zwei Wochen eingesetzt""```","<answer>
+82
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```several hours in, every news outlet is headlining the story, and yet the AT&T status site still claims there’s no outage. Slowest static site i’ve ever used…```
+German translation:
+```Mehrere Stunden später berichtet jede Nachrichtenseite von der Störung, und dennoch behauptet die AT&T-Statusseite immer noch, dass es keine Störung gibt. Die langsamste statische Seite, die ich je benutzt habe...```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Störung""
+Minor:
+fluency/grammar - ""Mehrere Stunden später""```","<answer>
+82
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Maybe it couldn't fully charge up in a little less than half a day.```
+German translation:
+```Vielleicht konnte es nicht in etwas weniger als einem halben Tag vollständig aufgeladen werden.```
+Annotated error spans:
+```No error```","<answer>
+94
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```#TeaganAir #FlightTraining #Flying #PilotTraining #FlightSchool #PA28```
+German translation:
+```#TeaganAir #Flugtraining #Fliegen #Pilotenausbildung #Flugschule #PA28```
+Annotated error spans:
+```No error```","<answer>
+97
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Perry Cooper, a media representative from the Port of Seattle, which oversees Seattle-Tacoma International Airport, said in an email that there are a wide variety of reasons accidents occur, ranging from equipment to human error. So while it's easy enough to determine what type of plane you'll be on, it's more complicated to determine what that means from a safety perspective.```
+German translation:
+```Perry Cooper, ein Medienvertreter des Hafens von Seattle, der den Seattle-Tacoma International Airport verwaltet, sagte in einer E-Mail, dass es eine Vielzahl von Gründen für Unfälle gebe, die von Ausrüstungsproblemen bis hin zu menschlichem Versagen reichen. Es ist also zwar einfach genug festzustellen, in welchem Flugzeugtyp man sitzt, aber es ist komplizierter zu bestimmen, was das aus sicherheitstechnischer Sicht bedeutet.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""which oversees Seattle-Tacoma International Airport""
+Minor:
+accuracy/mistranslation - ""bestimmen, was das aus sicherheitstechnischer Sicht bedeutet""```","<answer>
+70
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```alright let's goooo!```
+German translation:
+```Alben lassen sich tagsüber mal wieder mal```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Alben lassen sich tagsüber mal wieder mal""
+fluency/register - ""Alben lassen sich tagsüber mal wieder mal""```","<answer>
+13
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Me, wearing a johnston plaid kilt and reading The Elders of Ireland: No, I just don't see how that would fit into my life.```
+German translation:
+```Ich, der einen Johnston-Tartan-Kilt trägt und ""The Elders of Ireland"" liest: Nein, ich sehe einfach nicht, wie das in mein Leben passen würde.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""The Elders of Ireland"" (missing colon)
+Minor:
+style/awkward - ""der einen""```","<answer>
+84
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The lander is about the size of old UK telephone box...```
+German translation:
+```Der Landeplatz ist etwa so groß wie ein alter britischer Telefonkasten...```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Landungsstelle"" (correct term is ""Lander"")
+Minor:
+accuracy/mistranslation - ""alt"" (should be ""alter"")```","<answer>
+84
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Also, I found a pink logbook.```
+German translation:
+```Und ich habe ein pinkes Logbuch gefunden.```
+Annotated error spans:
+```No error```","<answer>
+100
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user13 Being in the world is being in relationships```
+German translation:
+```@user13 In der Welt sein heißt in Beziehungen sein```
+Annotated error spans:
+```Minor:
+fluency/register - ""in Beziehungen""```","```@user13 In der Welt sein heißt in Beziehungen sein```
+Annotated error spans:
+```Minor:
+fluency/register - ""in Beziehungen""```
+
+The translation is correct and the only minor issue is the fluency/register of ""in Beziehungen"". The meaning is perfectly preserved, and the grammar is correct.
+
+Score: 100",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```We finished the hallway floor yesterday! Then 5am start to collect Thing 1 from Heathrow this morning, then a nap, and final straight for hallway; skirtings on. Will caulk when glue cures```
+German translation:
+```Wir haben den Flurboden gestern fertiggestellt! Dann 5 Uhr morgens losgefahren, um Thing 1 von Heathrow abzuholen, dann ein Nickerchen gemacht und dann den Flurboden fertiggestellt; die Leisten sind angebracht. Ich werde den Spachtelmasse verwenden, wenn der Kleber getrocknet ist.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""Then 5am start to collect Thing 1 from Heathrow this morning, then a nap, and final straight for hallway; skirtings on""
+accuracy/mistranslation - ""skirtings on"" -> ""die Leisten sind angebracht""
+Minor:
+fluency/grammar - ""Ich werde den Spachtelmasse verwenden, wenn der Kleber getrocknet ist"" -> ""Ich werde den Spachtelmasse verwenden, wenn der Kleber getrocknet ist""```","<answer>
+67
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Both the Czech and Belgian ministers immediately expressed reservations at the 18 December summit about the unequal treatment for brewers, but acquiesced. Belgium, which now chairs the rotating EU Council presidency and is therefore in principle neutral in terms of inter-governmental negotiations, hopes to clinch a deal with the parliament by early March.```
+German translation:
+```Sowohl der tschechische als auch der belgische Minister äußerten auf dem Gipfel am 18. Dezember sofort Vorbehalte gegen die Ungleichbehandlung der Brauereien, stimmten aber zu. Belgien, das nun die rotierende EU-Ratspräsidentschaft innehat und daher in Bezug auf zwischenstaatliche Verhandlungen grundsätzlich neutral ist, hofft, bis Anfang März eine Einigung mit dem Parlament zu erzielen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""stimmten aber zu""
+Minor:
+accuracy/omission - ""in principle""
+accuracy/addition - ""in Bezug auf zwischenstaatliche Verhandlungen grundsätzlich neutral ist, hofft, bis Anfang März eine Einigung mit dem Parlament zu erzielen""```","```Sowohl der tschechische als auch der belgische Minister äußerten auf dem Gipfel am 18. Dezember sofort Vorbehalte gegen die Ungleichbehandlung der Brauereien, stimmten aber zu. Belgien, das nun die rotierende EU-Ratspräsidentschaft innehat und daher in Bezug auf zwischenstaatliche Verhandlungen grundsätzlich neutral ist, hofft, bis Anfang März eine Einigung mit dem Parlament zu erzielen.```
+```Major:
+accuracy/mistranslation - ""stimmten aber zu""
+Minor:
+accuracy/omission - ""in principle""
+accuracy/addition - ""in Bezug auf zwischenstaatliche Verhandlungen grundsätzlich neutral ist, hofft, bis Anfang März eine Einigung mit dem Parlament zu erzielen""```
+
+Score: 83",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The enemy of my enemy is my friend. Disagree. If the enemy of your enemy were your friend, he'd explicitly be your friend. You know, oftentimes people can work together for a time, united by their dislike for something or someone. But if that relationship was conceived by your mutual dislike for whatever that thing is, what's to stop that relationship from dissolving or becoming hostile after that thing is taken care of. Like the foundation of a friendship is much more stable than that. But you know, I also understand the short term strategy behind it, so I'll just disagree.```
+German translation:
+```Der Feind meines Feindes ist mein Freund. Uneinigkeit. Wenn der Feind deines Feindes dein Freund wäre, würde er explizit dein Freund sein. Sie wissen, dass Menschen oft für eine Zeit zusammenarbeiten können, vereint durch ihre Ablehnung für etwas oder jemanden. Aber wenn diese Beziehung von Ihrer gegenseitigen Ablehnung für das, was das ist, konzipiert wurde, ist es zu stoppen, dass diese Beziehung auflöst oder feindlicher wird, nachdem diese Sache behandelt wird. Wie die Grundlage einer Freundschaft ist viel stabiler als das. Aber Sie wissen, ich verstehe auch die kurzfristige Strategie dahinter, daher werde ich einfach nicht zustimmen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""is to stop that relationship from dissolving or becoming hostile after that thing is taken care of""
+Minor:
+fluency/inconsistency - ""I'll just disagree""```","```Der Feind meines Feindes ist mein Freund. Uneinigkeit. Wenn der Feind deines Feindes dein Freund wäre, würde er explizit dein Freund sein. Sie wissen, dass Menschen oft für eine Zeit zusammenarbeiten können, vereint durch ihre Ablehnung für etwas oder jemanden. Aber wenn diese Beziehung von Ihrer gegenseitigen Ablehnung für das, was das ist, konzipiert wurde, ist es zu stoppen, dass diese Beziehung auflöst oder feindlicher wird, nachdem diese Sache behandelt wird. Wie die Grundlage einer Freundschaft ist viel stabiler als das. Aber Sie wissen, ich verstehe auch die kurzfristige Strategie dahinter, daher werde ich einfach nicht zustimmen.```
+Score: 86
+The translation is mostly accurate with only a few minor errors. The main error is in the sentence ""is to stop that relationship from dissolving or becoming hostile after that thing is taken care of,"" which should be translated as ""ist es möglich, dass diese Beziehung aufhebt oder feindlicher wird, nachdem diese Sache behandelt wird."" The minor error is in the fluency and inconsistency of ""I'll just disagree,"" which should be translated as ""Ich werde einfach nicht zustimmen."" Overall, the translation is very close to the original text in terms of meaning and grammar.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```And now the wife is grumpy because my ""Extraction"" was much quicker than expected. Sorry, maybe your genome shouldn't play so hard to get.```
+German translation:
+```Und jetzt ist meine Frau genervt, weil mein DNA-Auszug viel schneller zurück war als erwartet. Tut mir leid, aber vielleicht sollte ihr Genom sich einfach nicht so zieren.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Extraction"" -> ""DNA-Auszug""
+Minor:
+style/awkward - ""sich einfach nicht so zieren""```","<answer>
+76
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Closer to home, Washington has recently established or expanded independent oversight of state prisons, police, schools, and other entities. Jails are the notable exception to oversight of institutions that are responsible for the health and safety of tens of thousands of people.```
+German translation:
+```In Washington selbst wurden kürzlich unabhängige Aufsichtsbehörden für staatliche Gefängnisse, Polizei, Schulen und andere Einrichtungen eingerichtet oder erweitert. Gefängnisse sind die bemerkenswerte Ausnahme von der Aufsicht über Institutionen, die für die Gesundheit und Sicherheit von Zehntausenden von Menschen verantwortlich sind.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Gefängnisse""
+Minor:
+style/awkward - ""In Washington selbst""```","<answer>
+77
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Morning,” Craith said.```
+German translation:
+```„Guten Morgen“, sagte Craith.```
+Annotated error spans:
+```No error```","```„Guten Morgen“, sagte Craith.```
+The translation is correct, with no errors and perfect grammar. Therefore, the score is 100.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I need to be in the air again. And the weather is not behaving.```
+German translation:
+```Ich muss wieder in die Luft. Und das Wetter spielt nicht mit.```
+Annotated error spans:
+```Minor:
+fluency/spelling - ""Wetter""```","<answer>
+84
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Amen brother” Cohren said as he flicked the remains of the cigarette into the mud. “Anyway, we're heading out with the 1st armored platoon, so we don’t have to walk. Captain Shaw should be their”```
+German translation:
+```„Amen, Bruder“, sagte Cohren und schnippte den Rest der Zigarette in den Schlamm. „Wie auch immer, wir brechen mit dem 1. Panzerzug auf, also müssen wir nicht laufen. Captain Shaw sollte dort sein.“```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""1st armored platoon"" (Panzerzug)
+Minor:
+accuracy/omission - ""so we don’t have to walk"" (also müssen wir nicht laufen)```","<answer>
+79
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""Yeah but can Retvik drive?""```
+German translation:
+```""Ja, aber kann Retvik fahren?""```
+Annotated error spans:
+```No error```","<answer>
+98
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Funfact: I'm using the ping integration in Home Assistant to monitor if it's online or not.```
+German translation:
+```Interessantes Detail: Ich benutze die Ping-Integration in Home Assistant, um zu überwachen, ob das Gerät online ist oder nicht.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""das Gerät""
+Minor:
+style/awkward - ""Ich benutze""```","<answer>
+86
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```In case you're interested in the challenge ahead I face.```
+German translation:
+```Falls Sie sich für die bevorstehende Herausforderung interessieren, die vor mir liegt.```
+Annotated error spans:
+```No error```","<answer>
+75
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Regulators Approve New Bitcoin ETFs in Watershed Moment for Crypto```
+German translation:
+```Aufsichtsbehörden genehmigen neue Bitcoin-ETFs in wegweisendem Moment für Krypto```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Watershed Moment""
+Minor:
+accuracy/mistranslation - ""Krypto""```","<answer>
+80
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```and sure, these other sources are AWARE that ""war is bad"", but then you're still selling the killing machines as figures and merch. So, like, what are we doing?```
+German translation:
+```Sicher, diese anderen Quellen sind AWARE, dass ""Krieg ist schlecht"", aber dann verkaufen Sie immer noch die Tötungsmaschinen als Figuren und Merch. Was tun wir also?```
+Annotated error spans:
+```Major:
+accuracy/omission - ""and sure""
+Minor:
+fluency/register - ""AWARE""```","<answer>
+98
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Heheh not one but three!```
+German translation:
+```Hahaha, nicht einer, sondern drei!```
+Annotated error spans:
+```No error```","<answer>
+95
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Initial applications to Harvard for a psychology masters were rejected, but was eventually admitted. The initial setbacks were due to Milgramm not taking any undergraduate courses in psychology at Queens College. In 1961, Milgram received a PhD in social psychology. He became an assistant professor at Yale around the same time.```
+German translation:
+```Die ersten Bewerbungen für einen Master in Psychologie an der Harvard University wurden abgelehnt, aber er wurde schließlich zugelassen. Die anfänglichen Ablehnungen waren darauf zurückzuführen, dass Milgramm an der Queens College keine grundlegenden Kurse in Psychologie belegt hatte. 1961 erhielt Milgram einen PhD in Sozialpsychologie. Er wurde ungefähr zur gleichen Zeit Assistenzprofessor an der Yale University.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""an undergraduate courses""
+Minor:
+fluency/grammar - ""gefunden""```","<answer>
+75
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```They’re hiding in big Sainsbury’s at Haringey Green Lanes.```
+German translation:
+```Sie versteckten sich in einem großen Sainsbury’s in den Haringey Green Lanes.```
+Annotated error spans:
+```Major:
+grammar - ""versteckten""
+Minor:
+accuracy/mistranslation - ""in den Haringey Green Lanes""```","<answer>
+73
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I'll be posting more about this during the weekend when I get to install the second one I've built.```
+German translation:
+```Ihm posten mehr über diese entspannte Wochenende, bevor ich die zweite, die ich gebaut habe.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""entspannte Wochenende""
+accuracy/omission - ""when I get to install the second one I've built""
+Minor:
+fluency/spelling - ""Ihm""```","<answer>
+33
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```like back in the 00s you had bionicles, which were essentially adventurers/heroes with elemental powers and actual distinct personalities and hobbies and stuff, but like before and since then its just been stuff like Warhammer, Gundam, Battletech, where everythings geared to being a weapon, showcased to gratuitous effect in accompanying media```
+German translation:
+```Wie damals in den 00er-Jahren, als es Bionicles gab, die im Grunde Abenteurer/Helden mit Elementarkräften waren und eigene Persönlichkeiten, Hobbys und so weiter hatten. Aber davor und danach gab es nur noch Sachen wie Warhammer, Gundam, Battletech, bei denen alles nur darauf ausgerichtet ist, Waffen zu sein, was in den dazugehörigen Medien sehr deutlich gezeigt wurde.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""like before and since then its just been stuff like""
+Minor:
+fluency/inconsistency - ""so weiter hatten""```","<answer>
+91
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Hello and welcome to this travel vlog. Today we are exploring the city of Rotterdam. Rotterdam is a city located in the province of South Holland. It is a city that divides opinions because of its more modern and urban- looking architecture. Rotterdam was almost completely destroyed during World War II when the Germans attacked the city. Because of this, the city had to be rebuilt, resulting it to look quite different from the other cities in the Netherlands.```
+German translation:
+```Hallo und willkommen zu diesem Reise-Vlog. Heute erkunden wir die Stadt Rotterdam. Rotterdam ist eine Stadt in der Provinz Südholland. Sie spaltet die Meinungen aufgrund ihrer moderneren und städtisch anmutenden Architektur. Rotterdam wurde im Zweiten Weltkrieg fast vollständig zerstört, als die Deutschen die Stadt angriffen. Aufgrund dessen musste die Stadt wiederaufgebaut werden, was dazu führte, dass sie sich ziemlich von den anderen Städten in den Niederlanden unterscheidet.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""Because of this""
+Minor:
+terminology/inappropriate for context - ""städtisch anmutenden""```","<answer>
+66
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```there we go - radish, mustard, lettuce, spinach, and bok choi```
+German translation:
+```Da haben wir's - Radieschen, Senf, Kopfsalat, Spinat und Pak Choi```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Senf"" (mustard is mistranslated as ""Senf"" which is incorrect; the correct translation is ""Senf"")
+Minor:
+accuracy/omission - ""and bok choi"" (Pak Choi is missing from the German translation)```","<answer>
+66
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Imagine a very long web page with lots of sections (e.g., single-page HTML spec). If the user requests a specific section (e.g. page.html#section7), what if the web server streamed that section first and the other sections after that?```
+German translation:
+```Immer eine sehr lange Web-Seite mit vielen Punkten (z.B., Einzel-Seite 1.5.0 nim). Wenn der Nutzer Anfragen ein spezieller Abschnitt (z.B. Seite.half (%Prüfung7), was, wenn der Web-Server Durchsuchen, dass Abschnitt erste und die anderen Beschlüsse nachgeben?```
+Annotated error spans:
+```Major:
+accuracy/omission - ""single-page HTML spec""
+accuracy/mistranslation - ""Durchsuchen, dass Abschnitt erste und die anderen Beschlüsse nachgeben""
+Minor:
+fluency/grammar - ""Punkten""```","```Immer eine sehr lange Web-Seite mit vielen Punkten (z.B., Einzel-Seite 1.5.0 nim). Wenn der Nutzer Anfragen ein spezieller Abschnitt (z.B. Seite.half (%Prüfung7), was, wenn der Web-Server Durchsuchen, dass Abschnitt erste und die anderen Beschlüsse nachgeben?```
+Score: 33
+
+The translation preserves some meaning, but it has several errors and mistranslations. The sentence structure is also quite unnatural in German. The main issue lies in the mistranslation of ""streamed that section first and the other sections after that"" which is translated as ""Durchsuchen, dass Abschnitt erste und die anderen Beschlüsse nachgeben"". This is not a correct translation, and it's hard to understand what the translator intended to say. The minor error ""Punkten"" is also a mistake, as it should be ""Abschnitte"".",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Politicians get it wrong when it comes to rent caps```
+German translation:
+```Politiker verstehen das Thema der Mietendeckelung falsch```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""rent caps"" → ""Mietendeckelung""
+Minor:
+none```","<answer>
+90
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I'm not your mum```
+German translation:
+```Ich bin nicht deine Mutter.```
+Annotated error spans:
+```No error```","<answer>
+98
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Check. Check. Rock the scissors, scissor defeats paper, and paper defeat Rock. You win. The loser will lose one star. At the end of each game, the referee will put the cards back into the recycling box. Of course, if both players choose the same guard, the game is tied, and no one will lose a star.```
+German translation:
+```Überprüfen Sie, überprüfen Sie. Stein besiegt Schere, Schere besiegt Papier und Papier besiegt Felsen. Sie gewinnen. Der Verlierer verliert einen Stern. Am Ende jedes Spiels legt der Schiedsrichter die Karten zurück in die Recycling-Box. Natürlich, wenn beide Spieler die gleiche Karte wählen, ist das Spiel gebunden. Und niemand wird einen Stern verlieren.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""rock the scissors""
+Minor:
+terminology/inappropriate for context - ""Stern""```","<answer>
+74
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Walking inside, a loud ring dispelled my discomfort as the aroma of freshly brewed coffee filled my lungs. Anton, the man who owned the store, was of course the person behind the counter – the place was practically empty except for a few people in the back. Approaching the counter, my feet tired from a long walk, I droop atop one of the stools and yawn. I spot Anton bringing the regular thankfully. “Hey Lilith, Long night?” his raspy voice echoed within the fractals of my brain, “Something of the sort,” I replied shallowly, more tired and tired by the second.```
+German translation:
+```Als ich hineinging, zerstreute ein lauter Ring mein Unbehagen, als das Aroma von frisch gebrühtem Kaffee meine Lungen füllte. Anton, der Mann, dem der Laden gehörte, war natürlich die Person hinter der Theke - der Platz war praktisch leer, bis auf ein paar Leute im Rücken. An der Theke näherte sich, meine Füße müde von einem langen Spaziergang, hängte ich auf einem der Hocker und gähnte. Ich sah Anton, der dankbar den regelmäßigen bringt. ""Hey Lilith, Lange Nacht?"" seine raspige Stimme hallte in den Fraktalen meines Gehirns, ""Etwas der Art"", antwortete ich flach, mehr müde und müde durch die zweite.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""the place was practically empty except for a few people in the back"" (should be: ""der Platz war praktisch leer, bis auf ein paar Leute hinten"")
+accuracy/mistranslation - ""I spot Anton bringing the regular thankfully"" (should be: ""Ich sah Anton, der dankbar den regulären bringt"")
+fluency/grammar - ""hängte ich auf einem der Hocker und gähnte"" (should be: ""hängte ich mich auf einem der Hocker und gähnte"")
+Minor:
+style/awkward - ""die zweite"" (should be: ""die zweite Stunde"")
+terminology/inappropriate for context - ""Fraktalen"" (should be: ""Winkel"")```","<answer>
+50
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```love to see it!```
+German translation:
+```Liebe es zu sehen```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Liebe es zu sehen""
+Minor:
+fluency/spelling - ""Liebe""```","<answer>
+66
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""I guess that's the other big scary monster that Lanex was worried about?"" Kayel frowned as he attempted to take a shot at the second beast, missed and swiftly reloaded.```
+German translation:
+```„Ich denke, das ist das andere große, furchterregende Monster, das Lanex so große Sorgen bereitete?“ Kayel runzelte die Stirn, während er versuchte, auf das zweite Biest zu schießen, verfehlte es und lud schnell nach.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""bereitete""
+Minor:
+fluency/register - ""schießen""```","<answer>
+81
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```If the weather behaves, I'll be flying again on Saturday.```
+German translation:
+```Wenn das Wetter es tut, fliege ich am Samstag wieder.```
+Annotated error spans:
+```Minor:
+accuracy/mistranslation - ""es tut""```","<answer>
+94
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```So I guess I'll have to wait till tomorrow to figure out if it actually is enough for this setup or If I need the better panel I ordered.```
+German translation:
+```Ich denke, ich muss wohl bis morgen warten, um herauszufinden, ob es tatsächlich ausreicht für diese Konfiguration oder ob ich das bessere Panel benötige, das ich bestellt habe.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""out"" (instead of ""ausreicht"")
+Minor:
+fluency/punctuation - ""or If"" (instead of ""oder ob"")```","<answer>
+90
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```It took a moment for Nyssi to work out what had happened. They were all aware that Kayel had weird shadow powers, ones that he rarely used because most considered them unholy and rather terrifying. But Nyssi didn't know that Kayel could use those powers in any sort of darkness. And, by the way Kayel was acting, he was pretty surprised as well.```
+German translation:
+```Es dauerte einen Moment, bis Nyssi herausstellte, was passiert war. Sie alle wussten, dass Kayel seltsame Schattenmächte hatte, die er selten verwendete, weil die meisten sie für unheilig und ziemlich schrecklich hielten. Aber Nyssi wusste nicht, dass Kayel diese Kräfte in jeder Art von Dunkelheit einsetzen konnte. Und übrigens war auch Kayel ziemlich überrascht.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""And, by the way Kayel was acting,""
+Minor:
+style/awkward - ""übrigens""```","<answer>
+96
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```surely, though, you can invite people round to help you devour that beautiful work of bread-y art, no?```
+German translation:
+```Klar, du kannst Leute einladen, um dir zu helfen, dieses wunderschöne Brotkunstwerk zu vernichten, oder?```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""devour"" -> ""vernichten""
+Minor:
+style/awkward - ""Klar""```","<answer>
+90
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The bank's plan would target norms and institutions that may still require generational shifts. It has taken Rwanda more than two decades to establish itself as a model for land reforms that boost economic empowerment for women.""No one benefits if women are held back,"" Rwanda President Paul Kagame said, arguing for land reform in 2015. ""We have to change mindsets, not just the laws.""```
+German translation:
+```Der Plan der Bank sollte auf Normen und Institutionen konzentrieren, die noch Generationenwechselwechselfordern könnten. Esanda verbrachte mehr als zwei Jahrzehnte damit, sich als Modell für Landreformen zu positionieren, die das wirtschaftliche Gleichbefürworten von Frauen stärken: ""No one benefits if women are held back,"" sagte Ruanda-Präsident Paul Kagame beim Argumentieren für die Landreform 2015: ""We have to change mindsets, not just the laws.""```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""We have to change mindsets, not just the laws.""
+accuracy/mistranslation - ""Ruanda-Präsident""
+Minor:
+fluency/grammar - ""sich als Modell für Landreformen zu positionieren""
+fluency/punctuation - ""stärken: ""No one benefits if women are held back,""""```","<answer>
+66
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Probably Pirani's best game this season, but he still just needs to be better. Like the aggressive call to sub him out for an offensive minded player like Fletcher. #DCU #MLS #mastodonfc```
+German translation:
+```Vermutlich Piranis bester Auftritt in dieser Saison, aber er muss immer noch besser werden. Wie der aggressive Anweisungen, ihn für einen offensiv ausgerichteten Spieler wie Fletcher auszutauschen. #DCU #MLS #mastodonfc```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Anweisungen""
+Minor:
+terminology/inappropriate for context - ""aufführen""```","```Vermutlich Piranis bester Auftritt in dieser Saison, aber er muss immer noch besser werden. Wie der aggressive Anweisungen, ihn für einen offensiv ausgerichteten Spieler wie Fletcher auszutauschen. #DCU #MLS #mastodonfc```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Anweisungen""
+Minor:
+terminology/inappropriate for context - ""aufführen""```
+
+Score: 82
+The translation mostly preserves the meaning and grammar is mostly correct, but there are a few minor errors that affect the overall quality. The main issue is the mistranslation of ""call to sub him out"" as ""Anweisungen"" instead of ""Austausch"". This is a significant error as it changes the meaning of the sentence. The minor error is the use of ""aufführen"" instead of ""Auftritt"", which is not contextually appropriate. However, the overall meaning is still clear, and the grammar is mostly correct.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```An independent jail oversight office can monitor conditions in jails, meet with staff and incarcerated people, report on conditions that they have witnessed firsthand, and even communicate concerns before people are hurt. A jail oversight office can also collect and report data, helping administrators, policymakers, and the public understand our jail system and advocate for data-driven solutions to jail deaths and other problems relating to jails.```
+German translation:
+```Eine unabhängige Gefängnisaufsichtsbehörde kann die Bedingungen in den Gefängnissen überwachen, sich mit dem Personal und den Gefangenen treffen, Berichte über die Bedingungen erstellen, die sie selbst beobachtet haben, und sogar Bedenken vor Menschen vermitteln, bevor sie verletzt werden. Eine Gefängnisaufsichtsbehörde kann auch Daten sammeln und berichten, um die Verwaltung, die Gesetzgeber und die Öffentlichkeit über unser Gefängnissystem aufzuklären und datenbasierte Lösungen für die Todesfälle in Gefängnissen und andere Probleme, die mit Gefängnissen zusammenhängen, zu unterstützen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""vermitteln""
+Minor:
+fluency/inconsistency - ""unser Gefängnissystem""```","<answer>
+88
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The Secretary of the National Security and Defense Council of Ukraine, Alexey Danilov, has previously said ""the Russian language must disappear"" from the territory of Ukraine ""as an element of hostile propaganda and brainwashing of the population.""```
+German translation:
+```Der Sekretär des Nationalen Sicherheits- und Verteidigungsrates der Ukraine, Alexej Danilow, hatte zuvor gesagt: ""Die russische Sprache muss vom Territorium der Ukraine verschwinden"", da sie ""ein Element feindlicher Propaganda und Gehirnwäsche der Bevölkerung"" sei.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Alexey Danilov"" (missing ""e"")
+Minor:
+terminology/inappropriate for context - ""Gehirnwäsche""```","<answer>
+86
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```First of all, what we're going to do is just mix this paint up. It mixes one to one with a producer and we just mix it up like we normally would painting anything. So I have two ounces of paint here, so I'm going to put two ounces of reducer. We're going to start up. Now it's ready to put in the gut and spray.```
+German translation:
+```Zuerst mischen wir einfach diese Farbe an. Sie wird eins zu eins mit einem Verdünner gemischt, und wir mischen sie einfach so, wie wir es normalerweise beim Malen tun würden. Ich habe hier also 60 ml Farbe, also gebe ich 60 ml Verdünner hinzu. Los geht's. Jetzt ist sie bereit, in die Pistole gefüllt und aufgesprüht zu werden.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""60 ml""
+Minor:
+fluency/grammar - ""fünfzig""```","<answer>
+83
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""You want to chase after them?""```
+German translation:
+```""Willst du ihnen nachjagen?""```
+Annotated error spans:
+```No error.```","<answer>
+100
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user34 I find that irresistible after dental work, takes days for the tongue poking to stop.```
+German translation:
+```@user34 Nach einem Zahnarztbesuch finde ich das unwiderstehlich. Es dauert Tage, bis ich aufhöre, mit der Zunge an den Zähnen herumzuspielen.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""after dental work""
+Minor:
+style/awkward - ""Herumzuspielen""```","<answer>
+78
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```All right, well, whoa, whoa, whoa, hold it down to a small riot, would you? Danny, when are we going to be able to afford a larger car? When you're about 10 years older and can marry a millionaire. I had more room than my baby bug. Yeah, I haven't finished paying for that either. In fact, I still owe two more payments to the hospital before I own you.```
+German translation:
+```In Ordnung, halt es mal an einem kleinen Aufruhr. Danny, wann können wir uns ein größeres Auto leisten? Wann du etwa 10 Jahre älter bist und einen Millionär heiraten kannst. Ich hatte mehr Platz als in meinem Baby-Bug. Ja, ich habe auch noch nicht für das andere bezahlt. Tatsächlich schulde ich noch zwei weitere Zahlungen an das Krankenhaus, bevor ich dich besitze.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""halt es mal an einem kleinen Aufruhr"" (should be ""halt es mal an einem kleinen Aufruhr"")
+accuracy/omission - ""whoa, whoa, whoa""
+Minor:
+style/awkward - ""halt es mal an einem kleinen Aufruhr"" (should be ""halt es mal an einem kleinen Aufruhr"")```","<answer>
+86
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```It feels uncomfortably passive aggressive turning up my air purifier to max, but I can smell the wood dust, so it would be justified even if he weren't an anti-masker. And I do actually need to protect myself??```
+German translation:
+```Es fühlt sich unangenehm passiv-aggressiv an, wenn ich meinen Luftreiniger auf die maximale Stufe stelle, aber ich kann den Holzstaub riechen, also wäre es gerechtfertigt, selbst wenn er kein Maske-Gegner wäre. Und ich muss mich eigentlich wirklich schützen?```
+Annotated error spans:
+```Major:
+accuracy/omission - ""the anti-masker""
+Minor:
+style/awkward - ""but I can smell the wood dust, so it would be justified even if he weren't an anti-masker. And I do actually need to protect myself??""```","<answer>
+66
+</answer>",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Today we're making some beautiful vintage Easter craft. Keep watching! I'm Brandy and this is Making it my own DIY. Welcome! The first project are going to be two Easter ornaments. I'm going to start off with two little ornaments here and you can use whatever you have on hand. I've got these little decor eggs from Dollar Tree.```
+German translation:
+```Heute basteln wir einige wunderschöne Vintage-Osterdekorationen. Bleiben Sie dran! Ich bin Brandy und dies ist ""Making it my own DIY"". Willkommen! Das erste Projekt werden zwei Osteranhänger sein. Ich werde mit zwei kleinen Anhängern beginnen, und Sie können alles verwenden, was Sie zur Hand haben. Ich habe diese kleinen Deko-Eier vom Dollar Tree.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Osteranhänger""
+accuracy/omission - ""The first project are going to be""
+Minor:
+style/awkward - ""Bleiben Sie dran""```","```Heute basteln wir einige wunderschöne Vintage-Osterdekorationen. Bleiben Sie dran! Ich bin Brandy und dies ist ""Making it my own DIY"". Willkommen! Das erste Projekt werden zwei Osteranhänger sein. Ich werde mit zwei kleinen Anhängern beginnen, und Sie können alles verwenden, was Sie zur Hand haben. Ich habe diese kleinen Deko-Eier vom Dollar Tree.```
+Score: 93
+```Heute basteln wir einige wunderschöne Vintage-Osterdekorationen. Bleiben Sie dran! Ich bin Brandy und dies ist ""Making it my own DIY"". Willkommen! Das erste Projekt werden zwei Osteranhänger sein. Ich werde mit zwei kleinen Anhängern beginnen, und Sie können alles verwenden, was Sie zur Hand haben. Ich habe diese kleinen Deko-Eier vom Dollar Tree.```
+Score: 93",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```60 seconds...```
+German translation:
+```60 Sekunden...```
+Annotated error spans:
+```Major:
+accuracy/untranslated text - ""60""
+Minor:
+fluency/punctuation - ""60 Sekunden...""```","<answer>
+100
+</answer>",en-de

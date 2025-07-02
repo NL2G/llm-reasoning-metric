@@ -1,0 +1,1380 @@
+prompt,result,lp
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The South was desperate, and their royal family would do anything to stop the bloodshed. They offered their only princess to be queen of the North and bear a son to be the future king. Then, the South would join with the North to make one kingdom. The North accepted, and Princess Eirwen married Prince Akull.```
+Spanish translation:
+```El Sur estaba desesperado, y su familia real haría cualquier cosa para detener la sangre. Ofrecieron a su única princesa para ser reina del Norte y dar a luz a un hijo que sería el futuro rey. Entonces, el Sur se uniría al Norte para formar un solo reino. El Norte aceptó, y la Princesa Eirwen se casó con el Príncipe Akull.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""dar a luz a un hijo que sería el futuro rey"" (correct: ""para dar a luz a un hijo que sería el futuro rey"")
+Minor:
+terminology/inappropriate for context - ""se casó con el Príncipe Akull"" (correct: ""se casó con el Príncipe Akull"")```","<answer>
+78
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Kari nodded, going back to reviewing her memories and curling up in her thick comforter.```
+Spanish translation:
+```Kari asintió, volviendo a revisar sus recuerdos y acurrucándose en su grueso edredón.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""edredón"" (correct translation is ""edredón"", but the word ""edredón"" is not commonly used in everyday language; ""almohada"" is more appropriate)
+Minor:
+none```","<answer>
+83
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Initial applications to Harvard for a psychology masters were rejected, but was eventually admitted. The initial setbacks were due to Milgramm not taking any undergraduate courses in psychology at Queens College. In 1961, Milgram received a PhD in social psychology. He became an assistant professor at Yale around the same time.```
+Spanish translation:
+```Las solicitudes iniciales a Harvard para una maestría en psicología fueron rechazadas, pero finalmente fueron admitidas. Los reveses iniciales se debieron a que Milgramm no tomó ningún curso de pregrado en psicología en Queens College. En 1961, Milgram recibió un doctorado en psicología social. Se convirtió en profesor asistente en Yale casi al mismo tiempo.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""but was eventually admitted""
+Minor:
+terminology/inappropriate for context - ""profesor asistente""```","<answer>
+86
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Did an impressive summersault and smashed my raft in a single move```
+Spanish translation:
+```Hizo un impresionante salto mortal y destrozó mi balsa en un solo movimiento```
+Annotated error spans:
+```No error```","<answer>
+94
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Hell, my Grandma left her husband for his brother, and I have a great uncle on the other side who left his wife for her aunt. My family may get around, but they don't get very far.```
+Spanish translation:
+```demonios, mi abuela dejó a su marido por su hermano y tengo un gran tío del otro lado```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""demonios, mi abuela dejó a su marido por su hermano y tengo un gran tío del otro lado""
+Minor:
+accuracy/omission - ""left his wife for her aunt. My family may get around, but they don't get very far.""```","<answer>
+73
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Got the messy stage out of the way.```
+Spanish translation:
+```El desorden de la escena fuera del camino.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""out of the way""
+Minor:
+fluency/grammar - ""El desorden de la escena fuera del camino.""```","<answer>
+40
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Very curious to see how this #DCU team responds to a game that's best forgotten. They've had a bright start and sometimes bad games just happen, but they looked completely outclasses as the game went on. #MLS #mastodonfc```
+Spanish translation:
+```Muy curioso de ver cómo este equipo de la #DCU responde a un juego que está mejor olvidado. Han tenido un inicio brillante y a veces los juegos malos solo suceden, pero parecían completamente desclasificados a medida que el juego pasó. #MLS #mastodonfc```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""desclasificados""
+Minor:
+terminology/inappropriate for context - ""que está mejor olvidado""```","<answer>
+89
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Environment ministers agreed an EU Council negotiating mandate on the proposed Packaging and Packaging Waste Regulation (PPWR) before Christmas, paving the way for imminent political talks with the European Parliament, which are already underway at the technical level.```
+Spanish translation:
+```Los ministros de Medio Ambiente acordaron un mandato de negociación del Consejo de la UE sobre el Reglamento de Envases y Residuos de Envases (REPE) antes de Navidad, allanando el camino para las inminentes conversaciones políticas con el Parlamento Europeo, que ya están en marcha a nivel técnico.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Packaging and Packaging Waste Regulation (PPWR)"" translated as ""Reglamento de Envases y Residuos de Envases (REPE)""
+Minor:
+accuracy/omission - ""which are already underway at the technical level"" translated as ""que ya están en marcha a nivel técnico.""```","<answer>
+81
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user43 shouldn't that be 'i can't get starter'? otherwise, perfect. :D```
+Spanish translation:
+```@user52 desprend de with cor 'i no plude llegar a entierro'? de tra distrario, perfectoo. :D```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""desprend de with cor""
+accuracy/omission - ""can't""
+Minor:
+fluency/spelling - ""perfectoo""```","<answer>
+56
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Time for the Scotty Kilmer town. Does your car have faded paint on it? Just stay tuned, because today I'm going to show you how to polish off faded paint. And all the text is a bucket of water, a polisher, and a bottle of this, McGuire is the ultimate compound.```
+Spanish translation:
+```Hora del Canal de Scotty Kilmer. ¿Tu auto tiene la pintura desgastada? Quédate sintonizado porque hoy te voy a enseñar cómo pulir la pintura descolorida. Y todo lo que necesitas es un balde de agua, una pulidora y una botella de esto: el compuesto definitivo de McGuire.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""desgastada"" (should be ""descolorida"")
+Minor:
+fluency/register - ""sintonizado"" (should be ""atento"")
+style/awkward - ""un balde de agua"" (should be ""un balde de agua"")```","<answer>
+86
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```not so much lazy, but fatigued, even after all this time. time. rosemary and thyme```
+Spanish translation:
+```no tanto perezoso, sino fatigado, incluso después de todo este tiempo. tiempo. romero y tomillo```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""rosemary and thyme""
+Minor:
+fluency/punctuation - ""tiempo.""```","<answer>
+89
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```And now you see that whatever happens backstage, it doesn't matter because the show will go on. And I got a comment from Lovely Lich that you really like the video. And she writes, I like the behind the scenes things, like traveling to the fish, the atmosphere there, the food and stuff a day in your life, so to speak. So I hope you liked this video and we'll show you as much as possible. So now it's time for lunch, and Deep is making some scrambled eggs. And the trick here is to add an extra egg yolk to it.```
+Spanish translation:
+```Y ahora ven que pase lo que pase entre bastidores, no importa, porque el espectáculo continúa. Y recibí un comentario de Lovely Lych diciendo que le había gustado mucho el video. Y escribe: “Me gustó ver las cosas que pasan entre bastidores. Es como viajar al festival, al ambiente allí, la comida y todas esas cosas. Un día de tu vida, por así decirlo”. Así que espero que les haya gustado este video, y se lo mostraremos todo lo que sea posible. Ahora es hora de comer y Deep está preparando unos huevos revueltos. Y el truco aquí es agregarle una yema extra.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Lovely Lich"" -> ""Lovely Lych""
+Minor:
+style/awkward - ""es como viajar al festival""```","<answer>
+75
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Mom says you don't want to visit us. She says that. Yeah. Everybody's got a story, son. I guess that's hers. Life's funny that way, you know.```
+Spanish translation:
+```Mamá dice que no quieres visitarnos. Eso es lo que ella dice. Sí. Todos tienen una historia, hijo. Supongo que esa es la suya. La vida es divertida de esa manera, ya sabes.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""Yeah""
+Minor:
+style/awkward - ""La vida es divertida de esa manera, ya sabes.""```","<answer>
+67
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```If you're going to use tar to seal, it will crack. Let me show you. I'm removing the silicon, which is one of the no-nos to silicon sealer. But then, somebody put tar here and they paint it over the towel. Let me show you. What did that do? It's just a filler.```
+Spanish translation:
+```Dieta brotes anosar Gru sanosbieo, corè cniza. Beyertias with mí hās másivo. No terraero reiniciar the láms, with is reo de san box-nomes a carritobieos láms. Arma huego, saguien plue a Gru aquí and tra pintarán tango la alalla. Beyer másrart. Qué terraery with digamos? Epis apestos re basso terra```
+Annotated error spans:
+```Major:
+accuracy/untranslated text - ""Gru""
+accuracy/mistranslation - ""with digamos""
+Minor:
+fluency/grammar - ""Beyertias with mí hās másivo""
+fluency/spelling - ""corè cniza""
+fluency/punctuation - ""Arma huego, saguien plue a Gru aquí and tra pintarán tango la alalla""
+style/awkward - ""Epis apestos re basso terra""```","<answer>
+41
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user50 Found in the mirror universe?```
+Spanish translation:
+```@ user50 ¿Encontrado en el universo espejo?```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""encontrado""
+Minor:
+fluency/punctuation - ""user50""```","<answer>
+84
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user31 i never even used it in all of HS trig lmao```
+Spanish translation:
+```@user31 Nunca ni siquiera lo usé en todo el Trig de la escuela secundaria lmao```
+Annotated error spans:
+```Major:
+accuracy/omission - ""HS trig""
+Minor:
+terminology/inappropriate for context - ""Trig""```","<answer>
+71
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```1. Use CSS```
+Spanish translation:
+```1. Usen el CSS```
+Annotated error spans:
+```Major:
+grammar - ""Usen"" (should be ""Usen"" or ""Usen"")
+Minor:
+register - ""Usen"" (should be ""Usen"" or ""Usen"")```","<answer>
+75
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The rumors, of course, also applied to them as they were the only person allowed to enter the room.```
+Spanish translation:
+```Las rumores, por supuesto, también se aplicaban a ellos, ya que eran la única persona permitida para entrar en la habitación.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""applied to them as they were the only person""
+Minor:
+fluency/punctuation - ""ya que eran la única persona permitida para entrar en la habitación.""```","<answer>
+70
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I find it very life affirming; transforming such simple ingredients into something so rich and complex. Like witnessing a birth.```
+Spanish translation:
+```Me parece muy reconfortante transformar ingredientes tan simples en algo tan rico y complejo. Es como presenciar un nacimiento.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""life affirming""
+Minor:
+accuracy/omission - ""I find it very""
+style/awkward - ""transforming""```","<answer>
+73
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I donked up my threading, so this should be part of the mega thread here.```
+Spanish translation:
+```Arruiné mi hilado, así que esto debería ser parte del hilo mega aquí.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""threading"" -> ""hilado""
+Minor:
+style/awkward - ""hilo mega""```","<answer>
+67
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```This is an authentic and real old footage, of a true certain giant individual from Japan, walking in some military parade. What's shocking about it, is his actual size. He has a statue of at least 4 meters high, which is minimum 13 feet. Thus, he is genuinely taller, and more massive than each and every other NBA player, for example, like Shaquille O'Neill, or Yao Ming.```
+Spanish translation:
+```Este es un video antiguo auténtico y real de un verdadero individuo gigante de Japón, caminando en algún desfile militar. Lo que es impactante de él, es su tamaño real. Tiene una estatua de al menos 4 metros de altura, lo que equivale a un mínimo de 13 pies. Por lo tanto, es genuinamente más alto y más masivo que cada y todos los jugadores de la NBA, por ejemplo, como Shaquille O'Neill o Yao Ming.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""each and every other NBA player, for example, like Shaquille O'Neill, or Yao Ming""
+Minor:
+fluency/inconsistency - ""cada y todos los jugadores""```","<answer>
+85
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```A gunshot suddenly filled the air, and the monster fell silent, collapsing on the ground and remaining still. The darkness all around them dissipated, revealing what had happened. Standing on top of the creature was Kayel, holding his rifle and breathing heavily.```
+Spanish translation:
+```Un disparo llenó repentinamente el aire, y el monstruo se quedó en silencio, cayendo al suelo y permaneciendo inmóvil. La oscuridad que los rodeaba se disipó, revelando lo que había sucedido. Kayel, que estaba encima del monstruo, sostenía su rifle y respiraba con dificultad.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""breathing heavily""
+Minor:
+style/awkward - ""sostenía su rifle""```","<answer>
+83
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```While disheartening, it's just yet another problem to solve, and it *does* so far seem solvable. Just at great expense of time and $$.```
+Spanish translation:
+```Si bien es desalentador, es simplemente otro problema que resolver, y *hasta ahora* parece ser resoluble. Solo con un gran costo de tiempo y $$.```
+Annotated error spans:
+```Major:
+accuracy/addition - ""hasta ahora""
+Minor:
+style/awkward - ""costo""```","<answer>
+79
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Regulators Approve New Bitcoin ETFs in Watershed Moment for Crypto```
+Spanish translation:
+```Los reguladores aprueban nuevos fondos cotizados de Bitcoin en un momento decisivo para las criptomonedas```
+Annotated error spans:
+```Major:
+accuracy/omission - ""watershed""
+Minor:
+style/awkward - ""fondos cotizados""```","<answer>
+96
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```If the weather behaves, I'll be flying again on Saturday.```
+Spanish translation:
+```Si el tiempo me lo permite, volaré el sábado.```
+Annotated error spans:
+```No error.```","<answer>
+84
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user14 yeah, even solitary means are generally for a shared ends.```
+Spanish translation:
+```@user14 yeah, incluso los medios solitarios son generalmente para fines compartidos.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""shared ends"" -> ""fines compartidos""
+Minor:
+terminology/inconsistent use - ""solitarios""```","<answer>
+87
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Aaaand it's still offline.```
+Spanish translation:
+```Y aún está desconectado.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""Aaaand""
+Minor:
+fluency/register - ""Y""```","<answer>
+88
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Tenuk didn't respond, he was too busy concentrating on flying towards Nyssi and Thassalin, even though the other creature was chasing them. Kayel awkwardly turned himself around, so he could face the monster. The fact that it was giving chase was good news in Kayel's eyes, as it made it easier for him to aim and fire. Two shots passed through the creature's top wings, and it roared in pain, disappearing back below the trees. Whether it was still following them, Kayel wasn't sure, but it certainly wouldn't have been able to keep up.```
+Spanish translation:
+```Tenuk no respondió, estaba demasiado concentrado en volar hacia Nyssi y Thassalin, a pesar de que la otra criatura los perseguía. Kayel se dio vuelta torpemente para enfrentar al monstruo. El hecho de que los estuviera persiguiendo era una buena noticia para Kayel, ya que le facilitaba apuntar y disparar. Dos disparos atravesaron las alas superiores de la criatura, que rugió de dolor y desapareció nuevamente debajo de los árboles. Kayel no estaba seguro de si todavía los estaba siguiendo, pero seguramente no habría podido mantener el ritmo.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""go to the reviews""
+Minor:
+fluency/punctuation - ""etc.""```","<answer>
+84
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Let's slide that one over there. Whoa, whoa, whoa, big boy! You're a little too hefty for this ride. Safety first, eh? 30 bills? What a rip off. I told you. Watch your step!```
+Spanish translation:
+```Montemos en esa de allí. ¡Vaya, vaya, vaya, grandullón! Eres un poco demasiado corpulento para esta atracción. La seguridad es lo primero, ¿eh? ¿30 billetes? Qué estafa. Te lo dije. ¡Cuidado donde pisas!```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""grandullón""
+Minor:
+style/awkward - ""vaya, vaya, vaya""```","<answer>
+84
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Ah, good morning, Ivory! Care to watch your future king get his portrait done?” Aquilo inquired, winking at Ivory.```
+Spanish translation:
+```“¡Ah, buenos días, Marfil! ¿Te importaría ver cómo le hacen el retrato a tu futuro rey? Aquilo preguntó, guiñándole un ojo a Ivory.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""future king""
+Minor:
+style/awkward - ""guiñándole un ojo""```","<answer>
+66
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Hailey Ockinga is an anti-incarceration activist and community organizer, and the executive director of Beyond These Walls in Washington state.```
+Spanish translation:
+```Hailey Ockinga es una activista en contra de la encarcelación y organizadora comunitaria, y la directora ejecutiva de Beyond These Walls en el estado de Washington.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""anti-incarceration""
+Minor:
+accuracy/mistranslation - ""Beyond These Walls""```","<answer>
+84
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user31 i never even used it in all of HS trig lmao```
+Spanish translation:
+```@ user31 ni siquiera lo usé en todo HS trig lmao```
+Annotated error spans:
+```Major:
+accuracy/omission - ""in all of""
+Minor:
+fluency/punctuation - ""ni siquiera""```","<answer>
+53
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Ivory rolled their eyes. “Why do you even want to go on a date with me of all people? You have like, I don’t know, 100 suitors?”```
+Spanish translation:
+```El Ívory se encogió de hombros. “¿Por qué quieres ir a una cita conmigo, de todos los posibles? ¿Tienes como, no sé, 100 pretendientes?```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Ivory""
+accuracy/omission - ""like, I don’t know""
+Minor:
+style/awkward - ""de todos los posibles""```","<answer>
+63
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user23 Yes, that’s the idea. The section 7 would be streamed first for the sole reason that the user can view it as soon as possible. If that can be made possible without affecting the DOM order, that would be good, so the browser would make sure that the resulting DOM order matches the visual order.```
+Spanish translation:
+```@user23 Sí, esa es la idea. La sección 7 se transmitiría primero por la única razón de que el usuario pueda verla lo antes posible. Si eso es posible sin afectar el orden del DOM, sería bueno, por lo que el navegador se aseguraría de que el orden del DOM resultante coincida con el orden visual.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""transmitiría""
+Minor:
+fluency/grammar - ""porque el navegador se aseguraría""```","<answer>
+92
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```My surgery involved lots of rest so I watched seasons 1-3 of Grey’s Anatomy. It helped McDreamy was a neurosurgeon. I would pay attention to how the patient was positioned just in the event I could guess what happened to me. Since my surgery in 2018, Hospital Playlist has shown more dramatization of neurosurgery than any other medical show I’ve seen since Grey’s. It is nice to have art and entertainment to help us make sense of our life.```
+Spanish translation:
+```Mi cirugía implicó mucho reposo, por lo que vi las temporadas 1 a 3 de Grey’s Anatomy. Fue de ayuda que el personaje de McDreamy fuera neurocirujano. Me fijaba en cómo posicionaban al paciente, por si acaso podía adivinar qué me había sucedido. Desde mi cirugía en 2018, Hospital Playlist ha mostrado más dramatización de la neurocirugía que cualquier otra serie médica que he visto desde Grey’s Anatomy. Es agradable poder contar con el arte y el entretenimiento para ayudarnos a comprender nuestras vidas.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""I would pay attention to how the patient was positioned just in the event I could guess what happened to me"" is translated as ""Me fijaba en cómo posicionaban al paciente, por si acaso podía adivinar qué me había sucedido""
+Minor:
+accuracy/omission - ""It is nice to have art and entertainment to help us make sense of our life"" is translated as ""Es agradable poder contar con el arte y el entretenimiento para ayudarnos a comprender nuestras vidas""```","<answer>
+96
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Snarky Wife: So, with this DNA test, are you going to lean into the scottish and Irish stuff.```
+Spanish translation:
+```Snarky Wife: Así que, con esta prueba de ADN, va a inclinarse a la escocesa e irlandesa.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""lean into""
+Minor:
+style/awkward - ""e irlandesa""```","<answer>
+78
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Greggs plans to make more dough with major further branch expansion while holding prices```
+Spanish translation:
+```Greggs planea ganar más dinero con una mayor expansión de sucursales sin aumentar los precios```
+Annotated error spans:
+```Minor:
+accuracy/mistranslation - ""more dough""```","<answer>
+79
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I don't even remember what I can do anymore., Might upgrade to whiskey.```
+Spanish translation:
+```Ya ni me acuerdo de lo que puedo hacer. Podría pasarme al whisky.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""might upgrade to whiskey"" (should be ""podría pasarme al whisky"")
+Minor:
+fluency/punctuation - missing comma after ""whisky""```","<answer>
+76
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user11 with the loss of shared experience due to an over saturation of content and the ever increasing polarization of our world, it’s so easy for bad actors to just ruin any chance of us getting together and enjoying things. Sorry, should have clarified haha```
+Spanish translation:
+```@user11 con la pérdida de experiencia compartida. debido a una sobre-turación de contenido y a cada creciente polarización de nuestro es muy fácil para los actores arruinar cualquier oportunidad de reunirrnos Lo siento, debería dejar claro algo```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""lo siento, debería dejar claro algo""
+accuracy/omission - ""de reunirrnos""
+Minor:
+fluency/punctuation - ""due to una sobre-turación de contenido y a cada creciente polarización de nuestro es""
+fluency/spelling - ""reunirrnos""```","<answer>
+62
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I hold a relatively slow pace as I approach the door, giving a small holler to Dad. “I’ll be heading out for a bit, dinner is in the fridge.” No response. Figures. He usually hears me though, he’ll probably be fine. Slowly closing the door behind me, I let another breathy sigh escape as the door completely shut. Nearly forgetting, I place my hand on the cold, metallic scanner that locks the door. If there was anything this apartment had, it was advanced tech, but then again; most places had notable technology–it had been a long time since anyone had used any other different technology.```
+Spanish translation:
+```No cocinea re licamo di digna comome plantaea la vísperta, being re soborno predico a Dad. «No dejes compre na carga por re gaco, la cere estè pre cla microondas». No say asvíse. Fanlas. Ma normalmente di iscucha aunque, na desconoce with di na me deja the cierre de la vís detrès de mí, ti dejo petro di petro aspirienne na```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""being re soborno predico a Dad""
+accuracy/omission - ""I’ll be heading out for a bit, dinner is in the fridge""
+accuracy/mistranslation - ""«No dejes compre na carga por re gaco, la cere estè pre cla microondas»""
+accuracy/mistranslation - ""No say asvíse""
+accuracy/mistranslation - ""Fanlas. Ma normalmente di iscucha aunque, na desconoce with di na me deja the cierre de la vís detrès de mí, ti dejo petro di petro aspirienne na""
+Minor:
+fluency/spelling - ""re licamo di digna comome plantaea la vísperta""
+fluency/punctuation - ""«No dejes compre na carga por re gaco, la cere estè pre cla microondas»""```","<answer>
+33
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```This is a super, super easy project, surprisingly. Like, it's not hard to match things up. So that's the nice thing about this project. Okay, so that's down, right. So now I'm going to start this way. I'm just going to run the glue all the way around and do one side at a time. So here we go. I'm running it right above the tin, the rim, rim, the rim tin. Jeez. So I'm just going to take this and move it along.```
+Spanish translation:
+```Sorprendentemente, este es un proyecto muy, muy sencillo. No es difícil combinar las cosas. Así que eso es lo bueno de este proyecto. Bueno, ya está listo, ¿correcto? Entonces, voy a empezar de esta manera. Solo voy a aplicar pegamento alrededor y hacerlo de un lado a la vez. Así que comencemos. Lo voy a poner justo sobre la lata, el borde, borde, la lata con borde. Uf. Así que solo voy a tomar esto y moverlo.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""borde, borde, la lata con borde""
+Minor:
+fluency/grammar - ""borde, borde, la lata con borde""```","<answer>
+89
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Make sure you have all your personal belongings,” Cohren continued. As a 1st Lieutenant and Company XO, it was his responsibility to oversee and assist the company with the Company leader, Captain Boradin Shaw . “We won’t be returning. Sergeants and 2nd lieutenants, I'm giving you and your squads fifteen minutes to make final checks and grab rations for the day”```
+Spanish translation:
+``````""Asegúrese de que tiene todos sus pertenencias personales"", continuó Cohran. Como primer teniente y Oficial Ejecutivo de la Compañía, era su responsabilidad supervisar y asistir a la compañía junto al líder de la compañía, el Capitán Boradin Shaw. ""No volveremos. Sargentos y tenientes 2º, les estoy dando quince minutos para hacer comprobaciones finales y tomar raciones para el día""»```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Oficial Ejecutivo de la Compañía""
+Minor:
+fluency/spelling - ""Cohran""```","<answer>
+66
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```According to the office of the commissioner for the protection of the state language, 3,692 language law violations were reported in 2023. Kiev, Kharkov, and Odessa remain ""leaders in terms of the number of complaints of violations. Therefore, strict controls over the observance of the language rights of citizens in all spheres of public life should be among the priorities of community leaders this year,"" Taras Kremen, the country's Language Ombudsman said.```
+Spanish translation:
+```De acuerdo con la oficina del comisionado para la protección de la lengua estatal, se informaron 3.692 violaciones de la ley lingüística en 2023. Kiev, Járkov y Odesa siguen siendo ""líderes en términos del número de quejas por violaciones. Por lo tanto, el estricto control sobre el cumplimiento de los derechos lingüísticos de los ciudadanos en todas las esferas de la vida pública deberían ser una prioridad para los líderes de la comunidad este año"", dijo Taras Kremen, el Defensor del Lenguaje del país.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""Kiev, Kharkov, and Odessa""
+Minor:
+accuracy/mistranslation - ""Járkov""```","<answer>
+83
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```https://twitter.com/Ahoyoo_Twitch/status/1771286936944099483```
+Spanish translation:
+```https://twitter.com/Ahoyoo_Twitch/status/1771286936944099483```
+Annotated error spans:
+```Major:
+accuracy/untranslated text - ""https://twitter.com/Ahoyoo_Twitch/status/1771286936944099483""
+Minor:
+fluency/punctuation - ""https://twitter.com/Ahoyoo_Twitch/status/1771286936944099483""```","<answer>
+66
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The rumors, of course, also applied to them as they were the only person allowed to enter the room.```
+Spanish translation:
+```Los rumores, por supuesto, también se aplicaban a ellos, ya que eran la única persona a la que se le permitía entrar en la habitación.```
+Annotated error spans:
+```No error```","<answer>
+99
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```please save me from this horror```
+Spanish translation:
+```por forma, ahorrendo de lápices videojuego```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""por forma, ahorrendo de lápices videojuego""
+Minor:
+accuracy/omission - ""please""```","<answer>
+17
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Aaaand it's still offline.```
+Spanish translation:
+```Aaay todavía está fuera de línea.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""out of line""
+Minor:
+fluency/punctuation - ""Aaay""```","<answer>
+89
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```3 minutes to go...```
+Spanish translation:
+```Quedan 3 minutos...```
+Annotated error spans:
+```No error.```","<answer>
+94
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user50 Found in the mirror universe?```
+Spanish translation:
+```@user50 ¿Encontrado en el universo espejo?```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""encontrado"" (correct translation is ""found"")
+Minor:
+fluency/punctuation - ""universo espejo"" (should be ""universo espejo"")```","<answer>
+78
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Snarky Wife: So, with this DNA test, are you going to lean into the scottish and Irish stuff.```
+Spanish translation:
+```Esposa sarcástica: Entonces, con esta prueba de ADN, ¿te inclinarás hacia el lado escocés e irlandés?```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""lean into the scottish and Irish stuff""
+Minor:
+none```","<answer>
+92
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Training muscles, not just the mind. 💪```
+Spanish translation:
+```Entrenar músculos, no```
+Annotated error spans:
+```Major:
+accuracy/omission - ""the mind. 💪""
+Minor:
+style/awkward - ""no""```","<answer>
+76
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The Biden Administration Is Letting Corporate Criminals Off the Hook```
+Spanish translation:
+```La Administración Biden está dejando a los criminales corporativos fuera del gancho```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""off the hook""
+Minor:
+fluency/register - ""gancho""```","<answer>
+73
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```And maybe a battery that's at least on paper capable of running the thing over night.```
+Spanish translation:
+```Y quizás una batería que está al menos en papel capaz de correr la cosa durante la noche.```
+Annotated error spans:
+```Minor:
+fluency/grammar - ""la cosa""```","<answer>
+89
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Eirwen was tied up to the wooden pole and the king started speaking about how the queen betrayed all of them. The people of Frostfell refused to believe it and never accepted his words. Then, the fire user lit the pole on fire, and a single tear rolled down the former queen’s face.```
+Spanish translation:
+```Eirwen fue atada al poste de madera y el rey comenzó a hablar sobre cómo la reina los había traicionado a todos. La gente de Frostfell se negó a creerlo y nunca aceptaron sus palabras. Luego, el usuario de fuego prendió el poste en llamas, y una sola lágrima rodó por la mejilla de la ex reina.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""the fire user""
+Minor:
+accuracy/omission - ""all of them""
+accuracy/mistranslation - ""his words""```","<answer>
+82
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```<contents for=sec2>section 2…</contents>```
+Spanish translation:
+```<información de la sección 2>  * Información de la sección 2....  </información>```
+Annotated error spans:
+```Major:
+accuracy/omission - ""section 2""
+accuracy/omission - ""…""
+Minor:
+style/awkward - ""Información de la sección 2....""```","<answer>
+50
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```So when did you first start writing and performing music after having your stage in front of your grandparents there? Well, basically, more performing. I did a bit of writing, but I left it to professionals. You know, when I was recording with professional writers and big, big hits around the world.```
+Spanish translation:
+```Entonces, ¿cuándo empezaste a escribir e interpretar música después de tener tu escenario frente a tus abuelos allí? Bueno, básicamente, más rendimiento. Escribí un poco, pero lo dejé en manos de profesionales. Ya sabes, cuando grababa con escritores profesionales y grandes, grandes éxitos en todo el mundo.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""interpretar""
+Minor:
+fluency/grammar - ""graba""```","<answer>
+67
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```facepalmed right into the ground```
+Spanish translation:
+```brazales tapados en el suelo```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""facepalmed right into the ground""```","<answer>
+50
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```FlightAware data track.```
+Spanish translation:
+```Seguimiento de datos de FlightAware.```
+Annotated error spans:
+```Major:
+accuracy/untranslated text - ""FlightAware""
+Minor:
+accuracy/omission - ""data""```","<answer>
+89
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```A quarter of the way through the year update... well ahead of pace!```
+Spanish translation:
+```Actualización al completar un cuarto del año... ¡muy por delante del ritmo previsto!```
+Annotated error spans:
+```Major:
+accuracy/omission - ""well""
+Minor:
+style/awkward - ""al completar un cuarto del año""```","<answer>
+66
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Rosendale was also among the 71 Republicans who opposed the Fiscal Responsibility Act struck between Democrats and former Speaker Kevin McCarthy, a deal that set the parameters for Johnson's recent negotiation with Senate Democratic Leader Charles Schumer.```
+Spanish translation:
+```Rosendale también se encontraba entre los 71 republicanos que se opusieron a la Ley de Responsabilidad Fiscal pactada entre los demócratas y el expresidente Kevin McCarthy, un acuerdo que estableció los parámetros para la reciente negociación de Johnson con el líder demócrata del Senado, Charles Schumer.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""a deal""
+Minor:
+style/awkward - ""se encontraba""```","<answer>
+89
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“get simple, semantic classes simply by using these two libraries and a build tool”```
+Spanish translation:
+```""Obtén clases semánticas simples con tan sólo usar estas dos bibliotecas y una herramienta de compilación"".```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""get"" (should be ""Obtén"")
+Minor:
+style/awkward - ""con tan sólo usar""```","<answer>
+87
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Damn this rusty K1100! Is there a single screw which has not seized?!```
+Spanish translation:
+```¡Qué maldita K1100 oxidada! ¿Hay un solo tornillo que no se haya oxidado?```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""oxidada"" (should be ""rusty"")
+Minor:
+style/awkward - ""se haya oxidado""```","<answer>
+75
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```3 minutes to go...```
+Spanish translation:
+```3 minutos para el final...```
+Annotated error spans:
+```No error```","<answer>
+89
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```As the EU debates rules to limit packaging waste, beer producers argue they are being unfairly discriminated against with exemptions for winemakers from reuse targets and deposit-return schemes, but one of Europe's wine industry association chiefs says brewers should ""mind their own business.""```
+Spanish translation:
+```Mientras la UE debate normas para limitar los residuos de envases, los productores de cerveza argumentan que se les discrimina injustamente al eximir a los fabricantes de vino de los objetivos de reutilización y sistemas de devolución de depósitos. Sin embargo, un líder de la asociación europea del sector vitivinícola dice que los cerveceros deberían ""ocuparse de sus propios asuntos"".```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""wine industry association chiefs""
+Minor:
+style/awkward - ""but one of Europe's wine industry association chiefs says brewers should 'mind their own business.'""```","<answer>
+66
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```No longer able to see, Thassalin tried to retreat, but found himself scraping against the top of the treeline, before crashing into a clearing. The creature seemed to know exactly where Thassalin had fallen and headed straight for him, taking the dark cloud with it.```
+Spanish translation:
+```Ya no pudiendo ver, Thassalin intentó retirarse, pero se encontró rozando contra la parte superior de la línea de árboles, antes de estrellarse contra un claro. La criatura parecía saber exactamente dónde había caído Thassalin y se dirigió directamente hacia él, llevándose la nube oscura con ella.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""the top of the treeline""
+Minor:
+accuracy/mistranslation - ""taking the dark cloud with it""```","<answer>
+66
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I've definitely been going about this the wrong way.```
+Spanish translation:
+```Definitivamente, he estado haciendo esto de una manera equivocada.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""going about this""
+Minor:
+fluency/punctuation - ""Definitivamente,""```","<answer>
+70
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```https://www.irishtimes.com/culture/books/2024/03/16/killing-in-gaza-has-been-supported-by-irelands-good-friend-in-the-white-house/```
+Spanish translation:
+```https /www.irishtimes```
+Annotated error spans:
+```Major:
+accuracy/omission - ""culture/books/2024/03/16/killing-in-gaza-has-been-supported-by-irelands-good-friend-in-the-white-house/""
+fluency/grammar - ""https /www.irishtimes""```","<answer>
+24
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Ah yes, the budget friendly one will do ($699)```
+Spanish translation:
+```Ah sí, el de precio económico servirá ($699)```
+Annotated error spans:
+```Major:
+accuracy/translation - ""de precio económico"" (should be ""de bajo costo"")
+Minor:
+style/awkward - ""servirá""```","<answer>
+77
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Or not.```
+Spanish translation:
+```O no.```
+Annotated error spans:
+```Major:
+accuracy/untranslated text - ""Or not.""
+Minor:
+none```","<answer>
+99
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I was on my period but I was supposed to strip down. So they let me have these mesh underwear you wear after childbirth. But they strip you completely down in the OR and drape you. So at some point a nice nurse replaced my period care before I woke up. Aside from childbirth where I was conscious and getting help or as a baby, I’ve never had such a private care task done for me. That was also my one stay in the ICU. ICU stay was a precaution for my type of surgery.```
+Spanish translation:
+```Tenía la menstruación, pero se suponía que me desnudara. Entonces me dejaron usar ropa interior de malla que se usa después del parto. Pero te desnudan por completo en el quirófano y te cubren. Entonces, en algún momento, una amable enfermera reemplazó mi cuidado de menstruación antes de que me despertara. Aparte del parto, donde estaba consciente y recibía ayuda, o como un bebé, nunca antes me habían hecho una tarea de cuidado privado tan bien. Esa fue también mi única estadía en la UCI. La estadía en la UCI fue una precaución por el tipo de cirugía que me realizaron.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""a nice nurse replaced my period care""
+Minor:
+style/awkward - ""se suponía que me desnudara""```","<answer>
+85
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```While there are often significant differences between airlines"" safety records at any given point in time, this is largely due to the ""infrequent but catastrophic nature of an air accident,"" according to the FAA, and these apparent differences between airlines even out over time. The FAA declined a request for comment.```
+Spanish translation:
+```Aunque a menudo existen diferencias significativas entre los registros de seguridad de las aerolíneas en un momento dado, esto se debe en gran medida a la «naturaleza poco frecuente pero catastrófica de los accidentes aéreos», según la FAA, y estas diferencias aparentes entre las aerolíneas tienden a nivelarse con el tiempo. La FAA declinó una solicitud de comentarios.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""at any given point in time""
+Minor:
+terminology/inappropriate for context - ""tienden a nivelarse con el tiempo""```","<answer>
+73
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```when in on $big 4.25-.35```
+Spanish translation:
+```Cuando estás en $big 4,25-.35```
+Annotated error spans:
+```Major:
+accuracy/omission - ""in on""
+Minor:
+fluency/grammar - ""Cuando estás en""```","<answer>
+66
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Chief executive Roisin Currie told PA she has ""no plans currently"" to up prices at the till as it expects a more stable cost base over the year ahead. However, she added that it would be ""a long time before we see deflation"" that would allow the group to start reducing prices, with retailers among those facing higher wage bills due to increases in the national living wage - although she added that the trend of bigger pay packets is ""good news as it puts more money into consumers"" pockets.""```
+Spanish translation:
+```La presidenta ejecutiva Roisin Currie dijo a PA que ""realmente no tiene planes actualmente"" para aumentar los precios en la caja. Sin embargo, ella agregó que podría ser ""muy largo"" antes de que veamos deflación que nos permita empezar a reducir los precios, con minoristas uno de los que enfrentan nóminas más altas debido a los aumentos en el salario mínimo nacional. Si bien agregó que la tendencia de mayores paquetes salariales es ""buena noticia ya que pone más dinero en los bolsillos de los consumidores"".```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""a long time""
+Minor:
+terminology/inappropriate for context - ""minoristas""```","<answer>
+79
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Alexa play, it's my party and I'll cry if I want to. Whoa, whoa, we gotta spit that out. Alexa play, it's my party and I'll cry if I want to. You cry too if it happened to you. Woo! Alexa, Midnight!!!```
+Spanish translation:
+```Alexa play, es mi fiesta y lloraré si quiero. Guau, guau, tenemos que escupir eso. Alexa play, es mi fiesta y lloraré si quiero. Tú también lloras si te pasó a ti. ¡Woo! ¡Alexa, Medianoche!!!```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Medianoche""
+Minor:
+fluency/punctuation - ""Woo! Alexa, Medianoche!!!""
+fluency/register - ""Alexa play""```","<answer>
+74
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```switch to cash, no more margin.```
+Spanish translation:
+```cambiar a efectivo, no más margen.```
+Annotated error spans:
+```No error```","<answer>
+75
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```DETONATION```
+Spanish translation:
+```DETONACIÓN```
+Annotated error spans:
+```Major:
+accuracy/untranslated text - ""DETONATION"" is not translated into Spanish
+Minor:
+none```","<answer>
+50
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```No. Kari tapped out. Ivory knew that it was a hard subject for her. It was the day that she was confined to her room and her mother was banished. Ivory was only a baby when it happened, but they remembered the outrage the servants and townspeople were in. They heard Queen Eirwen was a nice queen, but also weirdly predicted things that would happen.```
+Spanish translation:
+```No. Kari se rindió. Ivory sabía que era un tema difícil para ella. Era el día en que fue confinada a su habitación y su madre fue desterrada. Ivory era solo un bebé cuando sucedió, pero recordaban la indignación de los sirvientes y los habitantes de la ciudad. Oyeron que la reina Eirwen era una reina amable, pero también predijo extrañamente cosas que sucederían.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""the outrage the servants and townspeople were in""
+Minor:
+fluency/register - ""predijo extrañamente""```","<answer>
+87
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```If I ever have the opportunity to have a custom tail number for an aircraft, you KNOW it has to be some variation of N1337_, the _ being whatever final alphabetical char is available.```
+Spanish translation:
+```Si alguna vez tengo la oportunidad de tener un número personalizado de cola para una aeronave ustedes sabrán que tiene que ser una variación de N```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""you KNOW""
+accuracy/omission - ""1337_""
+Minor:
+terminology/inappropriate for context - ""cola""```","<answer>
+63
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Killed myself with my own boomerang```
+Spanish translation:
+```Me maté con mi propio boomerang```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""me maté"" (correct translation should be ""me maté"")
+Minor:
+style/awkward - ""con mi propio boomerang""```","<answer>
+89
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```finished putting up rabbit fence. It's sunk 6 inches underground I very much expect it to keep rabbits out```
+Spanish translation:
+```terminé de instalar la valla para conejos. Está enterrada a 6 pulgadas bajo tierra, así que espero que mantenga a los conejos fuera.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""I very much expect it to keep rabbits out""
+Minor:
+accuracy/omission - ""I""```","<answer>
+89
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user11 Inclusion and safety should be the default.```
+Spanish translation:
+```@usuario11 La inclusión y la seguridad deberían ser la norma.```
+Annotated error spans:
+```No error```","<answer>
+83
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Yay```
+Spanish translation:
+```¡Genial!```
+Annotated error spans:
+```No-error```","<answer>
+97
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I'm so to read all this - well done, you!```
+Spanish translation:
+```Estoy tan contento de leer todo esto, ¡bien hecho, tú!```
+Annotated error spans:
+```Major:
+accuracy/omission - ""I'm so to read""
+Minor:
+fluency/register - ""tan contento""```","<answer>
+66
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Now talking about stars, Howard Jones appears as a special guest vocalist in a duet with you on the album. On the track, I Made a Case, who has offered you so much encouragement with your music. Was it by chance that he happened to appear on the track? As I hear you had to strip back the track as didn't want anything being in the way of your voices telling the story.```
+Spanish translation:
+```Ahora hablando de estrellas, Howard Jones aparece como vocalista invitado especial en un dueto contigo en el álbum. En el tema, I Made a Case, que tanto ánimo te ha dado con tu música. ¿Fue por casualidad que apareció en la pista? Según he oído, tuviste que quitar la pista porque no querías que nada se interpusiera en el camino de tus voces para contar la historia.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""I Made a Case""
+Minor:
+style/awkward - ""con el álbum""```","<answer>
+92
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Also, I found a pink logbook.```
+Spanish translation:
+```También encontré un diario rosa.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""Also""
+Minor:
+style/awkward - ""un diario rosa""```","<answer>
+96
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Pleased with the little side niche```
+Spanish translation:
+```Satisfecho con el pequeño nicho lateral```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""side niche"" (should be ""lateral niche"")
+Minor:
+style/awkward - ""the little"" (should be ""un small"")```","<answer>
+89
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```We're not ready. And it's going to be more dangerous out there because you fired Greg. Because we don't have any money to pay him, Burt, you're doing this, not me. hell I am. Do you not understand what I had to do to get these kids out here? The bond that I had to put up for the insurance company, you want to lose all that? Rather than risk hurting one of the kids? Yeah. Why? Never bothered you before.```
+Spanish translation:
+```No estamos listos. Y va a ser más peligroso allá afuera porque despidiste a Greg. Porque no tenemos dinero para pagarle, Burt, tú estás haciendo esto, no yo. Maldita sea, soy yo. ¿No entiendes lo que tuve que hacer para sacar a estos chicos de aquí? La fianza que tuve que pagar a la compañía de seguros, ¿quieres perder todo eso? ¿Antes que arriesgar lastimar a uno de los chicos? ¿Sí? ¿Por qué? Nunca te había importado antes.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""I am""
+accuracy/omission - ""the bond""
+Minor:
+fluency/register - ""Maldita sea""```","<answer>
+91
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```But the new ones cover that area just fine.```
+Spanish translation:
+```Pero los nuevos cubren bien esa zona.```
+Annotated error spans:
+```No error```","<answer>
+85
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```first complaint: we need cute logbooks. black is boring, pink is not even pink, it's salmon.```
+Spanish translation:
+```Primera queja: necesitamos lindos cuadernos de bitácora. El negro es aburrido, el rosa ni siquiera es rosa, es salmón.```
+Annotated error spans:
+```Minor:
+accuracy/mistranslation - ""bitácora""
+style/awkward - ""lindos cuadernos de bitácora""```","<answer>
+70
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```or hire someone better```
+Spanish translation:
+```o contratar a alguien mejor```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""hire""
+Minor:
+fluency/punctuation - ""or""```","<answer>
+78
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Now talking about stars, Howard Jones appears as a special guest vocalist in a duet with you on the album. On the track, I Made a Case, who has offered you so much encouragement with your music. Was it by chance that he happened to appear on the track? As I hear you had to strip back the track as didn't want anything being in the way of your voices telling the story.```
+Spanish translation:
+```Hablando de estrellas, Howard Jones aparece como vocalista invitado especial en un dúo contigo en el álbum. En el tema I Made a Case, que tanto te ha animado con tu música. ¿Fue casualidad que apareciera en el tema? Según he oído, tuvisteis que recortar el tema para que nada se interpusiera en el camino de vuestras voces para contar la historia.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""who has offered you so much encouragement""
+Minor:
+fluency/grammar - ""con la historia""```","<answer>
+76
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""Hey, Tenuk, do you mind shapeshifting into something that can fly?"" Kayel asked.```
+Spanish translation:
+```Hey Tenuk, ¿Te importa transformarte en algo que pueda volar?```
+Annotated error spans:
+```No error```","<answer>
+99
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Insert new wardrobe here (not that we have even started on designing this yet 🙈)```
+Spanish translation:
+```Inserte nuevo armario aquí (no es que incluso hemos comenzado a diseñar esto todavía 🙈)```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""not that we have even started on designing this yet""
+Minor:
+style/awkward - ""este""```","<answer>
+86
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```nothing makes me more happy than elon musk losing money. $tslq```
+Spanish translation:
+```nada me hace más feliz que elon musk perdiendo dinero. $tslq```
+Annotated error spans:
+```No errors.```","<answer>
+99
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“I heard that she eats children in that room.”```
+Spanish translation:
+```“No iscuchamos la comprensivamente comer un san lípido pre esa satisfecha”.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""No iscuchamos la comprensivamente comer un san lípido pre esa satisfecha""
+Minor:
+terminology/inappropriate for context - ""san lípido""```","<answer>
+50
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Chris Johnson is a former NSW government architect (1995-2005) and executive director, NSW Department of Planning (2005-2009). He was CEO of Urban Taskforce Australia between 2011 and 2019.```
+Spanish translation:
+```Chris Johnson fue arquitecto del gobierno de Nueva Gales del Sur (1995-2005) y director ejecutivo del Departamento de Planificación de Nueva Gales del Sur (2005-2009). Fue director ejecutivo de Urban Taskforce Australia entre 2011 y 2019.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""executive director"" (it is translated as ""director ejecutivo"" twice)
+Minor:
+terminology/inappropriate for context - ""Nueva Gales del Sur"" (it should be ""Nueva Gales del Sur"" or ""New South Wales"", but ""Nueva Gales del Sur"" is not the correct translation)```","<answer>
+74
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```we are forced to grapple with holding onto nostalgia while acknowledging that the people who created the art we connected with can be extremely flawed.```
+Spanish translation:
+```Nos vemos obligados a aferrarnos a la nostalgia mientras reconocemos que las personas que crearon el arte con el que nos conectamos pueden ser extremadamente defectuosas.```
+Annotated error spans:
+```Major:
+none
+Minor:
+terminology/inconsistent use - ""defectuosas""```","<answer>
+75
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Stumpy and I are home and feeling better now we’ve had a couple of mugs of tea. Back in a fortnight to get the job finished.```
+Spanish translation:
+```Stumpy y yo estamos en casa y nos sentimos mejor ahora que hemos tomado un par de tazas de té. Volveremos en quince días para terminar el trabajo.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""a couple of mugs of tea"" -> ""un par de tazas de té""
+Minor:
+terminology/inappropriate for context - ""quince días""```","<answer>
+89
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I imagine the answer is to just kinda divorce the design from its fictional intent, ppl do that with real world tanks and jets after all, but my brain is having a DIFFICULT time w that```
+Spanish translation:
+```Me imagino que la respuesta es simplemente divorciar el diseño de su intención ficticia, después de todo, la gente hace eso con tanques y aviones del mundo real, pero mi cerebro está pasando por un momento DIFÍCIL con eso.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""w with"" -> ""con eso""
+Minor:
+style/awkward - ""momento DIFÍCIL""```","<answer>
+72
+</answer>",en-es
+"Given the translation from English to Spanish and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The company dispersed, joining together in their squads and their sergeants had them mount up on one of the tanks. Cohren pulled himself onto one of the tanks farther up on the convoy, joining Nemic, Craith, and two new recruits. Cohren remembered them arriving a few days ago, but didn’t know much about them. Sitting on the side, dangling his legs on the side, he adjusted his pack and radio set, which connected to his earpiece and throat mic.```
+Spanish translation:
+```La compañía se dispersó, uniéndose en sus escuadrones y sus sargentos les hicieron montar en uno de los tanques. Cohren se subió a uno de los tanques más alejados del convoy, uniéndose a Nemic, Craith y dos nuevos reclutas. Cohren recordaba que habían llegado hacía unos días, pero no sabía mucho de ellos. Sentado a un lado, colgando las piernas, se ajustó la mochila y el aparato de radio, que se conectaba al auricular y al micrófono de garganta.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""farther up on the convoy"" (translated as ""más alejados del convoy"")
+Minor:
+style/awkward - ""colgando las piernas""```","<answer>
+87
+</answer>",en-es

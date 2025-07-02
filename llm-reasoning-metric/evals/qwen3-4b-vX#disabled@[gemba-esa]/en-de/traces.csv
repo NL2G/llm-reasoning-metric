@@ -1,0 +1,1635 @@
+prompt,result,lp
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The protests were ostensibly set off by the government's decision to end subsidies for diesel fuel used in agriculture and to cut an exemption from car tax for farm vehicles. These measures pushed farmers over the edge. It also mobilised other angry workers, already straining under the pressure of inflation, recession and the government's self-imposed austerity. On January 9th drivers of freight and passenger trains at Deutsche Bahn, the national railway, began a strike over working hours and pay.```
+German translation:
+```Die Proteste sollen offiziell durch die Entscheidung der Regierung ausgelöst worden sein, Subventionen für Dieselkraftstoff, der in der Landwirtschaft verwendet wird, einzustellen und eine Befreiung von der Kraftfahrzeugsteuer für landwirtschaftliche Fahrzeuge zu kürzen. Diese Maßnahmen brachten die Bauern zum Kippen. Es mobilisierte auch andere wütende Arbeiter, die bereits unter dem Druck von Inflation, Rezession und der selbstauferlegten Sparpolitik der Regierung litten. Am 9. Januar begannen Lokführer von Güter- und Personenzügen bei der Deutschen Bahn, einem nationalen Bahnunternehmen, einen Streik über Arbeitszeiten und Entlohnung.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""sollten offiziell"" (misinterprets ""ostensibly set off by"" as ""should be officially"")
+
+Minor:
+style/awkward - ""Zum Kippen"" (idiomatic but slightly informal for a formal context)```","**Score: 66**
+
+**Reasoning:**  
+The translation captures most of the original meaning, with the exception of a key mistranslation in the first sentence. The phrase ""ostensibly set off by"" is misrendered as ""sollten offiziell"" (should be officially), which alters the nuance of the original. This is a **major error** affecting the accuracy of the translation. However, the rest of the text is accurately translated, with only a **minor style issue** (""Zum Kippen"" as an idiom, slightly informal for a formal context). Since the majority of the content is preserved with minimal grammatical errors, the score reflects ""Most meaning preserved and few grammar mistakes"" (66).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Over the past decade, our lives have changed through technology, with many working from home, and Sydney has gained an impressive network of metro and light rail systems. Our ability to purchase online has changed the way we shop, and friends and family seem closer because of smartphone communication. All of these adaptations from one system to another can also occur in our built environment through a planning focus on adaptive reuse rather than preferencing heritage preservation.```
+German translation:
+```In den letzten zehn Jahren hat sich unser Leben durch Technologie verändert, wobei viele von zu Hause aus arbeiten, und Sydney hat ein beeindruckendes Netzwerk von U-Bahn- und Stadtbahnsystemen gewonnen. Unsere Fähigkeit, online zu kaufen, hat die Art und Weise, wie wir einkaufen, verändert, und Freunde und Familie scheinen aufgrund der Smartphone-Kommunikation näher zu sein. All diese Anpassungen von einem System zum anderen können auch in unserer gebauten Umgebung auftreten, indem wir uns auf die adaptive Wiederverwendung konzentrieren, anstatt den Erhalt des Kulturerbes zu bevorzugen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""gewonnen"" (incorrect use of ""won"" instead of ""gained"")
+terminology/inappropriate for context - ""bevorzugen"" (slightly off in the context of ""preferencing"" vs. ""prefer"")
+
+Minor:
+fluency/punctuation - ""anstatt den Erhalt des Kulturerbes zu bevorzugen"" (could be slightly more natural with a comma or restructuring)  
+style/awkward - ""in unserer gebauten Umgebung"" (slightly awkward phrasing for ""in our built environment"")```","**Score: 66**  
+**Reasoning:**  
+- **Major Errors (2):**  
+  - ""gewonnen"" (win) instead of ""erlangen"" (gain) for ""gained"" is a critical mistranslation, affecting the intended meaning.  
+  - ""bevorzugen"" (prefer) is slightly off in the context of ""preferencing heritage preservation,"" though it’s contextually acceptable.  
+
+- **Minor Issues (2):**  
+  - Punctuation in ""anstatt den Erhalt des Kulturerbes zu bevorzugen"" could be improved for fluency.  
+  - ""in unserer gebauten Umgebung"" is awkward phrasing; ""gebauten"" is less natural than ""gebaute"" for ""built environment.""  
+
+- **Overall Assessment:**  
+  The translation preserves most of the original meaning (e.g., ""adaptive reuse,"" ""smartphone communication"") with only two major inaccuracies. The minor issues are stylistic and do not significantly impair comprehension. Thus, it aligns with the **66** score (""Most meaning preserved and few grammar mistakes"").",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Both the old and the new Listing titles call it a 12V 10W panel.```
+German translation:
+```Sowohl die alten als auch die neuen Listing-Titel nennen es ein 12V 10W Panel.```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+style/awkward - ""Listing-Titel"" (compound noun may be less natural in German, though acceptable for technical contexts)```","**Score: 66**  
+**Reasoning:** The translation preserves the core meaning and structure of the original sentence. The grammar is correct, and the technical terms (""12V 10W Panel"") are appropriately retained. The only minor issue is the compound noun ""Listing-Titel,"" which is slightly awkward in German but acceptable in technical contexts. This results in ""Most meaning preserved and few grammar mistakes,"" aligning with the 66-point benchmark.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```https://twitter.com/Ahoyoo_Twitch/status/1771286936944099483```
+German translation:
+```https://twitter.com/Ahoyoo_Twitch/status/1771286936944099483```
+Annotated error spans:
+```Major:
+non-translation - The source is a URL, which does not require translation. The German translation is identical to the source, making it a non-translation error.  
+
+Minor:
+none  
+**Note**: The translation is technically correct for a URL, but it falls under ""non-translation"" as the source is not text to be translated.```","The translation is a direct copy of the source URL, which is technically correct for a URL (as URLs do not require translation). However, the annotation clarifies that this is a **non-translation** task, meaning the URL is not meant to be translated but preserved as-is. Despite this, the translation is **perfectly accurate** in terms of preserving the original content (the URL). 
+
+Since the task is not a translation but a preservation of a reference, the score reflects the **correct handling of the non-translation requirement**, not a failure in translation quality. 
+
+**Score: 100**  
+(Perfect meaning and grammar, as the URL is correctly preserved without any errors.)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```These good quality stickers are about 50p each. They'll cost the same again to post. And way more in my own time to individually package and send them.```
+German translation:
+```Diese Aufkleber in guter Qualität kosten pro Stück etwa 50 Pence. Sie zu verschicken kostet noch einmal so viel. Und sie einzeln zu verpacken und zu versenden, kostet mich noch viel mehr von meiner Zeit.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Pence"" (in German, ""Pence"" is not a standard term; the correct term would be ""Pfund"" for pounds or ""Cent"" for cents, though ""Pence"" is a direct translation and may be acceptable in this context)
+
+Minor:
+style/awkward - ""von meiner Zeit"" (slightly awkward phrasing, though the meaning is clear)```","**Score: 66**  
+**Reasoning:**  
+The translation preserves most of the meaning, with only minor adjustments needed. The term **""Pence""** is a direct translation but not standard in German (should be ""Pfund"" or ""Cent""), which is a **major accuracy issue**. However, the context (pricing) allows ""Pence"" to be somewhat acceptable, so this is a **significant but not fatal** error. The phrase **""von meiner Zeit""** is slightly awkward but clear, which is a **minor style issue**. Overall, the grammar and structure are correct, and the core message is preserved. Thus, the score reflects **""Most meaning preserved and few grammar mistakes""** (66).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```From his latest newsletter: https://jakobnielsenphd.substack.com/p/ux-roundup-20240219```
+German translation:
+```Aus seinem neuesten Newsletter: https://jakobnielsenphd.substack.com/p/ux-roundup-20240219```
+Annotated error spans:
+```No-error  
+The translation accurately conveys the source text. The phrase ""Aus seinem neuesten Newsletter"" correctly translates ""From his latest newsletter,"" and the URL is preserved unchanged. The structure is fluent, with proper grammar and punctuation. There are no additions, omissions, or mistranslations. The term ""Newsletter"" is appropriately retained as a proper noun.```","The translation is flawless. It accurately preserves the original meaning, grammar, and structure. The phrase ""Aus seinem neuesten Newsletter"" is a direct and correct translation of ""From his latest newsletter,"" and the URL is unchanged. There are no errors, omissions, or additions. The term ""Newsletter"" is retained as a proper noun, and the punctuation is correct. 
+
+**Score: 100**",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I don't want to feed Big Tech with money, data and my energy. Or coaches who have their one extroverted solution that they apply to everyone. I'm exploring new ways of doing business, while fighting my long-held belief that you have to do things a certain way to be successful.```
+German translation:
+```Ich will Big Tech nicht mit Geld, Daten und meiner Energie füttern. Oder Coaches, die ihre eine extrovertierte Lösung haben, die sie auf jeden anwenden. Ich suche nach neuen Wegen, Geschäfte zu machen, und kämpfe gleichzeitig gegen meine lang gehegte Überzeugung an, dass man Dinge auf eine bestimmte Art und Weise tun muss, um erfolgreich zu sein.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Geschäfte zu machen"" (should be ""neue Geschäftsmodelle"")
+accuracy/mistranslation - ""eine eine extrovertierte Lösung"" (repetition of ""eine"" is a grammatical error)
+
+Minor:
+fluency/spelling - ""lang gehekte"" (correct form is ""lang gehegte"")
+fluency/preposition - ""gegen... an"" (should be ""gegen..."")```","**Score: 50**  
+**Reasoning:**  
+The translation has two major accuracy issues:  
+1. **""Geschäfte zu machen""** (literally ""making businesses"") instead of **""neue Geschäftsmodelle""** (new business models) for ""new ways of doing business."" This is a critical mistranslation affecting the core meaning.  
+2. **""eine eine extrovertierte Lösung""** (repetition of ""eine"") is a grammatical error, though the intended meaning is clear.  
+
+Minor issues include:  
+- **""lang gehekte""** (spelling error; should be ""lang gehegte"").  
+- **""gegen... an""** (preposition error; should be ""gegen..."").  
+
+While the translation conveys the general message, the major errors significantly impact accuracy. The rest of the text is mostly correct, but the two critical issues reduce the score below 66. The score reflects partial meaning preservation with notable inaccuracies.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```For those who are curious, there are 11 study units.```
+German translation:
+```Für diejenigen, die neugierig sind, gibt es 11 Studieneinheiten.```
+Annotated error spans:
+```No error.  
+The translation is accurate, fluent, and uses appropriate terminology. The structure and vocabulary align with the source text, and there are no grammatical, stylistic, or contextual issues.```","The German translation accurately reflects the meaning of the English sentence, uses appropriate terminology, and is grammatically correct. There are no errors in the translation. 
+
+**Score: 100**  
+""Perfect meaning and grammar.""",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```tbf, the beer is was fikn awesome```
+German translation:
+```Ehrlich gesagt, das Bier war einfach fantastisch```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""fikn awesome"" (untranslated text)
+
+Minor:
+fluency/grammar - ""Ehrlich gesagt"" (register inconsistency)```","The translation has a major error in not translating the phrase ""fikn awesome,"" which is a key part of the original sentence. While ""Ehrlich gesagt, das Bier war einfach fantastisch"" correctly conveys the beer being fantastic, it misses the intentional misspelling and informal tone of the source. The minor issue with ""Ehrlich gesagt"" (register inconsistency) is less severe but still notable. Since the major error significantly impacts meaning preservation, the score is **33**. 
+
+**Score: 33**",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```For most travelers, the aircraft model isn't a deciding factor when booking a flight. But with the majority of Boeing 737 MAX 9 jets grounded around the country after an Alaska Airlines fuselage blowout on Jan. 6, some prospective passengers may want to know how to tell what type of plane they'll be on and which models are the safest. The first is easy enough to answer - the second is a little more complicated.```
+German translation:
+```Für die meisten Reisenden ist das Flugzeugmodell kein entscheidender Faktor bei der Buchung eines Fluges. Aber nachdem die Mehrheit der Boeing 737 MAX 9 Jets im ganzen Land nach einem Rumpfausbruch bei Alaska Airlines am 6. Januar am Boden geblieben sind, möchten einige potenzielle Passagiere vielleicht wissen, wie man erkennen kann, in welchem Flugzeugtyp man sitzen wird und welche Modelle am sichersten sind. Die erste Frage ist einfach genug zu beantworten - die zweite ist etwas komplizierter.```
+Annotated error spans:
+```Major:  
+None.  
+
+Minor:  
+fluency/grammar - ""im ganzen Land"" (a slight awkwardness in phrasing, but the translation remains understandable).  
+fluency/register - ""am Boden geblieben sind"" (slightly formal, but not incorrect).  
+
+**Explanation:**  
+- **""im ganzen Land""** is a minor fluency issue as it is slightly more formal than ""um den Land,"" but it is still grammatically correct and does not hinder understanding.  
+- **""am Boden geblieben sind""** is a direct and accurate translation of ""grounded,"" with no significant stylistic or grammatical issues.  
+- The rest of the translation accurately conveys the source meaning without errors.```","**Score: 66**  
+The translation preserves most of the meaning and conveys the source text accurately. The minor issues (""im ganzen Land"" and ""am Boden geblieben sind"") are negligible in terms of clarity or correctness, and the rest of the text is grammatically sound and fluent. While ""im ganzen Land"" is slightly more formal than the original (""around the country""), it does not hinder understanding. The translation effectively balances accuracy with natural German phrasing, earning it a score of 66 (""Most meaning preserved and few grammar mistakes"").",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Saturday Cont:```
+German translation:
+```Samstag Fortsetzung:```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""Cont"" is mistranslated as ""Fortsetzung"" (which is correct, as ""cont"" is short for ""continuation""), but the structure ""Samstag Fortsetzung:"" is awkward in German.  
+
+Minor:  
+fluency/grammar - Missing article ""die"" before ""Fortsetzung"" (should be ""die Fortsetzung""), but this is acceptable in headings.  
+style/awkward - The structure ""Samstag Fortsetzung:"" is slightly off in German, as ""Fortsetzung"" typically requires a noun after the colon (e.g., ""Fortsetzung: Samstag""). However, the translation is functionally understandable.  
+
+**Classification:**  
+- **Major:** No major errors. The translation is accurate and functional, though the phrasing is slightly awkward.  
+- **Minor:** Minor issues with grammar and style in the heading structure.```","**Score: 66**  
+The translation preserves the core meaning (""Saturday Cont:"" → ""Samstag Fortsetzung:"") with ""Fortsetzung"" correctly translating ""Cont"" as a short form of ""continuation."" While the structure ""Samstag Fortsetzung:"" is slightly awkward in German (e.g., ""Fortsetzung: Samstag"" is more natural), the translation is functionally understandable. The minor issues (missing article ""die"" and heading structure) are acceptable in headings but indicate slight style/grammar imperfections. Overall, the translation is accurate with few errors, aligning with the ""Most meaning preserved and few grammar mistakes"" category.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Rosendale was also among the 71 Republicans who opposed the Fiscal Responsibility Act struck between Democrats and former Speaker Kevin McCarthy, a deal that set the parameters for Johnson's recent negotiation with Senate Democratic Leader Charles Schumer.```
+German translation:
+```Rosendale gehörte auch zu den 71 Republikanern, die sich gegen den Fiscal Responsibility Act stellten, das zwischen den Demokraten und dem ehemaligen Sprecher Kevin McCarthy ausgehandelte Gesetz zur steuerlichen Verantwortlichkeit, in dem die Rahmenbedingungen für Johnsons jüngste Verhandlungen mit dem Führer der Demokraten im Senat, Charles Schumer, festgelegt worden waren.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""Fiscal Responsibility Act"" is translated as ""Gesetz zur steuerlichen Verantwortlichkeit,"" which is a direct translation but fails to preserve the specific legal term as a proper noun.  
+
+Minor:  
+terminology/inconsistent use - ""Führer der Demokraten im Senat"" is used for ""Senate Democratic Leader,"" which is semantically accurate but slightly more formal than the original. However, this does not disrupt understanding.  
+
+**Explanation:**  
+- **Major Error**: The mistranslation of ""Fiscal Responsibility Act"" into a common noun (""Gesetz zur steuerlichen Verantwortlichkeit"") is a significant inaccuracy because the original term is a proper noun referring to a specific law. Translating it as a general term loses the intended specificity and context.  
+- **Minor Error**: The use of ""Führer der Demokraten im Senat"" is technically correct but slightly more formal than the original ""Senate Democratic Leader."" While it is semantically accurate, the slight stylistic choice does not hinder comprehension.```","**Score: 66**  
+**Rationale:**  
+The translation preserves most of the meaning and structure, with only one significant error. The major issue is the mistranslation of ""Fiscal Responsibility Act"" as a general term (""Gesetz zur steuerlichen Verantwortlichkeit"") instead of the proper noun ""Fiscal Responsibility Act,"" which loses specific legal context. However, the rest of the translation is accurate, with minor stylistic choices (e.g., ""Führer der Demokraten im Senat"") that do not disrupt understanding. While the major error reduces clarity, the overall translation is mostly correct with few grammar issues, aligning with the ""Most meaning preserved and few grammar mistakes"" benchmark (66).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```nothing makes me more happy than elon musk losing money. $tslq```
+German translation:
+```Nichts macht mich glücklicher als elon Moschus Geld zu verlieren. $tslq```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""elon Moschus"" (incorrect spelling of ""Elon Musk"")
+
+Minor:
+none```","The German translation contains a major error in the spelling of ""Elon Musk"" (incorrectly rendered as ""Moschus""), which directly affects the meaning of the sentence. While the grammatical structure and most of the vocabulary are correct, the misspelled proper noun significantly reduces the accuracy of the translation. Since the primary reference (Elon Musk) is incorrect, the meaning is not fully preserved, but the rest of the sentence remains understandable. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" — the core message is partially retained, but the critical proper noun is mistranslated, leading to a loss of specific meaning.)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Ooo, look what we found behind the radiator!```
+German translation:
+```Ooo, schaut mal, was wir hinter dem Heizkörper gefunden haben!```
+Annotated error spans:
+```Major: None  
+Minor: None  
+No-error: The translation is accurate, fluent, and maintains the original tone. The German sentence correctly conveys the meaning of the English sentence, with appropriate grammar, terminology, and punctuation. ""Heizkörper"" accurately translates ""radiator,"" and the structure ""schaut mal, was wir...gefunden haben"" is natural and idiomatic in German. No errors are present.```","The translation is accurate, fluent, and maintains the original tone. The German sentence correctly conveys the meaning of the English sentence with appropriate grammar, terminology, and punctuation. ""Heizkörper"" accurately translates ""radiator,"" and the structure ""schaut mal, was wir...gefunden haben"" is natural and idiomatic in German. No errors are present. 
+
+**Score: 100** (Perfect meaning and grammar).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Jeez Valturi,” Nemic stated. “You’d think they would have learned by now to wake up when you did”```
+German translation:
+```„Verdammt, Valturi“, sagte Nemic. „Man würde denken, sie hätten inzwischen gelernt, aufzuwachen, wenn du aufwachst.“```
+Annotated error spans:
+```Major:  
+- **accuracy/mistranslation**: ""wenn du aufwachst"" (when you wake up) instead of ""wenn du aufwachtest"" (when you woke up) to match the past tense of the original.  
+
+Minor:  
+- **style/awkward**: The use of ""wenn du aufwachst"" (conditional tense) may slightly deviate from the original's past tense context, but it is contextually appropriate in German for hypotheticals.  
+
+**Note**: The translation is otherwise accurate, with the minor issue being a slight tense mismatch in the conditional structure.```","The translation is mostly accurate, with a minor tense mismatch in the conditional structure. The major error (""wenn du aufwachst"" instead of ""wenn du aufwachtest"") is contextually acceptable in German for hypotheticals, as noted. While the tense in the conditional clause is slightly off, the overall meaning is preserved, and the grammar is mostly correct. 
+
+**Score: 66**  
+(66 = ""Most meaning preserved and few grammar mistakes"").",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```1. Use CSS```
+German translation:
+```1. CSS verwenden```
+Annotated error spans:
+```No error.  
+The translation ""1. CSS verwenden"" accurately conveys the instruction ""1. Use CSS"" in German. The structure, grammar, and terminology are appropriate for the context. There are no additions, omissions, or mistranslations. The sentence is concise and clear.```","The translation ""1. CSS verwenden"" accurately conveys the instruction ""1. Use CSS"" in German. The number ""1"" is retained as a list item, the verb ""verwenden"" (to use) correctly corresponds to ""use,"" and there are no grammatical or contextual errors. The annotation confirms the translation is precise, concise, and appropriate. 
+
+**Score: 100**  
+(Perfect meaning and grammar, as per the reference points.)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The Zoroastrian text, Veda, states that Yema built an underground city on the orders of the god Arua Mazda, to protect his people from a catastrophic winner. Much like the account of Noah in the Bible, Yima was instructed to collect pairs of the best animals and people as well as the best seeds in order to reseed the earth after the winter cataclysm. This was before the last Ice Age, 110,000 years ago.```
+German translation:
+```Im zoroastrischen Text Vendidad heißt es, dass Yima auf Befehl des Gottes Ahura Mazda eine unterirdische Stadt erbaut hat, um seine Leute vor einem katastrophalen Winter zu schützen. Wie in der Erzählung von Noah in der Bibel wurde Yima angewiesen, Paare der besten Tiere und Menschen sowie die besten Samen zu sammeln, um die Erde nach der Winterkatastrophe neu zu besäen. Das war vor der letzten Eiszeit, vor 110.000 Jahren.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Vendidad"" (source says ""Veda"")
+accuracy/mistranslation - ""Yima"" (source says ""Yema"")
+
+Minor:
+terminology/inappropriate for context - ""Vendidad"" (though correct in Zoroastrian context, the source refers to ""Veda"", which is a mistranslation)  
+fluency/punctuation - ""vor 110.000 Jahren"" (should be ""vor 110.000 Jahren"" with a space)```","**Score: 33**  
+**Reasoning:**  
+- **Major errors**: The translation incorrectly uses ""Vendidad"" (Zoroastrian text) instead of ""Veda"" (Hindu text) and ""Yima"" (Zoroastrian figure) instead of ""Yema"" (source's name). These are critical inaccuracies that directly contradict the source text, significantly impacting meaning preservation.  
+- **Minor error**: The punctuation ""vor 110.000 Jahren"" is technically correct in German, so the noted issue is negligible.  
+- **Overall**: While the translation is mostly fluent, the two major mistranslations (Veda → Vendidad and Yema → Yima) severely compromise the accuracy of the source text, resulting in ""Some meaning preserved"" (33). The minor error does not affect the score.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I'm not your mum```
+German translation:
+```Ich bin nicht deine Mutter.```
+Annotated error spans:
+```No error.  
+The German translation ""Ich bin nicht deine Mutter."" accurately conveys the meaning of the English source ""I'm not your mum."" The grammar, word choice, and structure are correct. ""Mutter"" is the appropriate term for ""mother"" in this context, and the sentence is clear and natural in German. There are no additions, omissions, or errors in translation, fluency, or style.```","The German translation ""Ich bin nicht deine Mutter."" is a direct and accurate rendering of the English sentence ""I'm not your mum."" It preserves the meaning, uses correct grammar, and maintains natural fluency in German. The annotation explicitly confirms the absence of errors, making this a flawless translation. 
+
+**Score: 100**  
+(Perfect meaning and grammar, as per the reference points.)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Just encountered a facial recognition system while boarding an intl flight from Houston's IAH. Apparently it's for some customs-related thing??```
+German translation:
+```Ich bin gerade auf einem internationalen Flug von Houston's IAH an Bord gegangen und bin auf ein Gesichtserkennungssystem gestoßen. Offenbar ist es für irgendeine Zoll-bezogene Sache?```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+style/awkward - ""Zoll-bezogene Sache"" (hyphenation is unnecessary and slightly awkward in this context)```","The German translation preserves the core meaning of the original English sentence, accurately conveying the context of encountering a facial recognition system during a flight from Houston's IAH and its potential customs-related purpose. The only minor issue is the unnecessary hyphen in ""Zoll-bezogene Sache,"" which slightly affects readability but does not alter the meaning or grammar. Since the translation is mostly accurate with a single minor stylistic flaw, the score is **66**. 
+
+**Score: 66**",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“get simple, semantic classes simply by using these two libraries and a build tool”```
+German translation:
+```„halte es einfach, verwende einfach zwei Bibliotheken und ein Build-Tool, um semantische Klassen zu erhalten“```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""halte es einfach"" (misrepresents the intent of ""get simple, semantic classes"")  
+
+Minor:  
+style/awkward - repetition of ""einfach"" (""simply"") in ""verwende einfach zwei Bibliotheken und ein Build-Tool"" (redundant phrasing)```","**Score: 33**  
+**Reasoning:** The major error (""halte es einfach"" misrepresents the intent of ""get simple, semantic classes"") severely undermines the core meaning of the original sentence. While the latter part of the translation (""verwende einfach zwei Bibliotheken und ein Build-Tool, um semantische Klassen zu erhalten"") is grammatically correct and conveys the method, the initial phrase incorrectly shifts the focus to ""keeping things simple"" rather than obtaining semantic classes. This critical mistranslation (major error) and the redundant ""einfach"" (minor error) result in only ""some meaning preserved,"" justifying the 33 score.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user32 I could perform a liver transplant thanks to Hospital Playlist.```
+German translation:
+```@user32 Ich hätte mir dank der Serie ""Hospital Playlist"" eine Lebertransplantation zutrauen können.```
+Annotated error spans:
+```Major:
+None
+
+Minor:
+terminology/inappropriate for context - ""zutrauen"" (daring to do something) instead of ""können"" (ability to do something) in the context of expressing capability to perform a medical procedure.```","The translation preserves the core meaning of the original sentence, correctly conveying the gratitude and the context of the medical procedure. The minor error lies in the use of ""zutrauen"" (to dare to do something) instead of ""können"" (to be able to), which is a terminology mismatch in the medical context. While the grammar is correct, the term ""zutrauen"" slightly deviates from the intended expression of capability. 
+
+**Score: 66**  
+""Most meaning preserved and few grammar mistakes.""",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The box that has already a nest in it is leeching off the wifi in the house.```
+German translation:
+```Das Kästchen, das bereits ein Nest darin hat, zapft das WLAN im Haus an.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""leeching off the wifi"" (translated as ""zapft das WLAN an"" which implies ""plugging in"" rather than ""leeching off"")
+
+Minor:
+terminology/inappropriate for context - ""zapft das WLAN an"" (implies ""plugging in"" rather than ""leeching off"")```","The translation contains a major error in conveying the intended meaning of ""leeching off the wifi,"" which is not accurately captured by ""zapft das WLAN an"" (plugging in). While the grammatical structure is correct, the core concept of ""leeching"" (using resources without contributing) is lost. The minor error reinforces this issue, as the terminology fails to reflect the context. Since the primary meaning is not preserved, the score is **33**. 
+
+**Score: 33**",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```garlic is doing well (at least the soft neck, the hard neck is a lot scrawnier for some reason)```
+German translation:
+```Knoblauch geht es gut (zumindest dem weichen Hals, der harte Hals ist aus irgendeinem Grund viel dürrer)```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Hals"" (incorrect term for ""neck"" in garlic context)  
+Minor:
+terminology/inconsistent use - ""dürrer"" (slightly off from ""scrawnier"")```","**Score: 33**  
+**Reasoning**:  
+- **Major error**: ""Hals"" (neck) is incorrectly used in the garlic context. The correct term should be ""Stiel"" (stem) or ""Schaft"" (shaft) for garlic parts. This misinterpretation of the term completely alters the meaning, leading to a significant loss of accuracy.  
+- **Minor error**: ""dürrer"" (very dry/thin) is slightly off from ""scrawnier"" (thin/bony), but it is still somewhat understandable in context. However, this does not fully compensate for the major term error.  
+
+The translation preserves some meaning but fails to accurately convey the garlic-specific terminology, resulting in a low score.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```""You all did somewhat leave me behind. I got here as quickly as I could..."" Retvik sighed. ""May I ask, what are those horrible things?""```
+German translation:
+```""Man hat mich irgendwie zurückgelassen. Ich kam so schnell ich konnte..."" Retvik seufzte. ""Könnte ich fragen, was für schreckliche Dinge das sind?""```
+Annotated error spans:
+```Major:  
+**accuracy/mistranslation** - ""Man hat mich irgendwie zurückgelassen"" (uses ""Man"" for ""you all,"" which is less natural in conversational German; ""Ihr"" would be more appropriate).  
+
+Minor:  
+**style/awkward** - ""was für schreckliche Dinge das sind"" (redundant phrasing; ""was diese schrecklichen Dinge sind"" would be more natural).```","**Score: 66**  
+**Reasoning:** The translation preserves most of the meaning, with only minor adjustments needed for naturalness. The major error (""Man"" instead of ""Ihr"") slightly misrepresents the pronoun but doesn't fundamentally alter the message. The minor style issue (""was für schreckliche Dinge das sind"") is redundant but not grammatically incorrect. The rest of the translation is accurate, and the dialogue flows naturally. While the pronoun choice is less idiomatic, the overall meaning and structure are mostly preserved, aligning with ""Most meaning preserved and few grammar mistakes.""",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The results are in and, drum roll, please, it's completely consistent with my family history. 89.9% British and Irish with most of that concentrated in the scottish borders, western Ireland, Wales, and cornwall. It doesn't show much breton tho so either they're so close to cornish they don't show as different in me or my breton family wasn't originally from there.```
+German translation:
+```Die Ergebnisse sind da und, bitte Trommelwirbel, sie passen perfekt zu meiner Familiengeschichte. 89,9 % britisch und irisch, wobei sich der Großteil davon auf die schottischen Grenzen, den Westen Irlands, Wales und Cornwall konzentriert. Allerdings wird nicht viel Bretonisch angezeigt, also sind sie entweder so eng mit den Kornischen verwandt, dass sie bei mir nicht als unterschiedlich angezeigt werden, oder meine bretonische Familie stammte ursprünglich nicht von dort.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""Cornwall"" (the translation uses ""Kornischen"" instead of ""Cornwall"" as a proper noun)
+Minor:
+style/awkward - ""entweder so eng mit den Kornischen verwandt, dass sie bei mir nicht als unterschiedlich angezeigt werden""```","The translation captures the overall meaning of the original text but contains two notable issues:  
+1. **Major Error**: The proper noun ""Cornwall"" is incorrectly translated as ""Kornischen"" (genitive of ""Kornish""), which refers to the Cornish people or language, not the region Cornwall. This is a critical accuracy error, as it misrepresents the specific location mentioned.  
+2. **Minor Error**: The phrase ""entweder so eng mit den Kornischen verwandt, dass sie bei mir nicht als unterschiedlich angezeigt werden"" is awkwardly phrased and slightly unclear, though it conveys the intended meaning.  
+
+Despite these issues, the translation preserves most of the original meaning and grammar is mostly correct. The major error (proper noun) is significant but isolated, while the minor error is stylistic.  
+
+**Score: 66**  
+(66 = ""Most meaning preserved and few grammar mistakes"")",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The South was desperate, and their royal family would do anything to stop the bloodshed. They offered their only princess to be queen of the North and bear a son to be the future king. Then, the South would join with the North to make one kingdom. The North accepted, and Princess Eirwen married Prince Akull.```
+German translation:
+```Der Süden war verzweifelt und seine Königsfamilie würde alles tun, um das Blutvergießen zu beenden. Sie boten ihrer einzigen Prinzessin an, Königin des Nordens zu werden und einen Sohn zu gebären, der der zukünftige König werden sollte. Dann würde sich der Süden mit dem Norden zu einem Königreich vereinen. Der Norden akzeptierte und Prinzessin Eirwen heiratete Prinz Akull.```
+Annotated error spans:
+```Major:  
+- **accuracy/mistranslation**: None. The translation accurately conveys the meaning of the source text, including key terms like ""Blutvergießen"" (bloodshed), ""Königin des Nordens"" (queen of the North), and ""zukünftiger König"" (future king).  
+
+Minor:  
+- **style/awkward**: The use of ""werden sollte"" in the sentence *""einen Sohn zu gebären, der der zukünftige König werden sollte""* is slightly formal but not incorrect. It is grammatically valid but might feel slightly more verbose than necessary in this context.  
+- **fluency/punctuation**: The structure *""Dann würde sich der Süden mit dem Norden zu einem Königreich vereinen""* is correct, but the preposition ""zu"" (to) is used in a slightly less common way compared to ""zusammenführen"" (to unite), though it is still understandable.  
+
+**Conclusion**: The translation is accurate and fluent, with only minor stylistic adjustments that do not affect the overall clarity or meaning.```","**Score: 66**  
+
+**Reasoning**:  
+The translation accurately preserves the core meaning of the source text, with no major factual or conceptual errors. Key terms like ""Blutvergießen"" (bloodshed), ""Königin des Nordens"" (queen of the North), and ""zukünftiger König"" (future king) are correctly used. While minor stylistic adjustments (e.g., ""werden sollte"" vs. more concise phrasing, ""zu"" in ""zum Königreich vereinen"") exist, they do not affect clarity or grammatical correctness. These minor issues fall under the ""few grammar mistakes"" category in the 66-point reference, as the overall translation is fluent and meaning-preserving.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user19 I can only assume that it's my visa or passport pic. I should've paid closer attention.```
+German translation:
+```@user19 Ich kann nur annehmen, dass es sich um mein Visum- oder Passfoto handelt. Ich hätte aufmerksamer sein sollen.```
+Annotated error spans:
+```No-error  
+The German translation accurately conveys the meaning of the source text. The terms ""Visum- oder Passfoto"" correctly translate ""visa or passport pic,"" and the conditional structure ""Ich hätte aufmerksamer sein sollen"" properly reflects ""I should've paid closer attention."" The translation is grammatically correct, uses appropriate terminology, and maintains the intended tone and clarity. No errors are present in this case.```","The German translation accurately conveys the meaning of the source text with no errors. The terms ""Visum- oder Passfoto"" correctly translate ""visa or passport pic,"" and the conditional structure ""Ich hätte aufmerksamer sein sollen"" properly reflects ""I should've paid closer attention."" The translation is grammatically correct, uses appropriate terminology, and maintains the intended tone and clarity. 
+
+**Score: 100**  
+(Perfect meaning and grammar, as per the reference points.)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Website: take a look at @user5. It seems to be easy, looks great and is opensource. Will switch one of my sites before the next renewal.```
+German translation:
+```Website: Schaut euch mal @user5 an. Das scheint einfach zu sein, sieht gut aus und ist OpenSource. Ich werde einer meiner Websites vor der nächsten Verlängerung umstellen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""OpenSource"" (should be ""Open Source"" with a space)
+Minor:
+fluency/punctuation - ""vor der nächsten Verlängerung"" (no error, correct grammar and context)  
+style/awkward - ""umstellen"" (contextually appropriate, no issue)  
+Other: No major or minor errors identified.```","The translation preserves most of the meaning and context of the original text. The only error is the missing space in ""OpenSource,"" which is a factual translation mistake but not a grammatical error. The rest of the translation is accurate, with appropriate vocabulary and sentence structure. 
+
+**Score: 66**  
+""Most meaning preserved and few grammar mistakes.""",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“It’s your birthday soon, isn’t it?” Ivory asked, remembering that the princess’ birthday was in a few days. Kari nodded, a sad glint in her light blue eyes.```
+German translation:
+```""Es ist dein Geburtstag bald, nicht wahr? ""Elfenbein fragte, erinnern, dass die Prinzessin Geburtstag war in ein paar Tagen. Kari nickte, ein trauriges Glitzern in ihren hellblauen Augen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Es ist dein Geburtstag bald, nicht wahr?"" (incorrect structure; should be ""Ist dein Geburtstag bald, nicht wahr?"")
+accuracy/mistranslation - ""erinnern, dass die Prinzessin Geburtstag war in ein paar Tagen"" (incorrect verb form and tense; should be ""erinnert, dass die Prinzessin Geburtstag ist in ein paar Tagen"")
+
+Minor:
+style/awkward - ""Glitzern"" (slightly awkward phrasing, but understandable in context)```","**Score: 33**  
+
+**Reasoning:**  
+The translation contains two major errors that significantly impact meaning and grammar:  
+1. **Structure error in the first sentence**: ""Es ist dein Geburtstag bald, nicht wahr?"" should be ""Ist dein Geburtstag bald, nicht wahr?"" (missing the correct question structure with ""ist"" instead of ""ist"").  
+2. **Verb form and tense error**: ""erinnern, dass die Prinzessin Geburtstag war in ein paar Tagen"" should be ""erinnert, dass die Prinzessin Geburtstag ist in ein paar Tagen"" (incorrect verb form and past tense ""war"" instead of present tense ""ist"").  
+
+These errors alter the intended meaning and grammatical correctness, resulting in ""some meaning preserved"" (33). The minor style issue (""Glitzern"") is negligible in this context.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Last August, a teenage signer was briefly detained and forced to record a video apology following a performance of Soviet singer Viktor Tsoy's songs on the street in the city of Lviv. The dismissal of several teachers who spoke Russian to their students also resulted in a public outcry.```
+German translation:
+```Im vergangenen August wurde ein Teenager kurz festgehalten und musste nach einer Aufführung der Lieder des sowjetischen Sängers Viktor Tsoy auf der Straße in der Stadt Lwiw eine Videoaufnahme aufnehmen. Die Entlassung mehrerer Lehrer, die Russen gegenüber ihren Studenten sprachen, führte ebenfalls zu einem öffentlichen Aufschrei.```
+Annotated error spans:
+```Major:
+terminology/inappropriate for context - ""Russen"" (refers to people from Russia, not the language ""Russian"")
+
+Minor:
+fluency/punctuation - ""aufnehmen."" (should be ""aufnehmen"" with a period, but the structure is correct)```","The translation contains a **major error** in terminology (""Russen"" refers to people from Russia, not the language ""Russian""), which alters the meaning of the original text. While the grammar and structure are mostly correct, this significant error impacts the accuracy of the translation. The minor punctuation issue is negligible and does not affect the overall meaning. 
+
+**Score: 33**  
+**Reasoning**: The major terminology error (""Russen"" instead of ""Russisch"") severely compromises the meaning, resulting in ""Some meaning preserved."" The minor issue is insignificant, but the major error dominates the assessment.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The airplane model is typically noted in the booking information for a flight. On Google Flights, it's included in the flight details when a listing is expanded, and it's usually listed on individual airlines"" reservation pages. If, for some reason, the plane type isn't apparent on Google Flights or the reservation page, sites like Expert Flyer and Seat Guru aggregate flight information like seat maps and aircraft type.```
+German translation:
+```Das Flugzeugmodell wird normalerweise in der Buchungsinformation für einen Flugplatz beachtet. An Google Flügen handelt es sich in den Flugbeschreibungen enthalten, wann eine Listenabfrage erweitert wird, und es handelt sich eher auf einzelne Fluggesellschaften"" Anmeldungsseiten. Wenn man für einiges Flugzeugtypen noch nicht auf Google Flügen oder der Anmeldungsseite ersichtlich ist, sind Websites wie Expertenfluger und Sitz Girukk Fluginformationen wie Sitzkarten und Flugzeugtypen.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""Flugplatz"" (airport instead of ""flight"")  
+accuracy/mistranslation - ""Anmeldungsseiten"" (registration pages instead of ""reservation pages"")  
+accuracy/mistranslation - ""Expertenfluger"" (incorrect translation of ""Expert Flyer"")  
+accuracy/mistranslation - ""Sitz Girukk"" (incorrect translation of ""Seat Guru"")  
+
+Minor:  
+fluency/grammar - ""enthalten"" (incorrect use of ""enthalten"" in the context)  
+fluency/register - ""eher"" (incorrect use of ""eher"" where ""sich"" or ""wird"" should be)  
+terminology/inappropriate for context - ""Flugzeugtypen"" (plural form used where singular is needed)```","**Score: 33**  
+**Reasoning:**  
+The translation contains **four major mistranslations** (""Flugplatz"" → ""flight"", ""Anmeldungsseiten"" → ""reservation pages"", ""Expertenfluger"" → ""Expert Flyer"", ""Sitz Girukk"" → ""Seat Guru"") that directly alter the meaning. These errors are critical for accuracy. Additionally, **three minor issues** (incorrect verb usage, inappropriate word choice, and pluralization) further degrade fluency. While some structural elements are preserved, the significant semantic errors and terminology mistakes prevent most meaning from being conveyed accurately. This aligns with the ""Some meaning preserved"" threshold (33).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Frostfell was not always one kingdom. It was split in two, the North and the South. In the North, the non magical kingdom. To the South, a kingdom full of fantastical displays of power. Due to the North’s greed, the two kingdoms clashed in a never ending war, until the South offered a truce.```
+German translation:
+```Frostfell war nicht immer ein Königreich. Es war in zwei Teile geteilt, den Norden und den Süden. Im Norden das nicht magische Königreich. Im Süden ein Königreich voller fantastischer Machtdemonstrationen. Aufgrund der Gier des Nordens stießen die beiden Königreiche in einem nie endenden Krieg aufeinander, bis der Süden einen Waffenstillstand anbot.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""Im Norden das nicht magische Königreich"" (missing verb ""ist"" or ""wird"", making the sentence incomplete and grammatically incorrect)
+Minor:
+fluency/grammar - ""in zwei Teile geteilt, den Norden und den Süden"" (comma placement and structure may feel slightly awkward, but not critical for understanding)```","**Score: 33**  
+**Reasoning:**  
+The translation contains a **major error** in the sentence ""Im Norden das nicht magische Königreich,"" which is grammatically incomplete due to the missing verb (""ist"" or ""wird""). This makes the sentence structurally incorrect and reduces the preserved meaning significantly. While the rest of the translation is mostly accurate (e.g., ""in zwei Teile geteilt"" is correct), the critical error in the North's description undermines the overall coherence. The minor issue with comma placement is negligible compared to the major grammatical flaw. Thus, the score reflects ""some meaning preserved"" (33) due to the critical error, but the rest of the translation is functional.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Stream order:```
+German translation:
+```Bestellung streamen:```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Bestellung streamen"" (misinterprets ""stream order"" as ""streaming an order"")  
+Minor:  
+terminology/inappropriate for context - ""streamen"" (verb form may not align with technical context of ""stream order"")```","The translation ""Bestellung streamen"" misinterprets ""stream order"" as ""streaming an order,"" which is a major accuracy/mistranslation error. While the grammar is technically correct, the meaning is entirely off, and the verb form ""streamen"" is inappropriate for a technical context where ""stream order"" is likely a noun phrase. This results in **33** out of 100, as only minimal meaning is preserved (the word ""order"" is retained, but the technical context is lost). 
+
+**Score: 33**",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user2```
+German translation:
+```@user2```
+Annotated error spans:
+```No error.  
+The translation is identical to the source, and there are no errors in accuracy, fluency, style, terminology, or non-translation. The username ""@user2"" is not meant to be translated and is correctly retained.```","The translation is identical to the source text, and the annotation explicitly confirms there are no errors in accuracy, fluency, style, terminology, or non-translation. The username ""@user2"" is correctly retained as it is not meant to be translated. This meets the criteria for ""Perfect meaning and grammar"" (100). 
+
+**Score: 100**",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```I don't have any telemetry for the battery. This is something I might add in a future revision.```
+German translation:
+```Ich habe keine Telemetriedaten für den Akku. Das könnte ich in einer zukünftigen Version hinzufügen.```
+Annotated error spans:
+```Major:  
+- **accuracy/mistranslation**: ""zukünftige Version"" (future revision) is contextually appropriate, but ""Version"" in this technical context is correct. No error here.  
+
+Minor:  
+- **style/awkward**: ""zukünftige Version"" is slightly formal but acceptable in a technical context. No significant issue.  
+
+**No errors detected**. The translation is accurate, fluent, and appropriately uses terminology for a technical context.```","**Score: 100**  
+The translation is accurate, fluent, and appropriately uses technical terminology. All annotated error spans confirm no issues, with ""zukünftige Version"" correctly conveying ""future revision"" in a technical context. No grammar or meaning preservation issues are present.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```dang... a nationwide AT&T outage. no wonder why things feel dead this morning https://www.foxbusiness.com/lifestyle/cell-phone-outage-hits-att-customers-nationwide-verizon-tmobile-users-also-affected```
+German translation:
+```Verizon und T-Mobile sind auch betroffen.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""dang... a nationwide AT&T outage"" and the URL are omitted
+accuracy/omission - ""no wonder why things feel dead this morning"" is omitted
+
+Minor:
+style/awkward - ""auch betroffen"" (could be more natural as ""auch betroffen sind"" or ""auch betroffen"")```","**Score: 33**  
+**Reasoning:**  
+The German translation omits the critical elements of the original message: the AT&T outage, the URL, and the context about ""things feeling dead."" While the phrase ""Verizon und T-Mobile sind auch betroffen"" is grammatically correct, it fails to convey the main point of the English text. The minor style issue (""auch betroffen"") is negligible compared to the major omissions. Only a small portion of the original meaning is preserved, justifying a score of 33 (""Some meaning preserved"").",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Snarky Wife: So, with this DNA test, are you going to lean into the scottish and Irish stuff.```
+German translation:
+```Sarkastische Ehefrau: Also, wirst du mit diesem DNA-Test jetzt voll auf das Schottische und Irische setzen?```
+Annotated error spans:
+```Major:  
+- **accuracy/mistranslation**: ""voll auf das Schottische und Irische setzen"" is a direct translation of ""lean into the Scottish and Irish stuff,"" which is accurate in context. No major issue here.  
+
+Minor:  
+- **style/awkward**: ""voll auf... setzen"" is a bit formal or literal, but it’s understandable and fits the context.  
+- **terminology/inappropriate for context**: None. ""Sarkastische Ehefrau"" is a direct and appropriate translation of ""Snarky Wife.""  
+
+**No major errors**. The translation is accurate, fluent, and uses appropriate terminology. The phrasing ""voll auf... setzen"" is idiomatic and correctly conveys the intended meaning.```","**Score: 66**  
+The translation preserves most of the meaning and uses appropriate terminology. The phrasing ""voll auf das Schottische und Irische setzen"" is idiomatic and conveys the intended meaning, though slightly formal. No major errors are present, and the translation is fluent and contextually accurate.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Got some somewhere but exactly where?```
+German translation:
+```Irgendwo hab ich welches, nur wo?```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""welches"" (inappropriate for context; should be ""etwas"" for ""something"")
+
+Minor:
+terminology/inappropriate for context - ""welches"" (should be ""etwas"")```","**Score: 66**  
+The translation preserves most of the meaning and structure of the original sentence. The key error lies in the use of ""welches"" instead of ""etwas"" for ""some,"" which slightly misrepresents the context (general ""something"" vs. a specific ""which""). However, the sentence is grammatically correct overall, and the core message (""I have something somewhere, but where?"") is clearly conveyed. The error is a terminology issue, not a major structural or syntactic mistake, so the score reflects ""Most meaning preserved and few grammar mistakes.""",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Me, wearing a johnston plaid kilt and reading The Elders of Ireland: No, I just don't see how that would fit into my life.```
+German translation:
+```Ich, in einem karierten Johnston-Kilt und die „Elders of Ireland“ lesend: Nein, das würde nicht in mein Leben passen.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""Johnston-Kilt"" (should be ""Johnston-Kilt"" as a proper noun, but ""Kilt"" is correctly translated)  
+Minor:  
+style/awkward - ""das würde nicht in mein Leben passen"" (slightly awkward phrasing, but understandable)```","The translation preserves the core meaning of the original text, with only minor adjustments. The proper noun ""Johnston-Kilt"" is correctly capitalized and used as a proper noun, which aligns with the annotation's clarification. The phrase ""das würde nicht in mein Leben passen"" is slightly awkward but still understandable, which is a minor style issue. The translation is grammatically correct and conveys the intended message effectively. 
+
+**Score: 66**  
+(66 = Most meaning preserved and few grammar mistakes)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```They had to patch some extra lasers into the landing system, hence the earlier delay: https://twitter.com/SciGuySpace/status/1760800168473928104```
+German translation:
+```Sie mussten einige zusätzliche Laser in das Landungssystem einfließen, so dass die frühere Verzögerung: https:///twitter.com/SciGuySpace/status/1760800168473928104```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""einfließen"" (incorrectly translates ""patch"" as ""flow in"")
+accuracy/addition - ""https://twitter.com/SciGuySpace/status/1760800168473928104"" (extra ""//"" in the URL)
+
+Minor:
+none```","The translation contains two major errors: ""einfließen"" (flow in) incorrectly translates ""patch"" (to attach/integrate), altering the meaning, and an extra ""//"" in the URL. These errors significantly impact the accuracy and meaning. While the URL is a minor technical mistake, the mistranslation of ""patch"" is a critical issue. The rest of the translation is otherwise grammatically correct. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" due to partial accuracy in other aspects, but major errors in key terms and technical details prevent higher scores.)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Really tough not to buy that the league tells officials to help Miami when that’s not a penalty. #DCU #MLS #mastodonfc```
+German translation:
+```Es ist wirklich hart, nicht zu glauben, dass die Liga den Schiedsrichtern sagt, Miami zu helfen, wenn das keine Strafe ist. #DCU #MLS #mastodonfc```
+Annotated error spans:
+```Major:
+- **accuracy/mistranslation** - ""Schiedsrichtern"" (referees) is a subset of ""officials"" in a sports context, but the source uses ""officials"" more broadly. However, in sports, ""officials"" often include referees, so this is contextually appropriate.
+
+Minor:
+- **style/awkward** - The structure ""nicht zu glauben, dass die Liga den Schiedsrichtern sagt, Miami zu helfen..."" is grammatically correct but slightly wordy. It could be slightly more concise, but the meaning is still clear.  
+- **terminology/inconsistent use** - ""Schiedsrichtern"" (referees) is used for ""officials,"" which is acceptable in a sports context, but the source's broader term might imply a different nuance. However, this is a minor contextual inconsistency rather than a major error.  
+
+**Note:** The translation accurately conveys the source's meaning, with only minor stylistic adjustments needed for conciseness. No major errors disrupt the flow or understanding.```","**Score: 66**  
+The translation preserves most of the source's meaning and has minimal grammar issues. The use of ""Schiedsrichtern"" (referees) aligns with the sports context, even though ""officials"" in the source is broader. The structure is grammatically correct but slightly wordy, and the terminology choice is contextually appropriate. While minor stylistic adjustments could improve conciseness, the translation effectively conveys the intended message without major disruptions.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```this is why we have such strong ties to nostalgia.```
+German translation:
+```Deshalb haben wir so starke Verbindungen zur Nostalgie.```
+Annotated error spans:
+```No-error  
+The translation accurately conveys the original meaning without errors in accuracy, fluency, style, or terminology. The sentence structure and vocabulary are appropriate for the context.```","The translation accurately conveys the original meaning without errors in accuracy, fluency, style, or terminology. The sentence structure and vocabulary are appropriate for the context. 
+
+**Score: 100**  
+(Perfect meaning and grammar, as no errors were detected in the annotated analysis.)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```In a Twitter post, political and digital communications expert Akin Akinwale expressed the opinion that the ministry might not have been wrong to use a personal account.```
+German translation:
+```In einem Twitter-Post äußerte der Experte für politische und digitale Kommunikation, Akin Akinwale, die Meinung, dass das Ministerium möglicherweise nicht falsch lag, ein persönliches Konto zu verwenden.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""nicht falsch lag"" (should be ""nicht falsch war"" or ""nicht falsch gelegen"")
+
+Minor:
+style/awkward - ""nicht falsch lag"" (slightly more formal than needed in the context)```","The translation contains a major error in the phrase **""nicht falsch lag""**, which incorrectly conveys the meaning of ""might not have been wrong"" (should be **""nicht falsch war""** or **""nicht falsch gelegen""**). This error alters the intended meaning, as ""lag"" implies a state of being wrong in a more formal or abstract sense, whereas ""war"" directly matches the past tense of ""to be"" in the context. While the rest of the translation is grammatically correct and preserves most of the meaning, the critical error in the verb form significantly impacts the accuracy. The minor style issue (""slightly more formal"") is negligible in comparison. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" due to the major mistranslation, with most of the content intact but critical meaning altered.)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Now I need to let y'all know I have, I've never done this before, but I'm going to do it now. Skin potion is handcrafted with organic and all natural ingredients that deeply moisturize and illuminate the skin. Veil of Venus is the newest addition to the Skin Potion family. It is available right now for pre order. And you can follow Skin Potion on Instagram @kpotionus that's S K I N O T I O N Skin potion or Skin potion us and visit their website, www.shopskin potion .```
+German translation:
+```Jetzt muss ich euch mitteilen lassen, dass ich habe, ich habe das nie vorher gemacht, aber ich werde es jetzt tun. Skin potion ist handcraftet mit organischen und natürlichen BauIngredienten, die```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""handcraftet"" (should be ""handgefertigt"")
+accuracy/omission - ""die"" (incomplete sentence)
+
+Minor:
+style/awkward - ""mitteilen lassen"" (unnatural phrasing)
+fluency/spelling - ""BauIngredienten"" (incorrect term, should be ""Zutaten"")
+fluency/formatting - ""www.shopskin potion ."" (incorrect URL formatting)```","**Score: 33**  
+**Reasoning:**  
+The translation contains significant errors that affect both meaning and grammar. The major issues include incorrect terminology (""handcraftet"" instead of ""handgefertigt"") and an omitted article (""die"") in the sentence about ingredients, which creates a grammatical error. Additionally, the awkward phrasing ""mitteilen lassen"" and the incorrect term ""BauIngredienten"" (should be ""Zutaten"") further hinder clarity. While the overall structure and some key terms are present, the critical errors prevent the translation from preserving most of the original meaning. The URL formatting issue is a minor flaw but does not severely impact the message. Thus, the score reflects ""some meaning preserved"" (33).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```They walked through the halls again, trying to tune out the whispers of the maids again.```
+German translation:
+```Sie zogen erneut durch die Hallen und versuchten, die Whisper der Mägden erneut auszumachen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Whisper"" (should be ""Flüstern"")
+accuracy/mistranslation - ""ausmachen"" (should be ""abwürgen"" or ""ignorieren"")
+
+Minor:
+fluency/inconsistency - ""erneut"" repeated in the sentence (though acceptable in German, it's slightly redundant)```","The translation contains two major errors: ""Whisper"" is incorrectly used as a noun instead of the verb ""Flüstern,"" and ""ausmachen"" is not the correct term for ""tune out"" (should be ""abwürgen"" or ""ignorieren""). While the sentence structure is mostly correct, the key meaning is not preserved due to these critical mistranslations. The minor redundancy of ""erneut"" is negligible. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" due to partial accuracy in structure and minor redundancy, but major errors in core meaning and vocabulary.)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Come on City is the city of heroes. The Super Thing and the Kazoom kids fight with their powers derived from Kazoom itself. It's the most potent energy source ever known, and now it's on display at the City Museum for all to admire. And we're going to steal it? Isn't it dangerous to slip through here? Negative. This is the way the kazoos are coming.```
+German translation:
+```Come on City ist die Stadt der Helden. Das Superding und die Kazoom-Kinder kämpfen mit ihren Kräften, die von Kazoom selbst stammen. Es ist die mächtigste Energiequelle, die es je gab, und jetzt ist sie im Stadtmuseum ausgestellt, damit alle sie bewundern können. Und wir wollen es stehlen? Ist es nicht gefährlich, hier durchzuschlüpfen? Negativ. Das ist der Weg, auf dem die Kazoos kommen.```
+Annotated error spans:
+```Major:
+none
+
+Minor:
+style/awkward - ""durchschlüpfen"" (less common variant of ""durchschlupfen"", slightly awkward in context)```","The translation preserves the core meaning of the original text and maintains grammatical correctness overall. The only minor issue is the use of ""durchschlüpfen"" instead of the more standard ""durchschlupfen,"" which is slightly awkward in context. This is a minor error, but the rest of the translation is accurate and coherent. 
+
+**Score: 66**  
+(66 = Most meaning preserved and few grammar mistakes)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Last free weekend for a while.```
+German translation:
+```Letztes freies Wochenende für eine Weile.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Letztes freies Wochenende für eine Weile"" (the phrase ""für eine Weile"" is awkwardly placed and doesn't naturally convey ""last free weekend for a while"")
+
+Minor:
+fluency/punctuation - ""für eine Weile"" is placed at the end, making the sentence slightly less natural in German  
+fluency/register - ""Letztes"" (masculine singular) is used for ""Wochenende"" (neuter noun), which is a minor grammatical inconsistency```","The translation has a **major error** in meaning due to the awkward placement of ""für eine Weile,"" which disrupts the intended message. While the grammatical inconsistency (gender of ""Letztes"") is minor, it is not a true error since ""Letztes"" correctly agrees with ""Wochenende"" (neuter). However, the annotation labels it as a minor error, which may be misleading. 
+
+Despite the minor grammatical issue, the core meaning (""last free weekend for a while"") is partially preserved. The awkward phrasing (""für eine Weile"" at the end) reduces fluency and clarity. 
+
+**Score: 33**  
+**Reasoning:** The translation preserves some meaning but fails to convey the intended nuance due to structural issues. The minor grammatical error is negligible, but the major mistranslation significantly impacts clarity.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```GOOD RIDDANCE```
+German translation:
+```Guten Fahren.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Guten Fahren"" (literal translation of ""Have a good journey"") does not match the exclamation ""GOOD RIDDANCE"" (expressing relief or joy at something ending).  
+Minor:  
+fluency/register - ""Guten Fahren"" is a common phrase but not contextually appropriate for an exclamation like ""GOOD RIDDANCE.""```","The translation ""Guten Fahren"" (literally ""Have a good journey"") fails to capture the emotional tone and intent of the original English exclamation ""GOOD RIDDANCE,"" which expresses relief or joy at the end of something negative. While the German phrase is grammatically correct, it is contextually inappropriate and does not align with the original's meaning. 
+
+**Score: 33**  
+**Reasoning**: The translation preserves minimal meaning (grammatical correctness) but fails to convey the intended emotional and contextual nuance. It is not a perfect match (100) but also not entirely devoid of meaning (0), so it falls between ""Some meaning preserved"" (33) and ""Most meaning preserved"" (66). The primary error is the mistranslation of the exclamation's emotional intent.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```While the rescue force patrols the city, we'll take care of watching over the museum in the box. It wouldn't be a good idea for the villains to try and steal the cabbonita with us waiting inside. We've run out of money! We'll have to steal that diamond and sell it! Otherwise, we'll have to do our experiments with solar pap. How are we going to get the bots inside? It's all taken care of.```
+German translation:
+```Während die Rettungseinheit die Stadt patrouilliert, werden wir uns darum kümmern, das Museum im Container zu bewachen. Es wäre keine gute Idee für die Schurken, zu versuchen, die Carbunita zu stehlen, während wir drinnen warten. Wir sind pleite! Wir müssen diesen Diamanten stehlen und ihn verkaufen! Andernfalls müssen wir unsere Experimente mit Sonnenpapier durchführen. Wie sollen wir die Roboter hineinbekommen? Alles ist geregelt.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Container"" (should be ""Box"")
+accuracy/mistranslation - ""Carbunita"" (should be ""Carbonita"")
+accuracy/mistranslation - ""Sonnenpapier"" (should be ""Solar Pap"")
+
+Minor:
+style/awkward - ""während wir drinnen warten"" (could be more natural as ""während wir warten, dass wir drinnen sind"")```","**Score: 33**
+
+**Reasoning:**  
+The translation contains three major mistranslations:  
+1. **""Container"" (should be ""Box"")** – Incorrectly translates ""box"" as a container, altering the intended meaning.  
+2. **""Carbunita"" (should be ""Carbonita"")** – A direct misspelling of a proper noun, which is critical for context.  
+3. **""Sonnenpapier"" (should be ""Solar Pap"")** – Misinterprets ""Solar Pap"" as ""solar paper,"" losing the specific term.  
+
+While the rest of the translation is grammatically correct and preserves most of the narrative, the three major errors significantly impact meaning. The minor style issue (""während wir drinnen warten"") is less critical but still affects readability. Thus, the score reflects ""some meaning preserved"" (33), as the core content is not fully accurate.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```They wondered if she would actually let them enter, unlike the previous times they went to ask. I still have a bruise from the last time. Ivory chuckled from the memory. Kari had thrown a book at their shoulder, but when she saw who it was, she apologized immediately.```
+German translation:
+```Sie fragten sich, ob sie sie diesmal wirklich reinlassen würde, im Gegensatz zu den letzten Male, als sie nachfragten. Es gibt ja noch diese Beule von der letzten Aktion. In wechselseitigem Vergnügen lachte Elfenbein aus der Erinnerung. Kari hatte damals ein Buch in ihre Richtung geworfen, doch als sie sah, dass es sich um jemanden aus ihrer Clique handelte, entschuldigte sie sich sofort.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Aktion"" (instead of ""letzten Mal"")  
+accuracy/omission - ""the last time"" is not correctly translated (e.g., ""von der letzten Aktion"" instead of ""von der letzten Zeit"")  
+
+Minor:
+fluency/grammar - ""den letzten Male"" (incorrect plural form; should be ""den letzten Malen"")  
+terminology/inappropriate for context - ""wechselseitigem Vergnügen"" (misrepresents ""chuckled from the memory"")  
+style/awkward - ""Clique"" in the sentence (""sich um jemanden aus ihrer Clique handelte"")```","**Score: 33**  
+**Reasoning:**  
+The translation contains significant errors that impact both meaning and grammar. Two major issues are:  
+1. **""Aktion""** (instead of ""letzte Mal"") and **""von der letzten Aktion""** (instead of ""von der letzten Zeit"") directly misrepresent the original meaning of ""the last time.""  
+2. **""wechselseitigem Vergnügen""** incorrectly conveys ""chuckled from the memory,"" which is a terminology/accuracy error.  
+Minor issues include:  
+- Incorrect plural form **""den letzten Male""** (should be ""den letzten Malen"").  
+- Use of **""Clique""** in a context where a more neutral term might be better.  
+
+While the overall structure and some details are preserved, the major errors severely undermine the accuracy and fluency, resulting in ""Some meaning preserved.""",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Ivory rolled their eyes. “Why do you even want to go on a date with me of all people? You have like, I don’t know, 100 suitors?”```
+German translation:
+```Ivory verdrehte die Augen. „Warum willst du überhaupt mit mir ausgehen? Du hast doch bestimmt, keine Ahnung, 100 Verehrer?“```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""bestimmt, keine Ahnung"" (incorrectly translates ""like, I don’t know"" as ""certainly, I don’t know"", altering the original's tone of uncertainty)
+
+Minor:
+style/awkward - ""garum"" (misspelled form of ""gar"", which is used in ""garum"" but should be ""gar"" in the context of ""garum"" as a typo)```","The translation has a major error in the phrase **""bestimmt, keine Ahnung""**, which incorrectly translates ""like, I don’t know"" as ""certainly, I don’t know,"" altering the original's tone of uncertainty. This significantly impacts the meaning. The minor error (a typo in ""garum"") is not present in the provided translation, but the annotation suggests it exists. However, the major error dominates the assessment. 
+
+**Score: 33**  
+**Reasoning**: The major mistranslation (altering the original's uncertainty to certainty) preserves only some meaning, while the minor typo is negligible. Thus, the score reflects ""Some meaning preserved"" (33).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Amen brother” Cohren said as he flicked the remains of the cigarette into the mud. “Anyway, we're heading out with the 1st armored platoon, so we don’t have to walk. Captain Shaw should be their”```
+German translation:
+```Der Gürtel ""Porsche Design Cervo 2.0 Laptop Bag 13"" in Leder```
+Annotated error spans:
+```Major:  
+accuracy/non-translation - The German translation is entirely unrelated to the source text, which is a dialogue about military units and a captain, while the translation refers to a product (a laptop bag).  
+
+Minor:  
+style/awkward - The German sentence structure is incomplete and nonsensical, but it's not entirely ungrammatical. The phrase ""in Leder"" (in leather) is a minor inconsistency in context.  
+
+**Explanation**:  
+- **Major error (non-translation)**: The translation fails to convey any meaningful content from the source. The German text is a product description (""Porsche Design Cervo 2.0 Laptop Bag 13"") that has no connection to the source's dialogue about military units. This is a clear case of non-translation.  
+- **Minor error (style/awkward)**: The German sentence is grammatically incomplete (""Der Gürtel... in Leder"") and contextually misplaced, but the core issue is the complete disconnect from the source, which is classified as a major error. The minor point about ""in Leder"" is an awkward phrasing in a context where it doesn't make sense.```","**Score: 0**  
+**Reasoning**: The German translation is entirely unrelated to the source text, which is a dialogue about military units and a captain. The translation instead describes a product (a laptop bag), completely failing to preserve any meaning from the source. While there is a minor stylistic inconsistency (""in Leder"" in an incomplete sentence), the core issue is a major non-translation error. Thus, the score reflects ""No meaning preserved"" (0).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```ps - i hope we are past the point of being apologetic about liking her novels or defending them as average.```
+German translation:
+```ps - ich hoffe, wir sind mittlerweile über den Punkt hinaus, bei dem wir uns für das Lesen ihrer Romane entschuldigen oder sie als durchschnittlich verteidigen müssen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""sich für das Lesen ihrer Romane entschuldigen"" (apologizing for reading the novels instead of being apologetic about liking them)  
+Minor:  
+terminology/inconsistent use - ""durchschnittlich"" (used in a context where ""durchschnittlich"" is grammatically correct but may not fully capture the intended nuance of ""defending them as average"")```","**Score: 50**  
+**Reasoning:**  
+The translation has a **major error** in the phrase ""sich für das Lesen ihrer Romane entschuldigen,"" which mistranslates ""being apologetic about liking her novels"" as ""apologizing for reading the novels."" This fundamentally alters the meaning, as the original emphasizes self-awareness of liking the novels rather than apologizing for reading them. However, the rest of the translation is largely accurate, with ""durchschnittlich"" being grammatically correct but slightly less nuanced than ""average"" in the original. The minor terminology issue is less critical, so the score reflects partial meaning preservation with a significant error.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```So my dad can't give me rides to work. And for me, work is about 27 miles away. So there and back would be nearly a hundred dollars a day with Uber. I haven't looked at Lyft. I could have, I guess, that makes sense. But I didn't have rental on my auto insurance, so that's my fault. So I guess I could have tried to do that and get that set up and tried to get a rental while I was down and out of a car. But even then, a rental would cover seven days. I'm going to sneeze, hold on. That sneeze sucked.```
+German translation:
+```Somit kann mein haut mich fahrtsmäßig zu arbeiten. Und für mich, Arbeit ist über 27 Kilometer davon. So gibt es und zurück schwimmt nahezu eintausend Dollar ein Tag mit Uber. Ich habe noch nicht schwimmende Sparft. Ich hätte, ich bedenken, das macht Sinn. Aber ich habe ziemlich viele Miete auf meine autoversicherung, sodass mein Fehler ist. Somit zähle ich, dass ich mich entschlossen hätte, das zu tun und das gebären und entschlossen, eine Miete während ich hin und aus einem```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""haut"" (should be ""Vater"")
+accuracy/mistranslation - ""schwimmt"" (should be ""kosten"")
+accuracy/mistranslation - ""schwimmende Sparft"" (incorrect term for ""Lyft"")
+accuracy/terminology - ""ziemlich viele Miete"" (incorrect term for ""rental on auto insurance"")
+non-translation - incomplete sentence and nonsensical phrases (""entschlossen, eine Miete während ich hin und aus einem"")
+
+Minor:
+fluency/punctuation - ""davon"" (incorrect use of ""davon"" for ""away"")
+style/awkward - ""bedenken"" (incorrect use of ""bedenken"" instead of ""glauben"")```","**Score: 33**  
+**Reasoning:**  
+The translation contains multiple critical errors in core terminology and structure, leading to significant loss of meaning. Key terms like ""haut"" (should be ""Vater""), ""schwimmt"" (should be ""kosten""), and ""schwimmende Sparft"" (incorrect for ""Lyft"") are mistranslated, rendering the text nonsensical. Additionally, the sentence fragments (""entschlossen, eine Miete während ich hin und aus einem"") and incorrect use of ""davon"" (for ""away"") further disrupt clarity. While some minor grammatical issues exist, the primary errors severely undermine the preservation of meaning, aligning with the ""Some meaning preserved"" threshold (33).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Bc the figures do look cool, and I like they way they're constructed, and how the design reflects certain characteristics, but then every set is like ""oh by the way here's your laser sword and (at minimum one) gun!""```
+German translation:
+```Denn die Figuren sehen wirklich cool aus und mir gefällt, wie sie konstruiert sind und wie das Design bestimmte Charakteristika widerspiegelt, aber dann ist bei jedem Set so was wie „Oh, übrigens, hier ist dein Laserschwert und (mindestens eine) Pistole!“```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""denn"" (used instead of ""weil"" for ""because"")
+Minor:
+style/awkward - ""so was wie"" (slightly informal or awkward phrasing)```","**Score: 66**  
+**Reasoning:**  
+- **Major Error:** ""denn"" (for ""because"") is replaced with ""weil,"" which is a significant mistranslation. ""Weil"" is the correct conjunction for ""because"" in this context, making this a critical issue.  
+- **Minor Error:** ""so was wie"" is slightly informal or awkward, but not a severe grammatical error.  
+- **Overall Quality:** The rest of the translation is accurate and preserves the meaning. While the major error affects clarity, the majority of the text is correctly translated with minimal other issues. This aligns with the ""Most meaning preserved and few grammar mistakes"" threshold (66).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```#DIY #HomeRenovation```
+German translation:
+```#DIY #Hausrenovierung```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Hausrenovierung"" (though it is a direct and accurate translation of ""Home Renovation"", the term ""Haus"" (house) might be considered less precise for ""Home"" in the context of renovation, which could be seen as a minor contextual issue)
+
+Minor:
+none
+
+**Explanation:**  
+- **""Hausrenovierung""** is a direct and accurate translation of ""Home Renovation,"" though ""Haus"" (house) might be slightly less precise than ""Wohnung"" (apartment) in some contexts. However, this is a minor contextual nuance rather than a major error.  
+- The hashtag format (#DIY) is preserved correctly, and the structure of the translation is fluent and matches the original intent. No grammatical, spelling, or punctuation errors are present.```","**Score: 66**  
+**Rationale:** The translation ""#DIY #Hausrenovierung"" is accurate and preserves the intended meaning, with only a minor contextual nuance (""Haus"" vs. ""Wohnung"" for ""Home""). The hashtag format and structure are correct, and no grammatical errors exist. While ""Hausrenovierung"" is a valid term, the slight imprecision in ""Haus"" compared to ""Wohnung"" is a minor contextual issue, not a major error. This aligns with the ""Most meaning preserved and few grammar mistakes"" threshold (66).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Actually now that I’m double-checking several of these repos were deleted… years ago even```
+German translation:
+```Tatsächlich wurden einige dieser Repositories jetzt gelöscht, nachdem ich sie doppelt überprüft habe... sogar vor Jahren```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""Repositories"" (incorrect plural form; should be ""Repository"" or ""Repositorien"")  
+
+Minor:  
+fluency/register - ""nachdem ich sie doppelt überprüft habe"" (uses ""nachdem"" instead of ""jetzt, da"" to match ""now that,"" but the meaning remains clear)```","The translation has a major error in the plural form of ""Repositories"" (should be ""Repository"" or ""Repositorien""), which affects accuracy. However, the meaning is largely preserved, and the minor structural choice (""nachdem"" vs. ""jetzt, da"") does not significantly impair clarity. The grammar is mostly correct, with only a minor nuance issue. 
+
+**Score: 66**  
+(66 = Most meaning preserved and few grammar mistakes, despite the plural error being a significant but not catastrophic mistake.)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The bank's plan would target norms and institutions that may still require generational shifts. It has taken Rwanda more than two decades to establish itself as a model for land reforms that boost economic empowerment for women.""No one benefits if women are held back,"" Rwanda President Paul Kagame said, arguing for land reform in 2015. ""We have to change mindsets, not just the laws.""```
+German translation:
+```Der Plan der Bank würde Normen und Institutionen ins Visier nehmen, die möglicherweise noch generationenübergreifende Veränderungen erfordern. Es hat Rwanda mehr als zwei Jahrzehnte gedauert, sich als Vorbild für Landreformen zu etablieren, die die wirtschaftliche Selbstständigkeit von Frauen fördern. ""Niemand profitiert, wenn Frauen zurückgehalten werden"", sagte der ruandische Präsident Paul Kagame 2015 und plädierte für eine Landreform. ""Wir müssen Mentalitäten ändern, nicht nur die Gesetze.""```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""wirtschaftliche Selbstständigkeit"" (economic independence vs. economic empowerment)
+
+Minor:
+terminology/inappropriate for context - ""Mentalitäten"" (mindsets) is slightly more formal than ""Mindsets"" in the source, but still understandable  
+fluency/punctuation - ""2015 und plädierte für eine Landreform."" (missing comma after ""2015"")```","**Score: 66**  
+**Reasoning:** The translation preserves most of the meaning, with only one major error (""wirtschaftliche Selbstständigkeit"" vs. ""economic empowerment"") and one minor punctuation issue. The core message about Rwanda's land reforms and Kagame's argument is accurately conveyed. While the term ""Selbstständigkeit"" slightly deviates from the source's intended nuance, it is still understandable and contextually relevant. The minor terminology and punctuation issues do not significantly impact overall clarity or fluency. Thus, the translation is mostly accurate with few critical errors.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Nearby Basil was awoken by an emergency alert as a Faustmanning gas cloud from the blaze was spread across the area. Locals were told not to leave their homes and to close all windows and doors, although this alert was lifted around 7 AM when the smoke was thought to be non fatal. It wouldn't be the air so much as the water that would be heavily polluted, and it would be the very water used to douse the flames that would caused the disaster. The highly toxic mercury compounds were present as fungicides in sea dressings in the warehouse, and were marked with fluorescent red dye Rhodamine B.```
+German translation:
+```Ausgangspunkt dafuer war einworb durch eine Notfallbenachrichtigung als Fanzym Gas Cloud vom Black zu teil heranreifen konnte. Lokale wurden mir nicht zugesprochen, ihre Häuser zu verlassen und alle Möbel und Seiten zu schließen, trotz dieser Benachrichtigung rund 11 AM beim Lichte dachte nicht tödlich. Es sei noch das Gas soviel wie das Wasser, das tiefe Strahl schläft, und es schien die Kräftlinge bei den Dossemblagen, die die Katastrophe verursachten. Die äußerst toxischen merkur```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Fanzym"", ""Black"", ""Kräftlinge"", ""Dossemblagen""
+accuracy/omission - ""merkur"" (incomplete)
+fluency/grammar - ""nicht zugesprochen"", ""heranreifen konnte"", ""beim Lichte""
+
+Minor:
+terminology/inappropriate for context - ""Möbel und Seiten"" (should be ""Türen und Fenster"")```","**Score: 33**  
+**Reasoning:**  
+The translation contains significant accuracy/mistranslation errors (e.g., ""Fanzym"" instead of ""Faustmanning,"" ""Black"" instead of ""Blaze,"" ""Kräftlinge"" instead of ""Flüssigkeiten,"" ""Dossemblagen"" instead of ""Dosierungen"") and major fluency/grammar issues (""nicht zugesprochen,"" ""heranreifen konnte,"" ""beim Lichte""). The omission of ""merkur"" (incomplete) and incorrect terminology (""Möbel und Seiten"" instead of ""Türen und Fenster"") further degrade clarity. While some fragments (e.g., ""Notfallbenachrichtigung,"" ""Lokale"") are partially correct, the majority of the text fails to preserve meaning or grammar, resulting in a low score of 33 (""Some meaning preserved"").",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Reversing the trend of jail deaths, and solving the many other issues facing our jails, may require some difficult policy decisions. However, independent oversight of jails is a critical first step toward a safer and more humane jail system. Independent oversight is a demonstrated means of improving transparency and accountability both in Washington and across the country. By our count, at least 25 states have a statewide office responsible for overseeing jails, and all of them have a lower rate of jail deaths than Washington.```
+German translation:
+```Agenten der Trend der Ordnungs- und Todestechnik, und Lösung der vielen anderen Themen vor unseren Ordnungen, könnten einige schwer getroffene Politikentscheidungen erfordern. Vielmehr ist unabhängige Entlastung von Ordnungen ein kritischer erster Schritt gegenüber einem sichereren und menschlicheren Ordnungssystem. unabhängige Entlastung ist ein bewiesenes Mittel zur Verbesserung der Transparenz und Fairness sowohl in Washington als auch miteinander. Bei unserem treuen, bei 25 Staaten haben eine Bundesweit Agentur für die Übergabe von Ordnungen verantwortlich, und alle von ihnen haben eine geringere Zahl von Ordnungen als Washington.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Agenten"", ""Ordnungs- und Todestechnik""
+accuracy/mistranslation - ""Entlastung von Ordnungen""
+accuracy/mistranslation - ""geringere Zahl von Ordnungen als Washington""
+accuracy/omission - ""the many other issues facing our jails""
+Minor:
+terminology/inappropriate for context - ""Fairness"" (should be ""Accountability"")
+fluency/spelling - ""bewiesenes"" (should be ""bewiesenes"")```","**Score: 33**  
+**Reasoning:**  
+The translation contains multiple major errors that significantly distort the original meaning. Key issues include:  
+1. **Mistranslations**:  
+   - ""Agenten der Trend der Ordnungs- und Todestechnik"" (incorrectly translates ""reversing the trend of jail deaths"" as ""agents of the trend of order and death technology"").  
+   - ""Entlastung von Ordnungen"" (incorrectly uses ""relief from orders"" instead of ""independent oversight"").  
+   - ""geringere Zahl von Ordnungen als Washington"" (misinterprets ""lower rate of jail deaths"" as ""lower number of orders"").  
+2. **Omission**: ""the many other issues facing our jails"" is missing, altering the context.  
+3. **Minor Terminology Error**: ""Fairness"" is used instead of ""Accountability"" (though the spelling ""bewiesenes"" is correct).  
+
+While some grammatical structures are present, the core meaning is not preserved due to critical mistranslations and omissions. This aligns with the ""Some meaning preserved"" (33) threshold.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```No theyre not for sale, I normally hand them out when at events etc.```
+German translation:
+```Sie sind nicht zum Verkauf, ich weite sie normalerweise nur bei Messen etc. aus.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""weite... aus"" (incorrect verb for ""hand them out"")  
+
+Minor:  
+fluency/grammar - ""aus"" (incorrect preposition with the verb)  
+terminology/inappropriate for context - ""Messen"" (specific to fairs, not general events)```","**Score: 33**  
+**Reasoning:** The translation contains a major mistranslation of ""hand them out"" (incorrect verb ""weite... aus""), which fundamentally alters the meaning. While the preposition ""aus"" is slightly incorrect and ""Messen"" is contextually narrow, these are minor issues. The core meaning is not preserved due to the critical error in the verb, leading to a score of 33 (""Some meaning preserved"").",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Enemy’s?” The other recruit, Natayla, asked.```
+German translation:
+```„Des Feindes?“, fragte die andere Rekrutin, Natayla.```
+Annotated error spans:
+```Major:
+fluency/grammar - ""fragte die andere Rekrutin, Natayla"" (incorrect word order; ""fragte"" should follow the subject)  
+
+Minor:
+none```","The German translation preserves the core meaning of the original sentence, with ""Des Feindes?"" correctly translating ""Enemy’s?"" and the name ""Natayla"" appropriately placed. However, the major error in word order (""fragte die andere Rekrutin, Natayla"" instead of ""Natayla fragte die andere Rekrutin"") disrupts grammatical correctness. While this is a significant issue, the rest of the translation is accurate, and the minor errors are nonexistent. Given the balance between preserved meaning and a single major grammar mistake, the score is **66**. 
+
+**Score: 66**",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```If you don't happen to be by that random supermarket:```
+German translation:
+```Falls du nicht zufällig gerade an diesem x-beliebigen Supermarkt vorbeikommst:```
+Annotated error spans:
+```Major:
+terminology/mistranslation - ""x-beliebigen"" (non-standard term for ""random"" in context)
+
+Minor:
+style/awkward - ""vorbeikommst"" (slightly informal, but grammatically correct)```","The translation has a significant terminology error (""x-beliebigen"" is non-standard for ""random"") but retains the correct structure and grammar elsewhere. The minor style issue (""vorbeikommst"") is negligible. While the terminology mistake reduces meaning preservation, the rest of the translation is largely accurate. 
+
+**Score: 50**  
+(Reasoning: The major terminology error (""x-beliebigen"") significantly impacts meaning preservation, though the grammar is otherwise correct. The minor style issue is insignificant. This places the translation between 33 and 66, closer to 50 due to the critical terminology error.)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```@user32 I could perform a liver transplant thanks to Hospital Playlist.```
+German translation:
+```@user32 Ich könnte dank Hospital Playlist eine Lebertransplantation durchführen.```
+Annotated error spans:
+```No-error  
+The German translation accurately conveys the original English sentence. The structure, vocabulary, and grammar are correct. The proper noun ""Hospital Playlist"" is retained as is, and the sentence is fluent and semantically precise. There are no major or minor errors.```","The German translation accurately conveys the original English sentence. The structure, vocabulary, and grammar are correct. The proper noun ""Hospital Playlist"" is retained as is, and the sentence is fluent and semantically precise. There are no major or minor errors. 
+
+**Score: 100**  
+(Perfect meaning and grammar)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```tbf, the beer is was fikn awesome```
+German translation:
+```Um ehrlich zu sein, das Bier war verdammt gut.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""was"" (original text has a typo, but the German translation uses ""war"" which is correct for ""was"")
+Minor:
+none
+
+**Explanation:**  
+- **Major Error:** The German translation correctly uses ""war"" (past tense) for ""was,"" which aligns with the intended meaning of ""the beer was awesome."" The original text's structure (""is was"") is a typo, but the translation accurately reflects the intended message.  
+- **Minor Errors:** None. The translation is fluent, grammatically correct, and appropriately conveys the informal tone of the source. The term ""verdammt gut"" (damn good) is a natural and accurate translation of ""fucking awesome"" in this context.```","**Score: 66**  
+**Explanation:**  
+The translation accurately conveys the intended meaning despite the original text's typos. ""War"" correctly reflects ""was"" in the context of ""the beer was awesome,"" and ""verdammt gut"" naturally translates ""fucking awesome."" While the original's structure (""is was"") is flawed, the German translation is grammatically correct and preserves the informal tone. However, the source's typo (""was"" instead of ""was"") is not an error in the translation itself, so the score reflects ""Most meaning preserved and few grammar mistakes"" (66). The translation is flawless in execution, but the source's ambiguity slightly limits the perfect score.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Remove horrible electric fire and hearth. Box in chimney, replace blown plaster and skim. Build custom wardrobe.```
+German translation:
+```Schrecklichen Elektroofen ausbauen. Kamin verputzen, kaputten Putz ersetzen und abziehen. Schrank nach Maß bauen.```
+Annotated error spans:
+```Major:
+accuracy/omission - ""hearth""
+accuracy/mistranslation - ""box in chimney""
+accuracy/mistranslation - ""blown plaster""
+accuracy/mistranslation - ""skim""
+
+Minor:
+terminology/inappropriate for context - ""kaputten Putz"" (imprecise term for ""blown plaster"")```","**Score: 33**  
+**Reasoning:** The translation contains multiple major errors that significantly impact meaning preservation. The first sentence omits ""hearth,"" a critical noun. The second sentence has mistranslations for ""box in chimney"" (repointing instead of installing a box), ""blown plaster"" (using ""kaputten Putz"" instead of a precise term), and ""skim"" (misrendered as ""abziehen""). While the third sentence (""Schrank nach Maß bauen"") is correct, the overall translation fails to preserve most of the original meaning due to these errors. The minor terminology issue (""kaputten Putz"") is less severe but still affects accuracy. Thus, only ""some meaning"" is preserved, warranting a 33.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```On the plus side, chapter 4 is finally edited!```
+German translation:
+```Auf der positiven Seite, Kapitel 4 ist endlich bearbeitet!```
+Annotated error spans:
+```No-error```",100,en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Getting my eyes checked, because there was a decent deal for it here, and my left eye’s been weird for some time now, so maybe they can tell me something what’s happening.```
+German translation:
+```Ich lasse meine Augen untersuchen, denn es gab hier ein gutes Angebot dafür, und mein linkes Auge ist seit einiger Zeit komisch, also vielleicht können sie mir sagen, was los ist.```
+Annotated error spans:
+```Major:  
+**accuracy/mistranslation** - ""dafür"" (incorrect use of ""dafür"" to refer to the eye check, which is contextually unclear)  
+
+Minor:  
+**style/awkward** - ""komisch"" (slightly informal or imprecise for ""weird"" in a medical context)  
+**fluency/punctuation** - ""was los ist"" (omits the word ""etwas"" in the original, though the meaning is still clear)```","**Score: 66**  
+**Reasoning:** The translation preserves most of the original meaning, with the primary issue being the incorrect use of ""dafür"" (a major error) and minor style/fluency issues. While ""dafür"" introduces ambiguity, the rest of the translation is grammatically correct and conveys the intended message. The minor errors (""komisch"" and ""was los ist"") do not significantly impair understanding, so the score reflects ""Most meaning preserved and few grammar mistakes.""",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```this is just a bit shit```
+German translation:
+``````
+Annotated error spans:
+```The German translation is not provided (it appears as empty). Therefore, no errors can be identified or classified. The task requires a valid machine translation to analyze for errors.```","The German translation is not provided (it appears as empty). Therefore, no errors can be identified or classified. The task requires a valid machine translation to analyze for errors. 
+
+**Score: 0**  
+(No meaning preserved: The translation is entirely absent, so no meaning or grammar can be assessed.)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Quick bit of evening DIY to tenon saw/chisel out the bottom sections of the door jambs where we want the flooring to fit neatly underneath.```
+German translation:
+```Kurze Abend-Heimwerkerarbeit, um mit Feinsäge und Stechbeitel die unteren Abschnitte der Türzargen auszuschneiden, wo wir möchten, dass der Bodenbelag sauber darunter passt.```
+Annotated error spans:
+```Major:
+terminology/inappropriate for context - ""Feinsäge"" (tenon saw is not accurately translated as ""Feinsäge""; ""Stechbeitel"" may not be the best term for a chisel in this context)  
+Minor:  
+fluency/punctuation - ""wo wir möchten, dass der Bodenbelag sauber darunter passt"" (minor redundancy in phrasing, but still understandable)```","**Score: 66**  
+**Reasoning:**  
+The translation preserves most of the meaning (e.g., ""DIY,"" ""evening,"" ""door jambs,"" ""flooring"") but contains significant terminology errors. ""Feinsäge"" (fine saw) is not the correct term for a **tenon saw**, and ""Stechbeitel"" (stitch chisel) is imprecise for a chisel in this context. These errors affect accuracy but do not render the text incomprehensible. The minor redundancy in the final clause (""wo wir möchten, dass der Bodenbelag sauber darunter passt"") is negligible in terms of overall clarity. The grammar is mostly correct, so the score reflects ""Most meaning preserved and few grammar mistakes"" (66).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Thassalin responded to this attack by grabbing Nyssi and throwing her on his back with his insanely long, dextrous tail, before taking off into the air. The black, two-winged creature quickly chased after them.```
+German translation:
+```Thassalin reagierte auf diesen Angriff, indem er Nyssi mit seinem wahnsinnig langen, geschickten Schwanz packte und auf seinen Rücken warf, bevor er in die Luft abhob. Das schwarze, zweiflügelige Wesen nahm sofort die Verfolgung auf.```
+Annotated error spans:
+```Major:
+None
+
+Minor:
+style/awkward - ""Verfolgung auf"" (slightly less natural than ""nach ihnen verfolgen"")```","The translation preserves the core meaning of the original text, with only a minor stylistic adjustment noted in the annotation. The grammar is correct, and the sentence structure effectively conveys the action described. The sole issue (""Verfolgung auf"" instead of ""nach ihnen verfolgen"") is a minor style preference rather than a grammatical error. 
+
+**Score: 66**  
+(66 = ""Most meaning preserved and few grammar mistakes"")",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Johnson celebrated his deal for cutting an estimated $16 billion in spending, but the Freedom Caucus believes he could have gotten more. Moderate Republicans who backed McCarthy's deal see that stance as unrealistic and running counter to the Republican goal of forcing Congress to pass the 12 individual spending bills as opposed to the ""omnibus"" measure of recent years, which combined those 12 bills into one vote.```
+German translation:
+```Johnson feierte seinen Deal, der geschätzte 16 Milliarden Dollar an Ausgaben einspart, aber der Freedom Caucus ist der Meinung, er hätte mehr erreichen können. Moderate Republikaner, die McCarthys Deal unterstützten, halten diese Haltung für unrealistisch und konträr zum Ziel der Republikaner, den Kongress zur Verabschiedung der 12 einzelnen Ausgabenprojekte zu zwingen, anstatt der „Omnibus“-Maßnahme der letzten Jahre, die diese 12 Projekte zu einer einzigen Abstimmung zusammenfasste.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""Ausbildungsprojekte"" (incorrect term for ""spending bills"")  
+
+Minor:  
+fluency/punctuation - ""zur Verabschiedung der 12 einzelnen Ausgabenprojekte"" (unnecessary repetition of ""einzeln"" in the context of ""12"")```","The translation contains a major error in terminology (""Ausbildungsprojekte"" instead of ""Ausgabenprojekte"") and a minor fluency issue with redundant wording. While the rest of the text is accurate and coherent, the major error significantly impacts the meaning, and the minor error slightly hampers fluency. Based on the reference points, the score is **33** (""Some meaning preserved""). The critical mistranslation of ""spending bills"" undermines the overall accuracy, while the minor issue is negligible in context. 
+
+**Score: 33**",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Washington state briefly had a statewide jail oversight office from 1981-87, which the United States Department of Justice once trumpeted as a model for systems around the country. Unfortunately, the Legislature eliminated statewide jail oversight over the objections of jail administrators, civil rights groups, and others.```
+German translation:
+```Es bestand im Bundesstaat Washington bereits kurzzeitig von 1981 bis 1987 eine landesweite Gefängnisaufsichtsbehörde, die damals vom US-Justizministerium als Modell für die Einrichtungen im ganzen Land angepriesen wurde. Leider hat der Gesetzgeber die landesweite Gefängnisaufsicht entgegen den Einwänden von Gefängnisverwaltern, Bürgerrechtsgruppen und anderen abgeschafft.```
+Annotated error spans:
+```Major:  
+None.  
+
+Minor:  
+style/awkward - ""Einrichtungen im ganzen Land"" (slightly awkward phrasing, but contextually acceptable)  
+
+**Explanation:**  
+- **Accuracy:** The translation accurately conveys the source text, including terms like ""landesweite Gefängnisaufsichtsbehörde"" (statewide jail oversight office) and ""US-Justizministerium"" (U.S. Department of Justice).  
+- **Fluency:** The German text is grammatically correct and maintains the original meaning. The phrase ""Einrichtungen im ganzen Land"" (facilities nationwide) is slightly awkward but not incorrect, as it refers to systems or institutions.  
+- **Terminology:** ""Gefängnisverwaltern"" (jail administrators) and ""Bürgerrechtsgruppen"" (civil rights groups) are appropriately used.  
+- **Other:** No major errors disrupt the flow or understanding. The translation is accurate and fluent.```","The translation is accurate and fluent, with only a minor, contextually acceptable awkwardness in the phrase ""Einrichtungen im ganzen Land."" It preserves the core meaning, terminology, and structure of the source text without significant errors. While the minor issue slightly reduces fluency, it does not disrupt understanding or grammar. 
+
+**Score: 66**  
+(66 = Most meaning preserved and few grammar mistakes)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Up ahead, Nyssi was clinging on for dear life as Thassalin flailed around, blasting the blackened monster with bursts of flame. While the creature was definitely injured, it seemed very pissed off and unwilling to back off, and the fire balls didn't seem to be doing as much as they should. As Thassalin straightened himself out though, Nyssi took this as an opportunity to pull out her own weapon, a trusty shotgun. Sure, it wasn't meant for this sort of thing, but surely the scattershot would at least deter the black beast?```
+German translation:
+```Vor ihnen klammerte sich Nyssi mit aller Kraft an Thassalin fest, der wild um sich schlug und den geschwärzten Monster mit Feuerstößen attackierte. Das Wesen war eindeutig verletzt, schien jedoch sehr verärgert und wollte nicht lockerlassen. Und die Feuerbälle schienen nicht so viel Wirkung zu zeigen, wie sie sollten. Als sich Thassalin jedoch aufrichtete, nutzte Nyssi die Gelegenheit, um ihre eigene Waffe herauszuholen, ein zuverlässiges Schrotgewehr. Sicher, es war nicht für so etwas gedacht, aber sicherlich würde die Streuschussfunktion das schwarze Biest zumindest abschrecken?```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""klammerte sich an Thassalin fest"" (Nyssi is clinging to the monster, not Thassalin)
+
+Minor:
+terminology/inappropriate for context - ""Streuschussfunktion"" (incorrect term for ""scattershot""; ""Schrotgewehr"" is the correct term for a shotgun)  
+style/awkward - ""Streuschussfunktion"" (unnecessary elaboration on ""scattershot"")```","**Score: 66**  
+**Reasoning:**  
+- **Major Error:** The phrase ""klammerte sich an Thassalin fest"" incorrectly implies Nyssi is clinging to Thassalin, not the monster. This is a critical mistranslation of the original meaning, as the monster is the object of her grip.  
+- **Minor Errors:** ""Streuschussfunktion"" (incorrect terminology for ""scattershot"") and unnecessary elaboration on ""scattershot"" (style issue) are minor, but they do affect clarity.  
+- **Overall Quality:** Most of the translation preserves the intended meaning and grammar, with only one major error and a few minor issues. The rest of the text is accurate and coherent, making it ""Most meaning preserved and few grammar mistakes"" (66).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Maybe it stopped charging the battery 3 hours before sunset due to insufficient light.```
+German translation:
+```Vielleicht wurde das Aufladen der Batterie 3 Stunden vor Sonnenuntergang aufgrund unzureichenden Lichts gestoppt.```
+Annotated error spans:
+```Major:
+None
+
+Minor:
+fluency/grammar - ""Lichts"" (incorrect genitive form; should be ""Licht"")```","**Score: 66**  
+The translation preserves most of the meaning and has only one minor grammar error (""Lichts"" instead of ""Licht""). The structure and phrasing are mostly correct, with accurate time references and cause-effect relationships. The single error is negligible, so it falls within the ""Most meaning preserved and few grammar mistakes"" category.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```With his general purpose military markings, the Guinean pufferfish doesn't mind being seen. The Atlantic lizardfish doesn't bother with disguises at all. It simply shimmies into the sand. This may fool both its prey and its predators. But it won't fool the pufferfish patrol.```
+German translation:
+```Mit seinen allgemeinen militärischen Markierungen stört es den guineischen Pufferfisch nicht, gesehen zu werden. Der atlantische Leguanfisch macht sich überhaupt keine Mühe, sich zu verstecken. Er schlüpft einfach in den Sand. Das kann sowohl seine Beute als auch seine Raubtiere täuschen. Aber es wird die Pufferfisch-Patrouille nicht täuschen.```
+Annotated error spans:
+```Major:
+None
+
+Minor:
+style/awkward - ""sich zu verstecken"" (slightly more formal than the original's ""disguises,"" but still accurate)```","**Score: 66**  
+**Reasoning:** The translation preserves the core meaning of the original text, accurately conveying the behaviors of the fish and their interactions with predators. The minor issue noted (""sich zu verstecken"" vs. ""disguises"") is a stylistic choice that slightly elevates formality but does not affect accuracy. Grammar is correct throughout, and the overall message is clear. This aligns with ""Most meaning preserved and few grammar mistakes"" (66).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Check. Check. Rock the scissors, scissor defeats paper, and paper defeat Rock. You win. The loser will lose one star. At the end of each game, the referee will put the cards back into the recycling box. Of course, if both players choose the same guard, the game is tied, and no one will lose a star.```
+German translation:
+```Prüfen. Prüfen. Schere schlägt, Schere besiegt Papier, und Papier besiegt Stein. Du gewinnst. Der Verlierer verliert einen Stern. Am Ende jedes Spiels legt der Schiedsrichter die Karten zurück in die Recycling-Box. Natürlich, wenn beide Spieler die gleiche Geste wählen, endet das Spiel unentschieden, und niemand verliert einen Stern.```
+Annotated error spans:
+```Major:
+accuracy/addition - ""Schere besiegt Papier"" (redundant, as ""Schere schlägt"" already conveys the same meaning)
+
+Minor:
+style/awkward - ""Prüfen. Prüfen."" (repetition of ""Prüfen"" is slightly awkward but not critical)```","**Score: 66**  
+**Reasoning**: The translation preserves most of the original meaning, with only one major error (redundancy in ""Schere besiegt Papier"" where ""Schere schlägt"" already conveys the same meaning) and a minor style issue (repetition of ""Prüfen""). These issues are significant but not critical, allowing the translation to retain most of the intended meaning with few grammar mistakes. The rest of the text is accurate, making 66 the appropriate score.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Rishi Sunak's law to strike down wrongful convictions may have serious unintended consequences - Scotsman comment```
+German translation:
+```Rishi Sunaks Gesetz zur Aufhebung unrechtmäßiger Verurteilungen könnte ernsthafte unbeabsichtigte Folgen haben – Kommentar des Scotsman```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""Verurteilungen"" (convictions) is contextually appropriate, but ""Aufhebung"" (cancellation) may not fully capture ""strike down"" (which implies invalidating or overturning). However, ""Verurteilungen"" is accurate for ""convictions,"" so this is not a major error.  
+
+Minor:  
+style/awkward - ""Könnte ernsthafte unbeabsichtigte Folgen haben"" is grammatically correct but slightly verbose compared to the concise original.  
+
+**No major errors identified.** The translation is accurate and fluent, with minor stylistic adjustments.```","**Score: 66**  
+The translation preserves most of the meaning and is grammatically correct, with only minor stylistic adjustments. While ""Aufhebung"" (cancellation) slightly undercaptures ""strike down"" (implying invalidation), the term ""Verurteilungen"" (convictions) is accurate, and the overall message is clear. The minor verbosity in ""Könnte ernsthafte unbeabsichtigte Folgen haben"" is negligible, making the translation fluent and mostly precise. No major errors are present, aligning with the ""Most meaning preserved and few grammar mistakes"" threshold.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“So… whatcha wanna do?” They asked. Kari looked up at them, teeming with excitement. She handed Ivory a paper. When they looked down at it however…```
+German translation:
+```„Also … was wollt ihr machen?"", fragten sie. Kari blickte aufgeregt zu ihnen auf. Sie reichte Ivory ein Blatt Papier. Doch als die beiden darauf sahen …```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""darauf sahen"" (misrepresents ""looked down at it"" as ""looked at it"")
+
+Minor:
+style/awkward - ""wollt ihr"" (slightly informal or outdated in this context)```","The translation has a major error in ""darauf sahen"" (misrepresenting ""looked down at it"" as ""looked at it""), which alters the nuance of the original. The minor error (""wollt ihr"") is stylistic but not grammatically incorrect. While the rest of the translation is accurate, the major error significantly impacts meaning preservation. 
+
+**Score: 50**  
+- **Explanation**: The translation preserves most meaning (e.g., dialogue, excitement, handing the paper) but fails to capture the directional aspect of ""looked down at it"" (major error). The minor style issue is negligible. Thus, it falls between ""Some meaning preserved"" (33) and ""Most meaning preserved"" (66), with 50 reflecting the critical mistranslation.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Bring back oversight for WA's jails. Lives depend on it```
+German translation:
+```Bringt die Aufsicht für WAs Gefängnisse zurück. Leben hängen davon ab.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""WAs"" (should be ""WA"")  
+
+Minor:  
+none```","The translation preserves the core meaning of the original sentence, with only a minor error in the proper noun's possessive form. The grammatical structure and vocabulary are correct elsewhere. The error (""WAs"" instead of ""WA"") is a specific stylistic choice (proper noun abbreviation) but does not affect the overall clarity or intent. 
+
+**Score: 66**  
+(66 = ""Most meaning preserved and few grammar mistakes"")",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Now talking about stars, Howard Jones appears as a special guest vocalist in a duet with you on the album. On the track, I Made a Case, who has offered you so much encouragement with your music. Was it by chance that he happened to appear on the track? As I hear you had to strip back the track as didn't want anything being in the way of your voices telling the story.```
+German translation:
+```Apropos Stars: Howard Jones tritt als Special Guest Vocalist in einem Duett mit dir auf dem Album auf. Auf dem Track I Made a Case, der dir mit deiner Musik so viel Mut gemacht hat. War es Zufall, dass er zufällig auf der Strecke auftauchte? Wie ich höre, musstest du den Track zurücknehmen, da du nicht wolltest, dass deine Stimmen die Geschichte erzählen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Strecke"" (track)  
+terminology/inappropriate for context - ""zurücknehmen"" (strip back)  
+
+Minor:
+accuracy/mistranslation - ""Mut gemacht"" (encouragement)  
+style/awkward - ""zufällig"" repeated (redundant)```","The translation contains two major errors (""Strecke"" for ""track"" and ""zurücknehmen"" for ""strip back"") that significantly affect the meaning. The minor errors (""Mut gemacht"" and redundant ""zufällig"") are less impactful. Despite these issues, the overall meaning is partially preserved, though not fully. Based on the reference points, the score is **33**. 
+
+**Score: 33**",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Bc the figures do look cool, and I like they way they're constructed, and how the design reflects certain characteristics, but then every set is like ""oh by the way here's your laser sword and (at minimum one) gun!""```
+German translation:
+```Weil die Figuren wirklich cool aussehen und ich mag die Art und Weise, wie sie konstruiert sind und wie das Design bestimmte Eigenschaften widerspiegelt, aber dann ist in jedem Set so etwas wie ""Ach ja, hier ist dein Laserschwert und (mindestens eine) Waffe!""```
+Annotated error spans:
+```Major:  
+- **accuracy/mistranslation**: ""so etwas wie"" (literally ""something like"") is used instead of ""wie"" (like), which is a minor stylistic choice but not a major error.  
+
+Minor:  
+- **style/awkward**: ""so etwas wie"" is slightly more formal or indirect than the original's casual ""like,"" but it remains understandable.  
+- **terminology/inconsistent use**: ""Waffe"" (weapon) is used for ""gun,"" which is contextually appropriate but could be replaced with ""Pistole"" (pistol) for specificity. However, ""Waffe"" is acceptable in this context.  
+
+**No major errors** are present. The translation is accurate and fluent, with only minor stylistic adjustments.```","**Score: 66**  
+The translation preserves most of the original meaning and is grammatically correct. The minor adjustments (e.g., ""so etwas wie"" instead of ""wie"") are stylistic choices that do not detract from clarity. While ""Waffe"" is used for ""gun,"" it is contextually appropriate and acceptable. The translation is fluent and conveys the intended message effectively, with only minor stylistic nuances. This aligns with the ""Most meaning preserved and few grammar mistakes"" benchmark.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```It's been months, and I feel like I'm still standing there at his grave. I can't leave him. He's gone, and I still can't leave him. I see in every uniformed soldier I pass, and they're everywhere since the bombing.```
+German translation:
+```Es sind Monate vergangen, und ich fühle mich immer noch dort stehen, an seinem Grab. Ich kann ihn nicht verlassen. Er ist weggegangen, und ich kann ihn immer noch nicht verlassen. Ich sehe in jedem einheitlich gekleideten Soldaten, der mir begegnet, und sie sind überall seit dem Bombenangriff.```
+Annotated error spans:
+```Major:
+none
+
+Minor:
+style/awkward - ""fühle mich immer noch dort stehen""```","The translation preserves the core meaning of the original text, with only a minor grammatical issue in the phrase ""fühle mich immer noch dort stehen."" This structure is awkward because ""stehen"" (to stand) requires a past participle or auxiliary verb for correct tense, but the sentence is still understandable. The rest of the translation is grammatically correct and conveys the intended meaning. 
+
+**Score: 66**  
+**Reasoning:** Most meaning is preserved, and the single minor error does not significantly impair comprehension. The translation is mostly accurate with few grammar mistakes.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Both the old and the new Listing titles call it a 12V 10W panel.```
+German translation:
+```Sowohl im alten als auch im neuen Listing-Titel wird es als 12-V-10-W-Panel bezeichnet.```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+style/awkward - ""es"" (referring to the panel) is grammatically correct but slightly less natural in this context. However, it does not disrupt clarity.  
+
+**Explanation:**  
+- **Accuracy:** The translation correctly conveys the technical term ""12V 10W panel"" as ""12-V-10-W-Panel"" and accurately reflects the structure ""both the old and the new Listing titles.""  
+- **Fluency:** The sentence is grammatically correct and natural in German. The use of ""es"" (it) is appropriate and does not hinder understanding.  
+- **Terminology:** ""Listing-Titel"" is a direct and context-appropriate translation of ""Listing titles.""  
+- **Other:** No major errors or inconsistencies are present. The translation is clear and accurate.```","**Score: 100**  
+
+The translation is flawless in terms of meaning and grammar. The use of ""es"" (it) is technically correct and does not hinder clarity, even if it feels slightly less natural in this context. The structure ""Sowohl im alten als auch im neuen Listing-Titel"" accurately reflects ""Both the old and the new Listing titles."" The technical term ""12-V-10-W-Panel"" is correctly rendered, and the terminology is appropriate. There are no major errors or inconsistencies. The minor style note is negligible and does not affect the overall quality. The translation is perfect in both meaning and grammar.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```A final push for female equality```
+German translation:
+```Ein letzter Vorstoß für die Gleichstellung der Frau```
+Annotated error spans:
+```No-error  
+The German translation ""Ein letzter Vorstoß für die Gleichstellung der Frau"" is accurate, fluent, and appropriately uses terminology for the context. The terms ""letzter Vorstoß"" (final push) and ""Gleichstellung der Frau"" (female equality) are correctly translated. The sentence structure is natural and free of grammatical or stylistic errors. No major or minor errors are present.```","The German translation ""Ein letzter Vorstoß für die Gleichstellung der Frau"" is accurate, fluent, and free of grammatical or stylistic errors. The terms ""letzter Vorstoß"" (final push) and ""Gleichstellung der Frau"" (female equality) are correctly translated, and the sentence structure is natural. Since the annotation confirms no errors, the translation meets the highest standard.  
+
+**Score: 100**",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Maybe it couldn't fully charge up in a little less than half a day.```
+German translation:
+```Vielleicht konnte sie sich in etwas weniger als einem halben Tag nicht vollständig aufladen.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""sie"" (feminine pronoun) instead of ""es"" (neuter pronoun for ""it"")
+
+Minor:
+fluency/punctuation - ""etwas weniger als einem halben Tag"" (could be more natural as ""etwas weniger als ein halbes Tag"" with a space between ""ein"" and ""halbes"")```","The translation contains a **major error** in pronoun usage (""sie"" instead of ""es"") and a **minor fluency issue**. The pronoun error directly affects the meaning, as ""es"" (neuter) is required for ""it,"" while ""sie"" (feminine) is incorrect. The minor issue is a stylistic adjustment (space between ""ein"" and ""halbes Tag""), but it does not impact correctness. 
+
+Since the major error compromises the core meaning, the translation preserves **some meaning** but with significant inaccuracies. The minor error is negligible in terms of meaning. 
+
+**Score: 33** (Some meaning preserved, with a critical mistranslation and a minor fluency issue).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```The Biden Administration Is Letting Corporate Criminals Off the Hook```
+German translation:
+```Die Biden-Administration lässt Wirtschaftskriminelle vom Haken```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Wirtschaftskriminelle"" (inappropriate for context; ""Corporate Criminals"" is more specific to corporate misconduct, while ""Wirtschaftskriminelle"" refers to economic crimes)
+
+Minor:
+style/awkward - ""vom Haken"" (idiomatic expression is correct but slightly informal for a headline)```","**Score: 33**  
+**Reasoning:** The translation contains a major error in meaning (""Wirtschaftskriminelle"" refers to individuals committing economic crimes, not corporate misconduct). While the grammar is correct, the term ""vom Haken"" is slightly informal for a headline, but this is a minor style issue. The core meaning is not preserved, leading to a score of 33 (""Some meaning preserved"").",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```A horrible, clubbed tail smashed into the ground near Nyssi, knocking her over. She noticed though that the tail was flailing, not aiming at her. The creature, what little Nyssi could see and hear of it, was snarling and clawing at the shadows it had created. Something was teleporting through the darkness, stabbing at the monster, confusing it.```
+German translation:
+```Ein schrecklicher, vereinzelter Schwanz zerschmetterte in den Boden bei Nyssi und klopfte sie um. Sie bemerkte, dass der Schwanz schwand und nicht auf sie zielte. Das Geschöpf, das wenig Nyssi von ihm sehen und hören konnte, schnallte und knallte an den Schatten, die es geschaffen hatte. Etwas teleportierte durch die Dunkelheit, stolperte über das Monster und verwirrte es.```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""vereinzelter"" (incorrectly translates ""clubbed"")  
+accuracy/mistranslation - ""schwand"" (incorrectly translates ""flailing"")  
+accuracy/mistranslation - ""schnallte"" (incorrectly translates ""snarling"")  
+accuracy/mistranslation - ""knallte"" (incorrectly translates ""clawing"")  
+accuracy/mistranslation - ""stolperte"" (incorrectly translates ""stabbing"")  
+
+Minor:  
+style/awkward - ""klopfte sie um"" (awkward phrasing for ""knocking her over"")```","**Score: 33**  
+**Reasoning:**  
+The translation contains multiple major mistranslations of key verbs (""vereinzelter"" for ""clubbed,"" ""schwand"" for ""flailing,"" ""schnallte/knallte"" for ""snarling/clawing,"" ""stolperte"" for ""stabbing""), which significantly distort the original meaning. While some nouns (""schrecklicher,"" ""Schwanz"") are correctly translated, the critical actions (e.g., ""knocking her over,"" ""clawing at shadows"") are rendered inaccurately. The minor style issue (""klopfte sie um"") is less impactful than the major semantic errors. Thus, only ""some meaning"" is preserved, warranting a 33.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“Nobody’s gonna know. The people won’t believe you and the painter won’t say anything if he values his life.” He looked back at the painter for a second, then leaned closer to Ivory. “Whatddya say about going on a date?” They shivered. Sure, they had heard multiple threats in the past, but it had never come from a prince, let alone the one next in line to be king.```
+German translation:
+```„Niemand wird es erfahren. Die Leute werden dir nicht glauben und der Maler wird auch nichts sagen, wenn er sein Leben schätzt.“ Er blickte kurz zum Maler zurück, dann beugte er sich näher zu Ivory. „Wie wäre es mit einem Date?“ Sie schauderten. Natürlich hatten sie in der Vergangenheit schon mehrere Drohungen gehört, aber noch nie von einem Prinzen, geschweige denn von dem, der als nächstes König werden sollte.```
+Annotated error spans:
+```No errors.  
+The German translation accurately conveys the meaning of the source text without introducing any inaccuracies, grammatical errors, or stylistic issues. All terms are appropriately translated, and the structure of the sentences matches the original. The use of ""Date"" as a loanword in German is acceptable in this context, and the phrasing is fluent and natural. No major or minor errors are present.```","**Score: 100**
+
+The German translation perfectly preserves the meaning of the source text with no inaccuracies, grammatical errors, or stylistic issues. All terms are appropriately translated, and the sentence structure matches the original. The use of ""Date"" as a loanword is natural in this context, and the phrasing is fluent. The annotation confirms no errors, so the translation meets the highest standard of ""Perfect meaning and grammar.""",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Hi Rob. Hi Marion, how are you? I am very well. Why are you dressed as a security guard rob? Management have asked me to create a new healthcare security news section and buyer's guide and I thought a costume may help me get into character. Oh, I see. Yes, well maybe it will rub. We have a news section now that looks at the issues and opportunities surrounding data security and network security and healthcare.```
+German translation:
+```Hallo Rob. Hallo Marion, wie geht es dir? Mir geht es sehr gut. Warum bist du als Sicherheitsbeamter verkleidet, Rob? Das Management hat mich gebeten, einen neuen Nachrichten- und Einkaufsführer für die Sicherheit im Gesundheitswesen zu erstellen, und ich dachte, dass mir ein Kostüm dabei helfen könnte, in die Rolle zu schlüpfen. Ach so, ja, vielleicht hilft es ja. Wir haben jetzt einen Nachrichtenbereich, der sich mit den Problemen und Chancen im Zusammenhang mit Datensicherheit, Netzwerksicherheit und Gesundheitswesen befasst.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""hilft es ja"" (inaccurate representation of ""maybe it will rub"")
+
+Minor:
+fluency/grammar - ""hilft es ja"" (awkward phrasing for ""maybe it will rub"")  
+terminology/inappropriate for context - ""Einkaufsführer"" (less common term for ""buyer's guide"" in this context)```","**Score: 66**  
+**Reasoning:**  
+The translation preserves most of the original meaning, with only minor adjustments. The major error (""hilft es ja"" for ""maybe it will rub"") is a significant mistranslation, but the rest of the text is accurate and fluent. The terminology issue (""Einkaufsführer"") is less critical in context, and the overall structure and flow are mostly correct. While there are notable errors, the majority of the message is preserved with minimal grammatical issues, aligning with the 66-point threshold for ""Most meaning preserved and few grammar mistakes.""",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```“I heard that she eats children in that room.”```
+German translation:
+```""Ich habe gehört, dass sie in diesem Zimmer Kinder isst.""```
+Annotated error spans:
+```No errors.  
+The German translation accurately conveys the meaning of the English sentence. The structure ""dass sie in diesem Zimmer Kinder isst"" is grammatically correct, with proper use of prepositions (""in diesem Zimmer"") and verb placement. The terms ""Kinder"" (children) and ""Zimmer"" (room) are appropriately used. The sentence is fluent and maintains the original's intent without errors.```","The German translation is accurate and free of errors. It correctly conveys the meaning of the English sentence with proper grammar, preposition usage, and verb placement. The annotated explanation confirms the absence of errors, so the score is **100**.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```i should stop tooting about this tbh but this tailwind component library pointing out how bad the default tailwind setup is is hilarious to me```
+German translation:
+```Ich sollte aufhören, über dieses Tbh zuzuhören, aber diese Backwind-Komponentenbibliothek zeigt, wie schlecht die Standard-Rückwindeinrichtung für mich ist```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Backwind"" (incorrect term for ""Tailwind"")
+accuracy/mistranslation - ""Rückwind"" (incorrect term for ""tailwind setup"")
+accuracy/omission - ""Tbh"" (not translated as ""Ehrlich"" or ""Zu ehrlich"")
+
+Minor:
+fluency/register - ""für mich ist"" (grammatical but less idiomatic than ""komisch für mich"")```","**Score: 33**  
+**Reasoning:** The translation contains major mistranslations of technical terms (""Backwind"" instead of ""Tailwind"" and ""Rückwind"" instead of ""tailwind setup""), which significantly alter the meaning. The omission of ""Tbh"" (not translated as ""Ehrlich"") further reduces clarity. While the sentence structure is mostly grammatically correct, the critical errors in terminology and omitted phrase severely impact the preservation of meaning. This aligns with the ""Some meaning preserved"" threshold (33).",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Okay, the next video will get roofing contractors mad at me, but it's not for them, it's for you. If you are that person that cannot afford a roofing contractor, then you have to watch this video. This will show you how you can do a cover over an existing old roof yourself. And it's very simple. It's a peel and stick system.```
+German translation:
+```Okay, das nächste Video wird Dachdeckerfirmen wütend auf mich machen, aber es ist nicht für sie, sondern für Sie. Wenn Sie die Person sind, die sich keinen Dachdecker leisten kann, dann müssen Sie sich dieses Video ansehen. Es zeigt Ihnen, wie Sie ein bestehendes altes Dach selbst eindecken können. Und es ist ganz einfach. Es ist ein Abzieh- und Klebesystem.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Dachdeckerfirmen"" (roofing contractor companies) instead of ""Dachdecker"" (roofing contractors)
+
+Minor:
+style/awkward - ""sich diesen Video ansehen"" (should be ""dieses Video ansehen"" for ""watch this video"")```","The German translation preserves the overall meaning of the original text, with only two notable issues. The **major error** involves translating ""roofing contractors"" as ""Dachdeckerfirmen"" (roofing contractor companies) instead of ""Dachdecker"" (roofing contractors), which slightly alters the intended meaning. The **minor error** is the awkward phrasing ""sich diesen Video ansehen"" (should be ""dieses Video ansehen""), which is a minor style issue. Despite these errors, the core message and structure of the translation are largely accurate, with no significant grammatical errors beyond the minor style issue. 
+
+**Score: 66**  
+**Reasoning**: The translation preserves most of the meaning (66) with only one major accuracy issue and one minor style adjustment. The errors are localized and do not severely impact the overall clarity or intent of the text.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```https://www.irishtimes.com/culture/books/2024/03/16/killing-in-gaza-has-been-supported-by-irelands-good-friend-in-the-white-house/```
+German translation:
+```https: / / www.irishtimes.com / Kultur / Bücher / 2024 / 03 / 16 / Tötung-in-gaza-hat-wurde-unterstützt-von-ireland-guter-freund-im-weißen-haus /```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""hat-wurde-unterstützt"" (incorrect use of ""hat"" and ""wurde"" in the passive construction, altering the meaning)  
+
+Minor:  
+terminology/inappropriate for context - ""von ireland guter freund"" (missing possessive ""s"" and incorrect lowercase for ""freund"")  
+fluency/spelling - ""weißen haus"" (incorrect capitalization and genitive form; should be ""Weißen Haus"")```","**Score: 33**  
+**Reasoning:**  
+The translation contains a **major error** in the passive construction (""hat-wurde-unterstützt""), which alters the meaning by incorrectly combining ""hat"" (present tense) and ""wurde"" (past participle). This fundamentally changes the intended message. Additionally, **minor errors** include incorrect possessive (""von ireland guter freund"") and improper capitalization/genitive form (""weißen haus""). While some elements (e.g., URL structure) are correct, the major error significantly compromises meaning preservation, leading to a low score. The scale reflects ""Some meaning preserved"" (33), as the core message is distorted.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```In the air it's bumpy and floaty and feels like you're in a boat on the water. You have control, but sometimes a wave knocks you around a little bit, so u need to get your sea legs except in the air.```
+German translation:
+```In der Luft ist es rumpelig und schwebend und fühlt sich an, als wärst du in einem Boot auf dem Wasser. Du hast die Kontrolle, aber manchmal wirft dich eine Welle ein wenig hin und her, also musst du dir deine Seebeine zulegen - außer in der Luft.```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Seebeine"" (inappropriate for context, as ""Seebeine"" is a direct translation of ""sea legs"" but not the most natural term in German for this context)
+
+Minor:
+fluency/punctuation - ""außer in der Luft"" (hyphen before ""außer"" is unnecessary and slightly awkward)```","The translation captures the overall meaning of the original text, with most of the content accurately conveyed. The major error (""Seebeine"") is a direct translation that is not idiomatic in German, but the rest of the translation is grammatically correct and conveys the intended meaning. The minor punctuation issue is negligible. While the mistranslation affects the naturalness of the term ""sea legs,"" the majority of the message is preserved, and the grammar is mostly correct. 
+
+**Score: 66**  
+(66 = Most meaning preserved and few grammar mistakes)",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Its log book official. I have 2.3 hours ^_^```
+German translation:
+```Es ist offiziell im Logbuch. Ich habe 2,3 Stunden ^_^```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""its log book official"" (structure mismatch, but meaning is preserved)
+
+Minor:
+fluency/register - ""im Logbuch"" (slightly awkward phrasing in German for the given context)```","**Score: 66**  
+**Reasoning:** The translation preserves the core meaning (the logbook being official and the time duration), though the structure of ""its log book official"" is rephrased to ""offiziell im Logbuch,"" which slightly alters the original phrasing but maintains the intended meaning. The minor fluency issue (""im Logbuch"") is negligible, and the grammar (e.g., comma in ""2,3"") is correct. The major error is a structural mismatch, but the meaning is preserved, aligning with ""Most meaning preserved and few grammar mistakes.""",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Bring back oversight for WA's jails. Lives depend on it```
+German translation:
+```Bringen Sie die Aufsicht über die Gefängnisse von WA zurück. Menschenleben hängen davon ab```
+Annotated error spans:
+```Major:  
+- **accuracy/mistranslation**: ""WA"" is correctly used as an abbreviation, but ""Gefängnisse"" (jails/prisons) is appropriate in context.  
+- **fluency/punctuation**: The sentence structure is correct, but the use of ""davon"" in the second sentence is slightly awkward in this context.  
+
+Minor:  
+- **style/awkward**: ""davon"" in ""Menschenleben hängen davon ab"" is slightly less natural in this context, but still understandable.```","**Score: 66**  
+**Reasoning**: The translation accurately conveys the core message (""Bring back oversight for WA's jails"" → ""Bringen Sie die Aufsicht über die Gefängnisse von WA zurück"") with correct use of ""WA"" as an abbreviation and ""Gefängnisse"" for ""jails."" The second sentence (""Lives depend on it"" → ""Menschenleben hängen davon ab"") is grammatically correct but has a minor style issue with ""davon,"" which is slightly awkward in this context. While the phrase is understandable, the slight awkwardness in ""davon"" is a minor flaw, and no major grammar or meaning errors exist. Thus, the translation preserves most meaning with few minor issues, aligning with the 66 rating.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```#TeaganAir #pilot #flying #pa28 #PilotTraining```
+German translation:
+```Nr.TeagaAir Nr.pilot Nr.floss Nr.pa79 Nr.PilotTraining.```
+Annotated error spans:
+```Major:
+accuracy/addition - ""Nr."" added to hashtags
+accuracy/mistranslation - ""floss"" (instead of ""Fliegen"")
+accuracy/mistranslation - ""pa28"" → ""pa79""
+terminology/inappropriate for context - ""PilotTraining"" (instead of ""Pilotenbildung"" or ""Pilotenlehrgang"")
+
+Minor:
+style/awkward - ""Nr."" in hashtags (contextually irrelevant)```","**Score: 33**  
+**Reasoning**:  
+The translation contains multiple critical errors affecting meaning (e.g., ""floss"" instead of ""Fliegen,"" ""pa28"" → ""pa79,"" ""PilotTraining"" instead of ""Pilotenbildung""). While the structure (hashtags) is preserved, the content is largely mistranslated, leading to a loss of key meaning. The ""Nr."" prefix in hashtags is stylistically awkward but not entirely meaningless. Thus, ""some meaning preserved"" aligns with the 33-point scale.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```Kari nodded, going back to reviewing her memories and curling up in her thick comforter.```
+German translation:
+```Kari Maddalena, dabei Füge ihre Ambitionen und Heilung bis in ihren dünnen Sicherheiter zu überprüfen.```
+Annotated error spans:
+```Major:
+accuracy/addition - ""Kari Maddalena"" (name not present in the source)
+accuracy/mistranslation - ""Füge ihre Ambitionen und Heilung bis in ihren dünnen Sicherheiter zu überprüfen"" (completely misrepresents the source's actions)
+
+Minor:
+fluency/grammar - ""dabei Füge"" (incomplete sentence structure)
+fluency/spelling - ""Sicherheiter"" (misspelled word, should be ""Sicherheit"")```","**Score: 33**  
+**Reasoning:**  
+- **Major errors**: The addition of ""Kari Maddalena"" (a name not present in the source) and the complete misrepresentation of the source's actions (""Füge ihre Ambitionen und Heilung..."" instead of ""reviewing memories and curling up"") indicate that the translation fails to preserve the original meaning.  
+- **Minor errors**: Grammatical issues (""dabei Füge"") and a misspelled word (""Sicherheiter"" → ""Sicherheit"") further degrade the quality, but these are secondary to the major mistranslations.  
+- **Overall**: While the name is a minor addition, the core meaning is entirely misaligned with the source. This results in ""some meaning preserved"" (33), as only the name (a non-essential detail) is present, but the actions and context are completely incorrect.",en-de
+"Given the translation from English to German and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from English source:
+```tbf, the beer is was fikn awesome```
+German translation:
+```Hans Reiter (Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg) Foto: Johannes Zimmermann, Stuttgart```
+Annotated error spans:
+```Major:
+non-translation - The German translation is entirely unrelated to the source text, which is a casual statement about beer. The translation instead provides a photo caption with a name and photo credit, which is not relevant to the original content.  
+accuracy/addition - The German translation includes ""Hans Reiter (Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg) Foto: Johannes Zimmermann, Stuttgart,"" which is unrelated to the source text and adds content not present in the original.  
+
+Minor:
+style/awkward - The phrase ""go to the reviews"" in the previous example was awkward, but in this case, the translation's structure is not clearly awkward. However, the text is still non-translation, so no minor errors are applicable here.```","The German translation is entirely unrelated to the source text, which is a casual statement about beer. The provided translation instead includes a photo caption with a name and photo credit, which is not relevant to the original content. This constitutes a complete failure to preserve any meaning from the source. 
+
+**Score: 0**  
+""0=No meaning preserved"" is the appropriate rating, as the translation does not reflect the source text's content or intent.",en-de

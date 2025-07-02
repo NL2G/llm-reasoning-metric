@@ -3,10 +3,10 @@
 #SBATCH --job-name=grpo-multi-node-4b
 #SBATCH --output=./llm-reasoning-metric/logs/%j-multi/training.out
 #SBATCH --time=24:00:00
-#SBATCH --partition=h100
-#SBATCH --gres=gpu:h100:4
+#SBATCH --partition=h200
+#SBATCH --gres=gpu:h200:4
 #SBATCH --cpus-per-task=32
-#SBATCH --nodes=16
+#SBATCH --nodes=8
 #SBATCH --ntasks-per-node=1
 
 set -e
@@ -15,7 +15,7 @@ GLOBAL_BATCH_SIZE=1024
 MINI_BATCH_SIZE=1024
 MICRO_BATCH_SIZE=8
 MODEL_NAME=Qwen/Qwen3-4B
-MODEL_ID=qwen3_4b_v5
+MODEL_ID=qwen3_4b_v7
 LR=1e-6
 
 nodes=$(scontrol show hostnames "$SLURM_JOB_NODELIST")
@@ -68,11 +68,11 @@ echo "====> All nodes started"
 
 PYTHONUNBUFFERED=1 ray job submit --address "$ip_head" -- python -m verl.trainer.main_ppo \
     algorithm.adv_estimator=grpo \
-    data.train_files=[./data/mt-eval.parquet,./data/deepscaler.parquet,./data/mt-da.parquet] \
-    data.val_files=[./data/mt-eval-test.parquet,./data/mt-da-eval.parquet] \
+    data.train_files=[./data/mt-eval.parquet,./data/deepscaler.parquet,./data/mt-da.parquet,./data/wmt24-train.parquet] \
+    data.val_files=[./data/mt-eval-test.parquet,./data/mt-da-eval.parquet,./data/wmt24-eval.parquet] \
     data.train_batch_size=$GLOBAL_BATCH_SIZE \
     data.max_prompt_length=1024 \
-    data.max_response_length=6144 \
+    data.max_response_length=8192 \
     data.filter_overlong_prompts=True \
     data.filter_overlong_prompts_workers=16 \
     data.truncation='error' \
@@ -93,7 +93,8 @@ PYTHONUNBUFFERED=1 ray job submit --address "$ip_head" -- python -m verl.trainer
     actor_rollout_ref.actor.strategy=fsdp2 \
     actor_rollout_ref.rollout.log_prob_micro_batch_size_per_gpu=$MICRO_BATCH_SIZE \
     actor_rollout_ref.rollout.tensor_model_parallel_size=1 \
-    actor_rollout_ref.rollout.name=sglang \
+    actor_rollout_ref.rollout.name=vllm \
+    actor_rollout_ref.rollout.max_num_batched_tokens=32768 \
     actor_rollout_ref.rollout.gpu_memory_utilization=0.7 \
     actor_rollout_ref.rollout.n=8 \
     actor_rollout_ref.rollout.temperature=0.6 \

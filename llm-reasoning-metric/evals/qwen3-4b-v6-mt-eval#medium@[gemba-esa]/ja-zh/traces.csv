@@ -1,0 +1,1800 @@
+prompt,result,lp
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```籾山さん、王滝さんを表彰```
+Chinese translation:
+```表彰籾山さん、王滝さん```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""表彰籾山さん、王滝さん"" (reversed structure; correct order should be ""表彰籾山さん、王滝さん"" to match Japanese syntax)  
+
+Minor:  
+None.```","The Chinese translation ""表彰籾山さん、王滝さん"" correctly mirrors the Japanese structure ""籾山さん、王滝さんを表彰"" (object + verb), where the objects (names) appear before the verb (表彰). The annotated error of ""reversed structure"" is misleading, as the order of the names and the verb in the Chinese translation aligns with the Japanese syntax. There are no grammatical errors or meaning loss in the translation. 
+
+**Score: 100**  
+(Perfect meaning and grammar, as the structure and order are preserved accurately.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```疋田図書が出てきた。```
+Chinese translation:
+```疋田图书走了出来。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""走了出来"" (incorrect verb for ""came out"" in the context of a publication/release)  
+
+Minor:  
+none  
+
+**Explanation:**  
+- **Major error**: The Chinese translation incorrectly uses ""走了出来"" (literally ""walked out"") instead of a term like ""发布"" (release) or ""推出"" (launch) to convey the meaning of ""出てきた"" (came out/released). This changes the intended meaning of the sentence, making it inaccurate.  
+- **No minor errors**: The proper noun ""疋田图书"" is correctly transliterated, and the sentence structure is grammatically valid, though semantically incorrect.```","**Score: 33**  
+The translation preserves the proper noun ""疋田图书"" correctly but fails to convey the intended meaning of ""出てきた"" (publication/release) due to the incorrect use of ""走了出来"" (walked out). While the sentence structure is grammatically valid in Chinese, the semantic error completely alters the context, resulting in ""some meaning preserved"" (33).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```【男子優勝の義基耀（左）と女子優勝の服部天寧＝鈴鹿市御薗町のスポーツの杜鈴鹿で】```
+Chinese translation:
+```[男子冠军 Yoshi Kiyo（左）和女子冠军 Hattori Tenning = 在铃鹿市沟野町的铃鹿体育森铃鹿]```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""铃鹿体育森铃鹿"" (incorrectly translates ""スポーツの杜鈴鹿"" as ""sports forest"" instead of the proper noun ""Tsuruga Sports"")
+
+Minor:
+fluency/punctuation - ""＝"" is correctly translated as "" = "", but the structure could be slightly adjusted for clarity.```","The translation contains a **major error** in the proper noun ""スポーツの杜鈴鹿"" (Tsuruga Sports Forest), which is mistranslated as ""铃鹿体育森铃鹿"" (a literal mix of ""sports forest"" and the place name). This critical mistranslation undermines the accuracy of the location, which is a key part of the original meaning. While the rest of the translation (names, structure, and punctuation) is largely correct, the major error significantly reduces the overall quality. 
+
+**Score: 33**  
+(""Some meaning preserved"" – the names and structure are accurate, but the critical mistranslation of the proper noun severely impacts the meaning.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```第二の角を次郎選手と森川選手がほとんど同時にまわりました。するとふたりはもうすっかりとりのこされてしまっていることを知りました。前をいく者はみなもう第三の角をまわってしまっていて、檜葉垣ぞいの静かな道にはとんぼがとんでいるばかりです。```
+Chinese translation:
+```次郎选手和森川选手几乎同时转过第二个弯道。他们才发现自己已经被远远地落在后面了。前面的选手都已经转过第三个弯道，在安静的桧叶树篱旁的道路上只剩下蜻蜓在飞。```
+Annotated error spans:
+```Major:  
+- **accuracy/mistranslation** - ""檜葉垣ぞい"" is translated as ""桧叶树篱旁,"" which is accurate. However, ""とんでいるばかりです"" is translated as ""只剩下蜻蜓在飞,"" which correctly conveys the idea that dragonflies are the only flying creatures on the quiet road. No major error here.  
+
+Minor:  
+- **style/awkward** - ""只剩下蜻蜓在飞"" could be slightly awkward in phrasing, but the meaning is clear.  
+- **fluency/punctuation** - The sentence structure is slightly fragmented, but the overall message remains understandable.  
+
+**No major errors.** The translation is accurate and fluent, with only minor stylistic adjustments.```","**Score: 66**  
+The translation preserves most of the meaning and has minimal grammar issues. The key terms like ""檜葉垣ぞい"" are accurately rendered as ""桧叶树篱旁,"" and the phrase ""とんでいるばかりです"" is correctly interpreted as ""只剩下蜻蜓在飞,"" conveying the intended imagery. While there are minor stylistic adjustments (e.g., ""只剩下蜻蜓在飞"" slightly feels awkward in phrasing), these do not detract from the overall clarity or accuracy. The translation is fluent and adheres to the reference points for ""Most meaning preserved and few grammar mistakes.""",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```山脇長門は廻座の胆入格であり、疋田図書は譜代中での名門である。二人は互いの性格が合わぬだけでなく「廻座」と「譜代」と、対立する勢力の代表的位置のために、長いあいだ悶着を繰返してきた間柄にあった。```
+Chinese translation:
+```山脇長門是廻座的胆入格，疋田图书馆是譜代中的名门。两人性格不合，不仅如此，“廻座”和“譜代”，以及对立势力的代表性地位，使得他们长期陷入僵局。```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""図書"" (book/library) is translated as ""图书馆"" (library), but the original term is part of a proper noun (e.g., ""疋田図書"" as a name). The translation assumes ""図書"" refers to a library, which may not align with the context of a proper noun.
+
+Minor:
+fluency/grammar - ""使得他们长期陷入僵局"" (which means ""led them to be in a long stalemate"") slightly deviates from the original's emphasis on repeated conflicts (""悶着を繰返してきた""), but the meaning remains understandable.```","**Score: 66**  
+**Reasoning:**  
+- **Major Error:** The mistranslation of ""図書"" as ""图书馆"" (library) instead of keeping it as a proper noun (""疋田図書"") is significant. This alters the meaning of the name, which is part of a proper noun. However, the rest of the translation preserves the core meaning and context.  
+- **Minor Error:** The phrase ""使得他们长期陷入僵局"" slightly deviates from the original's ""悶着を繰返してきた"" (repeated conflicts), but the meaning remains understandable.  
+- **Overall Assessment:** While the major error introduces a meaningful discrepancy, the translation retains most of the original context, and the minor issue is negligible. Thus, the score reflects ""Most meaning preserved and few grammar mistakes"" (66).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```一```
+Chinese translation:
+```第一个是```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""第一个是"" (translates to ""The first is"") instead of ""一"" (which is ""one"" in Chinese).  
+
+Minor:  
+accuracy/addition - ""第一个"" and ""是"" are added, which are not present in the original source text.```","The translation ""第一个是"" (The first is) completely misrepresents the original Japanese ""一"" (one). The translation adds extraneous words (""第一个"" and ""是"") not present in the source and incorrectly interprets ""一"" as ""the first,"" which is a significant deviation from the original meaning. Since no meaningful connection to the source text is preserved, the score is **0**. 
+
+**Score: 0**  
+**Reasoning:** The translation introduces entirely new content (""第一个"" and ""是"") and misinterprets the source (""一"" as ""the first"" instead of ""one""). No meaning or structure from the original is retained.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```論語に「子は怪力乱神を語らず。」とある。この解釈に二様あって、普通は孔子が妖怪を信じないと云うように受取られているのであるが、又一説には、孔子は妖怪を語らないと云うに過ぎないのであって、妖怪を信じないと云うのではない。孔子も世に妖怪のあることを認めてはいるが、そんなことを妄りに口にしないのであるという。成程、そういえば然ういう風に解釈されないことも無い。「語らず」と「信ぜず」とは、少しく意味が違うように思われる。```
+Chinese translation:
+```《论语》中有“子不语怪力乱神。”这句话有两种解释，一般认为是孔子不相信妖怪，但另一种说法是孔子只是不谈论妖怪，并不是说不相信妖怪。孔子也承认世上有妖怪的存在，但他不会胡乱谈论这些事。确实，如此解释也并非没有道理。“不语”和“不信”似乎有些微的意义不同。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""子不语怪力乱神"" (correctly translated as ""子不语怪力乱神"")  
+
+Minor:  
+none  
+
+**Explanation:**  
+The translation accurately reflects the source text without errors. The key terms like ""怪力乱神"" are correctly preserved, and the interpretations of ""語らず"" (not speaking) vs. ""信ぜず"" (not believing) are clearly conveyed. The structure and meaning align with the source, making it both accurate and fluent. No major or minor errors are present.```","100
+
+The translation is flawless. It accurately preserves the original meaning, structure, and nuances of the Japanese text. Key terms like ""怪力乱神"" are correctly rendered, and the distinction between ""語らず"" (not speaking) and ""信ぜず"" (not believing) is clearly conveyed. The explanations of the two interpretations are precise, and the text flows naturally in Chinese without any grammatical or semantic errors. The annotated explanation confirms that no errors exist, making this a perfect translation.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```と声をかけて、ふたりを追いぬいていきました。次郎君と森川君は工藤君に一周おくれたわけです。```
+Chinese translation:
+```向他们打了个招呼，一起追了上去。次郎君和森川君比工藤君晚了一圈。```
+Annotated error spans:
+```Major:  
+**accuracy/mistranslation** - ""一起追了上去"" (literally ""chased them together"") misrepresents the original's intent of ""chasing them down"" (追いぬいていきました), which implies actively pursuing them, not moving together.  
+
+Minor:  
+**fluency/grammar** - ""比工藤君晚了一圈"" (translated from ""一周おくれた"") is grammatically correct but slightly awkward in context, as ""一周おくれた"" directly means ""one lap behind,"" which is clearer in the source.  
+
+**style/awkward** - ""向他们打了个招呼"" (called out to them) is literal but slightly redundant, as ""と声をかけて"" (called out to them) is already implied in the context of chasing.```","**Score: 33**  
+
+**Reasoning:**  
+The translation contains a **major accuracy/mistranslation** error in the first clause, where ""一起追了上去"" (chased them together) incorrectly implies the two individuals were moving together instead of actively pursuing the third person (""追いぬいていきました""). This directly misrepresents the original intent, leading to a significant loss of meaning. While the second clause is grammatically correct but slightly awkward (""比工藤君晚了一圈""), the major error dominates the assessment. The style/awkwardness in the first clause further reduces the score. Thus, the translation preserves **some meaning** but fails to convey the critical nuance of active pursuit, warranting a score of **33**.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```別府さんは、ひざの上に横たえたバットを、両手でゆっくりまわしていたが、それをとめて、静かにことばを続けた。```
+Chinese translation:
+```别府先生用双手慢慢地旋转着躺在膝盖上的球棒， 但他停下来， 静静地继续说话。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""球棒"" (bat) is contextually appropriate, but ""球棒"" is more commonly used for a baseball bat, while ""球棒"" in this context is correct. However, the original Japanese ""バット"" is a baseball bat, so this is accurate.  
+
+Minor:  
+style/awkward - ""静静地继续说话"" (quietly continue speaking) is slightly awkward compared to the natural flow of the original sentence.  
+
+**Note:** The translation appears accurate overall, with ""球棒"" correctly conveying the baseball bat context. The minor issue is a stylistic choice rather than a critical error.```","**Score: 66**  
+The translation preserves most of the meaning and grammar, with only a minor stylistic adjustment (""静静地继续说话"" slightly awkward compared to the original's flow). The use of ""球棒"" for ""バット"" is contextually correct, and the overall structure accurately reflects the Japanese sentence. The minor issue is non-critical, so the score reflects ""Most meaning preserved and few grammar mistakes.""",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```消防団員ら関係者100人参加```
+Chinese translation:
+```消防队员和相关人员共100人参加```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""ら"" (indicating inclusion) is not properly conveyed by ""和"" (which is ""and""), but the overall meaning remains clear.  
+
+Minor:  
+style/awkward - ""共"" (together) is used, but the structure is slightly awkward in Chinese for this context.  
+
+**Explanation:**  
+- **Major Error**: The particle ""ら"" in Japanese implies inclusion (""along with""), but the Chinese translation uses ""和"" (and), which is acceptable but slightly less precise. However, the overall meaning is clear, so this is a minor issue.  
+- **Minor Error**: The use of ""共"" (together) in Chinese adds a slight awkwardness, but the sentence remains understandable. No major disruption occurs.  
+
+No other errors are present.```","**Score: 66**  
+**Reasoning:**  
+The translation captures the core meaning of the Japanese text (""fire department members and related personnel participated""), with only minor adjustments. The major error (using ""和"" for ""ら"") is less precise but does not disrupt clarity. The minor error (""共"" feels awkward) is stylistic and does not affect understanding. While the translation is mostly accurate with few grammar issues, the use of ""和"" and ""共"" introduces slight imprecision, warranting a score of 66 (""Most meaning preserved and few grammar mistakes"").",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```図書は一座を見廻して続けた。```
+Chinese translation:
+```图书馆继续环顾四周。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""一座"" (a group/section) is mistranslated as ""环顾四周"" (look around the four sides), which alters the original meaning.  
+
+Minor:  
+fluency/punctuation - ""环顾四周"" (look around the four sides) is grammatically correct but slightly awkward in context, as it implies a broader action than the original.```","The translation contains a **major mistranslation** of the key term ""一座"" (a group/section) as ""环顾四周"" (look around the four sides), which fundamentally alters the original meaning. While the grammar is correct, the core meaning is lost. The minor issue with fluency is less critical compared to the major semantic error. 
+
+**Score: 33**  
+(Only some meaning is preserved due to the critical mistranslation of ""一座,"" despite grammatical correctness.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```ほとんどの視聴者の方が 忘れてたこの えーと野菜ソースですね こいつをですねチキンの上にかけていきます あればね仕上げにイタリアンパセリを えーと混ぜ込んでください あの生のがあればね 生のパセリかイタリアンパセリ 今回はないので省略しまーす その代わりね粉パセリをえーかけます```
+Chinese translation:
+```大多数观众可能已经忘记了这个野菜酱汁吧，把这个酱汁淋在鸡肉上，如果有意大利香菜的话，就把它混入最后的步骤中，如果有生的香菜，就省略生香菜或意大利香菜，代之以粉香菜。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""如果有生的香菜，就省略生香菜或意大利香菜"" (misinterprets the original's conditional logic, where ""if you have fresh, use either"" is incorrectly translated as ""if you have fresh, skip both"").  
+
+Minor:  
+fluency/grammar - ""混入最后的步骤中"" (slightly awkward phrasing for ""mix in at the end,"" but still understandable).```","The translation contains a **major error** in conditional logic, which misinterprets the original Japanese's intent. The original specifies that if fresh parsley is available, either fresh or Italian parsley can be used, but the Chinese translation incorrectly states that both should be skipped if fresh is present. This critical mistranslation undermines the recipe's instructions, leading to a significant loss of meaning. While the rest of the translation is mostly accurate and only has a **minor fluency issue**, the major error severely impacts the overall clarity and correctness. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" due to the critical mistranslation of the conditional logic, with the rest of the translation being largely correct but missing the key intent.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```一```
+Chinese translation:
+```第一个问题是：“你是谁？”```
+Annotated error spans:
+```Major:  
+accuracy/addition - ""第一个问题"" (the translation adds content not present in the source)  
+accuracy/addition - ""你是谁？"" (the translation adds a question not present in the source)  
+
+Minor:  
+none  
+
+**Explanation:**  
+The source is a single Chinese character ""一"" (meaning ""one"" or ""first""). The translation introduces a full sentence starting with ""第一个问题"" (the first question) and a question ""你是谁？"" (Who are you?), which are entirely absent from the source. This constitutes **major accuracy errors** due to the addition of unverified content, disrupting the original meaning and context. No minor errors are present as the translation is fundamentally incorrect in its content.```","The translation introduces entirely unverified content (""第一个问题"" and ""你是谁？"") that is not present in the source text. The source is a single character ""一"" (meaning ""one"" or ""first""), but the translation fabricates a full sentence with a question unrelated to the source. This constitutes **major accuracy errors** and **no meaning preservation**. 
+
+**Score: 0**  
+(No meaning preserved, as the translation adds content absent in the source and distorts the original intent.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```星野は、それをちらっと見て、ベンチへ行った。キャプテンの喜多と、監督をしている大学生の別府さんが、かれを待っていた。```
+Chinese translation:
+```星野瞥了一眼， 走到长凳上。队长喜多和担任导演的大学生别府在等着他。```
+Annotated error spans:
+```Major:  
+terminology/inappropriate for context - ""导演"" (director) instead of ""监督者"" (supervisor/overseer) for ""監督"" (supervision).  
+
+Minor:  
+fluency/punctuation - ""長凳上"" (bench) is slightly literal but understandable.```","The translation contains a **major error** in terminology, where ""監督"" (supervision/overseer) is incorrectly translated as ""导演"" (director), which changes the meaning entirely. This error significantly impacts the accuracy of the translation. While the rest of the translation is understandable and only has a **minor fluency issue** with ""長凳上"" (bench), the major terminology mistake reduces the overall meaning preservation. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" due to the critical terminology error, but the rest of the translation is comprehensible.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```「不承知でござるぞ」```
+Chinese translation:
+```“我不知道，我不知道。”```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""不承知"" is mistranslated as ""不知道"" (which is accurate but lacks the formal tone of the original Japanese).  
+
+Minor:  
+style/awkward - The repetition of ""我不知道"" twice feels redundant and emphasizes the same point unnecessarily, making the phrasing slightly awkward in Chinese.```","**Score: 66**  
+The translation preserves the core meaning (""I don't know"") but lacks the formal tone of the original Japanese. While ""不知道"" is semantically accurate, it is too casual compared to ""不承知"" (which carries a more formal, classical connotation). The repetition of ""我不知道"" is slightly awkward in Chinese, but this is a minor stylistic issue. Overall, the translation is mostly correct in meaning with few grammar errors, just missing the formal register expected in the original Japanese context.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```子どもたちのうち真喜良小に入学する新城結南さんは「給食と体育館で運動をするのが楽しみ。勉強もしたい」と笑顔をみせ、母親の佑季さん（28）は「不安でいっぱいだが、人に気遣いのできる優しい子どもに育ってほしい」と願った。```
+Chinese translation:
+```在这些孩子中，即将进入真喜良小学的新城结南露出笑容说：""我很期待吃学校午餐和在体育馆里运动。我也想好好学习。""她的母亲佑季（28岁）则表示：""虽然内心充满不安，但我希望她能成长为一个懂得关心他人的善良孩子。""```
+Annotated error spans:
+```Major:  
+- **accuracy/omission**: ""子どもたちのうち"" is translated as ""在这些孩子中,"" which is accurate. However, the original phrase ""子どもたちのうち"" implies ""among these children"" or ""among the children,"" and the translation captures this correctly. No omission here.  
+- **terminology/inappropriate for context**: None. The terms used (""学校午餐,"" ""体育館,"" ""善良孩子"") align with the context.  
+
+Minor:  
+- **fluency/punctuation**: The Chinese translation uses ""虽然内心充满不安，但我希望她能成长为一个懂得关心他人的善良孩子。"" The structure is slightly awkward due to the phrase ""懂得关心他人的善良孩子"" (a ""kind child who is considerate of others""), but it is still understandable.  
+- **style/awkward**: The translation of ""給食と体育館で運動をするのが楽しみ"" as ""我很期待吃学校午餐和在体育馆里运动"" is slightly literal but not incorrect. The phrase ""吃学校午餐"" (eat school lunch) is natural in Chinese.  
+
+**Conclusion**: The translation is accurate and fluent, with no major errors. Minor adjustments could be made for smoother phrasing, but the core message is clear.```","**Score: 66**  
+The translation preserves most of the meaning and grammar, with only minor adjustments needed for smoother phrasing. The key points (e.g., the child's enthusiasm for school lunch and sports, the mother's hope for her daughter's kindness) are accurately conveyed. The minor awkwardness in the phrase ""懂得关心他人的善良孩子"" is negligible and does not detract from the overall clarity. No major errors or omissions are present, aligning with the ""Most meaning preserved and few grammar mistakes"" benchmark.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```「そのとき、きみたちは、喜んで、ぼくをむかえてくれるといった。そこで、ぼくは、きみたちとそうだんして、チームの規則をきめたのだ。いったん、きめたいじょうは、それを守るのが当然だと思う。また、試合のときなどに、チームの作戦としてきめたことには、ぜったいに服従してもらわなければならない、という話もした。きみたちは、これにもこころよく賛成してくれた。それで、ぼくも気持ちよくきみたちと練習を続けてきたのだ。おかげで、ぼくらのチームも、かなり力がついてきたと思っている。だが、きのう、ぼくはおもしろくない経験をしたのだ。」```
+Chinese translation:
+```""那时候，你们高兴地欢迎了我。于是，我和你们商量，制定了团队的规则。我认为，一旦制定了规则，遵守它是理所当然的。我还说过，在比赛时作为团队战术决定的事情，必须绝对服从。你们也愉快地同意了这些。因此，我也愉快地和你们一起继续训练。多亏如此，我认为我们的团队实力也相当提高了。但是，昨天，我经历了一次不愉快的经历。""```
+Annotated error spans:
+```Major:  
+None.  
+
+Minor:  
+style/awkward - ""多亏如此"" (literally ""thanks to this"") is slightly awkward in the context, as the original Japanese uses ""おかげで"" (which is more naturally translated as ""多亏如此"" or ""多亏如此""). However, the phrase is understandable and does not significantly disrupt the flow.  
+
+Other:  
+accuracy/mistranslation - ""おもしろくない"" (uninteresting/unpleasant) is translated as ""不愉快的"" (unpleasant), which is contextually appropriate. No significant deviation from the original meaning.  
+
+**Note:** The translation is accurate and fluent, with only a minor stylistic choice that is not critical to understanding. No major errors are present.```","**Score: 66**
+
+**Reasoning:**  
+The translation accurately conveys the original meaning, with only a minor stylistic adjustment (""多亏如此"" for ""おかげで"") that is contextually acceptable and does not hinder understanding. The text is fluent and preserves the core message, though the minor awkwardness in phrasing slightly reduces the score from 100. Since there are no major errors or significant deviations, the score reflects ""Most meaning preserved and few grammar mistakes"" (66).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```陽はとっぷり暮れた。ランプをつけた家もある。朦朧とした家の中に、人間がうようよしている下町の家の並びをわたしは気味悪くおもい、なるたけ離れまいとして少年を追い駆けるのだが、少年との間はともすれば距りがちとなる。わたしは「時春さん、待ってよ」と小声でいうのであるが、はっきりそう聞取られるのも業腹だという気持があるので、強くも訴えない。```
+Chinese translation:
+```太阳完全落山了。有些人家已经点起了煤气灯。昏暗的灯光下，下町的房屋里人影攒动，我感到一阵恶心，便尽量与少年保持距离，但我和他之间的距离还是越来越远。我小声地喊道：“时春桑，等等我。”但我又不想让他听得太清楚，所以没有大声喊出来。```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""煤气灯"" (gas lamp) for ""ランプ"" (lamp)
+
+Minor:
+style/awkward - ""人影攒动"" (crowded with people) for ""人間がうようよしている"" (people moving around)```","The translation preserves most of the original meaning and context, with only two notable issues. The major error (""煤气灯"" for ""ランプ"") introduces a specific term mismatch, altering the nuance of ""lamp"" to ""gas lamp,"" which slightly misrepresents the original. The minor error (""人影攒动"" for ""人間がうようよしている"") slightly awkwardly conveys the idea of people moving around, but the overall narrative remains clear. The rest of the translation is accurate, with proper grammar and flow. 
+
+**Score: 66**  
+(66 = ""Most meaning preserved and few grammar mistakes"")",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```どのように考えたとしても 変わらないと言いたいときに使います 会話では どっからどう見ても という言い方になることもありますよ```
+Chinese translation:
+```当你想要改变看法的时候这是个好词我可以说“不管怎样” ,但是我也可能这样跟人聊天他说得很明显```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""改變看法"" (changing opinion) vs. original intent of ""not changing opinion""  
+accuracy/omission - ""どっからどう見ても"" (no matter where/how you look) not accurately reflected in the translation  
+
+Minor:  
+style/awkward - ""当你想要改变看法的时候这是个好词"" (awkward phrasing)  
+non-translation - ""他说得很明显"" (adds content not in the source)```","The translation contains significant errors in meaning and accuracy. The major mistranslation of ""変わらない"" (not changing) as ""改變看法"" (changing opinion) directly contradicts the original intent. Additionally, ""どっからどう見ても"" is not accurately reflected, and the added phrase ""他说得很明显"" introduces extraneous content. While some elements (e.g., ""不管怎样"") are loosely related, the core meaning is misaligned. The awkward phrasing and omitted details further reduce the quality. 
+
+**Score: 33**  
+(33=""Some meaning preserved"" – partial meaning is retained in the ""no matter what"" phrase, but the critical mistranslation and omissions render most of the intended meaning lost.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```「前からほしいほしいと思っていた犬をお父さんが買ってきてくれた。シェパードである。毛がふさふさしていてかるく走るとき、それがゆらゆらゆれてみるからに美しい。```
+Chinese translation:
+```""我爸爸给我买了一只我一直想要的狗，""她说。谢帕德当头发浓密和奔跑时，它是美丽的，因为它摇摆。```
+Annotated error spans:
+```Major:
+accuracy/addition - ""她说"" (she said) is added, not present in the original Japanese text.
+accuracy/mistranslation - ""谢帕德当头发浓密和奔跑时，它是美丽的，因为它摇摆"" misrepresents the original meaning. The original describes the dog's fur swaying when it runs, not the hair being thick. The translation incorrectly attributes the beauty to the dog's hair thickness and movement.
+
+Minor:
+terminology/inappropriate for context - ""头发浓密"" (thick hair) incorrectly translates ""毛がふさふさしていて"" (thick fur). The term ""头发"" (hair) is more about the animal's head hair, not the fur, which is contextually inappropriate.  
+style/awkward - The sentence structure in Chinese is awkward, mixing the subject (""谢帕德"") with the description of movement and appearance, making it less natural.```","**Score: 33**  
+**Reasoning:**  
+The translation preserves the core idea that the father bought the desired dog, but major errors significantly distort the meaning. The addition of ""她说"" (she said) is incorrect, and the second sentence misrepresents the original description. The term ""头发浓密"" (thick hair) incorrectly translates ""毛がふさふさしていて"" (thick fur), and the sentence structure is awkward. While the main narrative is present, critical details are misrepresented, leading to partial meaning preservation. This aligns with the ""Some meaning preserved"" threshold (33).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```まったく、ひろいもののヒットである。```
+Chinese translation:
+```完全是因为拾到的物品的热销。```
+Annotated error spans:
+```Major:  
+accuracy/addition - ""拾到的物品"" (found items) is added, which is not present in the source text.  
+
+Minor:  
+style/awkward - ""完全是因为"" (completely because) may feel redundant or overly formal compared to the source's concise structure.  
+
+**Explanation:**  
+The Chinese translation introduces the concept of ""found items"" (""拾到的物品"") without any reference in the original Japanese sentence, which is a significant addition and alters the meaning. This is a **major accuracy error**. The phrase ""完全是因为"" (completely because) is slightly awkward in style but does not disrupt the overall understanding, making it a **minor style error**.```","The translation introduces a significant addition (""拾到的物品"" - ""found items"") not present in the original Japanese, altering the meaning entirely. While the minor style error (""完全是因为"") is awkward but not critical, the major accuracy error dominates. The Chinese translation fails to preserve the original meaning, as the Japanese sentence refers to a ""hit"" (success) related to ""wide things"" (possibly ""broad"" or ""vast"" concepts), not found items. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" — the translation partially conveys the idea of a ""hit"" but introduces a critical inaccuracy by adding ""found items,"" which is not in the source.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```・初心者児童スケート教室```
+Chinese translation:
+```・初学者儿童滑冰课程```
+Annotated error spans:
+```No error.  
+The translation accurately conveys the original meaning. ""初心者"" (beginner) is correctly translated as ""初学者"", ""児童"" (children) as ""儿童"", and ""スケート教室"" (skating class) as ""滑冰课程"" (ice skating course). The structure and terminology are appropriate, with no additions, omissions, or mistranslations. The punctuation and formatting (bullet point) are consistent.```","100  
+The translation perfectly preserves the meaning and grammar. All terms are accurately translated: ""初心者"" (beginner) → ""初学者"", ""児童"" (children) → ""儿童"", and ""スケート教室"" (skating class) → ""滑冰课程"" (ice skating course). The structure, terminology, and punctuation are consistent with the original, and there are no errors or omissions. This meets the ""Perfect meaning and grammar"" standard.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```そんなに重いものも乗せませんといった場合は じゃあどういう作り方がいいですか? 真ん中ですね 真ん中ですね そうですそうですそうです それだったら下から見たときに同じくこういう風に通っている方がいいですよと で部屋の端から端までドーンと大きい棚を作るということであれば この小口を見る人は誰もいません```
+Chinese translation:
+```我们公司的课程内容和为什么要做舜日记呢？我想能向大家传达这些想法是件好事。之后，我使用它进行了修改，并做了演示，真是太好了。我要扮演舜君，做演讲，那么哪个地方会变呢？我认为，如果让他们意识到这样的事情并且听取意见的话就好了。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""舜日记"" (unrelated to the source's context of shelf design)  
+accuracy/addition - ""舜君"" (unnecessary term not in the source)  
+accuracy/omission - ""小口"" (small opening mentioned in the source, not translated)  
+
+Minor:  
+style/awkward - ""我们公司的课程内容和为什么要做舜日记呢？"" (contextually irrelevant to the source's design discussion)  
+fluency/grammar - ""然后我使用它进行了修改，并做了演示，真是太好了。"" (unnatural phrasing unrelated to the source's intent)```","The translation fails to preserve any meaningful connection to the original Japanese context, which discusses shelf design and structural considerations. Key terms like ""舜日记"" (unrelated to the source) and ""小口"" (omitted) are either mistranslated or omitted entirely, rendering the Chinese text entirely disconnected from the original intent. The minor issues (e.g., awkward phrasing) are secondary to the complete loss of context and meaning. 
+
+**Score: 0**  
+(No meaning preserved)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```【真剣な表情で対局する児童ら＝津市島崎町のサンワーク津で】```
+Chinese translation:
+```【表情严肃地对局的少年们=在津市岛崎町Sunwork津】```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""児童ら"" (children) → ""少年们"" (boys)  
+Minor:
+fluency/grammar - missing ""的"" in ""在津市岛崎町Sunwork津"" (should be ""在津市岛崎町的Sunwork津"")```","The translation contains a **major error** in meaning (""児童ら"" → ""少年们"") and a **minor grammar error** (missing ""的"" in the location phrase). While the grammar mistake is minor and correctable, the mistranslation of ""children"" to ""boys"" significantly alters the original meaning. The rest of the translation is mostly accurate, preserving the context and structure. 
+
+**Score: 50**  
+**Reasoning**: The major error (mistranslation) reduces the meaning preservation substantially, even though the grammar issue is minor. This places the translation below the ""Most meaning preserved"" threshold (66) but above ""Some meaning preserved"" (33). The score reflects the critical impact of the mistranslation on the core meaning.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```参加者はくじ引きで対局相手を決定し「よろしくお願いします」のあいさつと振り駒で対局開始。県予選は持ち時間がリーグ15分、トーナメント20分いずれも秒読み30秒で戦った。交流戦は６歳―小６がスイス式トーナメントで戦った。```
+Chinese translation:
+```参加者通过抽签决定对局对手，并以“よろしくお願いします”的问候和棋子摆放开始对局。县预选的持棋时间为15分钟（每步30秒秒读），锦标赛为20分钟（每步30秒秒读）。交流赛则是6岁到小六学生参加的瑞士式锦标赛。```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""棋子摆放"" (incorrect term for ""振り駒"")
+Minor:
+terminology/inappropriate for context - ""持棋时间"" (non-standard term for ""持ち時間"")  
+fluency/punctuation - ""每步30秒秒读"" (awkward phrasing for ""秒読み30秒"")```","The translation contains a major error in the first sentence (""棋子摆放"" instead of the correct term for ""振り駒""), which significantly alters the meaning. The second part uses a non-standard term (""持棋时间"") and awkward phrasing (""每步30秒秒读""), but the overall structure and core meaning of the text are preserved. The minor errors do not fully negate the primary meaning, though the major error is critical. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" due to the presence of a major mistranslation, but the rest of the translation retains partial accuracy and coherence.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```「いや、いくら結果がよかったからといって、統制をやぶったことに変わりはないのだ。……いいか、みんな、野球は、ただ、勝てばいいのじゃないんだよ。健康なからだをつくると同時に、団体競技として、協同の精神をやしなうためのものなのだ。ぎせいの精神のわからない人間は、社会へ出たって、社会を益することはできない。」```
+Chinese translation:
+```“不，即使结果很好，违反规则这一点是不会变的……大家听好，棒球不是仅仅靠赢球就可以的。同时要锻炼健康的身体，作为团体比赛，也是为了培养共同精神的。不懂得努力精神的人，即使出了社会，也无法对社会有益。”```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+style/awkward - ""大家听好"" (formal tone slightly mismatched with the source's directness)  
+terminology/inconsistent use - ""违反规则"" (literal translation of ""統制をやぶった"" might imply ""breaking rules"" rather than ""discipline,"" but contextually acceptable)  
+
+**Explanation:**  
+- **Minor style/awkward**: The phrase ""大家听好"" (listen carefully, everyone) adds a formal register that contrasts with the source's more direct and conversational tone. While not critical, it slightly alters the original's intent.  
+- **Minor terminology**: ""违反规则"" (breaking rules) is a literal translation of ""統制をやぶった"" (breaking discipline), but in the context of sports, ""rules"" are part of the discipline. This is contextually acceptable, so it’s a minor inconsistency rather than a major error.```","**Score: 66**  
+
+**Rationale:**  
+The translation preserves the core meaning of the original Japanese text, emphasizing the importance of discipline, teamwork, and effort in baseball. However, two minor issues are present:  
+1. **""大家听好""** introduces a slightly formal tone that contrasts with the source's direct, conversational style. While not critical, it slightly alters the original's intent.  
+2. **""违反规则""** (breaking rules) is a literal translation of ""統制をやぶった"" (breaking discipline), but in the context of sports, ""rules"" are part of the discipline system. This is contextually acceptable, making it a minor terminology inconsistency.  
+
+These issues are minor and do not significantly impact the overall message or grammar. The translation is mostly accurate, with only slight stylistic adjustments. Thus, it aligns with the ""Most meaning preserved and few grammar mistakes"" benchmark (66).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```じゃあちょっとやってみようか やってみよう 今日のピッチャー調子いいな そうだな 外野まで飛んでくる気配ないもんな これで引退なんてもったいないよな あ、なんか決めてる? 引退した後のこと```
+Chinese translation:
+```那么，我们来试试看吧？试试看吧。今天的投手状态不错啊。是啊。感觉球能飞到外野。这样下场退休可真是浪费啊。啊，你已经决定了吗？退休后的事情。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""感觉球能飞到外野"" (incorrectly implies the ball will fly far, whereas the original suggests it won't)  
+
+Minor:  
+style/awkward - ""下场退休"" (slightly awkward phrasing for ""retirement"" in a sports context)```","The translation contains a major error where ""外野まで飛んでくる気配ないもんな"" is incorrectly translated as ""感觉球能飞到外野"" (implying the ball will fly far), which contradicts the original meaning (indicating the ball won't fly far). This reverses the core message, significantly impacting meaning preservation. Additionally, the minor issue ""下场退休"" is awkward but not a grammatical error. Since the major error dominates the assessment, the translation preserves **some** meaning but fails to convey the intended meaning accurately. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" due to partial accuracy in other parts, but the major mistranslation severely undermines the overall meaning.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```少年はわたしを待受けてぴったり肩を寄せて歩き出した。そしてちょいちょい手を出してわたしの帯の結び方のくくまりを直し、たくし上る着もののうしろ襟を引張り下げて呉れたりする。いかにも親し気にわたしの顔のそばへ顔を持ってきて口をきく。時にはいう言葉が何だか判らず、ただ口だけ耳へよせてもぐもぐさせ、役者が舞台で秘密な囁きごとをする芝居の仕種そっくりの真似もした。```
+Chinese translation:
+```少年紧挨着我，和我并肩走着。他时不时伸出手，帮我整理一下腰带的结，又或者拉一拉我上移的和服衣领。他为了跟我说话，总是亲昵地把脸凑到我面前。有时我听不懂他说什么，他就把嘴凑到我耳边，像舞台上的演员表演秘密耳语那样，只是动动嘴巴，并不真的发出声音。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""上移的"" (raised) instead of ""下移的"" (lowered) for ""引張り下げて"" (pull down).  
+
+Minor:  
+terminology/inappropriate for context - ""芝居の仕種そっくりの真似"" translated as ""像舞台上的演员表演秘密耳语那样"" (focusing on the action of whispering rather than the play's style).```","The translation captures the general context and flow of the original text but contains significant errors that affect the accuracy of specific actions and nuances. The major error (""上移的"" instead of ""下移的"") alters the meaning of the action described, which is critical for understanding the scene. The minor error focuses on the action of whispering rather than the play's stylistic mimicry, which slightly misrepresents the original phrase. Despite these issues, the translation retains most of the intended meaning and context, though with notable inaccuracies. 
+
+**Score: 50**  
+(66 is ""Most meaning preserved and few grammar mistakes,"" but the major error here reduces the score significantly. The minor error further lowers it to 50, reflecting partial meaning preservation with notable inaccuracies.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```なんか違ったダルビッシュがマウンドに立ってるよね。 そうですかね。 それももがいてないんだよ。 うん。 なんか楽しそうに試してるんだよ。 うん。 それはなんで? いや、でもやっぱり、なんすかね、日々自分の体と向き合って、やっぱりちょっとおかしいなっていうところがあると、やっぱり改善しようとは日々してるので。 うん。 でもそれはやっぱり、自分は全くまだ衰えとかっていうのは今のところ感じてないですけれども、でも年齢もわかってるので、そこへの怖さは正直あるんですよ。```
+Chinese translation:
+```果然达尔维什还是站在投手丘上呢。是吗。其实他并没有因此苦恼。嗯。因此他看起来玩得很开心呢。嗯。为什么呢？不，是这样的，因为每天面对自己的身体，还是会有一点奇怪的感觉，因此每天都想要进行改善。嗯。然而不管怎样，我本人到目前为止还没有感到有老化的感觉，但是我也知道自己的年龄了，因此坦率地说，我很害怕。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""果然"" (incorrectly conveys ""something different"" as ""indeed"")  
+accuracy/mistranslation - ""玩得很开心"" (misinterprets ""試してる"" as ""playing happily"" instead of ""trying"")  
+
+Minor:  
+fluency/register - ""因此"" (unnecessary conjunction in a conversational context)  
+style/awkward - ""正直あるんですよ"" (slightly formal phrasing that slightly disrupts natural flow)```","The translation contains two major errors that significantly alter the meaning of the original text. The word ""果然"" (indeed) incorrectly conveys ""something different"" from the Japanese phrase ""なんか違った,"" and ""玩得很开心"" (playing happily) misinterprets ""試してる"" (trying) as a literal action. These errors distort the intended meaning. Minor issues include an unnecessary conjunction (""因此"") and a slightly formal phrasing (""正直あるんですよ""), which affect fluency but not core meaning. Despite these errors, the rest of the translation preserves most of the context and dialogue structure. 
+
+**Score: 50**  
+**Reasoning**: The major errors (two significant mistranslations) reduce the overall meaning preservation, but the remaining content is largely accurate. Minor issues are less impactful. The score reflects partial meaning retention with notable inaccuracies.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```１月１０日（水）のイベント｜WEB TOKACHI KACHIMAI－十勝毎日新聞社グループ```
+Chinese translation:
+```1月10日（周三）活动｜WEB TOKACHI KACHIMAI——十胜每日新闻社集团```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""go to the reviews"" (not applicable here)  
+
+Minor:  
+fluency/punctuation - ""——"" (double dashes instead of a single hyphen)```","The translation preserves the core meaning of the original Japanese text, with the exception of a minor punctuation error. The date, event name, and organization name are accurately translated. The only issue is the use of double dashes (——) instead of a single hyphen (－) in the separator between the event details and the organization name, which is a minor fluency issue but does not affect the overall meaning or structure. 
+
+**Score: 66**  
+(66 = Most meaning preserved and few grammar mistakes)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```とにかくすごいゲーム さあ第1位は デスティニー なんと 5億ドル 本作はヘイローシリーズで有名な バンジーが開発 アクティビションが発売を手掛ける ゲームタイトルでした まさかのデスティニーが第1位で 5億ドル 発売前から約束された神ゲーとして とにかく期待がデカすぎた今作 いざ発売となり なんと1日で開発費を回収```
+Chinese translation:
+```总之，这是一款非常棒的游戏。那么，第一名是《命运》。令人惊讶的是，它获得了5亿美元的收入。这款游戏是由因《光环》系列而闻名的Bungie开发，由Activision发行。《命运》作为一款在发布前就被视为神作的游戏，其期待值实在太高了。现在，它终于发布了，竟然在一天内就进行了开发修改。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""开发修改"" (incorrectly translates ""開発費を回収"" as ""development modifications"" instead of ""recouped development costs"")  
+
+Minor:  
+style/awkward - ""竟然在一天内就进行了开发修改"" (awkward phrasing for ""1日で開発費を回収"" which should be ""recouped development costs in one day"")  
+
+**Explanation:**  
+- **Major Error**: The mistranslation of ""開発費を回収"" (""recouped development costs"") as ""开发修改"" (""development modifications"") fundamentally alters the meaning of the original text, making it incorrect. This is a critical inaccuracy that disrupts the intended message.  
+- **Minor Error**: The phrase ""竟然在一天内就进行了开发修改"" is awkward and unnatural in Chinese, but the overall meaning is still understandable. The translation captures the core idea of the game's rapid success, even if the phrasing is slightly off.```","The translation contains a **major error** in meaning (""开发修改"" instead of ""recouped development costs"") and a **minor style issue**. While the core message about the game's success and key details (developer, publisher, title) are preserved, the critical mistranslation fundamentally alters the intended meaning. The rest of the translation is mostly accurate and clear, with only minor awkward phrasing. 
+
+**Score: 66**  
+**Rationale**: Most meaning is preserved (correctly identifying the game, developer, publisher, and high expectations), but a critical error in translation (misinterpreting ""開発費を回収"" as ""development modifications"") disrupts the core message. The minor style issue is negligible in terms of overall comprehension.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```帳場でそろばんをはじいていたお母さんが顔をあげて、```
+Chinese translation:
+```在柜台前用算盘算账的妈妈抬起头，```
+Annotated error spans:
+```Major:  
+- **accuracy/mistranslation**: ""算账"" (calculating accounts) might be slightly misaligned with ""そろばんをはじいていた"" (starting to use an abacus), as the latter implies the action of using the abacus, while ""算账"" emphasizes the act of calculating accounts. However, this is contextually acceptable.  
+
+Minor:  
+- **style/awkward**: ""算账的"" (calculating accounts) could be slightly redundant or awkward in this context, as the focus is on the abacus usage rather than the accounting task.  
+
+**No major errors** in the translation, as the core meaning is preserved. The minor issue is stylistic but does not significantly hinder understanding.```","**Score: 66**  
+The translation preserves the core meaning of the Japanese text, with the primary action (""starting to use an abacus"") and context (""at the counter"") accurately conveyed. The term ""算账"" (calculating accounts) is slightly misaligned with ""そろばんをはじいていた"" (starting to use an abacus), but this is contextually acceptable. The minor stylistic issue with ""算账的"" (calculating accounts) is redundant in this context, focusing on abacus usage rather than accounting tasks. While the translation is mostly accurate with few grammar mistakes, the minor stylistic redundancy slightly reduces its precision. Thus, it earns a **66** for ""Most meaning preserved and few grammar mistakes.""",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```森川君も次郎君が歩みはじめるとすぐはりあいがなくなったように走るのをやめてしまいました。ふたりはならんでのそのそ歩いていきます。しかしふたりはお互いに見も知らぬ旅人のようにだまりこくっていきます。```
+Chinese translation:
+```森川君也開始走路的時候，立刻就停止了奔跑。两人走着走着走着。不过，两人却像一个陌生的旅行者。```
+Annotated error spans:
+```Major:
+accuracy/omission - ""as if the competition had ended""
+accuracy/mistranslation - ""like a stranger traveler"" (misinterpretation of ""見も知らぬ旅人のように"")
+
+Minor:
+style/awkward - ""走着走着走着"" (redundant repetition)
+fluency/punctuation - missing comma after ""不过""```","**Score: 33**  
+**Reasoning:**  
+- **Major errors** dominate the translation. The critical phrase *""as if the competition had ended""* is omitted entirely, which is a significant loss of meaning. Additionally, the mistranslation of *""見も知らぬ旅人のように""* as *""像一个陌生的旅行者""* misrepresents the original intent (emphasizing mutual unfamiliarity, not just being a traveler).  
+- **Minor issues** include redundant phrasing (""走着走着走着"") and a missing comma after ""不过,"" which slightly affect fluency but are less impactful than the major errors.  
+- While some elements (e.g., the action of stopping and walking together) are preserved, the key contextual and semantic details are missing, leading to a ""Some meaning preserved"" rating (33).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```委員が、傍聴席からこちらに出てきて発言してくれと今言ったんですから。 発言要請はちゃんと受けるべきだ。 発言要請もクソもないんだ。 人が話してるときに、後ろからうるさいこと言うなって言っている。 だから発言さろよちゃんと。 ちゃんと言わせればいいじゃないか、住民の意見を。 住民呼べ、住民を。```
+Chinese translation:
+```委员先生，我们是从观众席里叫你来这里发言的，所以你应该接受发言要求。 没有发言要求也没有垃圾话。 当人们在说话时，不要从后面吵闹。 如果是这样，就应该让他们发言。 你应该真正地表达你的意见。 召唤居民，召唤居民。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""你应该真正地表达你的意见"" (misinterprets ""住民の意見を"" as the speaker's opinion, not residents' opinions)  
+accuracy/omission - ""住民呼べ、住民を"" (translation misses the imperative ""呼べ"" and ""住民を"" as ""召唤居民"" is overly formal and misses the direct command)  
+
+Minor:  
+terminology/inappropriate for context - ""垃圾话"" (inappropriate in a formal or respectful context; ""クソもない"" is more like ""there's nothing to it"")  
+style/awkward - ""应该让他们发言"" (loses the direct imperative tone of ""発言さろよちゃんと"")```","**Score: 33**  
+**Reasoning:**  
+The translation contains two major errors that significantly alter the meaning:  
+1. **Misinterpretation of ""住民の意見を""**: The Chinese translation incorrectly interprets the target as the speaker's opinion (""你应该真正地表达你的意见"") instead of residents' opinions, which changes the core message.  
+2. **Omission of imperative commands**: The phrase ""住民呼べ、住民を"" is mistranslated as ""召唤居民"" (formal and indirect), losing the direct, commanding tone of the original.  
+
+While minor issues (e.g., ""垃圾话"" and ""应该让他们发言"") affect style, the major errors fundamentally distort the original intent. The translation preserves only partial meaning, justifying a score of **33** (""Some meaning preserved"").",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```先手の菅井八段が前日、勝負どころで封じた５３手目、４七飛から再開。藤井王将が５４手目に８六歩と突いて初めて互いの駒がぶつかり、本格的な戦いが始まった。```
+Chinese translation:
+```先手的菅井八段在前一天在关键地方封锁了53手中的4七飞，并重新开始。藤井王将在54手中打出8六步，这是双方棋子首次相撞，也标志着真正的战斗开始。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""53手中"" (incorrect translation of ""53手目"")  
+accuracy/mistranslation - ""54手中"" (incorrect translation of ""54手目"")  
+
+Minor:  
+fluency/awkward - ""重新开始"" (awkward phrasing for ""resumed"")```","The translation contains two major errors in the translation of move numbers (""53手中"" and ""54手中"") and one minor fluency issue. These errors directly affect the accuracy of the game's progression description, which is critical in Go terminology. While the general meaning of the game's sequence is preserved, the mistranslation of move numbers undermines the precise context. The minor fluency issue is negligible compared to the major errors. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" due to the general context being retained, but critical technical terms (move numbers) are mistranslated, leading to significant loss of meaning.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```Ｒ町の応援団は、「わあっ。」と、わきたった。```
+Chinese translation:
+```R町的啦啦队爆发出一阵""哇！""的欢呼声。```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""啦啦队"" (cheerleading team) is inappropriate for ""応援団"" (support team) in the context of a town's support group.
+
+Minor:
+style/awkward - ""爆发出一阵'哇！'的欢呼声"" (burst out with a ""Wow!"" cheer) slightly misrepresents the original's ""わいたった"" (exclaimed/shouted), but the overall meaning remains clear.```","**Score: 33**  
+**Reasoning:**  
+The translation contains a **major error** in terminology: ""啦啦队"" (cheerleading team) is inappropriate for ""応援団"" (support team) in the context of a town's support group. This misrepresents the core meaning of the original text. While the minor error (""爆发出一阵'哇！'的欢呼声"") slightly misrepresents ""わいたった"" (exclaimed/shouted), the overall meaning remains clear. However, the critical mistranslation of the term ""応援団"" significantly reduces the accuracy, resulting in ""some meaning preserved"" (33).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```「……お舅さまの仰付けで一時この家へ戻ってはおりますが、まだ主馬から離別された覚えはござりませぬ」```
+Chinese translation:
+```“......在叔叔的嘱咐下,我暂时回到了这个家,但我不记得我和马主人分开过。”```
+Annotated error spans:
+```Major:  
+None.  
+
+Minor:  
+style/awkward - ""分开过"" (literally ""have separated"") may feel slightly informal compared to the formal tone of the original Japanese. However, it is understandable in context.  
+
+**Explanation:**  
+- **Accuracy**: The translation correctly renders ""主馬"" as ""马主人"" (horse owner), which is appropriate in the context.  
+- **Fluency**: The sentence structure is clear and grammatically correct in Chinese. The term ""分开过"" is a natural way to express ""离别された"" (separated) in colloquial speech, though it may slightly deviate from the formal register of the original.  
+- **Style**: The use of ""分开过"" is minor and does not disrupt the overall clarity of the translation.```","66  
+The translation preserves most of the meaning and is grammatically correct. The minor style issue with ""分开过"" (colloquial) versus the formal tone of the original Japanese is noted but does not disrupt clarity or understanding. The translation effectively conveys the context and intent, with only a slight deviation in register that is acceptable in the given context.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```十二支の辰には巨大な爬虫類を思わせる伝説上の動物「竜（英名：ドラゴン）」が当てられるが、蜻蛉の英名「ドラゴンフライ」は、水中で生活していたヤゴ（幼虫）から羽化した成虫が羽ばたき、天に昇るさまを竜に見立てて名付けられた。```
+Chinese translation:
+```十三照 黎有大量的臼业,事先在危机上的主机“龙(正名: *)”顶级,在邯的正名“ *贺” 葡萄酒,面过王希(五十兔)上黑访问,半身在黑客房上,光溢不应被龙人好落入名。```
+Annotated error spans:
+```Major:  
+accuracy/untranslated text - ""十三照"", ""臼业"", ""邯的正名"", ""王希(五十兔)"", ""黑客房"", ""光溢不应被龙人好落入名"" (entirely nonsensical terms unrelated to the original text)  
+accuracy/mistranslation - ""龙(正名: *)"" (incorrectly translated as ""龙(正名: *)"", with missing context)  
+
+Minor:  
+fluency/grammar - ""葡萄"" (grape) and ""王希(五十兔)"" (King Xi, fifty rabbits) are unrelated to the zodiac or dragonfly explanation, but their inclusion is a minor error in context.  
+
+**Explanation**:  
+The translation is entirely nonsensical, with random terms and phrases that do not align with the original text. Terms like ""十三照"" (thirteen lights) and ""臼业"" (a mistranslation of ""zodiac"" or ""sign"") are added without context, making the text incomprehensible. The original text discusses the zodiac sign ""辰"" (Dragon) and the name ""dragonfly"" (ドラゴンフライ), but the translation fails to convey this, instead introducing unrelated concepts. These errors are **major** because they render the text uninterpretable. Minor errors exist in the form of misplaced terms, but they are overshadowed by the complete inaccuracy of the translation.```","0  
+The translation is entirely nonsensical, with random terms and phrases that do not align with the original text. Terms like ""十三照"" (thirteen lights), ""臼业"" (a mistranslation of ""zodiac"" or ""sign""), and ""王希(五十兔)"" (King Xi, fifty rabbits) are added without context, rendering the text completely incomprehensible. The original text discusses the zodiac sign ""辰"" (Dragon) and the name ""dragonfly"" (ドラゴンフライ), but the translation fails to convey this, instead introducing unrelated concepts. These errors are major because they render the text uninterpretable. Minor errors exist in the form of misplaced terms, but they are overshadowed by the complete inaccuracy of the translation.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```「かねて承知の通り、山脇長門と悶着の間柄であったが、このたびついにかような事に相成ってしまった。お上のお留守中ではあり、堪忍のなる限りはしてきたのだが、これ以上の忍耐は卑怯の貶をまぬかれない。この白髪首を賭けて武道の面目を立てるつもりじゃ」```
+Chinese translation:
+```“如你们所知，我和山脇长门一直有矛盾，现在终于发展到了这个地步。虽然在上级不在的情况下，我已经尽可能地忍耐了，但是再多的忍耐也无法避免被认为是懦弱。我打算以我的白发苍苍的头为赌注，来维护武道的尊严。”```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""矛盾"" (conflict) instead of ""間柄"" (relationship/connection)  
+
+Minor:  
+style/awkward - ""白发苍苍的头"" (white-haired head) is a literal but awkward phrasing for ""白髪首"" (white hair head)```","The translation contains a **major error** in meaning (""矛盾"" instead of ""間柄"") and a **minor style issue** (""白发苍苍的头""). The key mistranslation of ""間柄"" (relationship/connection) as ""矛盾"" (conflict) significantly alters the original intent, reducing the preserved meaning. While the rest of the translation is mostly accurate, the major error dominates the assessment. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" due to the critical mistranslation, but the minor style issue adds negligible impact.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```壕をめぐらしたこの屋敷は広さ三町歩に余る。厚さ三尺もある築地塀が三方を囲み、背後は将監台の叢林と崖になっていた。構の中には百坪足らずの母屋が鍵形に延び、高廊架で別棟の隠居所と通じている。武庫が三棟、厩二、家士長屋三、他に小者部屋、物置作事場などの建物がある。作事場は疋田家が藩から委托された火薬製造所であって、その改良研究が図書の任務の一になっていた……これらの建物のほかは、ほとんど菜園であった。```
+Chinese translation:
+```这座围绕着沟壑的屋舍占地面积达三町步之广。厚达三尺的土墙围绕着三面，后面是将军台的丛林和悬崖。在结构中，面积不足百坪的母屋延伸成锥形，通过高廊架与另一栋隐居所相连。有三间武库，两间马厩，三间家士长屋，以及其他小屋，物置和工作场等建筑。工作场是藩委托疋田家建造的火药制造所，其改进研究是图书任务的一部分……除了这些建筑外，几乎都是菜园。```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""鍵形"" (key-shaped) → ""锥形"" (conical)
+accuracy/mistranslation - ""図書の任務"" (library/task) → ""图书任务"" (library task, inappropriate for context)
+
+Minor:
+terminology/inconsistent use - ""高廊架"" (high corridor) is correctly translated, but the sentence structure could be slightly adjusted for clarity.  
+fluency/punctuation - ""……これらの建物のほかは、ほとんど菜園であった。"" is correctly translated as ""……除了这些建筑外，几乎都是菜园。"" with appropriate punctuation.```","**Score: 50**
+
+**Reasoning:**  
+The translation contains two major errors that significantly alter the meaning:  
+1. **""鍵形"" (key-shaped)** is mistranslated as **""锥形"" (conical)**, which misrepresents the architectural detail.  
+2. **""図書の任務"" (library/task)** is translated as **""图书任务"" (library task)**, which is contextually inappropriate and likely incorrect (e.g., ""研究"" for ""research"" would be more accurate).  
+
+These errors impact the accuracy of the architectural and contextual descriptions. While the rest of the translation is mostly clear and grammatically correct, the major mistranslations reduce the overall quality. The minor issues (terminology consistency and sentence structure) are less severe but still present. Thus, the score reflects partial meaning preservation with significant inaccuracies.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```Ｂリーグは１２～１４日、沖縄アリーナでオールスターゲームを開催。佐賀の次戦は第１７節の１７日午後７時５分から、大阪府のエディオンアリーナで大阪エヴェッサと戦う。（北川尊教）```
+Chinese translation:
+```12月12日至14日，乙级联赛在冲绳竞技场举行了全明星赛。佐贺队的下一场比赛将于第17轮晚上7点05分在大阪的EDION竞技场对阵大阪埃维萨队。(北川隆典）```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""北川尊教"" → ""北川隆典"" (incorrect translation of the surname)  
+
+Minor:  
+accuracy/omission - ""第17節の１７日"" is omitted in the translation, leading to ambiguity in the date description (the original specifies ""第17節の１７日"" as the day of the match, but the translation simplifies it to ""第17轮晚上7点05分"").```","The translation preserves most of the meaning and structure but contains two notable errors. The major error is the incorrect translation of the surname ""北川尊教"" to ""北川隆典,"" which directly misrepresents the source author. The minor error omits critical contextual information (""第17節の１７日"") in the date description, leading to ambiguity. Despite these issues, the core factual content (dates, venues, teams) is accurately conveyed. 
+
+**Score: 66**  
+(66 = Most meaning preserved and few grammar mistakes)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```３連覇が懸かった前回大会は、試合前の新型コロナウイルス検査で一部選手に陽性が疑われ、欠場に追い込まれた。その雪辱を期した今大会は国体２位の金蘭会（大阪）、前回準優勝の誠英（山口）など強豪を次々と撃破し、全６試合で１セットも失わなかった。```
+Chinese translation:
+```在上次比赛中，由于比赛前的新冠病毒检测中有些选手被怀疑为阳性，而被迫缺席，冠军连胜三冠的机会被剥夺。在这次比赛中，为了弥补上次的遗憾，队伍击败了国体第二名的金蘭会（大阪）和上次的亚军誠英（山口）等强队，在全六场比赛中没有失去一场比赛。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""连胜三冠"" (should be ""three consecutive championships"" or ""three-time champion"")  
+
+Minor:  
+terminology/inappropriate for context - ""set"" (in sports context, ""set"" is ambiguous; ""场次"" is more precise)  
+style/awkward - ""没有失去一场比赛"" (slightly awkward phrasing; ""没有输掉任何一场比赛"" is clearer)```","The translation contains a **major error** in the term ""连胜三冠"" (three consecutive championships), which misrepresents the original Japanese ""三連覇"" (three consecutive championships). This critical mistranslation undermines the core meaning of the text. Additionally, there are **minor errors**: the use of ""set"" in sports context (ambiguous) and awkward phrasing (""没有失去一场比赛""). While the major error significantly impacts meaning preservation, the rest of the translation is mostly accurate and grammatically sound. 
+
+**Score: 66**  
+**Rationale**: The major error is a significant but not absolute loss of meaning, while the minor errors are relatively minor and do not severely hinder comprehension. The translation preserves most of the intended meaning and structure, with only minor adjustments needed for clarity and terminology.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```このお祖母さんは永らくの間、大名屋敷の奥勤めをして、何事にも躾はやかましい方だったから、この少年に対するお祖母さんの仕方はわたしを驚かせた。お祖母さんは奥勤め中たまさかの休みに芝居見物に行き贔屓のこども役者を芝居茶屋へ聘んで纏頭をとらせるのを楽みにしたという話だから、この美しい少年に対しても或はそんなつもりぐらいのとこかも知れない。```
+Chinese translation:
+```这位祖母长期在大名府邸里当奥女中，对各种事情都要求严格，因此她对这个少年的态度让我感到惊讶。据说祖母在奥女中工作期间，偶尔休息时会去看戏，还会邀请她喜欢的儿童演员到戏院茶屋里，给他们赏钱作为乐趣。对这个美丽的少年，她可能也抱有类似的想法吧。```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""给他们赏钱作为乐趣"" (giving money as a pleasure) instead of ""纏頭をとらせるのを楽みにした"" (enjoyed taking the headpiece)
+
+Minor:
+fluency/register - ""偶尔休息时"" (on occasional days off) vs. ""たまさかの休み"" (unexpected day off)```","The translation captures the overall context and most of the narrative, but two key errors impact meaning. The **major error** (""给他们赏钱作为乐趣"" vs. ""纏頭をとらせるのを楽みにした"") alters the core action of the grandmother's enjoyment of taking the headpiece, which is central to the text. This is a critical misinterpretation of the original Japanese. The **minor error** (""偶尔休息时"" vs. ""たまさかの休み"") is less impactful but slightly off in nuance. Despite these issues, the translation retains most of the intended meaning and structure, with only minor grammatical or stylistic adjustments. 
+
+**Score: 66**  
+(66 = ""Most meaning preserved and few grammar mistakes"" — the major error is a significant loss of meaning, but the rest of the translation is largely accurate.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```鈴木氏は、「日本では年初以来、地震や事故などの痛ましいニュースが相次ぎました。（中略）そんな中で受賞という明るいニュースは、少しでも皆さんに笑顔を届けることができるでしょうか」と付け加えた。```
+Chinese translation:
+```铃木补充道：“日本自新年以来发生了多起令人痛心的灾难，包括地震和事故（中间略去）在这样的情况下，奖项是否能为大家带来一点欢乐呢？”```
+Annotated error spans:
+```Major:
+accuracy/addition - ""自新年以来"" (adds ""自新"" not in the source)
+accuracy/mistranslation - ""奖项"" (misinterprets ""受賞という明るいニュース"" as ""award"" instead of ""news of winning an award"")
+
+Minor:
+fluency/register - ""带来一点欢乐"" (slightly awkward phrasing compared to ""带来一丝笑容"")```","**Score: 33**  
+**Reasoning:**  
+The translation contains two major errors that significantly alter the meaning:  
+1. **""自新年以来""** incorrectly adds ""自新"" (not in the source), misrepresenting ""年初以来"" (since the beginning of the year).  
+2. **""奖项""** misinterprets ""受賞という明るいニュース"" (news of winning an award) as ""award,"" losing the nuance of ""news of winning.""  
+
+These errors drastically shift the intended meaning, while the minor fluency issue (""带来一点欢乐"") is negligible compared to the major inaccuracies. The translation preserves some structure but fails to convey the core message accurately, warranting a ""Some meaning preserved"" score (33).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```当たりそこないの飛球が、ふらふらと遊撃手の頭上をこえていった。左翼手が、もうれつないきおいでつっこんできた。だが、球は、その一メートルばかりまえにポトリと落ちた。```
+Chinese translation:
+```打偏的球飘飘忽忽地越过游击手的头顶。左外野手以猛烈的气势冲了过来。但是，球在他前方大约一米处啪嗒一声掉在了地上。```
+Annotated error spans:
+```Major:  
+**terminology/inappropriate for context** - ""左外野手"" (left outfielder) instead of ""左翼手"" (left fielder). This misidentifies the baseball position, altering the context of the scene.  
+
+Minor:  
+**style/awkward** - ""啪嗒一声掉在了地上"" (plopped on the ground) is slightly informal but still understandable. No major disruption in flow.```","The translation contains a **major terminology error** (""左外野手"" instead of ""左翼手""), which misidentifies the baseball position and alters the context of the scene. While the rest of the translation is accurate and clear, this critical error significantly impacts the preservation of meaning. The minor issue with the informal phrasing (""啪嗒一声"") is negligible in terms of meaning but slightly awkward in tone. 
+
+**Score: 33**  
+**Reasoning**: The major terminology error (misidentifying the baseball position) severely disrupts the context and meaning, leading to a significant loss of accuracy. The minor style issue is insignificant compared to the major error, so the score reflects ""Some meaning preserved"" (33).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```星野は、二塁の上に直立して、両手をこしに当てて、場内を見まわした。だが、このとき、星野は、別府さんがにがい顔をして、ベンチからかれのほうを見ていることには、気がつかなかった。```
+Chinese translation:
+```星野直挺挺地站在二垒上，双手叉腰，环顾四周。但是，此时此刻，星野并没有注意到，别府先生正愁眉苦脸地坐在休息区望着他。```
+Annotated error spans:
+```Major:
+accuracy/addition - ""休息区"" (added ""rest area"" not present in the original text)
+
+Minor:
+style/awkward - ""愁眉苦脸"" (slightly more dramatic than ""にがい顔"", but still accurate)```","The translation preserves the core meaning of the original Japanese text but contains two notable errors. The **major error** is the addition of ""休息区"" (rest area), which is not present in the original Japanese (""ベンチ"" = bench, not rest area). This introduces an inaccuracy. The **minor error** is the use of ""愁眉苦脸"" (dramatic frowning) instead of ""にがい顔"" (sour face), which is stylistically slight but still accurate. 
+
+Despite these issues, the translation maintains most of the original meaning and grammar. The major error is a significant deviation, but the minor error is negligible. 
+
+**Score: 66**  
+(66 = ""Most meaning preserved and few grammar mistakes"" — the major error is a critical addition, but the rest of the translation is accurate.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```身長１５２センチの福士は「体の大きい選手に対抗するためフィジカルを強化し、長所のドリブルを伸ばしたい」と意気込む。まずは２１歳以下の日本代表を目指し、将来的にはフル代表「さくらジャパン」入りを見据える。```
+Chinese translation:
+```福士身高152厘米，他说：“我想通过加强身体素质来对抗体型庞大的对手，并加强我擅长的带球技术。首先，我想在21岁以下的日本国家队中发挥作用，未来我希望能加入日本国家队‘萨库拉队’。”```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""サクラジャパン"" (Sakura Japan) is mistranslated as ""萨库拉队"" (Sakura Team), which is a direct transliteration but inconsistent with the official name ""サクラジャパン"" (Sakura Japan). The term ""萨库拉队"" is not the standard Chinese transliteration for the team's name.  
+
+Minor:  
+terminology/inconsistent use - ""サクラジャパン"" is translated as ""萨库拉队"" instead of the more accurate ""樱花日本"" or ""Sakura Japan,"" which is a minor terminology inconsistency.  
+
+Other:  
+fluency/punctuation - The translation uses ""未来我希望能加入日本国家队‘萨库拉队’"" with proper punctuation, but the structure is slightly awkward due to the transliteration of the team name.```","The translation preserves most of the original meaning, with only one major error in the team name. The core message about the athlete's goals and strategies is accurately conveyed. The mistranslation of ""サクラジャパン"" as ""萨库拉队"" is a significant issue, but the rest of the text is grammatically correct and fluent. Since the primary content is intact and the error is a single, critical term, the score falls within the ""Most meaning preserved and few grammar mistakes"" range.
+
+**Score: 66**",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```武雄市では２０１９、２１年と浸水被害が相次いだ。行政による治水対策が進められているが、学習会では「ハザードマップは市ではなく、住民同士で作ってほしい。日常的に情報交換して作ったものを行政と共有することが理想」と主体的な取り組みを求める。```
+Chinese translation:
+```江王市将于2018,21年和参照住宿。女二楼,行政使用支票监督服务,致力于提供沟通服务,由那恩达卡协议为市,所以印度人自身作业出去。普通信息控制服务找到了自己的行政和不同更可持续的未来和主体的魅力。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""江王市"" (incorrect city name for ""武雄市"")  
+accuracy/mistranslation - ""2018,21年"" (incorrect years for 2019 and 2021)  
+accuracy/mistranslation - ""参照住宿"" (misinterpretation of ""浸水被害が相次いだ"")  
+accuracy/mistranslation - ""女二楼,行政使用支票监督服务"" (complete nonsensical translation of ""学習会では...行政による治水対策が進められているが"")  
+accuracy/mistranslation - ""那恩达卡协议为市,所以印度人自身作业出去"" (misinterpretation of ""ハザードマップは市ではなく、住民同士で作ってほしい"")  
+accuracy/mistranslation - ""普通信息控制服务找到了自己的行政和不同更可持续的未来和主体的魅力"" (misinterpretation of ""日常的に情報交換して作ったものを行政と共有することが理想"" and ""主体的な取り組みを求める"")  
+
+Minor:  
+fluency/grammar - ""2018,21年"" (inconsistent year formatting)  
+style/awkward - ""参照住宿"" (unrelated term with no context)  
+terminology/inappropriate for context - ""支票监督服务"" (irrelevant term for administrative measures)```","The translation contains severe errors in both content and structure, with multiple critical inaccuracies that completely misrepresent the original Japanese text. Key issues include:  
+- **Incorrect city name** (""江王市"" instead of ""武雄市"")  
+- **Wrong years** (2018,21年 instead of 2019,2021)  
+- **Misinterpretation of core concepts** (e.g., ""参照住宿"" for ""浸水被害が相次いだ"", ""支票监督服务"" for administrative measures).  
+- **Unrelated or nonsensical phrases** (e.g., ""那恩达卡协议为市,所以印度人自身作业出去"").  
+- **Fragmented and incoherent sentences** that fail to convey the original message.  
+
+While there may be minimal residual structure (e.g., ""日常的に情報交換"" appears in the last sentence), the majority of the text is either entirely mistranslated or nonsensical. This results in **no meaningful preservation of the original text's intent or content**.  
+
+**Score: 10**  
+(0=""No meaning preserved"")",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```かれは、しせいを少しかえた。心もち、またを大きく開いて、左足を、ちょっとまえへ出した。とたんに、投手が第一球を投げこんできた。予想どおりのつりだま。しかし、星野のもっともすきな近めの高い直球……。```
+Chinese translation:
+```他稍微调整了姿势。心胸放宽，大大地打开，左脚往前伸出一点。突然，投手投来了第一球。如同预期的那样是个摆球。但是，星野最喜欢的那种近距离高速直球……。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""心もち"" (heart/emotional state) → ""心胸放宽"" (chest relaxed)  
+
+Minor:  
+terminology/inappropriate for context - ""つりだま"" (swing and miss) → ""摆球"" (swing ball)  
+
+**Explanation:**  
+- **Major Error:** ""心もち"" refers to the emotional state or heart in baseball context, but ""心胸放宽"" translates to ""chest relaxed,"" which is a literal mistranslation. This alters the intended meaning, making it a major error.  
+- **Minor Error:** ""つりだま"" (swing and miss) is correctly translated as ""摆球"" (swing ball), but ""摆球"" is a less precise term in baseball terminology compared to ""swing and miss."" However, the translation remains understandable, so it’s a minor terminology issue.```","**Score: 33**  
+**Reasoning:**  
+The translation contains a **major error** (""心もち"" → ""心胸放宽"") that fundamentally alters the intended meaning (emotional state vs. physical relaxation). This critical misinterpretation severely impacts the preservation of meaning. While the minor error (""つりだま"" → ""摆球"") is a contextual terminology issue, it does not fully negate the major flaw. The remaining translation is otherwise coherent, but the major error reduces the score to the ""Some meaning preserved"" threshold (33).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```委員が、傍聴席からこちらに出てきて発言してくれと今言ったんですから。 発言要請はちゃんと受けるべきだ。 発言要請もクソもないんだ。 人が話してるときに、後ろからうるさいこと言うなって言っている。 だから発言さろよちゃんと。 ちゃんと言わせればいいじゃないか、住民の意見を。 住民呼べ、住民を。```
+Chinese translation:
+```因为刚才说了，委员请从观众席里出来发言。 应该认真接受发言请求。 没有发言要求，也没有什么废话。我已经说了，别人在说话的时候，别再背后瞎逼逼。 所以说让人说话啊，让人正常说话不就得了。请听取居民的意见。 叫居民来，叫居民。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""発言要請もクソもないんだ"" (original meaning: ""the speaking request is also nonsense"" → translation implies ""no speaking request, no nonsense"")  
+accuracy/mistranslation - ""住民呼べ、住民を"" (original meaning: ""Call the residents, call the residents"" → translation implies ""listen to residents' opinions"")  
+
+Minor:  
+style/awkward - ""让人正常说话"" (adds ""正常"" which is not in the original, altering the intent)  
+fluency/punctuation - "" etc.,"" (though not present in the translation, the original Japanese does not have this)```","**Score: 33**  
+**Reasoning:**  
+The translation contains two major mistranslations that fundamentally alter the original meaning:  
+1. **""発言要請もクソもないんだ""** is misrendered as ""no speaking request, no nonsense,"" which reverses the original's intent (""the speaking request is nonsense"").  
+2. **""住民呼べ、住民を""** is incorrectly translated as ""listen to residents' opinions,"" whereas the original explicitly calls for ""calling residents"" to speak.  
+
+These errors severely distort the original message, preserving only partial meaning. Minor issues (e.g., adding ""正常"" and punctuation) are less impactful but still present. The score reflects ""some meaning preserved"" due to the critical mistranslations, as per the reference points.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```２０２３年度奄美群島地域通訳案内士のスキルアップ研修が７日、奄美市名瀬の奄美会館であった。英語、中国語、韓国語に合わせて約２０人が参加。通訳ガイドとしての心構えを学んだほか、各言語で奄美の自然について紹介した。```
+Chinese translation:
+```2023 年度奄美群岛地区导游员技能提升培训于 7 日在奄美市名濑的奄美会馆举行。约有 20 人参加了此次活动,语言包括英语、中文和韩语。除了学习如何当一名导游外,他还用多种语言向大家介绍了奄美的自然风光。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""导游员"" (tour guide) instead of ""通訳案内士"" (interpreter guide staff)  
+terminology/inappropriate for context - ""通訳ガイドとしての心構え"" (attitude of an interpreter guide) mistranslated as ""如何当一名导游"" (how to be a tour guide)  
+
+Minor:  
+style/awkward - ""还"" (also) used in a slightly awkward structure for ""ほか"" (as well as)  
+fluency/punctuation - ""etc."" (etc.) in the source is not present, but the translation uses ""等多种语言"" (various languages) which is accurate.```","**Score: 33**  
+**Reasoning:**  
+- **Major Errors (33 points):**  
+  1. **""导游员"" (tour guide)** incorrectly replaces **""通訳案内士"" (interpreter guide staff)**, altering the role entirely.  
+  2. **""如何当一名导游"" (how to be a tour guide)** misinterprets **""通訳ガイドとしての心構え"" (attitude of an interpreter guide)**, losing the specific context of interpreter training.  
+  These errors fundamentally distort the original meaning, leading to a significant loss of accuracy.  
+
+- **Minor Issues (minor deductions):**  
+  - ""还"" (also) feels slightly awkward compared to ""ほか"" (as well as), but the translation remains understandable.  
+  - ""等多种语言"" (various languages) is accurate and avoids adding unnecessary ""etc.""  
+
+Since the major errors severely compromise the role and context of the training, the score reflects **""Some meaning preserved""** (33), as the core purpose of the training is misaligned with the translation.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```近本選手は昨シーズン、３年連続で「三井ゴールデン・グラブ賞」と「ベストナイン」を受賞。日本シリーズでは最高殊勲選手賞（ＭＶＰ）に選出されるなど走攻守で活躍し、チームの３８年ぶり日本一に貢献した。２０２１年から沖永良部島を訪れている。```
+Chinese translation:
+```上个赛季，Chikamoto连续第三年获得三井金手套奖和最佳九人奖。 在日本系列赛中，他被选为最有价值球员（MVP），并在跑动、进攻和防守方面发挥了积极作用，为球队38年来的第一个日本冠军做出了贡献。 自 2021 年以来，他一直在访问冲永良部岛。```
+Annotated error spans:
+```Major:  
+None.  
+
+Minor:  
+style/awkward - ""自 2021 年以来，他一直在访问冲永良部岛。"" (The phrase ""访问"" [visit] is slightly awkward in the context of a place name, though the meaning is clear.)  
+
+**Explanation:**  
+- **Accuracy**: The translation correctly conveys the key details (awards, MVP, contribution to the championship, and visits to the island).  
+- **Fluency**: The sentence structure about the island is slightly awkward but not impossible to understand.  
+- **Terminology**: ""ベストナイン"" is accurately translated as ""最佳九人奖,"" and ""最高殊勲選手賞"" is correctly rendered as ""最有价值球员（MVP）.""  
+- **Other**: No major additions, omissions, or mistranslations are present. The minor style issue is the only non-critical error.```","**Score: 66**  
+**Reasoning:**  
+The translation accurately preserves the core meaning (awards, MVP, championship contribution, and island visits) with correct terminology (""三井金手套奖"" for ""三井ゴールデン・グラブ賞,"" ""最佳九人奖"" for ""ベストナイン,"" and ""最有价值球员（MVP）"" for ""最高殊勲選手賞""). The structure is clear and fluent, with only a minor style issue in the last sentence (""访问冲永良部岛"" for ""訪れている""). While ""访问"" is slightly awkward in this context (implying a temporary visit rather than ongoing presence), the meaning remains understandable. No major grammatical or semantic errors exist, aligning with the ""Most meaning preserved and few grammar mistakes"" benchmark.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```他の会社の見積もりを出てて、それを見せてもらえるぐらい、信用していただいたというところまで、初めて現場調査行ったときに話したときに、そういうところの関係性が出来上がった上で、見積もり書を見せてもらえれば100%決まる 僕、ちなみにやってたときに、トップ営業マンを塗り替え道場で、見積もり何件ももらいましたけど、決まったためしがないっすよ```
+Chinese translation:
+```当时我们把其他公司的报价拿出来，他们看到后才同意委托我们。我第一次去现场勘查的时候和他们谈过，谈好后他们给我们看了报价书，我们就能百分百拿到订单。我顺便说一句，我以前在顶级销售部门做油漆更换工程，拿到的订单不胜枚举，但是只有在我们确定好合作关系后，他们才会和我们合作。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""谈好后他们给我们看了报价书，我们就能百分百拿到订单"" (reverses the sequence of events: the relationship was established before the quote was shown, not after)  
+
+Minor:  
+terminology/inappropriate for context - ""油漆更换工程"" (misrepresents ""涂り替え道場"" as a painting job, whereas it refers to a training/workshop for painting replacement in a sales context)  
+
+**Explanation:**  
+- **Major error (mistranslation):** The translation incorrectly reverses the cause-effect relationship. The original states that the relationship was established *before* the quote was shown, leading to the deal. The translation implies the quote was shown *after* the deal was secured, which misrepresents the logical flow.  
+- **Minor error (terminology):** ""涂り替え道場"" is a specific term referring to a training/workshop for painting replacement in a sales context, but the translation uses ""油漆更换工程"" (painting job), which is too general and loses the contextual nuance. While this affects precision, it does not disrupt overall readability.```","The translation contains a **major error** in reversing the cause-effect sequence (the relationship was established **before** the quote was shown, not after), which fundamentally misrepresents the logical flow of the original text. This critical mistake significantly undermines the accuracy of the translation. Additionally, there is a **minor terminology error** where ""涂り替え道場"" is mistranslated as ""油漆更换工程"" (painting job) instead of the context-specific ""sales training/workshop."" While this affects precision, it does not disrupt readability. 
+
+Given the major error in sequence and the minor terminology issue, the translation preserves **some meaning** but fails to convey the correct logical order and contextual nuance. 
+
+**Score: 33**  
+(Refers to ""Some meaning preserved,"" as the major error dominates the translation quality, while the minor issue is negligible in terms of overall impact.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```二```
+Chinese translation:
+```二```
+Annotated error spans:
+```Major:
+none
+
+Minor:
+none
+
+**Explanation:**  
+The source and translation are identical (""二""), so there are no errors. The translation accurately reflects the source text without any additions, omissions, or mistranslations. The single character is correctly rendered and does not require correction for fluency, style, or terminology. Thus, no errors are present.```","The translation is identical to the source text (""二""), with no errors, omissions, or additions. The single character is correctly rendered and perfectly reflects the source meaning. According to the scoring criteria, this represents **perfect meaning and grammar**. 
+
+**Score: 100**",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```喜多は、別府さんの顔をみて、強くうなずいた。```
+Chinese translation:
+```喜多点了点头，看着别府的脸。```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""看着别府的脸"" (looking at Heteru's face) is misplaced in the sentence structure, as the original implies ""looking at the face while nodding strongly,"" but the translation places the action of looking after the nodding, which changes the nuance.
+
+Minor:
+accuracy/omission - ""強く"" (strongly) is omitted, altering the intensity of the nod. The original emphasizes the strength of the nod, which is not conveyed in the translation.  
+fluency/order - The sequence of actions is reversed in the translation,```","The translation captures the main subject and actions (喜多 nodded and looked at 别府's face) but misplaces the sequence of actions, altering the nuance. The omission of ""強く"" (strongly) reduces the intensity of the nod. While the grammar is correct, the structural error (reversed action order) and minor omission affect the precise meaning. 
+
+**Score: 66**  
+**Reasoning**: The translation preserves the core meaning (nodding and looking at 别府) but misplaces the sequence of actions, changing the nuance. The omission of ""強く"" slightly weakens the intensity. Despite these issues, the main idea is largely intact, aligning with ""Most meaning preserved and few grammar mistakes.""",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```「じゃさっきの作文はどうだ。」```
+Chinese translation:
+```「刚才的作文怎么样？」```
+Annotated error spans:
+```No-error  
+The translation accurately conveys the meaning of the original Japanese sentence. The phrase 「刚才的作文怎么样？」 directly corresponds to 「じゃさっきの作文はどうだ。」, maintaining the intent to ask for the other person's opinion on the essay. There are no additions, omissions, or mistranslations. The grammar, punctuation, and register are appropriate, and the translation is natural and fluent.```","100  
+The translation perfectly preserves the meaning and grammar of the original Japanese sentence. The Chinese phrase 「刚才的作文怎么样？」 directly and accurately reflects the intent of the Japanese question 「じゃさっきの作文はどうだ。」, with no errors, omissions, or additions. It maintains the correct register, grammar, and natural fluency, achieving the highest possible score.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```ABCニュースです なんでABCニュースをずっと見れますこれも NHKのBS見なくてもずっと見れます なんでこう仕事しながらとか暇な時は私これ聞きながらやってますね これがABCニュースです ただねABCニュースねCM多い これもNo.1モーニングショーとかって書いてありますけど アメリカのNo.1モーニングショー これとかがNHKで流れてるやつですねこれねはい```
+Chinese translation:
+```这是ABC新闻，我一直在看ABC新闻，即使不看NHK的BS，我也一直在看ABC新闻。我在工作和有空的时候，总是听着这个新闻。这就是ABC新闻，但是它的广告很多，它被写成是No.1的早晨秀之一，但这是美国的No.1早晨秀，这个在NHK播出的那个。```
+Annotated error spans:
+```Major:  
+accuracy/omission - ""なんでABCニュースをずっと見れます"" (why can I keep watching ABC News) is omitted, leaving the translation as a statement rather than a question.  
+
+Minor:  
+style/awkward - ""总是听着这个新闻"" (always listening to this news) is slightly awkward but still understandable.  
+terminology/inappropriate for context - ""早晨秀"" (morning show) is contextually appropriate, but ""早晨"" (morning) could be more naturally translated as ""早间"" in this context.```","The translation captures the core message of the original text but has notable issues. The major error involves omitting a question in the Japanese text (""なんで...""), which is critical to the original meaning. This omission transforms a rhetorical question into a statement, significantly altering the intent. While the rest of the translation is mostly accurate (e.g., terminology like ""早晨秀"" is contextually appropriate), the minor issues (awkward phrasing and minor terminology choice) are less impactful. 
+
+**Score: 66**  
+**Reasoning**: The translation preserves most of the meaning and grammar, with only a major error in omitting a key question. The rest of the content is clear and contextually appropriate, justifying a score of 66 (""Most meaning preserved and few grammar mistakes"").",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```７日は２台に増やし、避難者全員が利用できる見込み。同様の機能を備えた手洗い装置も設置。避難所の中高生からボランティアの希望もあり、今後は使用方法を教えて地元で運用してもらう予定だ。```
+Chinese translation:
+```7日增加了两辆，预计所有的难民都可以使用。同类型的洗手设备也已经安装好。高中生和志愿者都表示有兴趣，接下来将会教当地人如何使用，并让他们在当地运作。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""同类型的洗手设备"" (does not fully capture ""同様の機能を備えた手洗い装置"")  
+
+Minor:  
+terminology/inappropriate for context - ""运作"" (slightly off from ""運用"", but understandable in context)  
+style/awkward - ""高中生和志愿者都表示有兴趣"" (implies both groups are volunteers, while the original refers to students expressing volunteer interest)```","The translation has a major error in capturing the functional aspect of the handwashing facilities (""同様の機能を備えた手洗い装置"") and a minor style issue in conflating student and volunteer groups. While the overall meaning is mostly preserved, the major error significantly impacts accuracy. The score reflects partial meaning preservation with notable inaccuracies.  
+
+**Score: 50**  
+(Reasoning: The major error (functional ambiguity) reduces the score significantly, while minor issues are less impactful. The translation is mostly clear but lacks precision in critical areas.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```全員が俺受かった覚えはないのね もちろん受かったやつもいるけれども 半分は切るかなっていう感じだよね だからそこのところを もっと今日アピールしまくって こいつ奇跡起こすなって 思わせなきゃいけないね今日はね だからそれを今日 この5人の前で頑張ったらいいと思うんだよね これから```
+Chinese translation:
+```你们都不记得我當然也有接受過的傢伙，但好像剪了一半的样子。就在这儿更多关于今天的宣传别让奇迹发生。不得不提醒你，今天。所以今天就这样我希望你能在这五个人面前努力。从现在开始```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""别让奇迹发生"" (don't let a miracle happen) vs. original intent of ""make you think a miracle can happen""  
+accuracy/omission - ""the five people"" (original: ""この5人の前で"") is partially translated as ""这五个人面前"" but the structure is awkward and unclear  
+
+Minor:  
+fluency/inconsistency - ""不得不提醒你，今天。"" (have to remind you, today) adds unnecessary information not present in the source  
+style/awkward - ""就在这儿更多关于今天的宣传"" (here, more about today's promotion) is awkwardly phrased and disrupts flow slightly```","**Score: 33**
+
+**Reasoning:**  
+The translation contains significant errors that severely impact the original meaning. The major mistranslation of ""make you think a miracle can happen"" as ""don't let a miracle happen"" reverses the intent entirely. Additionally, the omission of ""the five people"" (this is partially addressed as ""这五个人面前"" but remains awkward and unclear). Minor issues like the added ""不得不提醒你"" and awkward phrasing further disrupt clarity. While some elements (e.g., reference to the five people) are present, the critical mistranslations and omissions prevent most meaning from being preserved. This aligns with the ""Some meaning preserved"" (33) threshold.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```コンクールは、小中学生に稲作や米飯の大切さ、農業について知ってもらう目的。作文と図画を募集し、全国から作文部門に３万649点、図画部門に４万2943点の応募があった。両部門で農林水産大臣賞など上位入選作品20点が選ばれた。```
+Chinese translation:
+```比赛的目的是让中小学生了解水稻种植、水稻的重要性和农业。作文类参赛作品3,649件，绘画类参赛作品42,943件。country.In 这两个类别，20个顶级作品，如农业，林业和渔业部长奖被选中。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""3万649点"" (36,490) mistranslated as ""3,649""  
+accuracy/untranslated text - ""country.In"" (irrelevant addition)  
+terminology/inappropriate for context - ""如农业，林业和渔业部长奖"" (awkward phrasing, unclear if the award is part of the 20 works or an example)  
+
+Minor:  
+fluency/punctuation - ""etc."" (incorrectly placed in the first sentence, though the original doesn't have it)  
+style/awkward - ""让中小学生了解水稻种植、水稻的重要性和农业"" (redundant ""水稻"" in ""水稻的重要性和农业"")```","**Score: 33**  
+
+**Reasoning:**  
+The translation contains significant errors that severely impact meaning preservation. The major issues include:  
+- **Numerical mistranslation** (""3万649点"" → ""3,649"") and **irrelevant text** (""country.In"") that distort the original message.  
+- **Awkward phrasing** (""如农业，林业和渔业部长奖"") creates confusion about the award's relationship to the 20 selected works.  
+- **Redundant wording** (""水稻的重要性和农业"") and **incorrect punctuation** (""etc."") further degrade clarity.  
+
+While some basic meaning is preserved (e.g., the competition's purpose and the number of entries), the critical errors render the translation unreliable. This aligns with the ""Some meaning preserved"" threshold (33).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```三```
+Chinese translation:
+```三```
+Annotated error spans:
+```Major:
+None
+
+Minor:
+None
+
+Classification: No-error  
+The translation is identical to the source text, with no discrepancies in content, structure, or meaning. The Chinese character ""三"" (three) is accurately and completely translated without any additions, omissions, or errors.```","The translation is identical to the source text, with no errors in meaning, structure, or grammar. According to the reference points, this corresponds to **100** (""Perfect meaning and grammar""). 
+
+**Score: 100**",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```わたしはやがて見破った。金目の着物を着たわたしを連れていることをお雛妓たちに見せびらかしているのだ。なお、このことを種に、お雛妓たちの注目や関心を蒐めようとする魂胆ではあるまいか。この分でみると、少年がふだんわたしに喋るお雛妓にもてる話も、どうやら誇張があって、わたしを焦立たせ、自分に牽付けようとする、技術に過ぎないのではあるまいか。わたしの中にある少女の疑ぐりはそこまで探りの手を伸した。```
+Chinese translation:
+```我很快就看穿了。他是在向那些妓女炫耀他带着穿着金色和服的我。或许，他是想通过这种方式来吸引那些妓女的注意和兴趣。从这个角度看，那个男孩平时对我讲述的关于妓女们对他的追捧，似乎也有夸大其词的成分，他可能是想让我感到焦虑，从而更加依赖他，这不过是他的一种手段。我内心的少女疑虑已经深入到了这个程度。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""妓女"" (prostitute) for ""お雛妓"" (young female entertainers in traditional Japanese theaters, not prostitutes)  
+
+Minor:  
+style/awkward - ""深入到了这个程度"" (literally ""deepened to this extent"") for ""探りの手を伸した"" (extended a hand to probe), which slightly alters the nuance.```","The translation contains a **major error** in translating ""お雛妓"" (young female entertainers in traditional Japanese theaters) as ""妓女"" (prostitute), which fundamentally alters the meaning. This is a critical mistranslation that undermines the core context of the text. However, the rest of the translation preserves the main ideas, with only a **minor stylistic adjustment** (""深入到了这个程度"" vs. ""探りの手を伸した"") that slightly alters nuance but does not affect clarity or understanding. 
+
+Given the scale, the major error (misinterpretation of a key term) significantly reduces the score, while the minor error has a minimal impact. The translation retains most of the meaning and structure, though with notable inaccuracies in terminology. 
+
+**Score: 50**  
+(Reasoning: The major mistranslation of ""お雛妓"" as ""妓女"" severely impacts meaning, warranting a lower score despite the otherwise coherent translation.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```マグニチュード7.6、最大震度7の地震は元日の夕方に発生。能登半島で多くの建物を倒壊させ、大規模な火災を引き起こした。```
+Chinese translation:
+```这场最大震级为 7.6 级的地震发生在元旦晚间。地震摧毁了能登半岛上的许多建筑物,并引发了一场大火。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""最大震级为 7.6 级"" (incorrectly combines magnitude and intensity; ""マグニチュード7.6"" is magnitude, ""最大震度7"" is intensity)  
+
+Minor:  
+style/awkward - ""摧毁"" (overly strong term for ""倒壊させ""; ""倒塌"" would be more accurate but not critical)```","The translation contains a **major error** in combining ""マグニチュード7.6"" (magnitude 7.6) and ""最大震度7"" (maximum intensity 7), which are distinct concepts. The Chinese translation incorrectly merges them into ""最大震级为 7.6 级"" (maximum intensity 7.6), conflating magnitude and intensity. This fundamentally misrepresents the original text's meaning. While the minor issue with ""摧毁"" (destroy) is stylistic but not critical, the major error dominates the quality assessment. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" — the translation partially conveys the event but misrepresents the key technical terms, leading to significant meaning loss.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```［カメラスケッチ］人生の節目 自覚新たに 一関・二十歳のつどい 平泉・成人式｜Iwanichi Online 岩手日日新聞社```
+Chinese translation:
+```［摄影速写］人生的节目 新的自觉 一关・二十岁的集会 平泉・成人礼｜Iwanichi Online 岩手日日新闻社```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""人生的节目"" (misinterprets ""人生の節目"" as ""program/event"" instead of ""life's milestone"")  
+
+Minor:  
+fluency/inconsistency - ""人生的节目 新的自觉"" (phrase order disrupts the intended meaning of ""自覚新たに"")  
+style/awkward - ""二十岁的集会"" (slightly awkward phrasing for ""二十歳のつどい"")```","The translation contains a **major error** in interpreting ""人生の節目"" as ""人生的节目"" (life's program/event) instead of ""life's milestone,"" which fundamentally misrepresents the original meaning. While the rest of the translation (e.g., ""自覚新たに"" as ""新的自觉,"" ""二十歳のつどい"" as ""二十岁的集会,"" and ""成人式"" as ""成人礼"") is mostly accurate or only slightly awkward, the critical misinterpretation of the core term ""人生の節目"" severely undermines the overall meaning. The minor issues (phrase order and awkward phrasing) do not significantly affect the meaning but contribute to readability. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" — the translation preserves partial meaning but fails to capture the key term ""人生の節目"" accurately, leading to a significant deviation from the original intent.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```【賞状を手に持つ東さん＝東京都千代田区平河町のＪＡ共済ビルで】```
+Chinese translation:
+```【手持奖状的东先生(位于东京都千代田区平河町的JA共济大厦内)】```
+Annotated error spans:
+```Major:  
+accuracy/addition - ""大厦内"" (adds ""大厦"" and ""内"" not present in the original Japanese, which uses ""ビル"" for a building without specifying ""tower"" or ""inside"")  
+
+Minor:  
+style/awkward - ""位于东京都千代田区平河町的JA共济大厦内"" (the structure is slightly awkward, but the meaning is still understandable)```","**Score: 66**  
+The translation preserves the main meaning (identifying ""东先生"" and the location ""东京都千代田区平河町"") but introduces significant inaccuracies. The addition of **""大厦""** (tower building) and **""内""** (inside) in ""JA共济大厦内"" deviates from the original Japanese term **""ビル""** (building), which is more general. While the location is correctly specified, the structural awkwardness (""位于...的JA共济大厦内"") is minor. The translation is mostly coherent but contains notable inaccuracies in terminology and phrasing.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```六角川と向き合い、災害対策や地域住民のコミュニティーづくりなどを提言してきた。これらの活動に加え、水問題をより身近に考えてもらうための「水・自分事化 (じぶんごとか) 市民学習会」を新たに始めた。```
+Chinese translation:
+```他直面六角川,提出了灾害对策以及为当地居民创建社区的建议。除了这些活动之外,为了让人们更近距离地思考水的问题,我们还启动了“水·自我保护市民学习会”。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""自分事化"" mistranslated to ""自我保护"" (self-protection) instead of ""自我化"" (self-ization)  
+non-translation - Subject ""他"" (he) incorrectly changed to ""我们"" (we)  
+
+Minor:  
+style/awkward - ""更近距离地思考水的问题"" (more closely think about water issues) is a literal translation that slightly deviates from the intended concept of ""自分事化"" (personalization).```","The translation contains two major errors:  
+1. **Mistranslation of ""自分事化"" as ""自我保护""** (self-protection instead of ""自我化"" (self-ization)), which directly misrepresents the key concept of personalization.  
+2. **Incorrect subject change from ""他"" (he) to ""我们"" (we)**, altering the referent and potentially distorting the original intent.  
+
+The minor issue (""更近距离地思考水的问题"") is a stylistic awkwardness but does not significantly affect meaning.  
+
+**Score: 33**  
+**Reasoning**: The major errors (key term mistranslation and subject misassignment) severely impact the meaning, preserving only ""some"" of the original intent. While other parts are accurate, the critical errors prevent the translation from reaching the ""most meaning preserved"" threshold.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```「みんな、きょうは、少し話があるんだ。こっちへきてくれないか。」```
+Chinese translation:
+```“女士们，先生们，我今天有个小故事要讲，你们能过来吗？”```
+Annotated error spans:
+```Major:  
+accuracy/addition - ""女士们，先生们"" (added gender-specific terms not present in the original Japanese)  
+accuracy/mistranslation - ""小故事"" (misinterprets ""話"" as ""story"" instead of ""conversation"")  
+
+Minor:  
+style/awkward - ""小故事要讲"" (unnatural phrasing for ""a little story to tell"")```","**Score: 33**  
+The translation introduces significant errors that alter the original meaning. The addition of gender-specific terms (""女士们，先生们"") and the mistranslation of ""話"" as ""小故事"" (story) are major issues. While the minor phrasing issue (""小故事要讲"") affects fluency, the core meaning is not preserved due to the critical errors. This falls under ""Some meaning preserved,"" aligning with the 33-point benchmark.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```八番打者、投手の星野が、先のほうを四分の一ほど黒くぬった愛用のバットをさげて、バッターボックスへはいろうとした。だが、そのとき、伝令がきて、かれはベンチへよばれた。```
+Chinese translation:
+```星野是第八棒，也是投手，他正准备拿着他最喜欢的球棒走上打击区，球棒的尖端在四分之一处被涂成了黑色。但就在这时，一个信使过来把他叫到了替补席。```
+Annotated error spans:
+```Major:  
+accuracy/omission - ""the eighth batter"" (source specifies ""八番打者"", but translation only mentions ""第八棒"" which is ""eighth batter"", but the term ""第八棒"" is correct in context. However, the source explicitly mentions ""八番打者"" (eighth batter) and ""投手"" (pitcher), while the translation combines them as ""第八棒，也是投手"", which is accurate. No omission here.  
+
+Minor:  
+style/awkward - ""走上打击区"" (literally ""go to the batting area"") is slightly awkward compared to ""进入击球区"" (enter the batting box), but the meaning is clear.  
+
+**No major or minor errors.**  
+The translation accurately conveys the source text with appropriate terminology and structure. All key elements (eighth batter/pitcher, bat with black tip, messenger calling to the bench) are correctly translated without additions, omissions, or grammatical issues.```","**Score: 100**
+
+The translation is flawless, preserving all meaning and grammar. The annotated minor issue (""走上打击区"" vs. ""进入击球区"") is negligible and does not detract from the clarity or accuracy of the text. All key elements—eighth batter/pitcher, the black-tipped bat, and the messenger calling to the bench—are correctly rendered. The terminology is appropriate, and the structure is natural in Chinese, meeting the ""Perfect meaning and grammar"" criterion.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```【賞状を手に持つ東さん＝東京都千代田区平河町のＪＡ共済ビルで】```
+Chinese translation:
+```[手持奖状的东先生（东京千代田区平河町的JA共济大厦）]```
+Annotated error spans:
+```Major:  
+- **accuracy/omission**: The original Japanese uses ""＝"" to separate the person from the location, but the Chinese translation uses parentheses instead. This is a minor stylistic difference, not a major error.  
+
+Minor:  
+- **fluency/punctuation**: The use of parentheses instead of the equals sign (""＝"") is a minor stylistic choice, not affecting the core meaning.  
+- **terminology/inconsistent use**: ""JA共済ビル"" is correctly translated as ""JA共济大厦"", but ""大厦"" (skyscraper) might be slightly more formal than ""ビル"" (building), though both are acceptable in context.  
+
+**No major errors**. The translation is accurate and fluent, with minor stylistic adjustments.```","**Score: 66**  
+The translation preserves most of the meaning and grammar, with only minor stylistic adjustments (e.g., replacing ""＝"" with parentheses). The terminology (""JA共济大厦"") is appropriate, though slightly more formal than the original. No major errors are present, aligning with the ""Most meaning preserved and few grammar mistakes"" criterion.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```今でもね、タン塩っていうのがありますけど、このタン塩とは違うんですよ。これ、近くの牛角ですけどね。 タン塩っていうのは下処理をしてないんですが。 牛タンはすごく工夫した塩漬けにした厚切りの柔らかく食べやすいようにした下処理をする。 それがね、牛タン焼きを美味しく作るコツなんだそうです。 あの太助さんの牛タンも厚切りめちゃくちゃ美味しいですからね。 ほんと、違いますよ。食べごたえがある。ステーキみたい。```
+Chinese translation:
+```即使是现在，也有棕褐色的盐，但它与这种棕褐色的盐不同。这是附近的牛角。 谭盐不处理。 牛舌经过精心腌制，切成厚片，使其柔软易吃。 据说这是制作美味牛舌的秘诀. 那个tasuke的牛舌也很好吃。 真的，不是。食物很好。就像牛排。```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""tasuke"" (transliteration of ""太助"" is incorrect)
+accuracy/mistranslation - ""真的，不是"" (incorrectly translates ""ほんと、違いますよ"" as ""really, not"" instead of ""really, it's different"")
+
+Minor:
+style/awkward - ""牛舌经过精心腌制"" (repetition of ""牛舌"" and ""腌制"" may feel redundant in context)```","**Score: 33**
+
+**Reasoning:**  
+The translation contains two major accuracy issues:  
+1. **Mistranslation of ""太助"" (Tasuke)**: The Chinese translation incorrectly transliterates ""太助"" as ""tasuke,"" which is a direct error in proper noun handling. This affects the specific reference to the person (太助) and misrepresents the context.  
+2. **Incorrect phrase translation**: ""ほんと、違いますよ"" is mistranslated as ""真的，不是"" (""really, not"") instead of "" really, it's different,"" which alters the intended meaning of contrast.  
+
+While the rest of the translation conveys the general idea (e.g., descriptions of tan salt, marination process, and the comparison to steak), the critical errors in proper nouns and key phrases significantly reduce the preserved meaning. The minor style issue (repetition of ""牛舌"" and ""腌制"") is less impactful but still present. Thus, the score reflects ""Some meaning preserved"" (33), as the core message is partially retained despite critical inaccuracies.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```安否不明者も前日同195人から大幅に増えた。輪島市が前日同86人から281人に急増。そのほか、8日午後2時時点で珠洲市（29人）、金沢市（5人）、津幡町（3人）などとなっている。```
+Chinese translation:
+```失踪人员也从前一天的195人大幅增加。轮岛市从前一天的86人急剧增加到281人。此外，截至8日下午2点，珠洲市（29人）、金泽市（5人）、津幡町（3人）等也有所增加。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""也有所增加"" (implies an increase, but the source states current numbers)  
+
+Minor:  
+fluency/register - ""也有所增加"" (awkward phrasing in context)```","The translation preserves most of the meaning but contains a significant error in the third sentence. The phrase ""也有所增加"" (also increased) incorrectly implies an increase when the original Japanese states current numbers as of 8 PM. This major error affects the accuracy of the third sentence, while the first two sentences are correct. The minor issue with phrasing is less impactful. 
+
+**Score: 66**  
+(66 = Most meaning preserved and few grammar mistakes. The major error in the third sentence slightly reduces the score but the rest of the translation is accurate.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```神奈川県の相模湾側に面している 磯の釣り場です ということで本日は 昨日とは違う磯に来てですね ちょうど狙っていた磯が 空いてましたので こちらでやっていきたいと思うんですけど こちらの磯は 昨日釣りをしたところと比べたら 水深の方がかなり浅くてですね 波の方も非常に穏やかですので```
+Chinese translation:
+```这是面向神奈川县相模湾一侧的岸边的钓鱼点，所以今天我来到了一个与昨天不同的海滩，我瞄准的海滩是空的，所以我想在这里做，但是这个海滩比我昨天钓鱼的地方浅得多，海浪很平静。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""空的"" (the term ""empty"" may not accurately convey the intended meaning of the Japanese ""空いてました,"" which refers to availability or unoccupied status in the context of a fishing spot).  
+
+Minor:  
+style/awkward - ""在这里做"" (the phrase is vague and unclear, as the original Japanese context implies ""I want to proceed with this here,"" but the translation lacks clarity).```","**Score: 66**  
+**Reasoning:**  
+The translation preserves most of the intended meaning but contains a critical accuracy error (""空的"" for ""空いてました,"" which refers to availability, not emptiness). This misinterpretation slightly reduces the score. However, the rest of the translation is grammatically correct and conveys the context clearly, with only a minor style issue (""在这里做"" being vague). Since the majority of the meaning is preserved with minimal grammar mistakes, the score aligns with the ""Most meaning preserved and few grammar mistakes"" benchmark (66).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```「かねて承知の通り、山脇長門と悶着の間柄であったが、このたびついにかような事に相成ってしまった。お上のお留守中ではあり、堪忍のなる限りはしてきたのだが、これ以上の忍耐は卑怯の貶をまぬかれない。この白髪首を賭けて武道の面目を立てるつもりじゃ」```
+Chinese translation:
+```中国 _ ****```
+Annotated error spans:
+```Major:  
+accuracy/untranslated text - The entire text is missing, with only ""中国"" (China) and placeholders, which is unrelated to the original Japanese source.  
+
+Minor:  
+terminology/inappropriate for context - ""中国"" (China) is irrelevant to the source text, which discusses a historical or literary context involving Yamawaki Nagato and a conflict, not China.```","0  
+The translation is completely missing the original Japanese text, with only ""中国"" (China) and placeholders provided. The original text discusses a historical/literary context involving Yamawaki Nagato and a conflict, not China. No meaningful content is preserved, and the presence of ""中国"" is irrelevant and unrelated to the source. This results in ""No meaning preserved"" (0).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```全員が俺受かった覚えはないのね もちろん受かったやつもいるけれども 半分は切るかなっていう感じだよね だからそこのところを もっと今日アピールしまくって こいつ奇跡起こすなって 思わせなきゃいけないね今日はね だからそれを今日 この5人の前で頑張ったらいいと思うんだよね これから```
+Chinese translation:
+```大家都没觉得我被接受了呢，当然也有被接受的人，但感觉有一半是被拒绝的。所以，我必须在今天更加努力地展示自己，让他们觉得我今天能创造奇迹。所以，我认为如果能在今天这五个人面前努力，那就很好了。从现在开始```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""大家都没觉得我被接受了呢"" (misinterprets ""覚える"" as ""think"" instead of ""remember"", altering the speaker's personal memory context)
+
+Minor:
+fluency/inconsistency - ""所以"" repeated twice  
+style/awkward - ""展示自己"" (showing oneself) vs. ""アピールしまくって"" (appeal a lot)  
+terminology/inconsistent use - ""奇跡起こす"" (create a miracle) is accurate, but ""展示自己"" (showing oneself) is slightly less precise than ""アピール"" (promote/advocate)```","**Score: 66**  
+
+**Reasoning:**  
+- **Major Error:** The mistranslation of ""覚える"" (remember) as ""think"" (everyone doesn't think I was accepted) alters the speaker's personal memory context, which is critical to the original meaning. This is a significant deviation but not a complete loss of meaning.  
+- **Minor Issues:** Repetition of ""所以"" (so) and the choice of ""展示自己"" (show oneself) instead of ""アピール"" (appeal) are minor, affecting fluency and precision but not the core message.  
+- **Overall Quality:** The translation preserves most of the intended meaning, with only one major error and a few minor issues. The grammar is mostly correct, and the tone aligns with the original. While the major error slightly reduces the score, the rest of the translation is accurate and coherent, justifying a score of **66** (""Most meaning preserved and few grammar mistakes"").",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```地震の翌２日に羽田空港で日航機と海上保安庁の航空機が衝突し、海保側の５人が亡くなった。大学生の奥山由柊乃さん（みやき町出身）は、海保機が被災地に支援物資を届ける予定だったことから「人助けのためだったのに不幸を連鎖させてしまうことになり、心が痛い」と語った。```
+Chinese translation:
+```在地震后的第二天，羽田机场发生了一起日航飞机和海上保安厅飞机的碰撞，导致海上保安厅的五名飞行员死亡。大学生奥山由柊乃（Miyaki Town出身）说，海上保安厅的飞机原本计划将救援物资运送到受灾地区，但最终导致了五名海上保安厅飞行员的死亡，这让她感到心痛。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""飞行员"" (pilots) added, not mentioned in the source.  
+
+Minor:  
+fluency/inconsistency - ""最终导致了五名海上保安厅飞行员的死亡"" repeats the deaths mentioned earlier, creating redundancy.  
+style/awkward - The structure of the quote in the translation feels slightly forced, though the core message remains clear.```","The translation captures the core events and context accurately, though it contains a significant mistranslation (""飞行员"" added without basis in the source) and minor redundancies. The major error introduces an incorrect detail (pilots instead of unspecified individuals), which affects the accuracy. However, the rest of the translation preserves the intended meaning with minimal grammatical issues. 
+
+**Score: 66**  
+**Reasoning**: The translation preserves most of the meaning (66) with few grammar mistakes, despite a major error in adding ""飞行员"" (pilots) and a minor redundancy in the quote. The core message remains clear, and the structure is mostly fluent, though slightly awkward in the quoted section.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```ボールは、やっと、投手のグローブにかえった。```
+Chinese translation:
+```球终于回到了投手的手套里。```
+Annotated error spans:
+```No error.  
+The translation accurately conveys the meaning of the source text. The terms ""投手的手套"" (pitcher's glove) and ""終於"" (finally) are appropriately used, and the sentence structure is natural and fluent. There are no additions, omissions, or mistranslations, and the terminology is consistent with the context. The translation is both accurate and stylistically appropriate.```","100  
+The translation perfectly preserves the meaning and grammar of the source text. All key terms (""球"" for ""ボール,"" ""终于"" for ""やっと,"" and ""投手的手套"" for ""投手のグローブ"") are accurately rendered, and the sentence structure is natural and fluent. The annotation confirms no errors, omissions, or additions, making this a flawless translation.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```とさけびました。```
+Chinese translation:
+```我感到很惊讶。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""我感到很惊讶"" (I felt very surprised) does not match the source ""とさけびました"" (I shouted/cried out).  
+
+Minor:  
+none.```","The translation ""我感到很惊讶"" (I felt very surprised) fails to match the source Japanese ""とさけびました"" (I shouted/cried out). The core meaning is entirely misaligned, with no preservation of the original intent or context. While the Chinese sentence is grammatically correct, the major error in meaning (mistranslation) renders the translation ineffective. 
+
+**Score: 0**  
+(No meaning preserved, as the translation diverges entirely from the source's intended meaning.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```星野は、二塁の上に直立して、両手をこしに当てて、場内を見まわした。だが、このとき、星野は、別府さんがにがい顔をして、ベンチからかれのほうを見ていることには、気がつかなかった。```
+Chinese translation:
+```星野站在二垒上，双手抱膝，环顾场内。但是，在这时候，星野没有发现别府正皱着眉头从替补席上看着他。```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+accuracy/mistranslation - ""抱膝"" (hands crossed at the knees) instead of ""putting both hands on the thighs"" (original: 両手をこしに当てて).```","**Score: 66**  
+**Reasoning:** The translation preserves most of the context and structure of the original Japanese text. The key error lies in the mistranslation of ""両手をこしに当てて"" (putting both hands on the thighs) as ""抱膝"" (hands crossed at the knees). This minor inaccuracy alters the specific action described but does not disrupt the overall meaning or flow. The rest of the translation (e.g., ""standing on second base,"" ""looking around the field,"" ""not noticing someone from the bench"") is accurate. While the error reduces precision, the majority of meaning and grammar are correctly maintained, aligning with the ""Most meaning preserved and few grammar mistakes"" benchmark.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```まずその図を書く前に問題文を全部読み切って 頭の中でこういう図だなっていうのを先にイメージしてから書かないと 例えばだからこれだったら円があって その外に菱形が内接してる風に書いた方が図が綺麗に書けます これ後から円をこう入れてるから変な図になっちゃって解きづらくなるんですけど ちゃんとこの問題文を頭の中で整理できてたら```
+Chinese translation:
+```首先在画图之前，要把问题文全部读一遍，在脑海中先想象一下这个图是什么样子的，然后再画出来。例如，这道题中，画一个圆，圆的外面再画一个内接的菱形，这样画出的图会很漂亮。如果后面的圆是画好了再画菱形，就会画出奇怪的图，解题也会很困难。如果能把问题文在脑海中理清楚，就不会出现这种情况了。```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+style/awkward - ""解きづらくなるんですけど"" (slightly informal or conversational tone, but not critical to understanding)  
+terminology/inconsistent use - ""内接"" (correctly translated as ""inscribed"")  
+
+**Explanation:**  
+- **Minor style issue**: The phrase ""解きづらくなるんですけど"" uses a casual tone (""んですけど"") which is acceptable in informal contexts but may slightly deviate from formal writing. However, it does not hinder understanding.  
+- **Terminology**: ""内接"" is accurately translated as ""inscribed,"" which is appropriate in the context of geometric figures. No inconsistency in terminology is present.  
+
+The translation is accurate, fluent, and maintains the original meaning without significant errors.```","**Score: 66**  
+The translation preserves most of the original meaning and is fluent, with only a minor style issue (""解きづらくなるんですけど"") that slightly deviates from formal tone but does not hinder understanding. Terminology (""内接"") is correct and consistent. The translation effectively conveys the logical flow and key points of the Japanese text without significant grammatical errors.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```少年は小肥りの身体に、変り縞の久留米絣を着ていた。藍鼠の絹紬を角帯に仕立てたものを博多結に結んでいた。中学生の癖に、廉もの揃いで、通人振ろうとおつにひねった風態をしたがる。さもしさが見透いている。```
+Chinese translation:
+```这个少年身材略胖，穿着条纹久留米絣和服。腰间系着一条用藏青色丝绸制成的角带，打着博多结。虽然还是个中学生，却穿着一身便宜货，想要装作一副风雅通人的样子。他那种市侩气息一眼就能看穿。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""藍鼠の絹紬"" (blue mouse silk cotton) → ""藏青色丝绸"" (navy blue silk)  
+
+Minor:  
+terminology/inappropriate for context - ""市侩气息"" (greedy/common vibe) for ""さもしさ"" (pretentiousness)```","The translation has two errors: a major mistranslation of ""藍鼠の絹紬"" (a specific fabric) as ""藏青色丝绸"" (navy blue silk), which alters the original meaning, and a minor terminology issue where ""市侩气息"" (greedy/common vibe) inaccurately represents ""さもしさ"" (pretentiousness). Despite these errors, the overall meaning is mostly preserved, with grammatical correctness and contextual coherence in most parts. 
+
+**Score: 66**  
+**Reasoning**: The major error affects the accuracy of a key detail (fabric description), but the rest of the translation retains the core meaning and structure. The minor error is less critical and does not disrupt the overall narrative. Thus, the translation preserves most meaning with few significant issues.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```二```
+Chinese translation:
+```二```
+Annotated error spans:
+```Major:
+none
+
+Minor:
+none
+
+No errors detected. The translation accurately reproduces the source text, which is the Chinese numeral ""二"" (two). The translation is identical to the source, with no additions, omissions, or mistranslations. The single character is correctly rendered in both Japanese and Chinese, and there are no fluency or style issues.```",100,ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```「吐かせ、わしが来ずに戦ができるか。お主こそ老眼で過すなよ」```
+Chinese translation:
+```'吐出来吧，我不来你怎么打仗？你才是那个不能让你的老眼昏花的人。""```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""老眼で過すなよ"" (metaphor of ""wasting old eyes"" or ""not wasting time"") is mistranslated as ""不能让你的老眼昏花"" (literal ""can't let your old eyes blur""), losing the original metaphorical meaning.  
+
+Minor:  
+style/awkward - ""你才是那个不能让你的老眼昏花的人"" (phrase structure is awkward, with redundant ""让你"") and ""老眼昏花"" (blurred eyes) misapplies the metaphor.```","The translation has a major error in interpreting the metaphor ""老眼で過すなよ"" (not wasting time/old eyes), which is mistranslated as ""不能让你的老眼昏花"" (can't let your old eyes blur), losing the original metaphorical meaning. The minor issue is stylistic awkwardness, but the core meaning is significantly altered. 
+
+**Score: 33**  
+**Reasoning**: The major error fundamentally changes the metaphor, leading to a loss of key meaning. While the first part of the translation is grammatically correct, the second part fails to preserve the intended metaphor, resulting in ""some meaning preserved"" (33). The minor style issues are secondary to the critical mistranslation.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```次郎くんはあわてて、筆入れをひっくりかえしたり、机のふたをひっかけたり、がたがたとそうぞうしく立ちあがります。次郎君が立ちあがるときはいつもそうなのですが、今日は自分の作文に夢中になっているので、よけいそういうことになります。```
+Chinese translation:
+```次郎君慌忙地把笔盒翻过来，挂在桌盖上，蹑手蹑脚地站起来。次郎君站起来的时候总是这样，但今天因为太专注于自己的作文，就更加如此了。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""そうぞうしく"" (noisily) → ""蹑手蹑脚地"" (tiptoeing)  
+
+Minor:  
+style/awkward - ""よけいそういうことになります"" (even more so) is slightly awkward in the translation but still understandable.```","The translation contains a **major error** in the term ""そうぞうしく"" (noisily) being mistranslated as ""蹑手蹑脚地"" (tiptoeing), which directly contradicts the original meaning. This critical misinterpretation of the Japanese text significantly alters the intended meaning. While the rest of the translation is mostly accurate and grammatically sound, the major error renders a key part of the meaning incorrect. The minor awkwardness in the second sentence is negligible compared to the major issue. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" — the translation preserves some meaning but fails to accurately convey the core detail about Shougo's noisy behavior, which is a critical aspect of the original text.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```「……このたびの事は長門とわしの喧嘩じゃ、一族おのおのにはなんの関り合いもない。こうして駈込んでくれたのは過分に思うが、どうかおのおのにはこのまま立退いてもらいたい」```
+Chinese translation:
+```这次的事情只是长门和本大人的争执，与各位一族无关。各位前来这里确实是过于操心了，还请各位就此退下吧。```
+Annotated error spans:
+```<think>
+Okay, let's tackle this translation error analysis. The user provided a Japanese source and a Chinese translation, and I need to identify the errors in the translation.
+
+First, I'll start by reading both the original Japanese and the Chinese translation carefully. The Japanese text is a quote that seems to be from a character in a story, possibly a drama or novel, given the context of a dispute between ""長門"" (Nagato) and ""わし"" (I, the speaker). The speaker is addressing a group of people, saying that the matter is between them and that others should not get involved.
+
+Now, looking at the Chinese translation: ""这次的事情只是长门和本大人的争执，与各位一族无关。各位前来这里确实是过于操心了，还请各位就此退下吧。"" 
+
+Let me break it down sentence by sentence.
+
+First sentence: ""这次的事情只是长门和本大人的争执，与各位一族无关。"" The Japanese says ""このたびの事は長門とわしの喧嘩じゃ、一族おのおのにはなんの関り合いもない。"" So the original is clarifying that the matter is between Nagato and ""わし"" (the speaker), and that the other family members are not involved. The Chinese translation correctly translates ""长门"" as Nagato and ""本大人"" as ""the speaker"" (本大人 is a common way to refer to oneself in a respectful or formal context). However, the Japanese uses ""わし"" which is a humble form, so ""本大人"" might be a bit off. But maybe that's just a style choice. The part about ""一族おのおのにはなんの関り合いもない"" is translated as ""与各位一族无关"", which seems accurate. The Chinese uses ""各位"" which is ""you all"", which matches the original's ""一族おのおの"".
+
+Second sentence: ""各位前来这里确实是过于操心了，还请各位就此退下吧。"" The Japanese says ""こうして駈込んでくれたのは過分に思うが、どうかおのおのにはこのまま立退いてもらいたい"". The original is saying that the people coming in are being overly concerned, and the speaker asks them to leave. The Chinese translation seems to capture that. However, the Japanese uses ""駈込んでくれた"" which is a bit tricky. It's a colloquial or literary expression meaning ""to rush in"" or ""to come in"", but the Chinese translation uses ""前来这里"" which is ""came here"" or ""came to this place"", which is a bit more literal. However, ""駈込んでくれた"" is more like ""you came in"" in a hurry, so maybe ""前来这里"" is okay. The phrase ""過分に思う"" is ""think it's excessive"", which is translated as ""确实是过于操心了"" which is correct. The last part ""どうかおのおのにはこのまま立退いてもらいたい"" is ""please let you all just leave as they are"", which the Chinese translates as ""还请各位就此退下吧"" which is ""please let you all leave now"". That seems accurate.
+
+Now, looking for errors. The user's previous examples had some errors like mistranslation, addition, omission, etc. Let me check for accuracy issues. 
+
+In the first sentence, the Japanese says ""長門とわしの喧嘩じゃ"", which is ""the fight between Nagato and I"". The Chinese translation uses ""长门和本大人"", which is correct. The original uses ""わし"" which is a humble form, so ""本大人"" might be a bit off, but maybe that's a stylistic choice. However, the term ""本大人"" is a bit formal, whereas ""わし"" is more like ""I"" in a humble way. But the Chinese translation might be acceptable in context.
+
+Next, the Japanese says ""一族おのおのにはなんの関り合いもない"", which is ""the other family members have no connection with this"". The Chinese translation says ""与各位一族无关"", which is ""irrelevant to the various families"", which seems accurate. However, the original uses ""一族おのおの"" which is ""each family member"", so maybe ""各位一族"" is a bit off. Wait, ""一族"" is a family, so ""各位一族"" would be ""each family"" or ""all the families"", which might not be exactly the same as the original. The original is saying that the other family members are not involved. So maybe ""各位一族"" is correct, but perhaps ""各位"" is better. However, the translation seems okay.
+
+Now, the second sentence: ""こうして駈込んでくれたのは過分に思うが、どうかおのおのにはこのまま立退いてもらいたい"". The Chinese translation is ""各位前来这里确实是过于操心了，还请各位就此退下吧"". The term ""駈込んでくれた"" is ""you came in"" in a hurry. The Chinese uses ""前来这里"" which is ""came here"", which is a bit more literal. However, ""駈込んでくれた"" is a bit more like ""you rushed in"", so maybe ""前来这里"" is acceptable. The phrase ""過分に思う"" is ""think it's excessive"", which is translated as ""确实是过于操心了"", which is correct. The last part ""立退いてもらう"" is ""to let them leave"", which is correctly translated as ""退下吧"".
+
+Looking for errors, maybe the term ""本大人"" is a bit off. ""わし"" is ""I"" in a humble way, but ""本大人"" is a more formal way to refer to oneself, which might not be accurate. However, in some contexts, ""本大人"" can be used as a self-reference, so maybe that's acceptable. Alternatively, if the original is using ""わし"" as a humble form, the Chinese translation might be using a more formal term, which could be a style issue. But since the user's previous examples included terminology errors, maybe this is a terminology issue. However, the original is in Japanese, and the Chinese translation is translating ""わし"" as ""本大人"", which is a different term. So this could be a terminology error. But is it inappropriate for the context? If the original is using a humble form, then ""本大人"" might not be the best translation. Alternatively, maybe ""我"" (wo) is more accurate, but the Chinese translation uses ""本大人"", which is a bit off. However, the user's previous examples had similar cases where terms were used inappropriately. So this might be a terminology error.
+
+Another possible error is the use of ""駈込んでくれた"" which is a bit of a colloquial or literary term. The Chinese translation uses ""前来这里"", which is straightforward but might not capture the nuance of ""駈込んでくれた"". However, since the translation is still understandable, this might be a minor fluency issue. Alternatively, maybe the translation is correct in terms of meaning, even if the word choice is different.
+
+Another thing: the original Japanese has ""立退いてもらう"" which is ""to let them leave"", and the Chinese translation uses ""退下吧"", which is ""please leave"". That's accurate.
+
+Looking at the user's previous examples, they had errors like ""involvement"" as an addition, ""the account holder"" as omission, etc. In this case, maybe the term ""本大人"" is a terminology error. But in the Chinese translation, ""本大人"" is a term that could be used in a formal context, so maybe it's not a major error. Alternatively, if the original is using a more humble form, the Chinese translation might be using a more formal term, which could be a style issue. However, the user's categories include terminology (inappropriate for context, inconsistent use). If ""本大人"" is not appropriate for the context, that's a terminology error. But I'm not sure. Alternatively, maybe it's a minor style issue.
+
+Alternatively, maybe the error is in the first sentence's ""本大人"" versus the original's ""わし"". The original is using ""わし"" which is a humble form, but the Chinese translation uses ""本大人"" which is a more formal term. However, in Chinese, ""本大人"" is a way to refer to oneself, so maybe it's acceptable. So maybe that's not an error. 
+
+Another possible error: the Chinese translation uses ""各位"" which is ""you all"", which matches the original's ""一族おのおの"". So that's correct.
+
+The other possible error is the use of ""駈込んでくれた"" which is a bit of a colloquial term. The Chinese translation uses ""前来这里"", which is a bit more literal, but still understandable. So maybe that's a minor fluency issue, like a grammar or style issue. However, the user's previous examples had minor errors like ""wäre"" as a grammar error. But in this case, the translation is still understandable, so maybe that's a minor error.
+
+Alternatively, maybe the term ""駈込んでくれた"" is a mistranslation. The Chinese translation uses ""前来这里"", but the original's ""駈込んでくれた"" is more like ""you came in"" in a hurry. So maybe ""前来这里"" is acceptable, but perhaps the Chinese translation could have used a different term. However, the translation is still correct in meaning.
+
+So, considering all that, the main error might be the use of ""本大人"" instead of ""我"" (wo) or another term. But since the original is in Japanese, and the Chinese translation is translating ""わし"" as ""本大人"", which is a different term, but maybe it's acceptable. Alternatively, if ""本大人"" is not appropriate for the context, that's a terminology error. However, in some contexts, ""本大人"" is used to refer to oneself, so maybe it's okay.
+
+Wait, the original Japanese says ""わし"" which is ""I"" in a humble way. The Chinese translation uses ""本大人"", which is a more formal way to refer to oneself. So maybe that's a terminology error, but it's not clear if it's inappropriate. Alternatively, if the original is using a more humble form, the Chinese translation might be using a more formal term, which could be a style issue. But the user's categories include terminology (inappropriate for context, inconsistent use). If the original is using a humble form, and the translation uses a formal term, that might be a terminology error. However, I'm not certain. Alternatively, maybe the Chinese translation is correct in that ""本大人"" is a way to refer to oneself, so it's not an error.
+
+Another possible error: the Japanese says ""立退いてもらう"", which is ""to let them leave"", and the Chinese translation uses ""退下吧"", which is ""please leave"". That's accurate.
+
+So, after checking, the main error might be the use of ""本大人"" instead of ""我"" (wo) or another term. But since the user's previous examples had similar cases, maybe that's a terminology error. Alternatively, maybe there are no major errors, and the translation is mostly accurate, with minor issues like the use of ""駈込んでくれた"" being a bit more literal. But the user's examples had minor errors like ""wäre"" as a grammar error, so maybe ""駈込んでくれた"" is a minor fluency issue. However, the user's previous example had ""involvement"" as an addition, which was a major error. 
+
+Alternatively, maybe the Chinese translation is correct, and there are no errors. But the user is asking to identify errors, so I need to check again.
+
+Wait, the Japanese says ""おのおのにはなんの関り合いもない"", which is ""the other family members have no connection with this"". The Chinese translation says ""与各位一族无关"", which is ""irrelevant to the various families"". But ""おのおの"" is ""each of the families"", so ""各位一族"" might be a bit off. The original is saying that the other family members (each of the families) are not involved. The Chinese translation uses ""各位一族"" which is ""each family"", but maybe the correct term is ""各位"" (you all) instead of ""一族"". However, the original uses ""一族おのおの"", which is ""each of the families"". So ""各位一族"" might be a bit off. But ""各位"" is ""you all"", and ""一族"" is ""family"", so ""各位一族"" is ""each family of you all"", which is a bit awkward. So that might be an accuracy/omission or mistranslation. The original is saying that the other family members are not involved, but the Chinese translation uses ""各位一族"", which might not be accurate. So that's an accuracy/omission or mistranslation. 
+
+But the original Japanese is ""一族おのおのにはなんの関り合いもない"", which is ""the other family members have no connection with this"". The Chinese translation says ""与各位一族无关"", which is ""irrelevant to the various families"". But ""おのおの"" is ""each of the families"", so ""各位一族"" might be a mistranslation. The correct translation would be ""与各位无关"" (irrelevant to you all), but the original is saying that the other family members (each of the families) are not involved. So ""各位一族"" is a bit off. Therefore, this is an accuracy/mistranslation error. 
+
+So that's a major error because it changes the meaning. The original is saying that the other family members are not involved, but the Chinese translation is saying that the various families are irrelevant, which is a different meaning. So that's a major error in accuracy/mistranslation. 
+
+Then, the term ""```","The translation has two significant errors affecting the meaning. The term ""本大人"" (self-reference) is inappropriate for the humble ""わし"" in the original, and ""与各位一族无关"" misrepresents ""一族おのおのにはなんの関り合いもない"" (other family members have no connection). These errors reduce the accuracy",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```受賞した東さんの図画「家族で刈ったお米は世界一！！」は、東さんが小学校低学年の時、汗をかきながら家族全員で稲刈りし、収穫したお米がとてもおいしかったことが印象に残っており、当時を思い出し描いた。稲穂が全体に描かれ、背景の深い緑も、稲の黄緑色、穂の黄色を引き立て、豊かな実りをもたらしてくれたことが分かる作品となっている。```
+Chinese translation:
+```Azuma先生的获奖图片""家庭收获的大米是世界上最好的！""！""阿祖玛老师上小学低年级的时候，全家人一边出汗一边收获大米，收获的大米非常美味，这给我留下了印象，让我想起了这一点time.It 是一个作品，表明稻穗被绘制在整个，背景的深绿色也带出了稻谷的黄绿色和耳朵的黄色，并带来丰富的水果。```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""Azuma先生"" (incorrect name for ""東さん"")
+accuracy/mistranslation - ""阿祖玛老师"" (incorrect name for ""東さん"")
+accuracy/mistranslation - ""耳朵的黄色"" (incorrect term for ""穗の黄色"")
+accuracy/mistranslation - ""带来丰富的水果"" (incorrect meaning of ""豊かな実りをもたらしてくれた"")
+
+Minor:
+fluency/spelling - ""time"" (incorrect spelling)
+fluency/grammar - ""It 是一个作品"" (awkward phrasing, should be ""这是一个作品"")
+style/awkward - ""It 是一个作品"" (unnatural phrasing)```","The translation contains significant errors in name accuracy, terminology, and meaning preservation, which severely impact the original message. The incorrect name ""Azuma先生"" and ""阿祖玛老师"" (instead of ""東さん"") and the mistranslation of ""穗の黄色"" as ""耳朵的黄色"" and ""豊かな実りをもたらしてくれた"" as ""带来丰富的水果"" are critical issues. These errors distort the core meaning of the text, particularly the reference to the rice harvest and the artist's name. While minor issues like the misspelled ""time"" and awkward phrasing (""It 是一个作品"") exist, they are less impactful than the major errors. The translation fails to preserve most of the original meaning and contains multiple grammatical/mistranslation errors. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" due to partial coherence and minor fluency issues, but major errors in name and terminology prevent full meaning preservation.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```「乙の上」と先生は冷然とおっしゃいます。やれやれ。こんなにすばらしく書いたのにやっぱり乙の上か。```
+Chinese translation:
+```“乙上”，教授冷冷地说。哎呀，难道是乙上吗？我写得这么漂亮，怎么会是乙上呢？```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""乙上"" (the term ""乙上"" is a direct transliteration of ""乙の上"", which may not align with the intended context or terminology in the source text, potentially leading to confusion about its meaning in the target language).  
+
+Minor:  
+style/awkward - ""怎么会是乙上呢？"" (the phrasing is slightly awkward, as it repeats ""乙上"" twice in the question, which might be redundant or less natural in Chinese).```","The translation contains a significant mistranslation (""乙上"" as a direct transliteration of ""乙の上"") that may mislead the reader about the intended meaning, particularly if ""乙の上"" refers to a specific term or context not clearly conveyed in Chinese. While the structure and emotional tone (""coldly said,"" ""confused questioning"") are preserved, the major error in terminology undermines the accuracy of the meaning. The minor style issue (""怎么会是乙上呢？"") is less impactful but slightly awkward. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" due to the critical mistranslation of ""乙上,"" which introduces ambiguity, while the rest of the translation is largely coherent but flawed in key terms.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```三```
+Chinese translation:
+```三```
+Annotated error spans:
+```No errors detected. The translation accurately reflects the source text, with no additions, omissions, or mistranslations. The character ""三"" (three) is correctly preserved in both the source and translation. 
+
+**Classification:**  
+No-error```","The translation is flawless. Both the source (Japanese) and target (Chinese) use the same character ""三"" (three), with no alterations, additions, or omissions. The annotated error spans confirm no issues, and the classification explicitly states ""No-error."" This aligns perfectly with the 100-point scale.
+
+**Score: 100**",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```ＪＡ岩手ふるさとの２０２４年肉牛初出荷は８日、奥州市前沢地内で行われ、同市（前沢地域を除く）で育ったいわて奥州牛１２頭が東京都に向けて向けて出発した。１２頭は１１日に東京食肉市場で競りにかけられる。```
+Chinese translation:
+```JA岩手ふるさとの2024年肉牛首次出货于8日在奥州市前泽地区举行，奥州市（不包括前泽地区）培育的12头岩手奥州牛出发前往东京。12头牛将于11日在东京食肉市场进行拍卖。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""奥州市前泽地区"" (Maizawa region of Oku city) – the original specifies ""前沢地内"" (within Maizawa area), but the translation uses ""前泽地区"" which is slightly broader and may imply the region itself rather than the area within the city.  
+
+Minor:  
+terminology/inconsistent use - ""岩手奥州牛"" (Iwate Oku cow) – the original uses ""いわて奥州牛"" (Iwate Oku cow), which is correctly translated as ""岩手奥州牛"" (Iwate Oku cow), but ""岩手"" (Iwate) is redundant since the city is already mentioned as ""奥州市"" (Oku city). However, this is a minor contextual inconsistency.  
+
+**Note:** The translation is mostly accurate but has a minor terminology issue due to redundancy, and a slight misalignment in the scope of ""前沢地区"" (Maizawa region) compared to the original's ""前沢地内"" (within Maizawa area).```","**Score: 66**  
+**Reasoning:**  
+The translation is mostly accurate, preserving the core meaning of the original text. The major error (""前沢地区"" vs. ""前沢地内"") is a minor scope misalignment, not a critical mistranslation, and the minor redundancy of ""岩手"" in ""岩手奥州牛"" is contextually minor. These issues do not significantly disrupt the overall clarity or correctness of the translation. The dates, locations, and key events (e.g., auction) are accurately conveyed, with only minor adjustments in terminology and phrasing. Thus, it aligns with ""Most meaning preserved and few grammar mistakes"" (66).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```【男子優勝の義基耀（左）と女子優勝の服部天寧＝鈴鹿市御薗町のスポーツの杜鈴鹿で】```
+Chinese translation:
+```【男子冠军的义基耀（左）和女子冠军的服部天宁=铃鹿市御薗町的运动之杜铃鹿】```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""运动之杜铃鹿"" (incorrectly adds ""运动之"" for ""スポーツの杜鈴鹿"")
+
+Minor:
+style/awkward - ""＝"" (equal sign) used in Chinese instead of the appropriate punctuation for captions (e.g., ""："")```","The translation contains two errors: a major mistranslation of the location (""運動之杜鈴鹿"" instead of ""スポーツの杜鈴鹿"") and a minor punctuation issue (""＝"" instead of ""：""). The names and structure of the winners are correctly translated, preserving the core meaning. However, the location error significantly alters the intended reference (adding ""運動之"" where it wasn't present), and the punctuation choice affects readability. These issues reduce the accuracy and clarity, but the majority of the meaning is still preserved. 
+
+**Score: 50**  
+(Intermediate level: Some meaning preserved, with a significant mistranslation and a minor style issue.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```電源を入れる場所がもう分かんない これマジで2時間じゃ絶対終わんねえ これあれだな 猿のパズルゲームだから これはまずい は? だってこれが外に出ないといけないじゃん じゃあここか? ここしかないだろ どういうこと?それ どっから俺はケーブル通すのそれ これさあ```
+Chinese translation:
+```我找不到电源插座了，这真的要花费2个小时才能完成，这太糟糕了，这是猴子的解谜游戏，这太不对劲了，不是吗？因为这必须从外面出来，所以这里一定是插座，这就是唯一的地方，啊，我该从哪里插电线呢？这是我怎么插电线的呢？```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""通す"" (run a cable) mistranslated as ""插电线"" (plug in the cable)  
+accuracy/addition - ""这太不对劲了，不是吗？"" (added ""this is so wrong"")  
+
+Minor:  
+style/awkward - ""啊，我该从哪里插电线呢？这是我怎么插电线的呢？"" (repetitive phrasing and slight misalignment with the original's confusion)```","The translation contains two major errors: a mistranslation of ""通す"" (run a cable) as ""插电线"" (plug in the cable), which alters the meaning, and an added phrase ""这太不对劲了，不是吗？"" that wasn't in the original. These errors significantly impact the accuracy of the translation. Additionally, the minor style issue involves repetitive phrasing, but it is less severe. While the rest of the translation conveys the general intent, the critical mistranslation and addition reduce the overall quality. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" due to the significant errors in key terms and added content, despite the rest of the translation being largely understandable.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```きっと打てる。```
+Chinese translation:
+```一定能打中。```
+Annotated error spans:
+```No error.  
+The translation accurately conveys the meaning of the Japanese sentence. ""きっと打てる"" (I can definitely hit it) is correctly rendered as ""一定能打中"" (I can definitely hit it). The terms ""一定能"" (can definitely) and ""打中"" (hit) are appropriate and contextually accurate. The sentence is grammatically correct and maintains the intended meaning without introducing errors.```","The translation accurately preserves the meaning and grammar of the Japanese sentence. The Chinese translation ""一定能打中"" correctly conveys ""I can definitely hit it,"" with no errors in terminology or structure. Since the annotation confirms no errors and the translation is flawless, the score is **100**. 
+
+**Score: 100**",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```わたしとて全部気持の悪い相手ではなかった。牡丹桜のような少年の美貌は、傍にいれば眼が放せないほど咲き溢り、共に浮き浮きさせられた。困ったことの一つの彼の暴言癖すら咲き狂った花の賑いと感じられぬこともない。その性に関する悪たれ口なぞ吐きかけられる度びにわたしは顔を赭くしてひやりとする。けれども慣れて来るにつれ、それがわたしの憂鬱を根から掻き交ぜて、うす明るみをさし加える物憎い魅惑を少しずつわたしのこころに覚え込まして来た。彼無くして、病室の暮しは暗く寂しく感じられるようになった。彼にもしこの暴言の棘がなかったら、或はその快さは見ているとき限りの、離れたらすぐ忘れ去るたちの美少年だったかも知れない。```
+Chinese translation:
+```于我而言他其实也没那么令人生厌。男孩的一颦一笑就如同盛放的牡丹樱一般，让人舍不得移开视线，我不禁随之心生荡漾。甚至就连最令我苦恼的，他那爱咆哮的恶习，也感觉像是鲜花怒放时的喧嚣。每当他关于性方面的脏话迎面袭来，我都会面红耳赤身上一阵恶寒。但当我习惯了之后，却搅动着我心底的阴郁，为之注入了一丝光明，在我心中这该死的魅力开始觉醒。要是没有他，我的病房生活会是黯淡而孤寂的。要是没了他这咆哮谩骂的毛病，或许他就仅仅是个看见他时心情愉悦，分开之后就抛之脑后的俊秀男孩吧。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""物憎い魅惑"" (translated as ""该死的魅力"")  
+Minor:  
+style/awkward - ""该死的魅力"" (a stylistic choice that may feel forced or inappropriate in the context)  
+style/awkward - ""うす明るみをさし加える"" (translated as ""注入了一丝光明,"" which is a creative but slightly awkward phrasing)```","**Score: 66**
+
+**Reasoning:**  
+The translation captures the general sentiment and structure of the original text, preserving most of the meaning. However, the major error in translating **""物憎い魅惑""** (""repulsive allure"") as **""该死的魅力""** (""damn charm"") significantly alters the nuanced emotional tone, which is a critical deviation. This misinterpretation undermines the intended contrast between repulsion and attraction. The minor issues (e.g., ""注入了一丝光明"" for ""うす明るみをさし加える"") are stylistic choices that feel awkward but do not severely disrupt comprehension. Since the translation preserves most meaning with only one major error and minor stylistic adjustments, it aligns with the ""Most meaning preserved and few grammar mistakes"" benchmark (66).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```バスケットボール男子・Ｂリーグ１部（Ｂ１）西地区の佐賀バルーナーズ（佐賀市）は第１６節最終日の７日、宮城県のゼビオアリーナ仙台で仙台８９ＥＲＳ（宮城）と対戦。６６―５６で競り勝った。２連勝で通算成績は１５勝１３敗の西地区５位。```
+Chinese translation:
+```5月7日，男子乙级联赛西区（B1）第16轮的最后一天，佐贺气球队（佐贺市）在宫城县仙台Xebio Arena以66:56战胜仙台89人队（宫城县）。```
+Annotated error spans:
+```Major:
+accuracy/omission - ""7日"" (the date ""7th"" is omitted)
+accuracy/mistranslation - ""佐賀バルーナーズ"" (incorrectly translated as ""佐贺气球队"")
+
+Minor:
+fluency/punctuation - ""第16轮的最后一天"" (missing the date ""7日"" in the original, but the translation's structure is understandable)```","The translation has two major errors: the omission of the date ""7日"" (which is critical for context) and the incorrect translation of the team name ""佐賀バルーナーズ"" as ""佐贺气球队"" (a mistranslation that misrepresents the team's identity). These errors significantly affect the accuracy and meaning. While the structure is understandable, the missing date and incorrect team name reduce the overall meaning preserved. The minor issue with punctuation is negligible compared to these major errors. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" due to partial accuracy in structure and minor fluency issues, but significant omissions and mistranslations of key elements.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```これは順次処理のプログラムで書かれた順に 前から順にプログラムが実行されます はい プリント関数は このプリントの後に書いてある丸カッコの中に書かれた文字列や 計算や変数の値などを表示するものです ここではダブルクオーテーションで囲った文字列を表示しています```
+Chinese translation:
+```按顺序处理程序编写的顺序程序将按照之前的顺序运行是的打印函数在这个印刷后面写的圆括号里写的字符串显示计算和变量的值这里显示一个双重叠加的字符串```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""印刷"" (printing) instead of ""打印"" (print)  
+accuracy/mistranslation - ""双重叠加的字符串"" (doubly overlapped string) instead of ""双引号"" (double quotation marks)  
+
+Minor:  
+fluency/grammar - Awkward phrasing in the first sentence (""按顺序处理程序编写的顺序程序将按照之前的顺序运行"")  
+terminology/inappropriate for context - ""双重叠加的字符串"" (incorrect term for ""双引号"")```","The translation contains two major errors in terminology (""印刷"" instead of ""打印"" and ""双重叠加的字符串"" instead of ""双引号""), which significantly affect the accuracy of the meaning. While the first sentence has awkward phrasing (minor fluency issue), the core meaning of the text is not fully preserved due to the critical term errors. The remaining parts of the translation (e.g., describing the print function) are somewhat correct but are overshadowed by the mistranslations. 
+
+**Score: 33**  
+(33 = ""Some meaning preserved"" — the translation partially conveys the intended meaning but fails to preserve critical terms, leading to significant inaccuracies in key concepts.)",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```わたしはやがて見破った。金目の着物を着たわたしを連れていることをお雛妓たちに見せびらかしているのだ。なお、このことを種に、お雛妓たちの注目や関心を蒐めようとする魂胆ではあるまいか。この分でみると、少年がふだんわたしに喋るお雛妓にもてる話も、どうやら誇張があって、わたしを焦立たせ、自分に牽付けようとする、技術に過ぎないのではあるまいか。わたしの中にある少女の疑ぐりはそこまで探りの手を伸した。```
+Chinese translation:
+```我最终发现了。 我向女孩们炫耀我穿着金色的和服。 这难道不是一种试图吸引少女们注意力和兴趣的灵魂吗？ 此时此刻，男孩平时给我讲的丫鬟的故事显然是夸大其词，无非是让我不耐烦、牵制我的伎俩。 女孩对我的怀疑将试探的手伸向了这一点。```
+Annotated error spans:
+```Major:  
+accuracy/omission - ""連れている"" (being led) is omitted, altering the meaning of the first sentence.  
+accuracy/mistranslation - ""魂胆"" (cunning plan/scheme) is mistranslated as ""灵魂"" (soul), which misrepresents the term.  
+accuracy/omission - ""技術に過ぎないのではあるまいか"" (is nothing more than a technique) is omitted, missing the key point in the third sentence.  
+
+Minor:  
+style/awkward - ""牵制"" (restrain) is slightly off but still understandable in context.```","**Score: 33**  
+**Reasoning:**  
+The translation contains three major errors that significantly alter the meaning:  
+1. Omission of ""連れている"" (being led) in the first sentence, which changes the context of the action.  
+2. Mistranslation of ""魂胆"" (cunning plan) as ""灵魂"" (soul), misrepresenting the intent of the sentence.  
+3. Omission of ""技術に過ぎないのではあるまいか"" (is nothing more than a technique), removing a key point about the boy's exaggerated stories.  
+
+While minor issues like ""牵制"" (restrain) are slightly off, the major errors fundamentally distort the original meaning. The translation preserves some elements but fails to convey critical details, resulting in a score of **33** (""Some meaning preserved"").",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```小昆虫を瞬時に捕らえ、決して後戻りをせずに突き進む姿から「勝ち虫」と呼ばれ、戦国武将の甲冑などの武具の装飾として描かれた。```
+Chinese translation:
+```它能瞬间捕捉小昆虫，从不退缩，勇往直前，因此被称为“胜利之虫”，并被描绘在战国武将的盔甲等武器装饰上。```
+Annotated error spans:
+```Major:  
+None  
+
+Minor:  
+style/awkward - ""胜利之虫"" (direct translation of ""勝ち虫"" may not be the most idiomatic term in Chinese, but it is understandable)  
+terminology/inconsistent use - ""武器装饰"" (redundant, as ""武具"" already implies weapons, but the translation is still accurate)```","**Score: 66**  
+
+**Reasoning:**  
+The translation preserves the core meaning of the original Japanese text, including the description of the subject's behavior (""instantly catching insects,"" ""not retreating,"" ""勇往直前"") and its cultural reference (""勝ち虫"" as ""胜利之虫,"" though slightly less idiomatic in Chinese). The minor errors noted—redundancy in ""武器装饰"" and the term ""胜利之虫""—do not significantly impair understanding or grammatical correctness. While ""胜利之虫"" is a direct translation, it is still comprehensible, and ""武器装饰"" is technically accurate even if redundant. These issues are minor and do not detract from the overall clarity or accuracy, justifying a score of **66** (""Most meaning preserved and few grammar mistakes"").",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```バッターとしてもすごいんですけど、 僕はやっぱ人間として本当に素晴らしいなと思いますね。 ピッチャーとしても、もちろん話してても、 やっぱり理由があっていろんなことしてるんですよね。 で、遊び心もちゃんとありますし、 でも謙虚でもありますし、 だからこれ本当に、 大谷君ってまだ伸びしろがいくらでもあるんですよ。 話してると。```
+Chinese translation:
+```他是个很棒的打击者，但我觉得他做人真的很棒。 作为一名投手，当然，当我和他交谈时，他做的所有事情都是有原因的，不是吗？ 大谷 你还有很大的成长空间 我跟他说话的时候```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""我跟他说话的时候"" (when I talk to him) incorrectly translates ""話してると"" (when talking about it), which is a contextual nuance.  
+accuracy/omission - ""君"" (kun) is omitted in ""大谷"", missing the honorific that appears in the original Japanese.  
+
+Minor:  
+fluency/inconsistency - The sentence fragment ""我跟他说话的时候"" is incomplete and disrupts the flow, though the overall meaning remains understandable.```","**Score: 50**
+
+**Reasoning:**  
+The translation contains two major errors:  
+1. **Mistranslation** of ""話してると"" (contextual nuance of ""when discussing it"") as ""我跟他说话的时候"" (literal ""when talking to him""), which alters the intended meaning.  
+2. **Omission of the honorific ""君""** in ""大谷"", reducing formality and respect in the original Japanese.  
+
+These errors significantly impact accuracy and nuance. While the overall meaning is preserved (e.g., praising the player's qualities and potential), the mistranslation and omission detract from the intended context and politeness. The minor fluency issue (incomplete sentence fragment) is less severe but still disrupts flow. Thus, the score reflects partial meaning preservation with notable accuracy flaws.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```今回の決定では、例えば輸入ワインの税率はこれまでの100％から５％に引き下げられている。同団体のティーラ代表は、「今回の酒税の大幅引き下げは飲酒問題に取り組んでいる人々にとっては大きなショック」と話している。```
+Chinese translation:
+```例如,新政策将进口葡萄酒的税率从 100% 降至 5%。该组织负责人蒂拉表示:“大幅降低酒税对那些致力于解决饮酒问题的人来说是一个巨大的打击。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""新政策"" (new policy) – the source refers to ""this decision"" (今回の決定), but the translation uses ""新政策"" (new policy), which is a slight misalignment. However, in context, ""新政策"" is acceptable as the decision is part of a new policy. This is a minor issue.  
+
+Minor:  
+style/awkward - ""巨大的打击"" (huge blow) – the translation uses a stronger term than the original's ""大きなショック"" (big shock), but it remains understandable.  
+
+No major errors. The translation is accurate and fluent, with only a minor stylistic choice.```","66
+
+The translation preserves most of the meaning and grammar, with only a minor stylistic choice (""巨大的打击"" vs. ""大きなショック"") and a slight misalignment of ""新政策"" (new policy) instead of ""this decision"" (今回の決定). While ""新政策"" is contextually acceptable as the decision is part of a new policy, the term ""this decision"" is more precise. The minor stylistic difference does not affect understanding, so the translation is mostly accurate with few grammar mistakes, aligning with the ""Most meaning preserved and few grammar mistakes"" criterion.",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```コンクールは、小中学生に稲作や米飯の大切さ、農業について知ってもらう目的。作文と図画を募集し、全国から作文部門に３万649点、図画部門に４万2943点の応募があった。両部門で農林水産大臣賞など上位入選作品20点が選ばれた。```
+Chinese translation:
+```这项竞赛的目的是让中小学生了解稻米种植和米饭的重要性，以及对农业的认识。征集作文和图画，全国共收到作文部门3万649件，图画部门4万2943件的応募。从这两个部门中选出20件上获奖作品，包括農林水産大臣賞。```
+Annotated error spans:
+```Major:  
+accuracy/mistranslation - ""上获奖作品"" (misinterprets ""上位入選作品"" as ""top-winning works"" instead of ""top-selected works"")  
+
+Minor:  
+fluency/grammar - ""全国共收到作文部门3万649件，图画部门4万2943件的応募"" (redundant use of ""全国共收到"" and ""的応募"" feels awkward in structure)```","**Score: 66**  
+
+**Reasoning:**  
+- **Major Error:** The mistranslation of ""上位入選作品"" as ""上获奖作品"" (top-winning works instead of top-selected works) alters the precise meaning of the term. However, the overall context of the competition's purpose and structure remains clear, and the error does not fundamentally distort the core message.  
+- **Minor Error:** The awkward phrasing ""全国共收到...の応募"" is redundant and slightly unnatural, but it does not significantly hinder comprehension.  
+- **Overall Quality:** The translation preserves most of the original meaning (e.g., purpose, entry numbers, awards) with only minor issues in terminology and fluency. The major error is a critical point, but the rest of the translation is accurate and mostly fluent, aligning with the ""Most meaning preserved and few grammar mistakes"" benchmark (66).",ja-zh
+"Given the translation from Japanese to Chinese and the annotated error spans, assign a score on a continuous scale from 0 to 100.
+The scale has following reference points: 0=""No meaning preserved"", 33=""Some meaning preserved"", 66=""Most meaning preserved and few grammar mistakes"", up to 100=""Perfect meaning and grammar"".
+
+Score the following translation from Japanese source:
+```鉄道馬車の馬の蹄がかつかつの音を立てて通る大通りをしばらく歩いて、二人は左手の横町へ曲る。```
+Chinese translation:
+```两人沿着马蹄声嗒嗒作响、铁轨马车驶过的大街走了一会儿，然后转向左手边的小巷。```
+Annotated error spans:
+```Major:
+accuracy/mistranslation - ""铁轨马车"" (railway carriage) is correctly translated, but the original specifies ""鉄道馬車"" (railway carriage), which is accurately rendered as ""铁轨马车"" in Chinese. No error here.
+
+Minor:
+none  
+**Classification:** No errors. The translation accurately conveys the source text without additions, omissions, or stylistic issues. The terms ""铁轨马车"" and ""小巷"" are appropriate, and the sentence structure is fluent.```","**Score: 100**  
+The translation is flawless, preserving all meaning and grammar. The annotated error spans confirm no issues, with ""铁轨马车"" (railway carriage) and ""小巷"" (small alley) accurately reflecting the original. The sentence structure is fluent, and no additions/omissions are present. This meets the ""Perfect meaning and grammar"" standard.",ja-zh

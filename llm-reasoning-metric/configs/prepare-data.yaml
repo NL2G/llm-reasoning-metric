@@ -42,3 +42,19 @@ datasets:
     subsets:
       - wmt23_mqm
     add_reasoning_effort: true
+
+  - file: data/wmt24-train.parquet
+    kind: wmtpp-translation
+    source_dataset: google/wmt24pp
+    set: train
+    max_samples: -1
+    doc_level: false
+    add_reasoning_effort: true
+  
+  - file: data/wmt24-eval.parquet
+    kind: wmtpp-translation
+    source_dataset: google/wmt24pp
+    set: eval
+    max_samples: -1
+    doc_level: false
+    add_reasoning_effort: true

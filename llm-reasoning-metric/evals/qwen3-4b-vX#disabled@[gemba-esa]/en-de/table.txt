@@ -1,0 +1,32 @@
+lang:                                                       en-de     en-de
+level:                                                        sys       seg
+corr_fcn:                                                     pce     acc-t
+metric                                         avg-corr     task1     task2
+---------------------------------------------  --------  --------  --------
+XCOMET                                          1 0.718   1 0.906   3 0.530
+metametrics_mt_mqm_hybrid_kendall               2 0.712   3 0.882   1 0.542
+XCOMET-QE[noref]                                3 0.706   2 0.891   5 0.520
+MetricX-24-Hybrid                               4 0.703   7 0.873   2 0.532
+MetricX-24-Hybrid-QE[noref]                     5 0.702   6 0.879   4 0.526
+_BLEURT-20                                      6 0.683   4 0.881  10 0.486
+_COMET-22                                       7 0.680   5 0.879  11 0.482
+metametrics_mt_mqm_qe_kendall.seg.s[noref]      8 0.678   8 0.858   9 0.497
+_sentinel-cand-mqm[noref]                       9 0.669  10 0.821   6 0.517
+bright-qe[noref]                               10 0.658  11 0.817   8 0.500
+gemba_esa[noref]                               11 0.649  12 0.791   7 0.507
+BLCOM_1                                        12 0.649   9 0.843  13 0.455
+_PrismRefMedium                                13 0.605  13 0.776  19 0.434
+_PrismRefSmall                                 14 0.603  14 0.772  21 0.433
+_CometKiwi[noref]                              15 0.599  22 0.732  12 0.467
+_YiSi-1                                        16 0.599  15 0.762  17 0.436
+_BERTScore                                     17 0.594  17 0.753  18 0.435
+_chrF                                          18 0.592  16 0.753  22 0.431
+chrfS                                          19 0.590  18 0.746  20 0.434
+_spBLEU                                        20 0.587  19 0.743  24 0.431
+MEE4                                           21 0.585  21 0.733  16 0.437
+_BLEU                                          22 0.584  20 0.737  23 0.431
+damonmonli                                     23 0.571  24 0.699  15 0.443
+Rexhaif/Qwen3-4B-MT-Eval#disabled@[gemba-esa]  24 0.565  23 0.700  25 0.429
+XLsimMqm[noref]                                25 0.532  25 0.614  14 0.450
+_sentinel-ref-mqm                              26 0.445  26 0.460  26 0.429
+_sentinel-src-mqm[noref]                       27 0.445  27 0.460  27 0.429

@@ -334,132 +334,135 @@ def gemba_esa_eval(
 def main(cfg: DictConfig):
     logger.info(f"Evaluating config: {OmegaConf.to_yaml(cfg)}")
 
-    for i, experiment in enumerate(cfg.experiments):
+    experiment = cfg.experiment
 
-        if i not in cfg.to_compute:
-            logger.info(f"Skipping experiment {i} because it is not in to_compute")
-            continue
+    logger.info(f"Evaluating model: {experiment.model}")
+    reasoning_effort = experiment.get("reasoning_effort", None)
+    if reasoning_effort is not None:
+        output_model_path = f"{experiment.model_id}#{reasoning_effort}@[{experiment.kind}]"
+    else:
+        output_model_path = f"{experiment.model_id}@[{experiment.kind}]"
 
-        logger.info(f"Evaluating model: {experiment.model}")
-        result_dir = Path(experiment.output)
-        result_dir.mkdir(parents=True, exist_ok=True)
+    logger.info(f"Output model path: {output_model_path}")
+    result_dir = Path(cfg.outputs_dir) / output_model_path
+    result_dir.mkdir(parents=True, exist_ok=True)
 
-        logger.info(f"Spinning up vLLM")
-        llm = LLM(
-            model=experiment.model,
-            gpu_memory_utilization=0.9,
-            tensor_parallel_size=1,
-            max_model_len=4096,
-            dtype="bfloat16",
-            enable_prefix_caching=True,
-            enable_chunked_prefill=True,
-            compilation_config=CompilationConfig(
-                level=3
-            )
+    logger.info(f"Spinning up vLLM")
+    llm = LLM(
+        model=experiment.model,
+        gpu_memory_utilization=0.9,
+        tensor_parallel_size=1,
+        max_model_len=experiment.sampling_params.max_tokens,
+        quantization="fp8",
+        enable_prefix_caching=True,
+        enable_chunked_prefill=True,
+        compilation_config=CompilationConfig(
+            level=3
         )
+    )
 
-        evs_dict = {
-            (cfg.competition, lp): data.EvalSet(cfg.competition, lp, True) for lp in cfg.language_pairs
-        }
+    evs_dict = {
+        (cfg.competition, lp): data.EvalSet(cfg.competition, lp, True) for lp in cfg.language_pairs
+    }
 
-        reasoning_effort = experiment.get("reasoning_effort", None)
-        if reasoning_effort is None:
-            metric_name = experiment.model + "@[" + experiment.kind + "]"
+    
+    if reasoning_effort is None:
+        metric_name = experiment.model + "@[" + experiment.kind + "]"
+    else:
+        metric_name = experiment.model + "#" + reasoning_effort + "@[" + experiment.kind + "]"
+
+    for lp in cfg.language_pairs:
+        evs = evs_dict[(cfg.competition, lp)]
+        lp_dir = result_dir / lp
+        lp_dir.mkdir(parents=True, exist_ok=True)
+
+        if experiment.kind == "mt-ranking":
+            seg_scores, traces_df = mt_ranking_eval(
+                evs.src,
+                evs.sys_outputs,
+                evs.lp.split('-')[0],
+                evs.lp.split('-')[1],
+                system_prompt=SYSTEM_PROMPTS[experiment.kind],
+                user_prompt_template=USER_PROMPTS[experiment.kind],
+                llm=llm,
+                reasoning_effort=reasoning_effort,
+                sampling_params=experiment.sampling_params
+            )
+        elif experiment.kind == "gemba-da-like":
+            seg_scores, traces_df = gemba_da_eval(
+                evs.src,
+                evs.sys_outputs,
+                evs.lp.split('-')[0],
+                evs.lp.split('-')[1],
+                system_prompt=SYSTEM_PROMPTS[experiment.kind],
+                user_prompt_template=USER_PROMPTS[experiment.kind],
+                llm=llm,
+                reasoning_effort=reasoning_effort,
+                sampling_params=experiment.sampling_params
+            )
+        elif experiment.kind == "gemba-esa":
+            seg_scores, traces_df = gemba_esa_eval(
+                evs.src,
+                evs.sys_outputs,
+                evs.lp.split('-')[0],
+                evs.lp.split('-')[1],
+                system_prompt=SYSTEM_PROMPTS[experiment.kind],
+                user_spans_template=USER_PROMPTS[experiment.kind + "-error-spans"],
+                user_ranking_template=USER_PROMPTS[experiment.kind + "-ranking"],
+                llm=llm,
+                reasoning_effort=reasoning_effort,
+                sampling_params=experiment.sampling_params
+            )
         else:
-            metric_name = experiment.model + "#" + reasoning_effort + "@[" + experiment.kind + "]"
-
-        for lp in cfg.language_pairs:
-            evs = evs_dict[(cfg.competition, lp)]
-            lp_dir = result_dir / lp
-            lp_dir.mkdir(parents=True, exist_ok=True)
-
-            if experiment.kind == "mt-ranking":
-                seg_scores, traces_df = mt_ranking_eval(
-                    evs.src,
-                    evs.sys_outputs,
-                    evs.lp.split('-')[0],
-                    evs.lp.split('-')[1],
-                    system_prompt=SYSTEM_PROMPTS[experiment.kind],
-                    user_prompt_template=USER_PROMPTS[experiment.kind],
-                    llm=llm,
-                    reasoning_effort=reasoning_effort,
-                    sampling_params=experiment.sampling_params
-                )
-            elif experiment.kind == "gemba-da-like":
-                seg_scores, traces_df = gemba_da_eval(
-                    evs.src,
-                    evs.sys_outputs,
-                    evs.lp.split('-')[0],
-                    evs.lp.split('-')[1],
-                    system_prompt=SYSTEM_PROMPTS[experiment.kind],
-                    user_prompt_template=USER_PROMPTS[experiment.kind],
-                    llm=llm,
-                    reasoning_effort=reasoning_effort,
-                    sampling_params=experiment.sampling_params
-                )
-            elif experiment.kind == "gemba-esa":
-                seg_scores, traces_df = gemba_esa_eval(
-                    evs.src,
-                    evs.sys_outputs,
-                    evs.lp.split('-')[0],
-                    evs.lp.split('-')[1],
-                    system_prompt=SYSTEM_PROMPTS[experiment.kind],
-                    user_spans_template=USER_PROMPTS[experiment.kind + "-error-spans"],
-                    user_ranking_template=USER_PROMPTS[experiment.kind + "-ranking"],
-                    llm=llm,
-                    reasoning_effort=reasoning_effort,
-                    sampling_params=experiment.sampling_params
-                )
-            else:
-                raise ValueError(f"Unknown model kind: {experiment.kind}")
-                
-            traces_df['lp'] = lp
-            sys_scores = {}
-            for system, scores in seg_scores.items():
-                sys_scores[system] = [np.mean(scores)]
-
-            for ref in evs.all_refs.keys():    
-                evs.AddMetric(metric_name, {ref}, 'sys', sys_scores, replace=True)
-                evs.AddMetric(metric_name, {ref}, 'seg', seg_scores, replace=True)
+            raise ValueError(f"Unknown model kind: {experiment.kind}")
             
-            traces_df = traces_df.sample(n=cfg.traces_sample_size).reset_index(drop=True)
-            traces_df.to_csv(str(lp_dir / f'traces.csv'), index=False)
-                
+        traces_df['lp'] = lp
+        sys_scores = {}
+        for system, scores in seg_scores.items():
+            sys_scores[system] = [np.mean(scores)]
+
+        for ref in evs.all_refs.keys():    
+            evs.AddMetric(metric_name, {ref}, 'sys', sys_scores, replace=True)
+            evs.AddMetric(metric_name, {ref}, 'seg', seg_scores, replace=True)
         
-            for evs in evs_dict.values():
-                evs.SetPrimaryMetrics(evs.primary_metrics | {metric_name})
+        traces_df = traces_df.sample(n=cfg.traces_sample_size).reset_index(drop=True)
+        traces_df.to_csv(str(lp_dir / f'traces.csv'), index=False)
             
-            wmt_tasks, wts = COMPETITIONS[cfg.competition](cfg.language_pairs, k=0)
-            new_results = wmt_tasks.Run(eval_set_dict=evs_dict)
+    
+        for evs in evs_dict.values():
+            evs.SetPrimaryMetrics(evs.primary_metrics | {metric_name})
+        
+        wmt_tasks, wts = COMPETITIONS[cfg.competition](cfg.language_pairs, k=0)
+        new_results = wmt_tasks.Run(eval_set_dict=evs_dict)
 
-            metric_df = {
-                "name": metric_name,
-            }
-            for result in new_results:
-                attr_vals = result.attr_vals
-                corr_ranks = result.corr_ranks
-                print(corr_ranks)
-                metric_df[f"{attr_vals['lang']} / {attr_vals['level']} / {attr_vals['corr_fcn']}"] = corr_ranks[metric_name][0]
+        metric_df = {
+            "name": metric_name,
+        }
+        for result in new_results:
+            attr_vals = result.attr_vals
+            corr_ranks = result.corr_ranks
+            print(corr_ranks)
+            metric_df[f"{attr_vals['lang']} / {attr_vals['level']} / {attr_vals['corr_fcn']}"] = corr_ranks[metric_name][0]
 
-            logger.info(f"Metric results: {metric_df}")
-            logger.info(f"Saving metric results to {lp_dir / 'metrics.json'}")
-            with open(lp_dir / 'metrics.json', "w", encoding="utf-8") as f:
-                json.dump(metric_df, f, indent=4, ensure_ascii=False)
+        logger.info(f"Metric results: {metric_df}")
+        logger.info(f"Saving metric results to {lp_dir / 'metrics.json'}")
+        with open(lp_dir / 'metrics.json', "w", encoding="utf-8") as f:
+            json.dump(metric_df, f, indent=4, ensure_ascii=False)
 
-            avg_corrs = new_results.AverageCorrs(wts)
+        avg_corrs = new_results.AverageCorrs(wts)
 
-            table = new_results.Table(
-                metrics=list(avg_corrs),
-                initial_column=avg_corrs,
-                initial_column_header='avg-corr',
-                attr_list=['lang', 'level', 'corr_fcn'],
-                nicknames={'KendallWithTiesOpt': 'acc-t'},
-                fmt='text',
-                baselines_metainfo=META_INFO[cfg.competition])
-            
-            logger.info(f"Saving table to {lp_dir / 'table.txt'}")
-            with open(lp_dir / 'table.txt', "w", encoding="utf-8") as f:
-                f.write(str(table))
+        table = new_results.Table(
+            metrics=list(avg_corrs),
+            initial_column=avg_corrs,
+            initial_column_header='avg-corr',
+            attr_list=['lang', 'level', 'corr_fcn'],
+            nicknames={'KendallWithTiesOpt': 'acc-t'},
+            fmt='text',
+            baselines_metainfo=META_INFO[cfg.competition])
+        
+        logger.info(f"Saving table to {lp_dir / 'table.txt'}")
+        with open(lp_dir / 'table.txt', "w", encoding="utf-8") as f:
+            f.write(str(table))
         
 
 if __name__ == "__main__":

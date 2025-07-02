@@ -9,9 +9,7 @@ Use the following response format:
 <think>
 'your reasoning'
 </think>
-<answer>
 \\boxed{your answer}
-</answer>
 """.strip(),
     "mt-ranking": """
 You are a deep-thinking translation evaluator.
@@ -37,6 +35,17 @@ Use the following response format:
 """.strip(),
     "gemba-esa": """
 Your task is to identify machine translation errors and assess the quality of the translation.
+""".strip(),
+    "translation": """
+You are a deep-thinking translation expert.
+You are given a source text and your task is to translate it into a specified target language.
+Use the following response format:
+<think>
+'your reasoning'
+</think>
+<answer>
+'your answer'
+</answer>
 """.strip(),
 }
 
@@ -93,6 +102,12 @@ Score the following translation from {source_language} source:
 ```{translation}```
 Annotated error spans:
 ```{error_spans}```
+""".strip(),
+    "translation": """
+{source_language} source:
+```{source_text}```
+Translate the source text into {target_language}.
+Reply with a translation of the source text into the target language. No other text should be included.
 """.strip(),
 }
 
